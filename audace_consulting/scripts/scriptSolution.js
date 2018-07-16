@@ -49,10 +49,10 @@ sm4.innerHTML = 'digital learning'
 sm5.innerHTML = 'Quizz'
 
 
-sm1.setAttribute('href', 'écoleVente.html')
+sm1.setAttribute('href', 'ecoleVente.html')
 sm2.setAttribute('href', 'ecolemanagement.html')
 sm3.setAttribute('href', 'coaching.html')
 sm4.setAttribute('href', 'digital.html')
-sm5.setAttribute('href', 'Quizz')
+sm5.setAttribute('href', 'quizz.html')
 
 
