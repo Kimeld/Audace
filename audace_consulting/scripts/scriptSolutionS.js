@@ -32,8 +32,9 @@ let modules = document.querySelector(".modules")
 scrollbars.visible = false;
 
 sousMenu.classList.remove('marginQuiSommesNous');
-sousMenu.classList.remove('marginSolution');
-sousMenu.classList.add('marginFormations');
+sousMenu.classList.add('marginSolution');
+sousMenu.classList.remove('marginFormations');
+
 
 window.setTimeout(() => {
     sousMenu.classList.add('animationSousMenu');
@@ -41,11 +42,11 @@ window.setTimeout(() => {
 }, 200)
 
 
-sm1.innerHTML = 'Audit'
-sm2.innerHTML = 'Consulting'
-sm3.innerHTML = 'Business consulting'
-sm4.innerHTML = ''
-sm5.innerHTML = ''
+sm1.innerHTML = 'École de vente'
+sm2.innerHTML = 'École de management'
+sm3.innerHTML = 'Coaching'
+sm4.innerHTML = 'digital learning'
+sm5.innerHTML = 'Quizz'
 
 /*
 sm1.setAttribute('href', 'audit.html')
@@ -61,7 +62,7 @@ sm1.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Audit'
+        titreFormation.innerHTML = 'École de vente'
         contenuVente.classList.remove('animationContenu')
         milieux.classList.remove('opacityM')
     }, 200)
@@ -76,7 +77,7 @@ sm2.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Consulting'
+        titreFormation.innerHTML = 'École de management'
         texte.innerHTML = 'Nous vous guidons et nous répondons à vos besoins par des solutions adaptées et innovantes. AUDACE Consulting accompagne les entreprises dans l’optimisation des ressources humaines et financières, dans le choix des partenaires pour une évolution du chiffre d’affaires et pour une meilleure rentabilité. <br> Notre cœur de métier est : <br> - l’audit <br> - le benchmark <br> - la transformation <br> - la performance opérationnelle'
         contenuVente.classList.remove('animationContenu')
         milieux.classList.remove('opacityM')
@@ -92,7 +93,40 @@ sm3.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Business consulting '
+        titreFormation.innerHTML = 'Coaching '
+        texte.innerHTML = 'Notre division stratégie commerciale accompagne les entreprises dans le développement de leur chiffre d’affaires. <br> <br> Nos consultants commerciaux bénéficient d’une solide expérience dans de grandes entreprises où la part commerciale est prépondérante. <br> <br> Ils sont tous formés et maîtrisent l’utilisation de nos outils. <br> Nous nous engageons à trouver des solutions adaptées pour les entreprises afin d’obtenir le meilleur retour sur investissement.'
+        contenuVente.classList.remove('animationContenu')
+        milieux.classList.remove('opacityM')
+    }, 200)
+
+})
+
+
+sm4.addEventListener('click', () => {
+
+    contenuVente.classList.add('contenuMove')
+    contenuVente.classList.add('animationContenu')
+
+
+    window.setTimeout(() => {
+        contenuVente.classList.remove('contenuMove')
+        titreFormation.innerHTML = 'digital learning'
+        texte.innerHTML = 'Notre division stratégie commerciale accompagne les entreprises dans le développement de leur chiffre d’affaires. <br> <br> Nos consultants commerciaux bénéficient d’une solide expérience dans de grandes entreprises où la part commerciale est prépondérante. <br> <br> Ils sont tous formés et maîtrisent l’utilisation de nos outils. <br> Nous nous engageons à trouver des solutions adaptées pour les entreprises afin d’obtenir le meilleur retour sur investissement.'
+        contenuVente.classList.remove('animationContenu')
+        milieux.classList.remove('opacityM')
+    }, 200)
+
+})
+
+sm5.addEventListener('click', () => {
+
+    contenuVente.classList.add('contenuMove')
+    contenuVente.classList.add('animationContenu')
+
+
+    window.setTimeout(() => {
+        contenuVente.classList.remove('contenuMove')
+        titreFormation.innerHTML = 'Quizz'
         texte.innerHTML = 'Notre division stratégie commerciale accompagne les entreprises dans le développement de leur chiffre d’affaires. <br> <br> Nos consultants commerciaux bénéficient d’une solide expérience dans de grandes entreprises où la part commerciale est prépondérante. <br> <br> Ils sont tous formés et maîtrisent l’utilisation de nos outils. <br> Nous nous engageons à trouver des solutions adaptées pour les entreprises afin d’obtenir le meilleur retour sur investissement.'
         contenuVente.classList.remove('animationContenu')
         milieux.classList.remove('opacityM')

@@ -4,6 +4,8 @@ let formations = document.querySelector(".formations")
 let solutions = document.querySelector(".solutions")
 let forum = document.querySelector("forum")
 
+
+
 let sousMenu = document.querySelector(".sousMenu")
 
 let firstOf4 = document.querySelector(".firstOf4")
@@ -32,7 +34,7 @@ scrollbars.visible = false;
 
 //sousMenu.classList.add('marginFormations');
 //sousMenu.classList.add('marginQuiSommesNous');
-
+formations.classList.add('red')
 
 window.setTimeout(() => {
     sousMenu.classList.add('animationSousMenu');

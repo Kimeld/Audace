@@ -236,6 +236,10 @@ body {
     transition-duration: 0.5s;
 }
 
+.red{
+    color: #E00034;
+}
+
 
 .sousMenu {
     opacity: 0;
