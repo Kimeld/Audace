@@ -1,0 +1,303 @@
+/*Contenu*/
+
+.contenu .titre {
+    text-align: center;
+
+    margin-top: 141px;
+
+}
+
+.contenu .titre h1 {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #E00034;
+    font-size: 42px;
+}
+
+.contenu .texte {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #707070;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.titreEtTexte {
+    background-color: white;
+    border-radius: 100px;
+    margin-left: 12%;
+    margin-bottom: 360px;
+
+}
+
+.contenuVente {
+    transform: translateX(0vw);
+    transform: scale(1);
+    transition-duration: 0.2s;
+    opacity: 1;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+
+.contenuMove {
+    opacity: 0;
+    transform: translateX(40vw);
+    transform: scale(0.9);
+    transition-duration: 0.2s;
+    transition-property: all;
+
+    transition-timing-function: ease-in-out;
+
+
+}
+
+/*
+.animationContenu {
+    animation-name: animationContenu;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    /* sens de l'animation*/
+
+/*animation-fill-mode: backwards;/*etat de debut ou final*/
+
+}
+
+/*
+@keyframes animationContenu {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+*/
+
+.displayNone {
+    display: none;
+}
+
+.modules {
+    margin: auto;
+    padding-right: 10%;
+}
+
+.modulesFormation {
+    margin: auto;
+    padding-right: 11%;
+
+
+}
+
+.module {
+    width: 70px;
+    height: 70px;
+    background-color: darkred;
+    border-radius: 70px;
+    display: inline-block;
+    margin-top: 119px;
+    margin-bottom: 230px;
+    opacity: 1;
+    transition-duration: 2s;
+    transform: scale(1.1);
+    position: relative;
+}
+
+.module:hover {
+    transform: scale(1.3);
+    background-color: #E00034;
+    transition-duration: 1s;
+}
+
+.one:hover .titreModule1 {
+
+    color: #E00034;
+    opacity: 1;
+
+    transition-duration: 1s;
+}
+
+.two:hover .titreModule2 {
+
+    color: #E00034;
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+.three:hover .titreModule3 {
+
+    color: #E00034;
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+.four:hover .titreModule4 {
+
+    color: #E00034;
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+.five:hover .titreModule5 {
+
+    color: #E00034;
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+.titresModules {
+    /*padding-right: 470px;*/
+}
+
+.titreModule1 {
+    position: absolute;
+    top: 90px;
+    text-align: center;
+    transform: translateX(-24%);
+    padding-left: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #707070;
+    font-size: 15px;
+    transition-duration: 1s;
+    opacity: 0.4;
+
+}
+
+.titreModule2 {
+    width: 150px;
+    position: absolute;
+    top: 90px;
+    text-align: center;
+    transform: translateX(-35%);
+    padding-left: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #707070;
+    font-size: 15px;
+    transition-duration: 1s;
+    opacity: 0.6;
+
+}
+
+.titreModule3 {
+    position: absolute;
+    top: 90px;
+    text-align: center;
+    transform: translateX(-35%);
+    padding-left: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #707070;
+    font-size: 15px;
+    transition-duration: 1s;
+    opacity: 0.6;
+
+}
+
+.titreModule4 {
+    position: absolute;
+    top: 90px;
+    text-align: center;
+    transform: translateX(-35%);
+    padding-left: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #707070;
+    font-size: 15px;
+    transition-duration: 1s;
+    opacity: 0.6;
+
+}
+
+.titreModuleCoach {
+    transform: translateX(-30%);
+}
+
+.titreModuleVenteAssertive {
+    transform: translateX(-20%);
+}
+
+.titreModule5 {
+    position: absolute;
+    top: 90px;
+    text-align: center;
+    transform: translateX(-35%);
+    padding-left: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #707070;
+    font-size: 15px;
+    transition-duration: 1s;
+    opacity: 0.6;
+
+}
+
+.titreModule6 {
+    position: absolute;
+    top: 90px;
+    text-align: center;
+    transform: translateX(-35%);
+    padding-left: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #707070;
+    font-size: 15px;
+    transition-duration: 1s;
+    opacity: 0.6;
+
+}
+
+.titreModule7 {
+    position: absolute;
+    top: 90px;
+    text-align: center;
+    transform: translateX(-35%);
+    padding-left: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #707070;
+    font-size: 15px;
+    transition-duration: 1s;
+    opacity: 0.6;
+
+}
+
+
+.titreModuleNego {
+    transform: translateX(-26%);
+}
+
+
+.fond {
+    width: 1095px;
+    height: 929px;
+    background-image: url(../images/image%20de%20fond%20test%202.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -1;
+    opacity: 0.7;
+    top: 40px;
+    right: 0px;
+
+}
+
+.opacityM {
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+
+
+
+.key {
+    display: none;
+}

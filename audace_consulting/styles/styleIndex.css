@@ -1,0 +1,101 @@
+
+
+/* carousel*/
+
+.sliderHome {
+    width: 650px;
+    height: 321px;
+    margin: auto;
+    transition-duration: 1s;
+}
+
+.sliderHome:hover {
+    opacity: 0.8;
+    transition-duration: 1s;
+}
+
+.sliderHome img {
+    width: 650px;
+    height: 321px;
+}
+
+@media(max-width: 665px) {
+    .sliderHome {
+        width: 100%;
+        height: 51%;
+
+    }
+
+    .sliderHome img {
+        width: 100%;
+        height: 51%;
+    }
+
+}
+
+/*introduction*/
+
+.introductionDiv {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-color: white;
+}
+
+.titreIntro {
+    text-align: center;
+
+}
+
+.texteIntro {
+    text-align: justify;
+    margin-top: 25px;
+    transform: scale(1);
+    transition-duration: 0.5s;
+
+}
+
+.texteIntro:hover {
+
+    transform: scale(1.01);
+    transition-duration: 0.5s;
+
+}
+
+.intro h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #E00034;
+    font-size: 42px;
+
+}
+
+.intro p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #707070;
+    font-size: 18px;
+}
+
+.EnSP {
+    text-align: right;
+}
+
+.EnSP a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #E00034;
+}
+
+
+.EnSP a:hover {
+
+    font-size: 21px;
+    opacity: 0.7;
+    transition-duration: 0.5s;
+}
+
+
+
+
