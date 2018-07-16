@@ -83,7 +83,7 @@ setTimeout(function () {
 
 sm1.innerHTML = 'Management'
 sm2.innerHTML = 'Vente & négociation'
-sm3.innerHTML = 'Comunication'
+sm3.innerHTML = 'Communication'
 sm4.innerHTML = 'Formation de formateur'
 sm5.innerHTML = ''
 
@@ -102,7 +102,7 @@ if (key.innerHTML == 'comunication') {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Comunication'
+        titreFormation.innerHTML = 'Communication'
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -124,14 +124,15 @@ if (key.innerHTML == 'comunication') {
     titreModule2.innerHTML = 'Communiquer avec assertivité'
     titreModule3.innerHTML = 'Gestion situations délicates'
     titreModule4.innerHTML = 'Parler en publique'
-    titreModule5.innerHTML = 'Gérer un board'
+    titreModule5.innerHTML = 'Gérer <br> un board'
 
 
 
     popOne.setAttribute('title', 'La flexibilité relationnelle')
     popTwo.setAttribute('title', 'Communiquer avec assertivité')
-    popFour.setAttribute('title', 'Gestion des situations délicates')
-    popFive.setAttribute('title', 'Prise de parole en public')
+    popThree.setAttribute('title', 'Gestion situations délicates')
+    popFour.setAttribute('title', 'Parler en publique')
+    popFive.setAttribute('title', 'Gérer <br> un board')
 
     titreModule1.classList.add('titreModuleFlex')
 
@@ -216,7 +217,7 @@ if (key.innerHTML == 'comunication') {
     allRef.classList.remove('modulesFormation')
 
     titreModule1.innerHTML = 'Position n+1'
-    titreModule2.innerHTML = 'Couleur de la management'
+    titreModule2.innerHTML = 'Fléxibilité manegériale'
     titreModule3.innerHTML = 'Management situationnel'
     titreModule4.innerHTML = 'Management motivationnel'
     titreModule5.innerHTML = 'Management de projet'
@@ -226,7 +227,7 @@ if (key.innerHTML == 'comunication') {
     titreModule5.classList.remove('titreModuleNego')
 
     popOne.setAttribute('title', 'Position n+1')
-    popTwo.setAttribute('title', 'Couleur de la management')
+    popTwo.setAttribute('title', 'Fléxibilité manegériale')
     popFour.setAttribute('title', 'Management de projet')
     popFive.setAttribute('title', 'Management situationnel')
 
@@ -300,7 +301,7 @@ if (key.innerHTML == 'comunication') {
     milieux.classList.add('opacityM')
 
     titreModule1.innerHTML = 'Technique de vente'
-    titreModule2.innerHTML = 'La couleur de la ventes'
+    titreModule2.innerHTML = 'La couleur de <br> la ventes'
     titreModule3.innerHTML = 'Ventes assertive'
     titreModule4.classList.add('titreModuleVenteAssertive');
     titreModule4.innerHTML = 'Ventes assertive'
@@ -308,7 +309,7 @@ if (key.innerHTML == 'comunication') {
     titreModule5.innerHTML = 'La négociation'
 
     popOne.setAttribute('title', 'Technique de vente')
-    popTwo.setAttribute('title', 'La couleur de la ventes')
+    popTwo.setAttribute('title', 'La couleur de <br> la ventes')
     popFour.setAttribute('title', 'Ventes assertive')
     popFive.setAttribute('title', 'La négociation')
 
@@ -469,13 +470,10 @@ sm1.addEventListener('click', () => {
     popFive.classList.remove('opacityM')
 
 
-    ref.classList.add('col-lg-offset-1')
-    ref.classList.remove('col-lg-offset-2')
-    allRef.classList.add('modules')
-    allRef.classList.remove('modulesFormation')
+
 
     titreModule1.innerHTML = 'Position n+1'
-    titreModule2.innerHTML = 'Couleur de la management'
+    titreModule2.innerHTML = 'Fléxibilité manegériale'
     titreModule3.innerHTML = 'Management situationnel'
     titreModule4.innerHTML = 'Management motivationnel'
     titreModule5.innerHTML = 'Management de projet'
@@ -487,7 +485,7 @@ sm1.addEventListener('click', () => {
     titreModule3.classList.remove('titreModuleCoach')
 
     popOne.setAttribute('title', 'Position n+1')
-    popTwo.setAttribute('title', 'Couleur de la management')
+    popTwo.setAttribute('title', 'Fléxibilité manegériale')
     popFour.setAttribute('title', 'Management de projet')
     popFive.setAttribute('title', 'Management situationnel')
 
@@ -577,7 +575,7 @@ sm2.addEventListener('click', () => {
 
 
     titreModule1.innerHTML = 'Technique de vente'
-    titreModule2.innerHTML = 'La couleur de la ventes'
+    titreModule2.innerHTML = 'La couleur de <br> la ventes'
     titreModule3.innerHTML = ''
     titreModule4.classList.add('titreModuleVenteAssertive')
     titreModule4.innerHTML = 'Ventes assertive'
@@ -587,7 +585,7 @@ sm2.addEventListener('click', () => {
     titreModule3.classList.remove('titreModuleCoach')
 
     popOne.setAttribute('title', 'Technique de vente')
-    popTwo.setAttribute('title', 'La couleur de la ventes')
+    popTwo.setAttribute('title', 'La couleur de <br> la ventes')
     popFour.setAttribute('title', 'Ventes assertive')
     popFive.setAttribute('title', 'La négociation')
 
@@ -669,7 +667,7 @@ sm3.addEventListener('click', () => {
     titreModule2.innerHTML = 'Communiquer avec assertivité'
     titreModule3.innerHTML = 'Gestion situations délicates'
     titreModule4.innerHTML = 'Parler en publique'
-    titreModule5.innerHTML = 'Gérer un board'
+    titreModule5.innerHTML = 'Gérer <br> un board'
 
 
     titreModule4.classList.add('titreModuleVenteAssertive')
@@ -684,7 +682,7 @@ sm3.addEventListener('click', () => {
     popOne.setAttribute('title', 'La flexibilité relationnelle')
     popTwo.setAttribute('title', 'Communiquer avec assertivité')
     popFour.setAttribute('title', 'Gestion des situations délicates')
-    popFive.setAttribute('title', 'Prise de parole en public')
+    popFive.setAttribute('title', 'Gérer <br> un board')
 
     titreModule1.classList.add('titreModuleFlex')
 
@@ -774,10 +772,6 @@ sm4.addEventListener('click', () => {
     popFive.classList.add('opacityM')
 
 
-    ref.classList.add('col-lg-offset-1')
-    ref.classList.remove('col-lg-offset-2')
-    allRef.classList.add('modules')
-    allRef.classList.remove('modulesFormation')
 
 
 

@@ -116,7 +116,7 @@ body {
     font-weight: 400;
 }
 
-@media(max-width: 1250px) {
+@media(max-width: 1320px) {
     .category {
         font-family: 'Montserrat', sans-serif;
         margin-top: 19px;
@@ -132,7 +132,7 @@ body {
 
 }
 
-@media(min-width: 1250px) and (max-width: 1440px) {
+@media(min-width: 1320px) and (max-width: 1440px) {
     .category {
         font-family: 'Montserrat', sans-serif;
         margin-top: 15px;
@@ -198,14 +198,26 @@ body {
     font-weight: 400;
     text-decoration: none;
     color: #878787;
-    font-size: 18px;
+    font-size: 15px;
     transition-duration: 0.5s;
-  
+
 
 
 }
 
-@media(max-width: 1100px) {
+@media(min-width: 1340px) and (max-width: 1510px) {
+    .sousMenu a {
+        text-decoration: none;
+        color: #707070;
+        font-size: 14px;
+        transition-duration: 0.5s;
+
+
+    }
+
+}
+
+@media(max-width: 1340px) {
     .sousMenu a {
         text-decoration: none;
         color: #707070;
@@ -216,6 +228,8 @@ body {
     }
 
 }
+
+
 
 .sousMenu a:hover {
     color: #E00034;
@@ -238,6 +252,7 @@ body {
 
 .sousMenu div {
     margin-left: 10px;
+    text-align: center;
 }
 
 .marginFormations div {

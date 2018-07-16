@@ -31,7 +31,7 @@ let modules = document.querySelector(".modules")
 scrollbars.visible = false;
 
 //sousMenu.classList.add('marginFormations');
-sousMenu.classList.add('marginQuiSommesNous');
+//sousMenu.classList.add('marginQuiSommesNous');
 
 
 window.setTimeout(() => {
@@ -42,7 +42,7 @@ window.setTimeout(() => {
 
 sm1.innerHTML = 'Management'
 sm2.innerHTML = 'Vente & négociation'
-sm3.innerHTML = 'Comunication'
+sm3.innerHTML = 'Communication'
 sm4.innerHTML = 'Formation de formateur'
 sm5.innerHTML = ''
 
@@ -50,5 +50,3 @@ sm1.setAttribute('href', 'mana.html')
 sm2.setAttribute('href', 'vente.html')
 sm3.setAttribute('href', 'comunication.html')
 sm4.setAttribute('href', 'formateur.html')
-
-
