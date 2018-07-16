@@ -121,13 +121,28 @@
     background-size: contain;
 }
 
+
+
+.moduleVenteOne{
+    margin-left: 5%;
+}
+
 .two .module {
     background-image: url(../images/Conseil%20Pr%C3%A9s.png);
+
+}
+
+.moduleVenteTwo{
+    margin-right: -140px;
 }
 
 .three .module {
     background-image: url(../images/Conseils%20associ%C3%A9.png);
+    
+
 }
+
+
 
 .four .module {
     background-image: url(../images/D%C3%A9v%20prse.png);

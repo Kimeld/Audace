@@ -137,7 +137,7 @@ if (key.innerHTML == 'comunication') {
     titreModule1.classList.add('titreModuleFlex')
 
 
-    close.setAttribute('href', 'vente.html')
+    close.setAttribute('href', 'comunication.html')
 
     popOne.addEventListener('click', () => {
 
@@ -312,6 +312,10 @@ if (key.innerHTML == 'comunication') {
     popTwo.setAttribute('title', 'La couleur de <br> la ventes')
     popFour.setAttribute('title', 'Ventes assertive')
     popFive.setAttribute('title', 'La négociation')
+
+    popOne.classList.add('moduleVenteOne')
+    popTwo.classList.add('moduleVenteTwo')
+
 
     close.setAttribute('href', 'vente.html')
 
@@ -489,6 +493,9 @@ sm1.addEventListener('click', () => {
     popFour.setAttribute('title', 'Management de projet')
     popFive.setAttribute('title', 'Management situationnel')
 
+    popOne.classList.remove('moduleVenteOne')
+    popTwo.classList.remove('moduleVenteTwo')
+
     close.setAttribute('href', 'mana.html')
 
     popOne.addEventListener('click', () => {
@@ -589,6 +596,9 @@ sm2.addEventListener('click', () => {
     popFour.setAttribute('title', 'Ventes assertive')
     popFive.setAttribute('title', 'La négociation')
 
+    popOne.classList.add('moduleVenteOne')
+    popTwo.classList.add('moduleVenteTwo')
+
     close.setAttribute('href', 'vente.html')
 
     popOne.addEventListener('click', () => {
@@ -683,6 +693,9 @@ sm3.addEventListener('click', () => {
     popTwo.setAttribute('title', 'Communiquer avec assertivité')
     popFour.setAttribute('title', 'Gestion des situations délicates')
     popFive.setAttribute('title', 'Gérer <br> un board')
+
+    popOne.classList.remove('moduleVenteOne')
+    popTwo.classList.remove('moduleVenteTwo')
 
     titreModule1.classList.add('titreModuleFlex')
 
@@ -779,7 +792,7 @@ sm4.addEventListener('click', () => {
     titreModule3.innerHTML = 'Formateur coach '
     titreModule4.innerHTML = 'Formateur assertif'
 
-    titreModule3.classList.add('titreModuleCoach')
+    titreModule3.classList.remove('titreModuleCoach')
     titreModule4.classList.add('titreModuleVenteAssertive');
 
     titreModule5.classList.remove('titreModuleNego')
@@ -788,6 +801,9 @@ sm4.addEventListener('click', () => {
     popThree.setAttribute('title', 'Formateur coach')
     popTwo.setAttribute('title', 'Formateur animateur')
     popFour.setAttribute('title', 'Formateur assertif')
+
+    popOne.classList.remove('moduleVenteOne')
+    popTwo.classList.remove('moduleVenteTwo')
 
 
     close.setAttribute('href', 'formateur.html')
