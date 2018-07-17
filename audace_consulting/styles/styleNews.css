@@ -34,13 +34,15 @@ fonction de recherche
 
 .imgUne {
     height: 300px;
-    background-color: black;
+
+    background-image: url(../images/corey-agopian-257152.jpg);
+    background-size: contain;
 }
 
 .texteUne {
     height: 300px;
     padding: 0px;
-    
+
 
 }
 
@@ -104,20 +106,92 @@ fonction de recherche
 
 }
 
+.sideBottom:hover .imgSideBottom {
+    opacity: 0.5;
+    transition-duration: 0.5s;
+}
+
+.side:hover .imgSide {
+    opacity: 0.5;
+    transition-duration: 0.5s;
+
+}
+
 .imgSide {
     height: 100px;
     background-image: url(../images/Audit1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    transition-duration: 0.5s;
 }
 
-.imgSideBottom {
-    height: 200px;
+.imgOne {
+    height: 100px;
     background-image: url(../images/Audit1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    transition-duration: 0.5s;
+}
+
+.imgTwo {
+    height: 100px;
+    background-image: url(../images/Coaching.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition-duration: 0.5s;
+}
+
+.imgThree {
+    height: 100px;
+    background-image: url(../images/Consulting.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition-duration: 0.5s;
+}
+
+.imgFour {
+    height: 100px;
+    background-image: url(../images/image%20de%20fond%20test%202.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition-duration: 0.5s;
+}
+
+.imgSix {
+    height: 100px;
+    background-image: url(../images/joanna-kosinska-129039-unsplash.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition-duration: 0.5s;
+
+}
+
+.imgFive {
+    height: 100px;
+    background-image: url(../images/corey-agopian-257152.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition-duration: 0.5s;
+}
+
+.imgSideBottom {
+    height: 200px;
+    background-image: url(../images/jason-blackeye-265661.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+.sideBottom .pSide {
+    padding-left: 10px;
 
 }
 
