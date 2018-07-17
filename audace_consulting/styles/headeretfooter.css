@@ -236,7 +236,7 @@ body {
     transition-duration: 0.5s;
 }
 
-.red{
+.red {
     color: #E00034;
 }
 
@@ -260,7 +260,7 @@ body {
 }
 
 .marginFormations div {
-    margin-left: 5.5%;
+    margin-left: 0.5%;
     /*margin-left: 60px;*/
 }
 
@@ -275,6 +275,11 @@ body {
 .marginQuiSommesNous {
     margin-left: 10px;
 }
+
+.marginConseil {
+    margin-left: 8%;
+}
+
 
 
 

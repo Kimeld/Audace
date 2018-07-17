@@ -60,8 +60,8 @@ let close = document.querySelector(".close")
 
 scrollbars.visible = false;
 
-//sousMenu.classList.add('marginFormations');
-sousMenu.classList.add('marginQuiSommesNous');
+sousMenu.classList.add('marginFormations');
+//sousMenu.classList.add('marginQuiSommesNous');
 
 
 window.setTimeout(() => {

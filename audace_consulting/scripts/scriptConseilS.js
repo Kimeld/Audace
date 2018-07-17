@@ -33,7 +33,7 @@ scrollbars.visible = false;
 
 sousMenu.classList.remove('marginQuiSommesNous');
 sousMenu.classList.remove('marginSolution');
-sousMenu.classList.add('marginFormations');
+sousMenu.classList.add('marginConseil');
 
 window.setTimeout(() => {
     sousMenu.classList.add('animationSousMenu');

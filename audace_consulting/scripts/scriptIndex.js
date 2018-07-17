@@ -15,7 +15,7 @@ let sm4 = document.querySelector(".sm4")
 let sm5 = document.querySelector(".sm5")
 
 let smC = document.querySelector(".smC")
-
+/*
 quiSommes.addEventListener('click', () => {
     console.log(quiSommes)
 
@@ -40,8 +40,11 @@ quiSommes.addEventListener('click', () => {
         sm2.classList.add('col-lg-1');
         sm3.classList.add('col-lg-1');
     */
-    //firstOf4.classList.add('col-lg-offset-4');
-    //firstOf4.classList.remove('col-lg-offset-3');
+//firstOf4.classList.add('col-lg-offset-4');
+//firstOf4.classList.remove('col-lg-offset-3');
+
+/*
+
 
     window.setTimeout(() => {
         sousMenu.classList.add('animationSousMenu');
@@ -83,8 +86,12 @@ solutions.addEventListener('click', () => {
         sm2.classList.add('col-lg-2');
         sm3.classList.add('col-lg-2');
     */
-    //firstOf4.classList.add('col-lg-offset-3');
-    //firstOf4.classList.remove('col-lg-offset-4');
+//firstOf4.classList.add('col-lg-offset-3');
+//firstOf4.classList.remove('col-lg-offset-4');
+
+/*
+
+
     window.setTimeout(() => {
         sousMenu.classList.add('animationSousMenu');
         sousMenu.classList.add('sousMenuMove');
@@ -127,8 +134,11 @@ formations.addEventListener('click', () => {
         sm2.classList.add('col-lg-2');
         sm3.classList.add('col-lg-2');
     */
-    //firstOf4.classList.add('col-lg-offset-3');
-    //firstOf4.classList.remove('col-lg-offset-4');
+//firstOf4.classList.add('col-lg-offset-3');
+//firstOf4.classList.remove('col-lg-offset-4');
+
+/*
+    
     window.setTimeout(() => {
         sousMenu.classList.add('animationSousMenu');
         sousMenu.classList.add('sousMenuMove');
@@ -165,8 +175,11 @@ conseil.addEventListener('click', () => {
         sm2.classList.add('col-lg-2');
         sm3.classList.add('col-lg-2');
     */
-    //firstOf4.classList.add('col-lg-offset-3');
-    //firstOf4.classList.remove('col-lg-offset-4');
+//firstOf4.classList.add('col-lg-offset-3');
+//firstOf4.classList.remove('col-lg-offset-4');
+
+/*
+   
     window.setTimeout(() => {
         sousMenu.classList.add('animationSousMenu');
         sousMenu.classList.add('sousMenuMove');
@@ -182,3 +195,4 @@ conseil.addEventListener('click', () => {
 
 
 })
+*/
