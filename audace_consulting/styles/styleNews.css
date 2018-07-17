@@ -1,19 +1,102 @@
-.imgUne{
+/*POLICE
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+categorie : roboto
+sous-onglet : montserrat
+*/
+
+/*le test bootstrap
+<div class="test col-lg-1 col-lg-offset-1"></div>
+
+.test{
+    width: 100;
+    background-color: aqua;
+}
+
+menu burger seuil 969
+
+fonction de recherche
+*/
+
+.aLaUne {
+    padding: 0px;
+}
+
+.aLaUne h1 {
+    color: #E00034;
+    font-size: 42px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+
+.imgUne {
     height: 300px;
     background-color: black;
 }
 
-.side{
-     height: 230px;
-    background-color: black;
+.texteUne {
+    height: 300px;
+    padding: 0px;
+
 }
 
-.imgSide{
-     height: 100px;
-    background-color: red;
+.texteUne h2 {
+    color: #E00034;
+    font-family: 'Montserrat', sans-serif;
+
+
 }
 
-.sideTexte{
-     height: 100px;
+.texteUne p {
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+
+
+}
+
+.texteUne div {
+    padding: 10px;
+    margin: auto;
+
+
+}
+
+.side {
+    height: 320px;
+    padding: 0px;
+
+}
+
+.imgSide {
+    height: 100px;
+    background-image: url(../images/Audit1.png);
+    background-position: center;
+    background-size: contain;
+}
+
+.pSide {
+    height: 100px;
+    padding-left: 3px;
+
+}
+
+.pSide span {
+    font-family: 'Roboto', sans-serif;
+    color: #E00034;
+    font-weight: 700;
+
+}
+
+.pSide p {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.sideTexte {
+    height: 100px;
     background-color: black;
 }
