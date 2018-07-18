@@ -100,9 +100,12 @@ fonction de recherche
 }
 
 .sideBottom {
-    height: 320px;
+    height: 270px;
     padding: 0px;
-    margin-top: 100px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    background-image: url(../images/images1.jpg);
+    background-size: cover;
 
 }
 
@@ -128,28 +131,28 @@ fonction de recherche
 
 .imgOne {
     height: 100px;
-    background-image: url(../images/Audit1.png);
+    background-image: url(../images/images1.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     transition-duration: 0.5s;
 }
 
 .imgTwo {
     height: 100px;
-    background-image: url(../images/Coaching.jpg);
+    background-image: url(../images/images.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     transition-duration: 0.5s;
 }
 
 .imgThree {
     height: 100px;
-    background-image: url(../images/Consulting.png);
+    background-image: url(../images/t%C3%A9l%C3%A9chargement.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     transition-duration: 0.5s;
 }
 
@@ -158,7 +161,7 @@ fonction de recherche
     background-image: url(../images/image%20de%20fond%20test%202.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     transition-duration: 0.5s;
 }
 
@@ -167,7 +170,7 @@ fonction de recherche
     background-image: url(../images/joanna-kosinska-129039-unsplash.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     transition-duration: 0.5s;
 
 }
@@ -177,7 +180,7 @@ fonction de recherche
     background-image: url(../images/corey-agopian-257152.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     transition-duration: 0.5s;
 }
 
@@ -202,7 +205,7 @@ fonction de recherche
 
 }
 
-.pSide a {
+.pSide .gras {
     font-family: 'Roboto', sans-serif;
     color: #E00034;
     font-weight: 700;
