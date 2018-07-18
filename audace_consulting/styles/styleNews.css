@@ -202,11 +202,12 @@ fonction de recherche
 
 }
 
-.pSide span {
+.pSide a {
     font-family: 'Roboto', sans-serif;
     color: #E00034;
     font-weight: 700;
     font-size: 14px;
+    text-decoration: none;
 
 }
 
@@ -216,6 +217,7 @@ fonction de recherche
     font-weight: 300;
 
 }
+
 
 .sideTexte {
     height: 100px;
