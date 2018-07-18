@@ -2,7 +2,7 @@ let quiSommes = document.querySelector(".quiSommes")
 let conseil = document.querySelector(".conseil")
 let formations = document.querySelector(".formations")
 let solutions = document.querySelector(".solutions")
-let forum = document.querySelector("forum")
+let forum = document.querySelector(".forum")
 
 let sousMenu = document.querySelector(".sousMenu")
 
@@ -155,7 +155,9 @@ formations.addEventListener('click', () => {
 
 })
 
-conseil.addEventListener('click', () => {
+*/
+
+forum.addEventListener('click', () => {
     console.log(quiSommes)
 
     sousMenu.classList.remove('animationSousMenu');
@@ -163,36 +165,41 @@ conseil.addEventListener('click', () => {
 
     sousMenu.classList.remove('marginQuiSommesNous');
     sousMenu.classList.remove('marginSolution');
-    sousMenu.classList.add('marginFormations');
+    //sousMenu.classList.add('marginFormations');
 
     smC.classList.remove('smS');
-    /*
-        sm1.classList.remove('col-lg-1');
-        sm2.classList.remove('col-lg-1');
-        sm3.classList.remove('col-lg-1');
 
-        sm1.classList.add('col-lg-2');
-        sm2.classList.add('col-lg-2');
-        sm3.classList.add('col-lg-2');
-    */
-//firstOf4.classList.add('col-lg-offset-3');
-//firstOf4.classList.remove('col-lg-offset-4');
+    sm1.classList.remove('col-lg-1');
+    sm2.classList.remove('col-lg-1');
+    sm3.classList.remove('col-lg-1');
 
-/*
-   
+    //sm1.classList.add('col-lg-2');
+    //sm2.classList.add('col-lg-2');
+    //sm3.classList.add('col-lg-2');
+
+    //firstOf4.classList.add('col-lg-offset-3');
+    //firstOf4.classList.remove('col-lg-offset-4');
+
+
+
     window.setTimeout(() => {
         sousMenu.classList.add('animationSousMenu');
         sousMenu.classList.add('sousMenuMove');
     }, 200)
 
-    sm1.innerHTML = 'Audit'
-    sm2.innerHTML = 'Consulting'
-    sm3.innerHTML = 'Business consulting'
+    sm1.innerHTML = ''
+    sm2.innerHTML = 'News'
+    sm3.innerHTML = 'Inscription'
     sm4.innerHTML = ''
     sm5.innerHTML = ''
+
+
+    sm1.setAttribute('href', 'mana.html')
+    sm2.setAttribute('href', 'pages/news.html')
+    sm3.setAttribute('href', 'pagess/inscritption.html')
+    sm4.setAttribute('href', 'formateur.html')
 
 
 
 
 })
-*/
