@@ -291,10 +291,9 @@
 }
 */
 
-/*
 .fond {
-    width: 1095px;
-    height: 929px;
+    width: 995px;
+    height: 829px;
     background-image: url(../images/Audit1.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -302,11 +301,14 @@
     z-index: -1;
     opacity: 0.5;
     top: 40px;
-    right: 0px;
+    right: -100px;
 
 }
-*/
 
+
+
+
+/*
 .fond {
     width: 895px;
     height: 929px;
@@ -320,6 +322,7 @@
     left: 780px;
 
 }
+*/
 
 .opacityM {
     opacity: 0;
