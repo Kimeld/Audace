@@ -21,47 +21,36 @@ let contenuCom = document.querySelector(".contenuCom")
 let contenuManagement = document.querySelector(".contenuManagement")
 
 let titreFormation = document.querySelector(".titreFormation")
+let texte = document.querySelector(".texte")
 
 let milieux = document.querySelector(".milieux")
 
 let modules = document.querySelector(".modules")
-let ref = document.querySelector(".ref")
-let allRef = document.querySelector(".allRef")
-
-let titreModule1 = document.querySelector(".titreModule1")
-let titreModule2 = document.querySelector(".titreModule2")
-let titreModule3 = document.querySelector(".titreModule3")
-let titreModule4 = document.querySelector(".titreModule4")
-let titreModule5 = document.querySelector(".titreModule5")
-let titreModule6 = document.querySelector(".titreModule6")
-let titreModule7 = document.querySelector(".titreModule7")
-
-let popOne = document.querySelector(".one")
-let popTwo = document.querySelector(".two")
-let popThree = document.querySelector(".three")
-let popFour = document.querySelector(".four")
-let popFive = document.querySelector(".five")
-let popSix = document.querySelector(".six")
-let popSeven = document.querySelector(".seven")
-
-let titrePopUp = document.querySelector(".titrePopUp")
-let firstTexteH2 = document.querySelector(".firstTexteH2")
-let firstTexteP = document.querySelector(".firstTexteP")
-let secondTexteH2 = document.querySelector(".secondTexteH2")
-let secondTexteP = document.querySelector(".secondTexteP")
-let thirdTexteH2 = document.querySelector(".thirdTexteH2")
-let thirdTexteP = document.querySelector(".thirdTexteP")
-
-let key = document.querySelector(".key")
-
-let close = document.querySelector(".close")
 
 
 
 scrollbars.visible = false;
 
+
+
+sousMenu.classList.remove('marginQuiSommesNous');
+sousMenu.classList.remove('marginSolution');
+sousMenu.classList.remove('marginConseil');
 //sousMenu.classList.add('marginFormations');
-//sousMenu.classList.add('marginQuiSommesNous');
+
+smC.classList.remove('smS');
+
+sm1.classList.remove('col-lg-1');
+sm2.classList.remove('col-lg-1');
+sm3.classList.remove('col-lg-1');
+
+//sm1.classList.add('col-lg-2');
+//sm2.classList.add('col-lg-2');
+//sm3.classList.add('col-lg-2');
+
+//firstOf4.classList.add('col-lg-offset-3');
+//firstOf4.classList.remove('col-lg-offset-4');
+
 
 
 window.setTimeout(() => {
@@ -69,20 +58,17 @@ window.setTimeout(() => {
     sousMenu.classList.add('sousMenuMove');
 }, 200)
 
-
-sm1.innerHTML = 'Nos valeurs'
-sm2.innerHTML = 'Notre équipe'
-sm3.innerHTML = 'Pédagogie'
-sm4.innerHTML = 'Testimonial'
+sm1.innerHTML = ''
+sm2.innerHTML = 'News'
+sm3.innerHTML = 'Inscription'
+sm4.innerHTML = ''
 sm5.innerHTML = ''
 
 
-sm1.setAttribute('href', 'valeur.html')
-sm2.setAttribute('href', 'equipe.html')
-sm3.setAttribute('href', 'pedagogie.html')
-sm4.setAttribute('href', 'testimonial.html')
-
-
+sm1.setAttribute('href', 'mana.html')
+sm2.setAttribute('href', 'news.html')
+sm3.setAttribute('href', 'inscritption.html')
+sm4.setAttribute('href', 'formateur.html')
 
 forum.addEventListener('click', () => {
     console.log(quiSommes)
@@ -122,8 +108,8 @@ forum.addEventListener('click', () => {
 
 
     sm1.setAttribute('href', 'mana.html')
-    sm2.setAttribute('href', 'news.html')
-    sm3.setAttribute('href', 'inscritption.html')
+    sm2.setAttribute('href', 'pages/news.html')
+    sm3.setAttribute('href', 'pagess/inscritption.html')
     sm4.setAttribute('href', 'formateur.html')
 
 
