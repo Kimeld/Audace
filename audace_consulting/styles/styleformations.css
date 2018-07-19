@@ -17,7 +17,7 @@
 
 .contenu .titre h1 {
 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #E00034;
     font-size: 42px;
@@ -122,19 +122,21 @@
 }
 
 
-
+/*
 .moduleVenteOne {
     margin-left: 7%;
 }
-
+*/
 .two .module {
     background-image: url(../images/Conseil%20Pr%C3%A9s.png);
 
 }
 
+/*
 .moduleVenteTwo {
     margin-right: -190px;
 }
+*/
 
 .three .module {
     background-image: url(../images/Conseils%20associ%C3%A9.png);
@@ -152,11 +154,20 @@
     background-image: url(../images/Image%20de%20fond%20test.png);
 }
 
+
+
 .module:hover {
     transform: scale(1.3);
     background-color: #E00034;
     transition-duration: 1s;
 }
+
+.ex:hover {
+    transform: scale(1.3);
+    background-color: #E00034;
+    transition-duration: 1s;
+}
+
 
 .one:hover .titreModule1 {
 
@@ -391,7 +402,7 @@
 }
 
 .first img {
-    width: 87px;
+    width: 67px;
 
 }
 
@@ -456,7 +467,7 @@
 
 
 .second img {
-    width: 87px;
+    width: 67px;
 }
 
 
@@ -485,7 +496,7 @@
 
 
 .third img {
-    width: 87px;
+    width: 67px;
 }
 
 
@@ -504,8 +515,12 @@
     position: absolute;
     bottom: 30px;
     right: 20px;
-    width: 87px;
+    width: 67px;
     text-align: center;
+}
+
+.sablier img {
+    width: 67px;
 }
 
 .sablier div {
@@ -523,5 +538,11 @@
 
 .imgPop {
     background-color: black;
-    height: 100px
+    background-image: url(../images/Consulting.png);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    position: absolute;
+    top: 135px;
+    right: 20px;
 }
