@@ -20,6 +20,43 @@ menu burger seuil 969
 fonction de recherche
 */
 
+a {
+    text-decoration: none;
+    color: #E00034;
+
+}
+
+a:hover {
+
+    transition-duration: 1s;
+    opacity: 0.8;
+    text-decoration: none;
+
+
+
+
+}
+
+.blockLeft {
+    height: 1000px;
+    padding: 0px;
+}
+
+.blockCenter {
+    height: 1000px;
+    padding: 0px;
+}
+
+.blockRight {
+    height: 1000px;
+    padding: 0px;
+}
+
+.article {
+
+    padding: 0px;
+}
+
 .aLaUne {
     padding: 0px;
 }
@@ -221,6 +258,7 @@ fonction de recherche
 
 }
 
+
 .sideBottom .pSide {
     padding-left: 10px;
 
@@ -229,15 +267,18 @@ fonction de recherche
 .pSide {
 
     padding-left: 3px;
-    margin-top: 5px;
+    margin-top: 0px;
+
 
 }
 
-.pSide span {
+.pSide .gras {
     font-family: 'Roboto', sans-serif;
     color: #E00034;
     font-weight: 700;
     font-size: 14px;
+    text-decoration: none;
+    padding: 0px;
 
 }
 
@@ -248,7 +289,30 @@ fonction de recherche
 
 }
 
+
 .sideTexte {
     height: 100px;
     background-color: black;
+}
+
+.articleSec {
+    margin-top: 350px;
+}
+
+.galerie {
+    height: 450px;
+    background-color: bisque;
+    padding: 0px;
+
+    margin-top: 350px;
+}
+
+.imgGalerie {
+    height: 112.5px;
+    border: solid;
+    border-color: white;
+    background-image: url(../images/images1.jpg);
+
+
+
 }
