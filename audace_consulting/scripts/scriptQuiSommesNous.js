@@ -76,11 +76,81 @@ sm3.innerHTML = 'Pédagogie'
 sm4.innerHTML = 'Testimonial'
 sm5.innerHTML = ''
 
+/*
 
 sm1.setAttribute('href', 'valeur.html')
+
 sm2.setAttribute('href', 'equipe.html')
 sm3.setAttribute('href', 'pedagogie.html')
 sm4.setAttribute('href', 'testimonial.html')
+*/
+
+sm1.addEventListener('click', () => {
+
+    contenuVente.classList.add('contenuMove')
+    contenuVente.classList.add('animationContenu')
+
+
+    window.setTimeout(() => {
+        contenuVente.classList.remove('contenuMove')
+        titreFormation.innerHTML = 'Nos valeurs'
+        texte.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, asperiores mollitia repellat illo ullam animi vel, delectus reprehenderit sint dicta culpa eveniet molestiae eos magnam, nulla libero quam reiciendis dignissimos?'
+        contenuVente.classList.remove('animationContenu')
+
+
+    }, 200)
+})
+
+
+sm2.addEventListener('click', () => {
+
+    contenuVente.classList.add('contenuMove')
+    contenuVente.classList.add('animationContenu')
+
+
+    window.setTimeout(() => {
+        contenuVente.classList.remove('contenuMove')
+        titreFormation.innerHTML = 'Notre équipe'
+        texte.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, asperiores mollitia repellat illo ullam animi vel, delectus reprehenderit sint dicta culpa eveniet molestiae eos magnam, nulla libero quam reiciendis dignissimos?'
+        contenuVente.classList.remove('animationContenu')
+
+
+    }, 200)
+})
+
+sm3.addEventListener('click', () => {
+
+    contenuVente.classList.add('contenuMove')
+    contenuVente.classList.add('animationContenu')
+
+
+    window.setTimeout(() => {
+        contenuVente.classList.remove('contenuMove')
+        titreFormation.innerHTML = 'Pédagogie'
+        texte.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, asperiores mollitia repellat illo ullam animi vel, delectus reprehenderit sint dicta culpa eveniet molestiae eos magnam, nulla libero quam reiciendis dignissimos?'
+        contenuVente.classList.remove('animationContenu')
+
+
+    }, 200)
+})
+
+sm4.addEventListener('click', () => {
+
+    contenuVente.classList.add('contenuMove')
+    contenuVente.classList.add('animationContenu')
+
+
+    window.setTimeout(() => {
+        contenuVente.classList.remove('contenuMove')
+        titreFormation.innerHTML = 'Testimonial'
+        texte.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, asperiores mollitia repellat illo ullam animi vel, delectus reprehenderit sint dicta culpa eveniet molestiae eos magnam, nulla libero quam reiciendis dignissimos?'
+        contenuVente.classList.remove('animationContenu')
+
+    }, 200)
+})
+
+
+
 
 
 
