@@ -11,7 +11,7 @@
     border-radius: 64px;
     border: solid;
     border-color: #707070;
-    box-shadow: 5px 2px 10px #707070;
+    box-shadow: 3px 2px 5px #707070;
     transform: scale(1);
     transition-property: all;
     transition-duration: 1s;
@@ -51,7 +51,7 @@
     transform: scale(1.18);
     transition-property: all;
     transition-duration: 1s;
-    
+
 
 
 }
@@ -111,4 +111,22 @@
     transform: scale(1.1);
     transition-property: all;
     transition-duration: 1s;
+}
+
+.genre .h {
+    margin-left: 20px;
+    padding-top: 2px;
+    height: 25px;
+    width: 50px;
+}
+
+.genre .f {
+    margin-left: 20px;
+    padding-top: 2px;
+    height: 25px;
+    width: 50px;
+}
+
+input {
+    transform: scaleY(1.2);
 }
