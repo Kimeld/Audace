@@ -47,7 +47,7 @@
 }
 
 .form form {
-    margin-top: 15%;
+    margin-top: 18%;
     transform: scale(1.18);
     transition-property: all;
     transition-duration: 1s;
@@ -78,11 +78,34 @@
 
 .pastille {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 10px;
+    left: 10px;
     width: 100px;
 }
 
 .pastille img {
     width: 100px;
+}
+
+.network img {
+    width: 30px;
+     transform: scale(1);
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.network {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.network .face {
+    margin-right: 10px;
+}
+
+
+.network img:hover {
+    transform: scale(1.1);
+    transition-property: all;
+    transition-duration: 1s;
 }
