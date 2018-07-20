@@ -298,13 +298,15 @@ if (key.innerHTML == 'comunication') {
 
     sm2.classList.add('surBrilliance')
 
-    milieux.classList.add('opacityM')
+    popFive.classList.add('opacityM')
+
+    modules.classList.add('modulesVentes')
 
     titreModule1.innerHTML = 'Technique de vente'
     titreModule2.innerHTML = 'La couleur de <br> la ventes'
     titreModule3.innerHTML = 'Ventes assertive'
     titreModule4.classList.add('titreModuleVenteAssertive');
-    titreModule4.innerHTML = 'Ventes assertive'
+    titreModule4.innerHTML = 'La négociation'
     titreModule5.classList.add('titreModuleNego');
     titreModule5.innerHTML = 'La négociation'
 
@@ -343,7 +345,7 @@ if (key.innerHTML == 'comunication') {
 
 
     })
-    popFour.addEventListener('click', () => {
+    popThree.addEventListener('click', () => {
 
         titrePopUp.innerHTML = 'Ventes assertive'
         firstTexteH2.innerHTML = 'Le bénéfice'
@@ -355,7 +357,7 @@ if (key.innerHTML == 'comunication') {
 
 
     })
-    popFive.addEventListener('click', () => {
+    popFour.addEventListener('click', () => {
 
         titrePopUp.innerHTML = 'La négociation'
         firstTexteH2.innerHTML = 'Le bénéfice'
@@ -457,6 +459,8 @@ if (key.innerHTML == 'comunication') {
 sm1.addEventListener('click', () => {
 
     sm1.classList.add('surBrilliance')
+
+    modules.classList.remove('modulesVentes')
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
@@ -568,24 +572,26 @@ sm2.addEventListener('click', () => {
     contenuVente.classList.add('animationContenu')
     close.setAttribute('href', 'vente.html')
 
+    modules.classList.add('modulesVentes')
+
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Vente & négociation'
         contenuVente.classList.remove('animationContenu')
-        milieux.classList.add('opacityM')
+        milieux.classList.remove('opacityM')
     }, 200)
 
     popOne.classList.remove('opacityM')
-    popFive.classList.remove('opacityM')
+    popFive.classList.add('opacityM')
 
 
 
 
     titreModule1.innerHTML = 'Technique de vente'
     titreModule2.innerHTML = 'La couleur de <br> la ventes'
-    titreModule3.innerHTML = ''
+    titreModule3.innerHTML = 'Ventes assertive'
     titreModule4.classList.add('titreModuleVenteAssertive')
-    titreModule4.innerHTML = 'Ventes assertive'
+    titreModule4.innerHTML = 'La négociation'
     titreModule5.classList.add('titreModuleNego')
     titreModule5.innerHTML = 'La négociation'
 
@@ -625,7 +631,7 @@ sm2.addEventListener('click', () => {
 
 
     })
-    popFour.addEventListener('click', () => {
+    popThree.addEventListener('click', () => {
 
         titrePopUp.innerHTML = 'Ventes assertive'
         firstTexteH2.innerHTML = 'Le bénéfice'
@@ -637,7 +643,7 @@ sm2.addEventListener('click', () => {
 
 
     })
-    popFive.addEventListener('click', () => {
+    popFour.addEventListener('click', () => {
 
         titrePopUp.innerHTML = 'La négociation'
         firstTexteH2.innerHTML = 'Le bénéfice'
@@ -660,6 +666,7 @@ sm3.addEventListener('click', () => {
     contenuVente.classList.add('animationContenu')
     close.setAttribute('href', 'comunication.html')
 
+    modules.classList.remove('modulesVentes')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -772,6 +779,8 @@ sm4.addEventListener('click', () => {
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
     close.setAttribute('href', 'formateur.html')
+
+    modules.classList.remove('modulesVentes')
 
 
     window.setTimeout(() => {

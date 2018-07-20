@@ -96,6 +96,10 @@
     padding-right: 10%;
 }
 
+.modulesVentes {
+    margin-left: 5%;
+}
+
 .modulesFormation {
     margin: auto;
     padding-right: 11%;
@@ -127,6 +131,7 @@
     margin-left: 7%;
 }
 */
+
 .two .module {
     background-image: url(../images/Conseil%20Pr%C3%A9s.png);
 
@@ -410,6 +415,7 @@
 
     position: absolute;
     top: 0px;
+    left: 2.5%;
 }
 
 .first div {
@@ -482,6 +488,7 @@
 
     position: absolute;
     top: 0px;
+    left: 2.5%;
 }
 
 .third {
@@ -509,6 +516,7 @@
 .thirdImg {
     position: absolute;
     top: 0px;
+    left: 2.5%;
 }
 
 .sablier {
