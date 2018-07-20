@@ -94,7 +94,7 @@ sm1.addEventListener('click', () => {
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Nos valeurs'
-        texte.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, asperiores mollitia repellat illo ullam animi vel, delectus reprehenderit sint dicta culpa eveniet molestiae eos magnam, nulla libero quam reiciendis dignissimos?'
+        texte.innerHTML = 'Nous croyons énormément à la capacité de tout un chacun à «Oser pour réussir » Pour cela, nous optimisons le « Savoir être » pour développer le « Savoir faire » des managers et collaborateurs au travers des valeurs suivantes : <br> - Performance <br> - Développement durable de la formation <br> - Bienveillance'
         contenuVente.classList.remove('animationContenu')
 
 
@@ -111,7 +111,7 @@ sm2.addEventListener('click', () => {
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Notre équipe'
-        texte.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, asperiores mollitia repellat illo ullam animi vel, delectus reprehenderit sint dicta culpa eveniet molestiae eos magnam, nulla libero quam reiciendis dignissimos?'
+        texte.innerHTML = 'Une équipe à votre écoute et à votre service AUDACE Consulting est constituée de consultants tous formés aux différents outils de mesure de la personnalité,à la Programmation Neuro-Linguistique PNL, et sont en formation continue afin de toujours maintenir :  <br> Une équipe de formateurs compétents <br> Une organisation solide et rigoureuse  <br> Une proposition de solutions sur mesure <br> Un respect des délais  <br> Une orientation vers l’efficacité <br> Un feedback clair et précis'
         contenuVente.classList.remove('animationContenu')
 
 

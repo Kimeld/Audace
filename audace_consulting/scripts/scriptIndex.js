@@ -188,7 +188,7 @@ forum.addEventListener('click', () => {
     }, 200)
 
     sm1.innerHTML = ''
-    sm2.innerHTML = 'À la une
+    sm2.innerHTML = 'À la une'
     sm3.innerHTML = 'Inscription'
     sm4.innerHTML = ''
     sm5.innerHTML = ''

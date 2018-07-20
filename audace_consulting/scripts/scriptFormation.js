@@ -21,6 +21,7 @@ let contenuCom = document.querySelector(".contenuCom")
 let contenuManagement = document.querySelector(".contenuManagement")
 
 let titreFormation = document.querySelector(".titreFormation")
+let texteFormation = document.querySelector(".texte")
 
 let milieux = document.querySelector(".milieux")
 
@@ -103,6 +104,7 @@ if (key.innerHTML == 'comunication') {
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Communication'
+        texteFormation.innerHTML = 'Optimiser votre communication Nos modules permettent d’améliorer votre communication interpersonnelle et votre flexibilité relationnelle.'
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -216,6 +218,8 @@ if (key.innerHTML == 'comunication') {
     allRef.classList.add('modules')
     allRef.classList.remove('modulesFormation')
 
+    texteFormation.innerHTML = 'Développer votre performance managériale. L’impact du manager est primordial pour la performance et la cohésion d’équipe. Nous aidons les managers à devenir plus performants avec leurs collaborateurs. Pour parvenir à ce résultat nous mettons à disposition des outils simples et efficaces.'
+
     titreModule1.innerHTML = 'Position n+1'
     titreModule2.innerHTML = 'Fléxibilité manegériale'
     titreModule3.innerHTML = 'Management situationnel'
@@ -301,6 +305,8 @@ if (key.innerHTML == 'comunication') {
     popFive.classList.add('opacityM')
 
     modules.classList.add('modulesVentes')
+
+    texteFormation.innerHTML = 'Développer votre efficacité commerciale. La capacité d’une entreprise à réaliser un chiffre d’affaires à la hauteur de ses exigences dépend des bénéfices apportés par les produit(s) promu(s) et en grande partie à la qualité des forces de vente'
 
     titreModule1.innerHTML = 'Technique de vente'
     titreModule2.innerHTML = 'La couleur de <br> la ventes'
@@ -469,6 +475,7 @@ sm1.addEventListener('click', () => {
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Management'
+        texteFormation.innerHTML = 'Développer votre performance managériale. L’impact du manager est primordial pour la performance et la cohésion d’équipe. Nous aidons les managers à devenir plus performants avec leurs collaborateurs. Pour parvenir à ce résultat nous mettons à disposition des outils simples et efficaces.'
         contenuVente.classList.remove('animationContenu')
         milieux.classList.remove('opacityM')
     }, 200)
@@ -577,6 +584,7 @@ sm2.addEventListener('click', () => {
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Vente & négociation'
+        texteFormation.innerHTML = 'Développer votre efficacité commerciale. La capacité d’une entreprise à réaliser un chiffre d’affaires à la hauteur de ses exigences dépend des bénéfices apportés par les produit(s) promu(s) et en grande partie à la qualité des forces de vente'
         contenuVente.classList.remove('animationContenu')
         milieux.classList.remove('opacityM')
     }, 200)
@@ -671,6 +679,7 @@ sm3.addEventListener('click', () => {
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Comunication'
+        texteFormation.innerHTML = 'Optimiser votre communication Nos modules permettent d’améliorer votre communication interpersonnelle et votre flexibilité relationnelle.'
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
