@@ -32,6 +32,12 @@
     font-size: 42px;
 }
 
+.form:hover form {
+    transform: scale(1.2);
+    transition-property: all;
+    transition-duration: 1s;
+}
+
 .description p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -40,15 +46,43 @@
     margin-top: 40px;
 }
 
-.form form{
-    margin-top: 30px;
+.form form {
+    margin-top: 15%;
+    transform: scale(1.18);
+    transition-property: all;
+    transition-duration: 1s;
 }
 
-.champs{
+.champs {
     width: 200px;
- 
+
 }
 
-.champs select{
+.champs select {
     height: 40px;
+}
+
+.second label {
+    margin-left: 20px;
+    padding-top: 2px;
+    height: 25px;
+    width: 300px;
+}
+
+.second button {
+    height: 25px;
+    border: solid;
+    border-width: 0.5px;
+    border-color: #707070;
+}
+
+.pastille {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+}
+
+.pastille img {
+    width: 100px;
 }
