@@ -4,6 +4,8 @@ let formations = document.querySelector(".formations")
 let solutions = document.querySelector(".solutions")
 let forum = document.querySelector(".forum")
 
+
+
 let sousMenu = document.querySelector(".sousMenu")
 
 let firstOf4 = document.querySelector(".firstOf4")
@@ -21,7 +23,6 @@ let contenuCom = document.querySelector(".contenuCom")
 let contenuManagement = document.querySelector(".contenuManagement")
 
 let titreFormation = document.querySelector(".titreFormation")
-let texte = document.querySelector(".texte")
 
 let milieux = document.querySelector(".milieux")
 
@@ -31,44 +32,31 @@ let modules = document.querySelector(".modules")
 
 scrollbars.visible = false;
 
-
-
-sousMenu.classList.remove('marginQuiSommesNous');
-sousMenu.classList.remove('marginSolution');
-sousMenu.classList.remove('marginConseil');
 //sousMenu.classList.add('marginFormations');
-
-smC.classList.remove('smS');
-
-sm1.classList.remove('col-lg-1');
-sm2.classList.remove('col-lg-1');
-sm3.classList.remove('col-lg-1');
-
-//sm1.classList.add('col-lg-2');
-//sm2.classList.add('col-lg-2');
-//sm3.classList.add('col-lg-2');
-
-//firstOf4.classList.add('col-lg-offset-3');
-//firstOf4.classList.remove('col-lg-offset-4');
-
-
+//sousMenu.classList.add('marginQuiSommesNous');
+formations.classList.add('red')
 
 window.setTimeout(() => {
     sousMenu.classList.add('animationSousMenu');
     sousMenu.classList.add('sousMenuMove');
 }, 200)
 
-sm1.innerHTML = ''
-sm2.innerHTML = 'À la une'
-sm3.innerHTML = 'Inscription'
-sm4.innerHTML = ''
+
+sm1.innerHTML = 'Management'
+sm2.innerHTML = 'Vente & négociation'
+sm3.innerHTML = 'Communication'
+sm4.innerHTML = 'Formation de formateur'
 sm5.innerHTML = ''
 
-
 sm1.setAttribute('href', 'mana.html')
-sm2.setAttribute('href', 'news.html')
-sm3.setAttribute('href', 'inscription.html')
+sm2.setAttribute('href', 'vente.html')
+sm3.setAttribute('href', 'comunication.html')
 sm4.setAttribute('href', 'formateur.html')
+
+
+
+
+
 
 forum.addEventListener('click', () => {
     console.log(quiSommes)
@@ -78,6 +66,7 @@ forum.addEventListener('click', () => {
 
     sousMenu.classList.remove('marginQuiSommesNous');
     sousMenu.classList.remove('marginSolution');
+    sousMenu.classList.remove('marginConseil');
     //sousMenu.classList.add('marginFormations');
 
     smC.classList.remove('smS');
@@ -108,8 +97,8 @@ forum.addEventListener('click', () => {
 
 
     sm1.setAttribute('href', 'mana.html')
-    sm2.setAttribute('href', 'pages/news.html')
-    sm3.setAttribute('href', 'pagess/inscritption.html')
+    sm2.setAttribute('href', 'news.html')
+    sm3.setAttribute('href', 'inscritption.html')
     sm4.setAttribute('href', 'formateur.html')
 
 

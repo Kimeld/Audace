@@ -900,7 +900,7 @@ forum.addEventListener('click', () => {
 
     sm1.setAttribute('href', 'mana.html')
     sm2.setAttribute('href', 'news.html')
-    sm3.setAttribute('href', 'inscritption.html')
+    sm3.setAttribute('href', 'inscription.html')
     sm4.setAttribute('href', 'formateur.html')
 
 

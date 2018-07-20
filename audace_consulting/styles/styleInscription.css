@@ -39,3 +39,16 @@
     font-size: 18px;
     margin-top: 40px;
 }
+
+.form form{
+    margin-top: 30px;
+}
+
+.champs{
+    width: 200px;
+ 
+}
+
+.champs select{
+    height: 40px;
+}
