@@ -51,6 +51,9 @@
     transform: scale(1.18);
     transition-property: all;
     transition-duration: 1s;
+    
+
+
 }
 
 .champs {
@@ -89,7 +92,7 @@
 
 .network img {
     width: 30px;
-     transform: scale(1);
+    transform: scale(1);
     transition-property: all;
     transition-duration: 1s;
 }
