@@ -209,7 +209,7 @@ body {
     .sousMenu a {
         text-decoration: none;
         color: #707070;
-        font-size: 14px;
+        font-size: 12px;
         transition-duration: 0.5s;
 
 
@@ -221,7 +221,7 @@ body {
     .sousMenu a {
         text-decoration: none;
         color: #707070;
-        font-size: 12px;
+        font-size: 10px;
         transition-duration: 0.5s;
 
 
@@ -442,4 +442,3 @@ body {
 input {
     transform: scaleY(1.2);
 }
-
