@@ -401,3 +401,45 @@ body {
     color: white;
 
 }
+
+.network img {
+    width: 30px;
+    transform: scale(1);
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.network {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.network .face {
+    margin-right: 10px;
+}
+
+
+.network img:hover {
+    transform: scale(1.1);
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.genre .h {
+    margin-left: 20px;
+    padding-top: 2px;
+    height: 25px;
+    width: 50px;
+}
+
+.genre .f {
+    margin-left: 20px;
+    padding-top: 2px;
+    height: 25px;
+    width: 50px;
+}
+
+input {
+    transform: scaleY(1.2);
+}
+

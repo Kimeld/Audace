@@ -21,6 +21,7 @@ let contenuCom = document.querySelector(".contenuCom")
 let contenuManagement = document.querySelector(".contenuManagement")
 
 let titreFormation = document.querySelector(".titreFormation")
+let texte = document.querySelector(".texte")
 
 let milieux = document.querySelector(".milieux")
 
