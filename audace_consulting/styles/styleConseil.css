@@ -305,6 +305,14 @@
 
 }
 
+@media(max-width: 850px) {
+
+    .fond {
+        display: none;
+
+    }
+}
+
 
 
 

@@ -27,6 +27,11 @@ let milieux = document.querySelector(".milieux")
 
 let modules = document.querySelector(".modules")
 
+let Msm1 = document.querySelector(".Msm1")
+let Msm2 = document.querySelector(".Msm2")
+let Msm3 = document.querySelector(".Msm3")
+let Msm4 = document.querySelector(".Msm4")
+
 
 
 scrollbars.visible = false;
@@ -147,5 +152,52 @@ forum.addEventListener('click', () => {
 
 
 
+
+})
+
+Msm1.addEventListener('click', () => {
+
+    contenuVente.classList.add('contenuMove')
+    contenuVente.classList.add('animationContenu')
+
+
+    window.setTimeout(() => {
+        contenuVente.classList.remove('contenuMove')
+        titreFormation.innerHTML = 'Audit'
+        contenuVente.classList.remove('animationContenu')
+        milieux.classList.remove('opacityM')
+    }, 200)
+
+})
+
+Msm2.addEventListener('click', () => {
+
+    contenuVente.classList.add('contenuMove')
+    contenuVente.classList.add('animationContenu')
+
+
+    window.setTimeout(() => {
+        contenuVente.classList.remove('contenuMove')
+        titreFormation.innerHTML = 'Consulting'
+        texte.innerHTML = 'Nous vous guidons et nous répondons à vos besoins par des solutions adaptées et innovantes. AUDACE Consulting accompagne les entreprises dans l’optimisation des ressources humaines et financières, dans le choix des partenaires pour une évolution du chiffre d’affaires et pour une meilleure rentabilité. <br> Notre cœur de métier est : <br> - l’audit <br> - le benchmark <br> - la transformation <br> - la performance opérationnelle'
+        contenuVente.classList.remove('animationContenu')
+        milieux.classList.remove('opacityM')
+    }, 200)
+
+})
+
+Msm3.addEventListener('click', () => {
+
+    contenuVente.classList.add('contenuMove')
+    contenuVente.classList.add('animationContenu')
+
+
+    window.setTimeout(() => {
+        contenuVente.classList.remove('contenuMove')
+        titreFormation.innerHTML = 'Business consulting '
+        texte.innerHTML = 'Notre division stratégie commerciale accompagne les entreprises dans le développement de leur chiffre d’affaires. <br> <br> Nos consultants commerciaux bénéficient d’une solide expérience dans de grandes entreprises où la part commerciale est prépondérante. <br> <br> Ils sont tous formés et maîtrisent l’utilisation de nos outils. <br> Nous nous engageons à trouver des solutions adaptées pour les entreprises afin d’obtenir le meilleur retour sur investissement.'
+        contenuVente.classList.remove('animationContenu')
+        milieux.classList.remove('opacityM')
+    }, 200)
 
 })

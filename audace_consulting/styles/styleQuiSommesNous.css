@@ -304,6 +304,14 @@
 
 }
 
+@media(max-width: 850px) {
+
+    .fond {
+        display: none;
+
+    }
+}
+
 .opacityM {
     opacity: 0;
     transition-duration: 0.5s;
