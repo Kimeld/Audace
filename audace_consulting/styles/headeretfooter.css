@@ -116,7 +116,23 @@ body {
     font-weight: 400;
 }
 
-@media(max-width: 1320px) {
+@media(max-width: 1180px) {
+    .category {
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 19px;
+
+    }
+    .category a {
+        font-size: 12px;
+        text-decoration: none;
+        color: #707070;
+        transition-duration: 0.5s;
+        font-weight: 400;
+    }
+
+}
+
+@media(min-width: 1180px) and (max-width: 1320px) {
     .category {
         font-family: 'Montserrat', sans-serif;
         margin-top: 19px;
@@ -450,7 +466,7 @@ input {
     }
 }
 
-@media(max-width: 767px) {
+@media(max-width: 800px) {
     .footer {
         height: 500px;
     }
@@ -462,8 +478,13 @@ input {
 
 
     }
+    .secondMenu {
+        display: none;
+
+
+    }
     .burgerDiv {
-        height: 200px;
+        height: 240px;
         background-color: black;
     }
     .burger {
@@ -492,11 +513,13 @@ input {
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         text-decoration: none;
-        font-size: 14px;
+        font-size: 16px;
         transition-duration: 0.5s;
         text-decoration: none;
         color: white;
         margin-top: 10px;
+        border-bottom: solid;
+        border-width: 1px;
 
 
     }
@@ -505,7 +528,7 @@ input {
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         opacity: 0.5;
-        font-size: 14px;
+        font-size: 16px;
         transition-duration: 0.5s;
         text-decoration: none;
         color: #E00034;
@@ -516,10 +539,10 @@ input {
 
     .MsousMenu {
         color: white;
-        font-size: 10px;
+        font-size: 14px;
         display: inline-block;
         transition-duration: 0.5s;
-        margin-left: 5px;
+        margin-left: 10px;
         text-decoration: none;
 
 

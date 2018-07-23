@@ -83,7 +83,7 @@
     display: none;
 }
 
-
+/*
 .fond {
     width: 1095px;
     height: 929px;
@@ -92,8 +92,46 @@
     background-repeat: no-repeat;
     position: fixed;
     z-index: -1;
-    opacity: 0.7;
+    opacity: 0;
     top: 40px;
     left: 450px;
+
+}
+
+*/
+
+.fond {
+    opacity: 0;
+}
+
+.imgEquipe {
+    width: 995px;
+    height: 829px;
+    background-image: url(../images/equipe.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -1;
+    opacity: 0.7;
+    top: 110px;
+    left: 820px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+
+}
+
+.imgQualite {
+    width: 795px;
+    height: 529px;
+    background-image: url(../images/Qualite.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -1;
+    opacity: 0.4;
+    top: 160px;
+    left: 1000px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
 
 }

@@ -22,6 +22,7 @@ let contenuManagement = document.querySelector(".contenuManagement")
 
 let titreFormation = document.querySelector(".titreFormation")
 let texte = document.querySelector(".texte")
+let fond = document.querySelector(".fond")
 
 let milieux = document.querySelector(".milieux")
 
@@ -57,7 +58,10 @@ let key = document.querySelector(".key")
 
 let close = document.querySelector(".close")
 
-
+let Msm1 = document.querySelector(".Msm1")
+let Msm2 = document.querySelector(".Msm2")
+let Msm3 = document.querySelector(".Msm3")
+let Msm4 = document.querySelector(".Msm4")
 
 scrollbars.visible = false;
 
@@ -90,7 +94,8 @@ sm1.addEventListener('click', () => {
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
-
+    fond.classList.remove('imgEquipe')
+    fond.classList.add('imgQualite')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -108,6 +113,8 @@ sm2.addEventListener('click', () => {
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
 
+    fond.classList.remove('imgQualite')
+    fond.classList.add('imgEquipe')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -200,4 +207,71 @@ forum.addEventListener('click', () => {
 
 
 
+})
+
+Msm1.addEventListener('click', () => {
+
+    contenuVente.classList.add('contenuMove')
+    contenuVente.classList.add('animationContenu')
+    fond.classList.remove('imgEquipe')
+    fond.classList.add('imgQualite')
+
+    window.setTimeout(() => {
+        contenuVente.classList.remove('contenuMove')
+        titreFormation.innerHTML = 'Nos valeurs'
+        texte.innerHTML = 'Nous croyons énormément à la capacité de tout un chacun à «Oser pour réussir » Pour cela, nous optimisons le « Savoir être » pour développer le « Savoir faire » des managers et collaborateurs au travers des valeurs suivantes : <br> - Performance <br> - Développement durable de la formation <br> - Bienveillance'
+        contenuVente.classList.remove('animationContenu')
+
+
+    }, 200)
+})
+
+
+Msm2.addEventListener('click', () => {
+
+    contenuVente.classList.add('contenuMove')
+    contenuVente.classList.add('animationContenu')
+
+    fond.classList.remove('imgQualite')
+    fond.classList.add('imgEquipe')
+
+    window.setTimeout(() => {
+        contenuVente.classList.remove('contenuMove')
+        titreFormation.innerHTML = 'Notre équipe'
+        texte.innerHTML = 'Une équipe à votre écoute et à votre service AUDACE Consulting est constituée de consultants tous formés aux différents outils de mesure de la personnalité,à la Programmation Neuro-Linguistique PNL, et sont en formation continue afin de toujours maintenir :  <br> Une équipe de formateurs compétents <br> Une organisation solide et rigoureuse  <br> Une proposition de solutions sur mesure <br> Un respect des délais  <br> Une orientation vers l’efficacité <br> Un feedback clair et précis'
+        contenuVente.classList.remove('animationContenu')
+
+
+    }, 200)
+})
+
+Msm3.addEventListener('click', () => {
+
+    contenuVente.classList.add('contenuMove')
+    contenuVente.classList.add('animationContenu')
+
+
+    window.setTimeout(() => {
+        contenuVente.classList.remove('contenuMove')
+        titreFormation.innerHTML = 'Pédagogie'
+        texte.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, asperiores mollitia repellat illo ullam animi vel, delectus reprehenderit sint dicta culpa eveniet molestiae eos magnam, nulla libero quam reiciendis dignissimos?'
+        contenuVente.classList.remove('animationContenu')
+
+
+    }, 200)
+})
+
+Msm4.addEventListener('click', () => {
+
+    contenuVente.classList.add('contenuMove')
+    contenuVente.classList.add('animationContenu')
+
+
+    window.setTimeout(() => {
+        contenuVente.classList.remove('contenuMove')
+        titreFormation.innerHTML = 'Testimonial'
+        texte.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, asperiores mollitia repellat illo ullam animi vel, delectus reprehenderit sint dicta culpa eveniet molestiae eos magnam, nulla libero quam reiciendis dignissimos?'
+        contenuVente.classList.remove('animationContenu')
+
+    }, 200)
 })
