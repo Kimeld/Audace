@@ -442,3 +442,95 @@ body {
 input {
     transform: scaleY(1.2);
 }
+
+
+@media(min-width: 851px) {
+    .burger {
+        display: none;
+    }
+}
+
+@media(max-width: 767px) {
+    .footer {
+        height: 500px;
+    }
+}
+
+@media(max-width: 850px) {
+    .menuContainer {
+        display: none;
+
+
+    }
+    .burgerDiv {
+        height: 200px;
+        background-color: black;
+    }
+    .burger {
+        position: relative;
+        background-color: #E00034;
+    }
+    .buttonPos {
+        position: absolute;
+        left: 10px;
+        height: 30px;
+    }
+    .navBackColor1 {
+        background-color: #E00034;
+        border-color: #E00034;
+    }
+    .navBackColor3 {
+        background-color: white;
+        border-color: white
+    }
+    .navBackColor2 {
+        background-color: #C6C6C6;
+    }
+
+    .burgerDiv .menuA {
+        display: block;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        text-decoration: none;
+        font-size: 14px;
+        transition-duration: 0.5s;
+        text-decoration: none;
+        color: white;
+        margin-top: 10px;
+
+
+    }
+    .burgerDiv .menuA:hover {
+        display: block;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        opacity: 0.5;
+        font-size: 14px;
+        transition-duration: 0.5s;
+        text-decoration: none;
+        color: #E00034;
+
+
+
+    }
+
+    .MsousMenu {
+        color: white;
+        font-size: 10px;
+        display: inline-block;
+        transition-duration: 0.5s;
+        margin-left: 5px;
+        text-decoration: none;
+
+
+    }
+    .MsousMenu:hover {
+        transition-duration: 0.5s;
+        text-decoration: none;
+        color: #E00034;
+        opacity: 0.5;
+
+
+    }
+
+}
