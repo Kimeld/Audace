@@ -23,6 +23,7 @@ let contenuManagement = document.querySelector(".contenuManagement")
 let titreFormation = document.querySelector(".titreFormation")
 let texte = document.querySelector(".texte")
 let fond = document.querySelector(".fond")
+let titreTexte = document.querySelector(".titreEtTexte")
 
 let milieux = document.querySelector(".milieux")
 
@@ -94,7 +95,11 @@ sm1.addEventListener('click', () => {
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
+
+    titreTexte.classList.remove('opacityM')
+
     fond.classList.remove('imgEquipe')
+    fond.classList.remove('imgTestimonial')
     fond.classList.add('imgQualite')
 
     window.setTimeout(() => {
@@ -113,7 +118,10 @@ sm2.addEventListener('click', () => {
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
 
+    titreTexte.classList.remove('opacityM')
+
     fond.classList.remove('imgQualite')
+    fond.classList.remove('imgTestimonial')
     fond.classList.add('imgEquipe')
 
     window.setTimeout(() => {
@@ -131,6 +139,9 @@ sm3.addEventListener('click', () => {
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
 
+    fond.classList.remove('imgTestimonial')
+
+    titreTexte.classList.remove('opacityM')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -147,11 +158,18 @@ sm4.addEventListener('click', () => {
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
 
+    titreTexte.classList.add('opacityM')
+
+    fond.classList.remove('imgQualite')
+    fond.classList.remove('imgEquipe')
+    fond.classList.add('imgTestimonial')
+
+
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Testimonial'
-        texte.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, asperiores mollitia repellat illo ullam animi vel, delectus reprehenderit sint dicta culpa eveniet molestiae eos magnam, nulla libero quam reiciendis dignissimos?'
+        titreFormation.innerHTML = ''
+        texte.innerHTML = ''
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -216,6 +234,8 @@ Msm1.addEventListener('click', () => {
     fond.classList.remove('imgEquipe')
     fond.classList.add('imgQualite')
 
+    titreTexte.classList.remove('opacityM')
+
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Nos valeurs'
@@ -231,6 +251,8 @@ Msm2.addEventListener('click', () => {
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
+
+    titreTexte.classList.remove('opacityM')
 
     fond.classList.remove('imgQualite')
     fond.classList.add('imgEquipe')
@@ -250,6 +272,7 @@ Msm3.addEventListener('click', () => {
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
 
+    titreTexte.classList.remove('opacityM')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -266,6 +289,7 @@ Msm4.addEventListener('click', () => {
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
 
+    titreTexte.classList.remove('opacityM')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
