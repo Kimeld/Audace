@@ -22,12 +22,14 @@
     font-size: 18px;
     margin-top: 40px;
 }
-
+//
 .titreEtTexte {
     background-color: white;
     border-radius: 100px;
     margin-left: 12%;
     margin-bottom: 360px;
+    display: inline;
+   
 
 }
 
@@ -38,8 +40,9 @@
     opacity: 1;
     transition-property: all;
     transition-timing-function: ease-in-out;
+    text-align: center;
 }
-
+//
 .contenuMove {
     opacity: 0;
     transform: translateX(40vw);

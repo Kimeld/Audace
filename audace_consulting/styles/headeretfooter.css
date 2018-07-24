@@ -484,7 +484,7 @@ input {
 
     }
     .burgerDiv {
-        height: 240px;
+        height: 280px;
         background-color: black;
     }
     .burger {
@@ -517,8 +517,8 @@ input {
         transition-duration: 0.5s;
         text-decoration: none;
         color: white;
-        margin-top: 10px;
-        
+        margin-top: 20px;
+
 
 
     }
@@ -537,12 +537,26 @@ input {
     }
 
     .MsousMenu {
+        color: #707070;
+        font-size: 10px;
+        display: block;
+        transition-duration: 0.5s;
+        margin-left: 0px;
+        text-decoration: none;
+        margin-top: 70px;
+        width: 90px;
+        text-align: center;
+
+
+    }
+    .MsousMenuF {
         color: white;
-        font-size: 14px;
+        font-size: 10px;
         display: inline-block;
         transition-duration: 0.5s;
-        margin-left: 10px;
+        margin-left: 15px;
         text-decoration: none;
+
 
 
     }
@@ -553,6 +567,20 @@ input {
         opacity: 0.5;
 
 
+    }
+    .MsousMenuF:hover {
+        transition-duration: 0.5s;
+        text-decoration: none;
+        color: #E00034;
+        opacity: 0.5;
+
+
+    }
+    .burger img {
+        position: absolute;
+        width: 50px;
+        right: 10px;
+        top: 25px;
     }
 
 }
