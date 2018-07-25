@@ -59,7 +59,7 @@
 
 }
 
-
+/*
 .animationContenu {
     animation-name: animationContenu;
     animation-duration: 1s;
@@ -67,11 +67,11 @@
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: forwards;
-    /* sens de l'animation*/
+
     /*animation-fill-mode: backwards;/*etat de debut ou final*/
 }
 
-
+/*
 @keyframes animationContenu {
     0% {
         opacity: 0;
@@ -83,7 +83,7 @@
         opacity: 0;
     }
 }
-
+*/
 
 .displayNone {
     display: none;

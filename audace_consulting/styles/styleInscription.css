@@ -1,3 +1,5 @@
+.contenu {}
+
 .description {
     height: 200px;
 
@@ -90,6 +92,7 @@
 .pastille img {
     width: 100px;
 }
+
 /*
 .network img {
     width: 30px;

@@ -35,7 +35,7 @@ scrollbars.visible = false;
 
 sousMenu.classList.remove('marginQuiSommesNous');
 sousMenu.classList.remove('marginSolution');
-sousMenu.classList.remove('marginConseil');
+sousMenu.classList.add('marginConseil');
 //sousMenu.classList.add('marginFormations');
 
 smC.classList.remove('smS');
@@ -58,11 +58,11 @@ window.setTimeout(() => {
     sousMenu.classList.add('sousMenuMove');
 }, 200)
 
-sm1.innerHTML = ''
-sm2.innerHTML = 'À la une'
-sm3.innerHTML = 'Contact'
+sm2.innerHTML = ''
+sm1.innerHTML = 'À la une'
+sm2.innerHTML = 'Contact'
+sm3.innerHTML = 'Devis'
 sm4.innerHTML = ''
-sm5.innerHTML = ''
 
 
 sm1.setAttribute('href', 'mana.html')
@@ -100,11 +100,11 @@ forum.addEventListener('click', () => {
         sousMenu.classList.add('sousMenuMove');
     }, 200)
 
-    sm1.innerHTML = ''
-    sm2.innerHTML = 'À la une'
-    sm3.innerHTML = 'Contact'
+    sm2.innerHTML = ''
+    sm1.innerHTML = 'À la une'
+    sm2.innerHTML = 'Contact'
+    sm3.innerHTML = 'Devis'
     sm4.innerHTML = ''
-    sm5.innerHTML = ''
 
 
     sm1.setAttribute('href', 'mana.html')
