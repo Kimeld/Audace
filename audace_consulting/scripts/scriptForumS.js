@@ -65,16 +65,17 @@ sm3.innerHTML = 'Devis'
 sm4.innerHTML = ''
 
 
-sm1.setAttribute('href', 'mana.html')
-sm2.setAttribute('href', 'news.html')
-sm3.setAttribute('href', 'inscription.html')
-sm4.setAttribute('href', 'formateur.html')
+sm1.setAttribute('href', '../pages/news.html')
+sm2.setAttribute('href', '../pages/inscription.html')
+sm3.setAttribute('href', '../pages/devis.html')
+sm4.setAttribute('href', '../pages/formateur.html')
 
 forum.addEventListener('click', () => {
     console.log(quiSommes)
 
     sousMenu.classList.remove('animationSousMenu');
     sousMenu.classList.remove('sousMenuMove');
+    sousMenu.classList.add('marginConseil');
 
     sousMenu.classList.remove('marginQuiSommesNous');
     sousMenu.classList.remove('marginSolution');
@@ -107,9 +108,9 @@ forum.addEventListener('click', () => {
     sm4.innerHTML = ''
 
 
-    sm1.setAttribute('href', 'mana.html')
-    sm2.setAttribute('href', 'pages/news.html')
-    sm3.setAttribute('href', 'pagess/inscritption.html')
+    sm1.setAttribute('href', 'news.html')
+    sm2.setAttribute('href', 'inscritption.html')
+    sm3.setAttribute('href', 'devis.html')
     sm4.setAttribute('href', 'formateur.html')
 
 

@@ -71,37 +71,17 @@
 
     </div>
 
-    <div class="container-fluid contenu">
+    <div class="container-fluid contenu contenuActive">
         <div class="col-lg-8 col-lg-offset-2">
             <div class="description col-lg-10 col-lg-offset-1">
-                <h1>Contact</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore quo ad explicabo minima enim, consequuntur quidem provident ab, maiores, modi inventore. Aliquam maxime dignissimos deleniti ad modi, repellendus debitis doloribus?</p>
+                <h1>Devis</h1>
+                <p>Saisir vos coordonnées :</p>
             </div>
-            <div class="form col-sm-12 col-sm-offset-0">
+            <div class="form col-sm-6 col-sm-offset-3">
 
-                <div class="pastille"><img src="../images/LogoAudaceAC-OR.png" alt=""></div>
-                <form action="#" methode="post" class="col-lg-10 col-lg-offset-1">
-                    <div class="col-sm-6">
-                        <div class="form-group champs">
-                            <label for="exampleInputEmail1">Nom</label>
-                            <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" height="100">
 
-                        </div>
-
-                        <div class="form-group champs">
-                            <label for="exampleInputEmail1">Prénom</label>
-                            <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
-
-                        </div>
-
-                        <div class="form-group form-check genre">
-                            <label class="form-check-label" for="exampleCheck1">Genre :</label>
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label h" for="exampleCheck1">Femme</label>
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label f" for="exampleCheck1">Homme</label>
-                        </div>
-
+                <form action="#" methode="post" class="col-lg-12 col-lg-offset-1">
+                    <div class="col-sm-6 col-sm-offset-2">
                         <div class="form-group champs">
                             <label for="exampleInputEmail1">Entreprise</label>
                             <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -109,16 +89,11 @@
                         </div>
 
                         <div class="form-group champs">
-                            <label for="exampleInputEmail1">Pays</label>
+                            <label for="exampleInputEmail1">Contact</label>
                             <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
 
                         </div>
 
-                        <div class="form-group champs">
-                            <label for="exampleInputEmail1">Ville</label>
-                            <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
-
-                        </div>
 
                         <div class="form-group champs">
                             <label for="exampleInputEmail1">Email</label>
@@ -127,34 +102,29 @@
                         </div>
 
                         <div class="form-group champs">
-                            <label for="exampleInputEmail1">Mot de passe</label>
-                            <input type="password" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <label for="exampleInputEmail1">tel.</label>
+                            <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
 
                         </div>
                     </div>
-                    <div class="col-sm-6 second">
 
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Object (facultatif)</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="17"></textarea>
-                        </div>
-                        <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">je souhaite reçevoir la newsletter</label>
-                        </div>
-                        <button type="submit" class="btn btn-light">Submit</button>
-                        <div class="network">
-                            <a href="https://www.facebook.com/audaceconsulting/?hc_ref=ARSvORTghtA3nkvlstqvfWbaAsXkeQbCSBmkZmNTZ9nlYZQsUQ9roXzqPq75S8y1_oM&fref=nf" class="face"><img src="../images/facebook.svg" alt=""></a>
-                            <a href="https://www.linkedin.com/company/audace-consulting/" class="linke"><img src="../images/linkedin.svg" alt=""></a>
-                        </div>
-
-                    </div>
                 </form>
             </div>
         </div>
     </div>
 
-
+    <div class="container-fluid footerPush ">
+        <div class="sectionNav col-sm-8 col-sm-offset-2">
+            <div class="bouttonPre preInvi col-sm-4 col-sm-offset-0">Précédent</div>
+            <div class="boutonRep col-sm-2 col-sm-offset-3">
+                <div class="rep1 repActive"></div>
+                <div class="rep2"></div>
+                <div class="rep3"></div>
+                <div class="rep4"></div>
+            </div>
+            <div class="bouttonSui col-sm-offset-10">Suivant</div>
+        </div>
+    </div>
     <footer class="container-fluid footer">
 
         <div class="arbo col-sm-3 col-sm-offset-2 col-md-3 col-md-offset-2 col-lg-3 col-lg-offset-3">
@@ -194,6 +164,7 @@
 
 
     <script src="../scripts/scriptForumS.js"></script>
+    <script src="../scripts/scriptDevis.js"></script>
     <script src="../scripts/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

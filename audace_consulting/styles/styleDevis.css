@@ -1,18 +1,36 @@
+body {
+    position: relative;
+}
 
-body
 
+.contenuActive {
+    position: absolute;
+    transform: translateX(0vw);
+    transition-property: all;
+    transition-duration: 1s;
+    opacity: 1;
+    transition-timing-function: ease-in-out;
+}
 
-.contenu {}
+.contenuNoActive {
+    position: fixed;
+    transform: translateX(100vw) scale(0.5);
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
 
 .description {
-    height: 200px;
+    height: 150px;
 
-    margin-bottom: 45px;
+    margin-bottom: 5px;
 }
 
 .form {
-    height: 600px;
+    height: 400px;
     background-color: #F3F3F3;
+    padding-top: 20px;
     margin-bottom: 45px;
     border-radius: 64px;
     border: solid;
@@ -39,11 +57,7 @@ body
     font-size: 42px;
 }
 
-.form:hover form {
-    transform: scale(1.2);
-    transition-property: all;
-    transition-duration: 1s;
-}
+
 
 .description p {
     font-family: 'Roboto', sans-serif;
@@ -54,8 +68,11 @@ body
 }
 
 .form form {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #707070;
     margin-top: 18%;
-    transform: scale(1.18);
+    transform: scale(1.7);
     transition-property: all;
     transition-duration: 1s;
 
@@ -79,23 +96,135 @@ body
     width: 300px;
 }
 
-.second button {
-    height: 25px;
+
+
+
+
+
+.footerPush {
+    margin-top: 580px;
+    margin-bottom: 0px;
+    height: 100px;
+
+}
+
+.sectionNav {
+
+    height: 100px;
+}
+
+.bouttonPre {
+
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
     border: solid;
-    border-width: 0.5px;
     border-color: #707070;
+    border-width: 1px;
+    color: #707070;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    transition-duration: 0.5s;
+    transition-property: all;
 }
 
-.pastille {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 100px;
+.bouttonPre:hover {
+
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border: solid;
+    border-color: white;
+    color: white;
+    background-color: #BC1C2A;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+    cursor: pointer;
 }
 
-.pastille img {
-    width: 100px;
+.bouttonSui {
+
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 400;
+    font-size: 16px;
+    border: solid;
+    border-color: #707070;
+    color: #707070;
+    border-width: 0.5px;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    transition-duration: 0.5s;
+    transition-property: all;
 }
+
+.bouttonSui:hover {
+
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border: solid;
+    border-color: white;
+    color: white;
+    background-color: #BC1C2A;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+    cursor: pointer;
+}
+
+.boutonRep {
+
+    height: 50px;
+    text-align: center;
+}
+
+.boutonRep div {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: solid;
+    border-color: #707070;
+    border-width: 1px;
+    border-radius: 100px;
+    margin: 15px 4px 0px 4px;
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+}
+
+.repActive {
+    background-color: #707070;
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+}
+
+.preInvi {
+    opacity: 0;
+}
+
 
 /*
 .network img {

@@ -113,9 +113,9 @@ forum.addEventListener('click', () => {
     sousMenu.classList.remove('animationSousMenu');
     sousMenu.classList.remove('sousMenuMove');
 
+    sousMenu.classList.add('marginConseil');
     sousMenu.classList.remove('marginQuiSommesNous');
     sousMenu.classList.remove('marginSolution');
-    sousMenu.classList.remove('marginConseil');
     //sousMenu.classList.add('marginFormations');
 
     smC.classList.remove('smS');
@@ -138,22 +138,23 @@ forum.addEventListener('click', () => {
         sousMenu.classList.add('sousMenuMove');
     }, 200)
 
-    sm1.innerHTML = ''
-    sm2.innerHTML = 'À la une'
-    sm3.innerHTML = 'Contact'
+    sm2.innerHTML = ''
+    sm1.innerHTML = 'À la une'
+    sm2.innerHTML = 'Contact'
+    sm3.innerHTML = 'Devis'
     sm4.innerHTML = ''
-    sm5.innerHTML = ''
 
 
-    sm1.setAttribute('href', 'mana.html')
-    sm2.setAttribute('href', 'news.html')
-    sm3.setAttribute('href', 'inscription.html')
+    sm1.setAttribute('href', 'news.html')
+    sm2.setAttribute('href', 'inscription.html')
+    sm3.setAttribute('href', 'devis.html')
     sm4.setAttribute('href', 'formateur.html')
 
 
 
 
 })
+
 /*
 Msm1.addEventListener('click', () => {
 

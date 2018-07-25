@@ -99,6 +99,8 @@ sm1.addEventListener('click', () => {
     titreTexte.classList.remove('opacityM')
 
     fond.classList.remove('imgEquipe')
+    fond.classList.remove('imgEquipe2')
+    fond.classList.remove('imgPedagogie')
     fond.classList.remove('imgTestimonial')
     fond.classList.add('imgQualite')
 
@@ -122,12 +124,13 @@ sm2.addEventListener('click', () => {
 
     fond.classList.remove('imgQualite')
     fond.classList.remove('imgTestimonial')
-    fond.classList.add('imgEquipe')
+    fond.classList.remove('imgPedagogie')
+    fond.classList.add('imgEquipe2')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Notre équipe'
-        texte.innerHTML = 'Une équipe à votre écoute et à votre service AUDACE Consulting est constituée de consultants tous formés aux différents outils de mesure de la personnalité,à la Programmation Neuro-Linguistique PNL, et sont en formation continue afin de toujours maintenir :  <br> Une équipe de formateurs compétents <br> Une organisation solide et rigoureuse  <br> Une proposition de solutions sur mesure <br> Un respect des délais  <br> Une orientation vers l’efficacité <br> Un feedback clair et précis'
+        texte.innerHTML = 'Une équipe à votre écoute et à votre service AUDACE Consulting est constituée de consultants tous formés aux différents outils de mesure de la personnalité,à la Programmation Neuro-Linguistique PNL, et sont en formation continue afin de toujours maintenir :  <br> - Une équipe de formateurs compétents <br> - Une organisation solide et rigoureuse  <br> - Une proposition de solutions sur mesure <br> - Un respect des délais  <br> - Une orientation vers l’efficacité <br> - Un feedback clair et précis'
         contenuVente.classList.remove('animationContenu')
 
 
@@ -139,9 +142,17 @@ sm3.addEventListener('click', () => {
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
 
+
+    fond.classList.remove('imgQualite')
     fond.classList.remove('imgTestimonial')
 
+    fond.classList.remove('imgEquipe')
+    fond.classList.remove('imgTestimonial')
+    fond.classList.remove('imgEquipe2')
+
     titreTexte.classList.remove('opacityM')
+
+    fond.classList.add('imgPedagogie')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -160,8 +171,14 @@ sm4.addEventListener('click', () => {
 
     titreTexte.classList.add('opacityM')
 
+
+
+
+    fond.classList.remove('imgPedagogie')
+
     fond.classList.remove('imgQualite')
     fond.classList.remove('imgEquipe')
+    fond.classList.remove('imgEquipe2')
     fond.classList.add('imgTestimonial')
 
 
@@ -185,7 +202,7 @@ forum.addEventListener('click', () => {
 
     sousMenu.classList.remove('animationSousMenu');
     sousMenu.classList.remove('sousMenuMove');
-
+    sousMenu.classList.add('marginConseil');
     sousMenu.classList.remove('marginQuiSommesNous');
     sousMenu.classList.remove('marginSolution');
     //sousMenu.classList.add('marginFormations');
@@ -210,22 +227,23 @@ forum.addEventListener('click', () => {
         sousMenu.classList.add('sousMenuMove');
     }, 200)
 
-    sm1.innerHTML = ''
-    sm2.innerHTML = 'À la une'
-    sm3.innerHTML = 'Contact'
+    sm2.innerHTML = ''
+    sm1.innerHTML = 'À la une'
+    sm2.innerHTML = 'Contact'
+    sm3.innerHTML = 'Devis'
     sm4.innerHTML = ''
-    sm5.innerHTML = ''
 
 
-    sm1.setAttribute('href', 'mana.html')
-    sm2.setAttribute('href', 'news.html')
-    sm3.setAttribute('href', 'inscription.html')
+    sm1.setAttribute('href', 'news.html')
+    sm2.setAttribute('href', 'inscritption.html')
+    sm3.setAttribute('href', 'devis.html')
     sm4.setAttribute('href', 'formateur.html')
 
 
 
 
 })
+
 
 Msm1.addEventListener('click', () => {
 

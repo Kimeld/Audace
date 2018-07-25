@@ -356,21 +356,39 @@
 }
 */
 
-.fond {
-    width: 600px;
-    height: 433px;
-    background-image: url(../images/Consulting.png);
+.fond {}
+
+.imgMana {
+    width: 795px;
+    height: 529px;
+    background-image: url(../images/Management2.png);
     background-size: contain;
     background-repeat: no-repeat;
     position: fixed;
     z-index: -1;
     opacity: 1;
-    top: 180px;
-    right: 100px;
+    top: 150px;
+    left: 870px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
 
 }
 
+.imgVente {
+    width: 795px;
+    height: 529px;
+    background-image: url(../images/Vente&nego.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -1;
+    opacity: 1;
+    top: 150px;
+    left: 870px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
 
+}
 
 
 
