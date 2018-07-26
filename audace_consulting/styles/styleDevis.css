@@ -3,11 +3,12 @@ body {
 }
 
 
+
 .contenuActive {
     position: absolute;
     transform: translateX(0vw);
     transition-property: all;
-    transition-duration: 1s;
+    transition-duration: 1.5s;
     opacity: 1;
     transition-timing-function: ease-in-out;
 }
@@ -21,10 +22,183 @@ body {
     transition-timing-function: ease-in-out;
 }
 
-.description {
-    height: 150px;
 
-    margin-bottom: 5px;
+.contenuNoActive2 {
+
+    transform: scale(0.5);
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+}
+
+.none {
+    display: none;
+}
+
+.description {
+    height: 120px;
+
+    margin-bottom: 0px;
+}
+
+.navForm {
+    height: 200px;
+
+}
+
+.fleche {
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.fleche img {
+    height: 40px;
+}
+
+.trait {
+    position: relative;
+    background-color: #707070;
+    margin-top: 99px;
+    height: 1px;
+}
+
+.cercleForm {
+    border: solid;
+    border-radius: 100px;
+    border-color: #707070;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    background-color: #707070;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+
+    bottom: -15px;
+}
+
+.cercleForm:hover {
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+    background-color: #BC1C2A;
+    border-color: white;
+    transform: scale(1.8);
+    cursor: pointer;
+
+}
+
+.cercle1 {
+    left: 0px;
+
+}
+
+.cercle2 {
+    margin-left: 42%;
+}
+
+.cercle3 {
+    right: 0px;
+}
+
+.cercleActive {
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+    background-color: #BC1C2A;
+    border-color: white;
+    transform: scale(1.4);
+    cursor: pointer;
+}
+
+
+.cercleFormTitres {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 70px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    top: 40px;
+}
+
+
+
+
+.titreConseil {
+    position: absolute;
+    top: -10px;
+    margin-left: 38%;
+}
+
+.titreSolution {
+    position: absolute;
+    right: -57px;
+    top: -10px;
+}
+
+.titreMana {
+    position: absolute;
+    left: -7px;
+    top: -10px;
+}
+
+
+
+.navPro {
+    text-align: center;
+    height: 200px;
+}
+
+.navPro2 {
+    text-align: center;
+    height: 200px;
+}
+
+.navPro3 {
+    text-align: center;
+    height: 200px;
+}
+
+
+.programme {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    margin: 80px 20px 0px 20px;
+}
+
+.programme span {
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.programme:hover {
+    color: #BC1C2A;
+    cursor: pointer;
+
+}
+
+
+.bckc {
+    height: 300px;
+    background-color: aqua;
+}
+
+.rckc {
+    height: 200px;
+    background-color: crimson;
+}
+
+.vckc {
+    height: 300px;
+    background-color: chartreuse;
 }
 
 .form {
@@ -109,8 +283,9 @@ body {
 }
 
 .sectionNav {
-
+    text-align: center;
     height: 100px;
+    position: relative;
 }
 
 .bouttonPre {
@@ -120,16 +295,18 @@ body {
     font-weight: 400;
     font-size: 16px;
     border: solid;
-    border-color: #707070;
     border-width: 1px;
-    color: #707070;
+    border-color: #BC1C2A;
+    color: #BC1C2A;
     border-radius: 50px;
-    width: 150px;
-    height: 50px;
+    width: 140px;
+    height: 30px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 3px;
     transition-duration: 0.5s;
     transition-property: all;
+    position: absolute;
+    left: 0px;
 }
 
 .bouttonPre:hover {
@@ -143,10 +320,10 @@ body {
     color: white;
     background-color: #BC1C2A;
     border-radius: 50px;
-    width: 150px;
-    height: 50px;
+
+    height: 30px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 3px;
     transition-duration: 0.5s;
     transition-property: all;
     transition-timing-function: ease-out;
@@ -161,16 +338,18 @@ body {
     font-weight: 400;
     font-size: 16px;
     border: solid;
-    border-color: #707070;
-    color: #707070;
+    border-color: #BC1C2A;
+    color: #BC1C2A;
     border-width: 0.5px;
     border-radius: 50px;
-    width: 150px;
-    height: 50px;
+    width: 140px;
+    height: 30px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 3px;
     transition-duration: 0.5s;
     transition-property: all;
+    position: absolute;
+    right: 0px;
 }
 
 .bouttonSui:hover {
@@ -184,10 +363,10 @@ body {
     color: white;
     background-color: #BC1C2A;
     border-radius: 50px;
-    width: 150px;
-    height: 50px;
+    width: 140px;
+    height: 30px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 3px;
     transition-duration: 0.5s;
     transition-property: all;
     transition-timing-function: ease-out;
@@ -195,9 +374,9 @@ body {
 }
 
 .boutonRep {
-
+    display: inline-block;
     height: 50px;
-    text-align: center;
+
 }
 
 .boutonRep div {
@@ -205,7 +384,7 @@ body {
     width: 15px;
     height: 15px;
     border: solid;
-    border-color: #707070;
+    border-color: #BC1C2A;
     border-width: 1px;
     border-radius: 100px;
     margin: 15px 4px 0px 4px;
@@ -215,7 +394,7 @@ body {
 }
 
 .repActive {
-    background-color: #707070;
+    background-color: #BC1C2A;
     transition-duration: 0.5s;
     transition-property: all;
     transition-timing-function: ease-out;
