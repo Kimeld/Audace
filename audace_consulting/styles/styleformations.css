@@ -2,9 +2,6 @@
     color: #E00034;
 }
 
-.surBrilliance {
-    color: #E00034;
-}
 
 /*Contenu*/
 
@@ -375,8 +372,8 @@
 }
 
 .imgVente {
-    width: 795px;
-    height: 529px;
+    width: 495px;
+    height: 329px;
     background-image: url(../images/Vente&nego.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -384,6 +381,22 @@
     z-index: -1;
     opacity: 1;
     top: 150px;
+    left: 870px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+
+}
+
+.imgCom {
+    width: 595px;
+    height: 329px;
+    background-image: url(../images/Communication.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -1;
+    opacity: 1;
+    top: 110px;
     left: 870px;
     transition-property: opacity;
     transition-duration: 0.5s;

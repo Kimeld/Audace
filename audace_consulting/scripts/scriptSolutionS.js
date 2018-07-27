@@ -66,6 +66,14 @@ sm1.addEventListener('click', () => {
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
 
+    sm3.classList.add('sm13')
+    sm3.classList.remove('red')
+    sm4.classList.add('sm14')
+    sm4.classList.remove('red')
+    sm2.classList.add('sm12')
+    sm2.classList.remove('red')
+    sm1.classList.remove('sm11')
+    sm1.classList.add('red')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -81,6 +89,15 @@ sm2.addEventListener('click', () => {
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
 
+
+    sm1.classList.add('sm11')
+    sm1.classList.remove('red')
+    sm3.classList.add('sm13')
+    sm3.classList.remove('red')
+    sm4.classList.add('sm14')
+    sm4.classList.remove('red')
+    sm2.classList.remove('sm12')
+    sm2.classList.add('red')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -98,6 +115,15 @@ sm3.addEventListener('click', () => {
     contenuVente.classList.add('animationContenu')
 
 
+    sm1.classList.add('sm11')
+    sm1.classList.remove('red')
+    sm2.classList.add('sm12')
+    sm2.classList.remove('red')
+    sm4.classList.add('sm14')
+    sm4.classList.remove('red')
+    sm3.classList.remove('sm13')
+    sm3.classList.add('red')
+
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Coaching '
@@ -113,6 +139,15 @@ sm4.addEventListener('click', () => {
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
+
+    sm1.classList.add('sm11')
+    sm1.classList.remove('red')
+    sm3.classList.add('sm13')
+    sm3.classList.remove('red')
+    sm2.classList.add('sm14')
+    sm2.classList.remove('red')
+    sm4.classList.remove('sm14')
+    sm4.classList.add('red')
 
 
     window.setTimeout(() => {
@@ -172,13 +207,11 @@ forum.addEventListener('click', () => {
         sousMenu.classList.add('sousMenuMove');
     }, 200)
 
-    sm2.innerHTML = ''
-    sm1.innerHTML = 'À la une'
-    sm2.innerHTML = 'Contact'
-    sm3.innerHTML = 'Devis'
-    sm4.innerHTML = ''
     sm5.innerHTML = ''
-
+    sm1.innerHTML = '<a class="deco" href="news.html">À la une</a>'
+    sm2.innerHTML = '<a class="deco" href="inscription.html">contact</a>'
+    sm3.innerHTML = '<a class="deco" href="devis.html">Devis</a>'
+    sm4.innerHTML = ''
 
     sm1.setAttribute('href', 'news.html')
     sm2.setAttribute('href', 'inscription.html')

@@ -96,6 +96,18 @@ sm1.addEventListener('click', () => {
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
 
+
+    sm3.classList.add('sm13')
+    sm3.classList.remove('red')
+    sm4.classList.add('sm14')
+    sm4.classList.remove('red')
+    sm2.classList.add('sm12')
+    sm2.classList.remove('red')
+    sm1.classList.remove('sm11')
+    sm1.classList.add('red')
+
+    titreTexte.classList.remove('titreEtTexteTESTI')
+
     titreTexte.classList.remove('opacityM')
 
     fond.classList.remove('imgEquipe')
@@ -106,7 +118,7 @@ sm1.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Nos valeurs'
+        titreFormation.innerHTML = 'Performance, Développement, Bienveillance'
         texte.innerHTML = 'Nous croyons énormément à la capacité de tout un chacun à «Oser pour réussir » Pour cela, nous optimisons le « Savoir être » pour développer le « Savoir faire » des managers et collaborateurs au travers des valeurs suivantes : <br> - Performance <br> - Développement durable de la formation <br> - Bienveillance'
         contenuVente.classList.remove('animationContenu')
 
@@ -122,6 +134,17 @@ sm2.addEventListener('click', () => {
 
     titreTexte.classList.remove('opacityM')
 
+    titreTexte.classList.remove('titreEtTexteTESTI')
+
+    sm1.classList.add('sm11')
+    sm1.classList.remove('red')
+    sm3.classList.add('sm13')
+    sm3.classList.remove('red')
+    sm4.classList.add('sm14')
+    sm4.classList.remove('red')
+    sm2.classList.remove('sm12')
+    sm2.classList.add('red')
+
     fond.classList.remove('imgQualite')
     fond.classList.remove('imgTestimonial')
     fond.classList.remove('imgPedagogie')
@@ -129,7 +152,7 @@ sm2.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Notre équipe'
+        titreFormation.innerHTML = 'Une équipe centrée sur vos besoins'
         texte.innerHTML = 'Une équipe à votre écoute et à votre service AUDACE Consulting est constituée de consultants tous formés aux différents outils de mesure de la personnalité,à la Programmation Neuro-Linguistique PNL, et sont en formation continue afin de toujours maintenir :  <br> - Une équipe de formateurs compétents <br> - Une organisation solide et rigoureuse  <br> - Une proposition de solutions sur mesure <br> - Un respect des délais  <br> - Une orientation vers l’efficacité <br> - Un feedback clair et précis'
         contenuVente.classList.remove('animationContenu')
 
@@ -142,6 +165,16 @@ sm3.addEventListener('click', () => {
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
 
+    titreTexte.classList.remove('titreEtTexteTESTI')
+
+    sm1.classList.add('sm11')
+    sm1.classList.remove('red')
+    sm2.classList.add('sm12')
+    sm2.classList.remove('red')
+    sm4.classList.add('sm14')
+    sm4.classList.remove('red')
+    sm3.classList.remove('sm13')
+    sm3.classList.add('red')
 
     fond.classList.remove('imgQualite')
     fond.classList.remove('imgTestimonial')
@@ -156,7 +189,7 @@ sm3.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Pédagogie'
+        titreFormation.innerHTML = 'Une approche pragmatique et opérationnelle'
         texte.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, asperiores mollitia repellat illo ullam animi vel, delectus reprehenderit sint dicta culpa eveniet molestiae eos magnam, nulla libero quam reiciendis dignissimos?'
         contenuVente.classList.remove('animationContenu')
 
@@ -169,10 +202,18 @@ sm4.addEventListener('click', () => {
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
 
-    titreTexte.classList.add('opacityM')
+    //titreTexte.classList.add('opacityM')
 
+    titreTexte.classList.add('titreEtTexteTESTI')
 
-
+    sm1.classList.add('sm11')
+    sm1.classList.remove('red')
+    sm3.classList.add('sm13')
+    sm3.classList.remove('red')
+    sm2.classList.add('sm14')
+    sm2.classList.remove('red')
+    sm4.classList.remove('sm14')
+    sm4.classList.add('red')
 
     fond.classList.remove('imgPedagogie')
 
@@ -185,7 +226,7 @@ sm4.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = ''
+        titreFormation.innerHTML = ' Les partenaires qui nous ont fait confiance'
         texte.innerHTML = ''
         contenuVente.classList.remove('animationContenu')
 
@@ -209,6 +250,7 @@ forum.addEventListener('click', () => {
 
     smC.classList.remove('smS');
 
+    
     sm1.classList.remove('col-lg-1');
     sm2.classList.remove('col-lg-1');
     sm3.classList.remove('col-lg-1');
@@ -228,10 +270,10 @@ forum.addEventListener('click', () => {
     }, 200)
 
     sm2.innerHTML = ''
-    sm1.innerHTML = 'À la une'
-    sm2.innerHTML = 'Contact'
-    sm3.innerHTML = 'Devis'
-    sm4.innerHTML = ''
+sm1.innerHTML = '<a class="deco" href="news.html">À la une</a>'
+sm2.innerHTML = '<a class="deco" href="inscription.html">contact</a>'
+sm3.innerHTML = '<a class="deco" href="devis.html">Devis</a>'
+sm4.innerHTML = ''
 
 
     sm1.setAttribute('href', 'news.html')

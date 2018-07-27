@@ -63,10 +63,18 @@ sm1.addEventListener('click', () => {
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
 
+    sm3.classList.add('sm13')
+    sm3.classList.remove('red')
+    sm4.classList.add('sm14')
+    sm4.classList.remove('red')
+    sm2.classList.add('sm12')
+    sm2.classList.remove('red')
+    sm1.classList.remove('sm11')
+    sm1.classList.add('red')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Audit'
+        titreFormation.innerHTML = 'Un diagnostic précis de la situation '
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -78,10 +86,18 @@ sm2.addEventListener('click', () => {
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
 
+    sm1.classList.add('sm11')
+    sm1.classList.remove('red')
+    sm3.classList.add('sm13')
+    sm3.classList.remove('red')
+    sm4.classList.add('sm14')
+    sm4.classList.remove('red')
+    sm2.classList.remove('sm12')
+    sm2.classList.add('red')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Consulting'
+        titreFormation.innerHTML = 'Des solutions pertinentes'
         texte.innerHTML = 'Nous vous guidons et nous répondons à vos besoins par des solutions adaptées et innovantes. AUDACE Consulting accompagne les entreprises dans l’optimisation des ressources humaines et financières, dans le choix des partenaires pour une évolution du chiffre d’affaires et pour une meilleure rentabilité. <br> Notre cœur de métier est : <br> - l’audit <br> - le benchmark <br> - la transformation <br> - la performance opérationnelle'
         contenuVente.classList.remove('animationContenu')
 
@@ -95,9 +111,18 @@ sm3.addEventListener('click', () => {
     contenuVente.classList.add('animationContenu')
 
 
+    sm1.classList.add('sm11')
+    sm1.classList.remove('red')
+    sm2.classList.add('sm12')
+    sm2.classList.remove('red')
+    sm4.classList.add('sm14')
+    sm4.classList.remove('red')
+    sm3.classList.remove('sm13')
+    sm3.classList.add('red')
+
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Business consulting '
+        titreFormation.innerHTML = 'Des stratégies commerciales rentables '
         texte.innerHTML = 'Notre division stratégie commerciale accompagne les entreprises dans le développement de leur chiffre d’affaires. <br> <br> Nos consultants commerciaux bénéficient d’une solide expérience dans de grandes entreprises où la part commerciale est prépondérante. <br> <br> Ils sont tous formés et maîtrisent l’utilisation de nos outils. <br> Nous nous engageons à trouver des solutions adaptées pour les entreprises afin d’obtenir le meilleur retour sur investissement.'
         contenuVente.classList.remove('animationContenu')
 
@@ -139,9 +164,9 @@ forum.addEventListener('click', () => {
     }, 200)
 
     sm2.innerHTML = ''
-    sm1.innerHTML = 'À la une'
-    sm2.innerHTML = 'Contact'
-    sm3.innerHTML = 'Devis'
+    sm1.innerHTML = '<a class="deco" href="news.html">À la une</a>'
+    sm2.innerHTML = '<a class="deco" href="inscription.html">contact</a>'
+    sm3.innerHTML = '<a class="deco" href="devis.html">Devis</a>'
     sm4.innerHTML = ''
 
 

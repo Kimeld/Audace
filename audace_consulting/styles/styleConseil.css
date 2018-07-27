@@ -297,7 +297,7 @@
 */
 
 .fond {
-    width: 995px;
+    width: 595px;
     height: 829px;
     background-image: url(../images/Audit1.png);
     background-size: contain;
@@ -305,8 +305,8 @@
     position: fixed;
     z-index: -1;
     opacity: 0.5;
-    top: 40px;
-    right: -100px;
+    top:90px;
+    right: 50px;
 
 }
 

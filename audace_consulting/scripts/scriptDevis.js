@@ -14,6 +14,19 @@ let cercle1 = document.querySelector(".cercle1")
 let cercle2 = document.querySelector(".cercle2")
 let cercle3 = document.querySelector(".cercle3")
 
+let audit = document.querySelector(".audit")
+let checkAudit = document.querySelector(".checkAudit")
+let auditSelect = 0
+
+let consulting = document.querySelector(".consulting")
+let checkConsulting = document.querySelector(".checkConsulting")
+let consultingSelect = 0
+
+let business = document.querySelector(".business")
+let checkBusiness = document.querySelector(".checkBusiness")
+let businessSelect = 0
+
+
 
 let bouttonPre = document.querySelector(".bouttonPre")
 let bouttonSui = document.querySelector(".bouttonSui")
@@ -338,5 +351,50 @@ FG.addEventListener('click', () => {
         }
 
     }
+
+})
+
+audit.addEventListener('click', () => {
+
+    if (auditSelect == 0) {
+        checkAudit.setAttribute('src', '../images/check.png')
+        auditSelect++
+    } else {
+        checkAudit.setAttribute('src', '../images/plus-circle.png')
+        auditSelect--
+
+    }
+
+
+
+})
+
+consulting.addEventListener('click', () => {
+
+    if (consultingSelect == 0) {
+        checkConsulting.setAttribute('src', '../images/check.png')
+        consultingSelect++
+    } else {
+        checkConsulting.setAttribute('src', '../images/plus-circle.png')
+        consultingSelect--
+
+    }
+
+
+
+})
+
+business.addEventListener('click', () => {
+
+    if (businessSelect == 0) {
+        checkBusiness.setAttribute('src', '../images/check.png')
+        businessSelect++
+    } else {
+        checkBusiness.setAttribute('src', '../images/plus-circle.png')
+        businessSelect--
+
+    }
+
+
 
 })

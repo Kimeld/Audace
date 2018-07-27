@@ -3,7 +3,7 @@
 .contenu .titre {
     text-align: center;
 
-    margin-top: 131px;
+   
 
 }
 
@@ -24,9 +24,26 @@
 }
 
 .titreEtTexte {
-    background-color: white;
+    /*background-color: white;*/
     border-radius: 100px;
     margin-bottom: 400px;
+    padding-top: 0px;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+     margin-top: 131px;
+  
+
+
+
+}
+
+.titreEtTexteTESTI {
+    transform: translateX(18vw) translateY(-5vw);
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+    z-index: -6;
 
 }
 
@@ -155,7 +172,7 @@
 }
 
 .imgTestimonial {
-    width: 995px;
+    width: 795px;
     height: 829px;
     background-image: url(../images/Testimonial.png);
     background-size: contain;
@@ -163,8 +180,8 @@
     position: fixed;
     z-index: -1;
     opacity: 1;
-    top: 110px;
-    right: 18%;
+    top: 280px;
+    right: 22%;
     transition-property: opacity;
     transition-duration: 0.5s;
 

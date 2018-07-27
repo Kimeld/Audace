@@ -63,7 +63,7 @@ forum.addEventListener('click', () => {
 
     sousMenu.classList.remove('animationSousMenu');
     sousMenu.classList.remove('sousMenuMove');
-sousMenu.classList.add('marginConseil');
+    sousMenu.classList.add('marginConseil');
     sousMenu.classList.remove('marginQuiSommesNous');
     sousMenu.classList.remove('marginSolution');
     //sousMenu.classList.add('marginFormations');

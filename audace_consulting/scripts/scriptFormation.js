@@ -95,14 +95,23 @@ sm5.innerHTML = ''
 
 if (key.innerHTML == 'comunication') {
 
-    sm1.classList.add('surBrilliance')
+
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
     close.setAttribute('href', 'comunication.html')
 
 
+    sm1.classList.add('sm11')
+    sm1.classList.remove('red')
+    sm2.classList.add('sm12')
+    sm2.classList.remove('red')
+    sm4.classList.add('sm14')
+    sm4.classList.remove('red')
+    sm3.classList.remove('sm13')
+    sm3.classList.add('red')
 
+    fond.classList.add('imgCom')
 
 
     window.setTimeout(() => {
@@ -220,7 +229,14 @@ if (key.innerHTML == 'comunication') {
     fond.classList.add('imgMana')
 
 
-
+    sm3.classList.add('sm13')
+    sm3.classList.remove('red')
+    sm4.classList.add('sm14')
+    sm4.classList.remove('red')
+    sm2.classList.add('sm12')
+    sm2.classList.remove('red')
+    sm1.classList.remove('sm11')
+    sm1.classList.add('red')
 
     ref.classList.add('col-lg-offset-1')
     ref.classList.remove('col-lg-offset-2')
@@ -313,6 +329,15 @@ if (key.innerHTML == 'comunication') {
 
     popFive.classList.add('opacityM')
 
+    sm1.classList.add('sm11')
+    sm1.classList.remove('red')
+    sm3.classList.add('sm13')
+    sm3.classList.remove('red')
+    sm4.classList.add('sm14')
+    sm4.classList.remove('red')
+    sm2.classList.remove('sm12')
+    sm2.classList.add('red')
+
 
     fond.classList.add('imgVente')
 
@@ -398,6 +423,15 @@ if (key.innerHTML == 'comunication') {
     close.setAttribute('href', 'formateur.html')
 
 
+    sm1.classList.add('sm11')
+    sm1.classList.remove('red')
+    sm3.classList.add('sm13')
+    sm3.classList.remove('red')
+    sm2.classList.add('sm14')
+    sm2.classList.remove('red')
+    sm4.classList.remove('sm14')
+    sm4.classList.add('red')
+
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Formation de formateur'
@@ -480,6 +514,16 @@ sm1.addEventListener('click', () => {
 
     modules.classList.remove('modulesVentes')
 
+    sm3.classList.add('sm13')
+    sm3.classList.remove('red')
+    sm4.classList.add('sm14')
+    sm4.classList.remove('red')
+    sm2.classList.add('sm12')
+    sm2.classList.remove('red')
+    sm1.classList.remove('sm11')
+    sm1.classList.add('red')
+
+    fond.classList.remove('imgCom')
     fond.classList.remove('imgVente')
     fond.classList.add('imgMana')
 
@@ -489,7 +533,7 @@ sm1.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Management'
+        titreFormation.innerHTML = ' Développez votre performance managériale'
         texteFormation.innerHTML = 'Développer votre performance managériale. L’impact du manager est primordial pour la performance et la cohésion d’équipe. Nous aidons les managers à devenir plus performants avec leurs collaborateurs. Pour parvenir à ce résultat nous mettons à disposition des outils simples et efficaces.'
         contenuVente.classList.remove('animationContenu')
         milieux.classList.remove('opacityM')
@@ -594,8 +638,16 @@ sm2.addEventListener('click', () => {
     contenuVente.classList.add('animationContenu')
     close.setAttribute('href', 'vente.html')
 
+    sm1.classList.add('sm11')
+    sm1.classList.remove('red')
+    sm3.classList.add('sm13')
+    sm3.classList.remove('red')
+    sm4.classList.add('sm14')
+    sm4.classList.remove('red')
+    sm2.classList.remove('sm12')
+    sm2.classList.add('red')
 
-
+    fond.classList.remove('imgCom')
     fond.classList.remove('imgMana')
     fond.classList.add('imgVente')
 
@@ -603,7 +655,7 @@ sm2.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Vente & négociation'
+        titreFormation.innerHTML = 'Améliorez votre efficacité commerciale'
         texteFormation.innerHTML = 'Développer votre efficacité commerciale. La capacité d’une entreprise à réaliser un chiffre d’affaires à la hauteur de ses exigences dépend des bénéfices apportés par les produit(s) promu(s) et en grande partie à la qualité des forces de vente'
         contenuVente.classList.remove('animationContenu')
         milieux.classList.remove('opacityM')
@@ -694,17 +746,25 @@ sm3.addEventListener('click', () => {
     contenuVente.classList.add('animationContenu')
     close.setAttribute('href', 'comunication.html')
 
-
+    sm1.classList.add('sm11')
+    sm1.classList.remove('red')
+    sm2.classList.add('sm12')
+    sm2.classList.remove('red')
+    sm4.classList.add('sm14')
+    sm4.classList.remove('red')
+    sm3.classList.remove('sm13')
+    sm3.classList.add('red')
 
     fond.classList.remove('imgMana')
     fond.classList.remove('imgVente')
+    fond.classList.add('imgCom')
 
 
     modules.classList.remove('modulesVentes')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Comunication'
+        titreFormation.innerHTML = 'Optimisez votre communication'
         texteFormation.innerHTML = 'Optimiser votre communication Nos modules permettent d’améliorer votre communication interpersonnelle et votre flexibilité relationnelle.'
         contenuVente.classList.remove('animationContenu')
 
@@ -815,8 +875,17 @@ sm4.addEventListener('click', () => {
     contenuVente.classList.add('animationContenu')
     close.setAttribute('href', 'formateur.html')
 
-    modules.classList.remove('modulesVentes')
+    sm1.classList.add('sm11')
+    sm1.classList.remove('red')
+    sm3.classList.add('sm13')
+    sm3.classList.remove('red')
+    sm2.classList.add('sm14')
+    sm2.classList.remove('red')
+    sm4.classList.remove('sm14')
+    sm4.classList.add('red')
 
+    modules.classList.remove('modulesVentes')
+    fond.classList.remove('imgCom')
 
 
     fond.classList.remove('imgMana')
@@ -824,7 +893,7 @@ sm4.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Formation de formateur'
+        titreFormation.innerHTML = 'Animez, accompagnez et développez les collaborateurs'
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -929,10 +998,10 @@ forum.addEventListener('click', () => {
         sousMenu.classList.add('sousMenuMove');
     }, 200)
 
-    sm2.innerHTML = ''
-    sm1.innerHTML = 'À la une'
-    sm2.innerHTML = 'Contact'
-    sm3.innerHTML = 'Devis'
+   
+    sm1.innerHTML = '<a class="deco" href="news.html">À la une</a>'
+    sm2.innerHTML = '<a class="deco" href="inscription.html">contact</a>'
+    sm3.innerHTML = '<a class="deco" href="devis.html">Devis</a>'
     sm4.innerHTML = ''
 
 
