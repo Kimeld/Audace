@@ -26,6 +26,25 @@ let business = document.querySelector(".business")
 let checkBusiness = document.querySelector(".checkBusiness")
 let businessSelect = 0
 
+let eVente = document.querySelector(".eVente")
+let checkeVente = document.querySelector(".checkeVente")
+let eVenteSelect = 0
+
+let eMana = document.querySelector(".eMana")
+let checkeMana = document.querySelector(".checkeMana")
+let eManaSelect = 0
+
+let eCoach = document.querySelector(".eCoach")
+let checkeCoach = document.querySelector(".checkeCoach")
+let eCoachSelect = 0
+
+let eDigi = document.querySelector(".eDigi")
+let checkeDigi = document.querySelector(".checkeDigi")
+let eDigiSelect = 0
+
+let eQuiz = document.querySelector(".eQuiz")
+let checkeQuiz = document.querySelector(".checkeQuiz")
+let eQuizSelect = 0
 
 
 let bouttonPre = document.querySelector(".bouttonPre")
@@ -392,6 +411,81 @@ business.addEventListener('click', () => {
     } else {
         checkBusiness.setAttribute('src', '../images/plus-circle.png')
         businessSelect--
+
+    }
+
+
+
+})
+
+eVente.addEventListener('click', () => {
+
+    if (eVenteSelect == 0) {
+        checkeVente.setAttribute('src', '../images/check.png')
+        eVenteSelect++
+    } else {
+        checkeVente.setAttribute('src', '../images/plus-circle.png')
+        eVenteSelect--
+
+    }
+
+
+
+})
+
+eMana.addEventListener('click', () => {
+
+    if (eManaSelect == 0) {
+        checkeMana.setAttribute('src', '../images/check.png')
+        eManaSelect++
+    } else {
+        checkeMana.setAttribute('src', '../images/plus-circle.png')
+        eManaSelect--
+
+    }
+
+
+
+})
+
+eCoach.addEventListener('click', () => {
+
+    if (eCoachSelect == 0) {
+        checkeCoach.setAttribute('src', '../images/check.png')
+        eCoachSelect++
+    } else {
+        checkeCoach.setAttribute('src', '../images/plus-circle.png')
+        eCoachSelect--
+
+    }
+
+
+
+})
+
+eDigi.addEventListener('click', () => {
+
+    if (eDigiSelect == 0) {
+        checkeDigi.setAttribute('src', '../images/check.png')
+        eDigiSelect++
+    } else {
+        checkeDigi.setAttribute('src', '../images/plus-circle.png')
+        eDigiSelect--
+
+    }
+
+
+
+})
+
+eQuiz.addEventListener('click', () => {
+
+    if (eQuizSelect == 0) {
+        checkeQuiz.setAttribute('src', '../images/check.png')
+        eQuizSelect++
+    } else {
+        checkeQuiz.setAttribute('src', '../images/plus-circle.png')
+        eQuizSelect--
 
     }
 
