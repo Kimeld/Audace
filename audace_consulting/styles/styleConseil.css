@@ -69,6 +69,7 @@
     animation-fill-mode: forwards;
 
     /*animation-fill-mode: backwards;/*etat de debut ou final*/
+
 }
 
 /*
@@ -298,15 +299,16 @@
 
 .fond {
     width: 595px;
-    height: 829px;
+    height: 429px;
+    top: 150px;
+    right: 50px;
     background-image: url(../images/Audit1.png);
     background-size: contain;
     background-repeat: no-repeat;
     position: fixed;
     z-index: -1;
     opacity: 0.5;
-    top:90px;
-    right: 50px;
+
 
 }
 
