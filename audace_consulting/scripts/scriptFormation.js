@@ -122,7 +122,7 @@ if (key.innerHTML == 'comunication') {
 
     }, 200)
 
-    milieux.classList.remove('opacityM')
+
     popOne.classList.remove('opacityM')
     popFive.classList.remove('opacityM')
 
@@ -327,7 +327,7 @@ if (key.innerHTML == 'comunication') {
 
     sm2.classList.add('surBrilliance')
 
-    popFive.classList.add('opacityM')
+
 
     sm1.classList.add('sm11')
     sm1.classList.remove('red')
@@ -338,6 +338,7 @@ if (key.innerHTML == 'comunication') {
     sm2.classList.remove('sm12')
     sm2.classList.add('red')
 
+    popFive.classList.add('none')
 
     fond.classList.add('imgVente')
 
@@ -432,17 +433,18 @@ if (key.innerHTML == 'comunication') {
     sm4.classList.remove('sm14')
     sm4.classList.add('red')
 
+    popOne.classList.add('none')
+    popFive.classList.add('none')
+    popSix.classList.add('none')
+    popSeven.classList.add('none')
+
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Formation de formateur'
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
-    milieux.classList.remove('opacityM')
-    popOne.classList.add('opacityM')
-    popFive.classList.add('opacityM')
-    popSix.classList.add('opacityM')
-    popSeven.classList.add('opacityM')
+
 
     ref.classList.add('col-lg-offset-1')
     ref.classList.remove('col-lg-offset-2')
@@ -536,14 +538,13 @@ sm1.addEventListener('click', () => {
         titreFormation.innerHTML = ' Développez votre performance managériale'
         texteFormation.innerHTML = 'Développer votre performance managériale. L’impact du manager est primordial pour la performance et la cohésion d’équipe. Nous aidons les managers à devenir plus performants avec leurs collaborateurs. Pour parvenir à ce résultat nous mettons à disposition des outils simples et efficaces.'
         contenuVente.classList.remove('animationContenu')
-        milieux.classList.remove('opacityM')
+
     }, 200)
 
 
-    popOne.classList.remove('opacityM')
-    popFive.classList.remove('opacityM')
 
-
+    popOne.classList.remove('none')
+    popFive.classList.remove('none')
 
 
     titreModule1.innerHTML = 'Position n+1'
@@ -658,11 +659,11 @@ sm2.addEventListener('click', () => {
         titreFormation.innerHTML = 'Améliorez votre efficacité commerciale'
         texteFormation.innerHTML = 'Développer votre efficacité commerciale. La capacité d’une entreprise à réaliser un chiffre d’affaires à la hauteur de ses exigences dépend des bénéfices apportés par les produit(s) promu(s) et en grande partie à la qualité des forces de vente'
         contenuVente.classList.remove('animationContenu')
-        milieux.classList.remove('opacityM')
+
     }, 200)
 
-    popOne.classList.remove('opacityM')
-    popFive.classList.add('opacityM')
+    popOne.classList.remove('none')
+    popFive.classList.add('none')
 
 
 
@@ -770,9 +771,12 @@ sm3.addEventListener('click', () => {
 
     }, 200)
 
-    milieux.classList.remove('opacityM')
+
     popOne.classList.remove('opacityM')
     popFive.classList.remove('opacityM')
+
+    popFive.classList.remove('none')
+    popOne.classList.remove('none')
 
 
     titreModule1.innerHTML = 'La flexibilité relationnelle '
@@ -897,9 +901,10 @@ sm4.addEventListener('click', () => {
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
-    milieux.classList.remove('opacityM')
-    popOne.classList.add('opacityM')
-    popFive.classList.add('opacityM')
+
+
+    popOne.classList.add('none')
+    popFive.classList.add('none')
 
 
 
@@ -998,7 +1003,7 @@ forum.addEventListener('click', () => {
         sousMenu.classList.add('sousMenuMove');
     }, 200)
 
-   
+
     sm1.innerHTML = '<a class="deco" href="news.html">À la une</a>'
     sm2.innerHTML = '<a class="deco" href="inscription.html">contact</a>'
     sm3.innerHTML = '<a class="deco" href="devis.html">Devis</a>'
