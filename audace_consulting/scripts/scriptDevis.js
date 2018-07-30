@@ -14,6 +14,7 @@ let cercle1 = document.querySelector(".cercle1")
 let cercle2 = document.querySelector(".cercle2")
 let cercle3 = document.querySelector(".cercle3")
 
+
 let audit = document.querySelector(".audit")
 let checkAudit = document.querySelector(".checkAudit")
 let auditSelect = 0
@@ -25,6 +26,16 @@ let consultingSelect = 0
 let business = document.querySelector(".business")
 let checkBusiness = document.querySelector(".checkBusiness")
 let businessSelect = 0
+
+
+let contenuMana = document.querySelector('.contenuMana')
+let programmeContenuMana = document.querySelector('.programmeContenuMana')
+let managementContenu = document.querySelector('.managementContenu')
+let programmeContenuManaSelect = 0
+
+let position = document.querySelector('.position')
+let checkPosition = document.querySelector('.checkPosition')
+let positionSelect = 0
 
 let eVente = document.querySelector(".eVente")
 let checkeVente = document.querySelector(".checkeVente")
@@ -486,6 +497,39 @@ eQuiz.addEventListener('click', () => {
     } else {
         checkeQuiz.setAttribute('src', '../images/plus-circle.png')
         eQuizSelect--
+
+    }
+
+
+
+})
+
+contenuMana.addEventListener('click', () => {
+
+
+
+    if (programmeContenuManaSelect == 0) {
+        programmeContenuMana.classList.add('open')
+        managementContenu.classList.remove('none')
+        programmeContenuManaSelect++
+    } else {
+        programmeContenuMana.classList.remove('open')
+        managementContenu.classList.add('none')
+        programmeContenuManaSelect--
+
+    }
+
+
+})
+
+position.addEventListener('click', () => {
+
+    if (positionSelect == 0) {
+        checkPosition.setAttribute('src', '../images/check.png')
+        positionSelect++
+    } else {
+        checkPosition.setAttribute('src', '../images/plus-circle.png')
+        positionSelect--
 
     }
 

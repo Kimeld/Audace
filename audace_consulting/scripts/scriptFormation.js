@@ -122,7 +122,7 @@ if (key.innerHTML == 'comunication') {
 
     }, 200)
 
-
+            
     popOne.classList.remove('opacityM')
     popFive.classList.remove('opacityM')
 

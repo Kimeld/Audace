@@ -96,10 +96,14 @@ body {
 }
 
 .cercle2 {
-    margin-left: 42%;
+    margin-left: 32%;
 }
 
 .cercle3 {
+    margin-left: 62%;
+}
+
+.cercle4 {
     right: 0px;
 }
 
@@ -132,12 +136,12 @@ body {
 .titreConseil {
     position: absolute;
     top: -10px;
-    margin-left: 38%;
+    margin-left: 29%;
 }
 
 .titreSolution {
     position: absolute;
-    right: -57px;
+    margin-left: 55%;
     top: -10px;
 }
 
@@ -147,6 +151,11 @@ body {
     top: -10px;
 }
 
+.titreProfile {
+    position: absolute;
+    top: -10px;
+    right: -7px;
+}
 
 
 .navPro {
@@ -172,8 +181,8 @@ body {
     display: inline-block;
     margin: 80px 20px 0px 20px;
     text-align: center;
- 
-    
+
+
 }
 
 .programme span {
@@ -183,7 +192,7 @@ body {
 }
 
 .programme div {
-  
+
     padding: 0px;
 
 }
@@ -194,10 +203,23 @@ body {
 
 }
 
+
+
+.open {
+    height: 100px;
+    transition-property: height;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.managementContenu {
+    margin-top: 20px;
+}
+
 .chevron {
     display: block;
     display: inline-block;
-    
+
 }
 
 
@@ -420,6 +442,9 @@ body {
     opacity: 0;
 }
 
+.none {
+    display: none;
+}
 
 /*
 .network img {
