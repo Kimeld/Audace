@@ -1,17 +1,13 @@
-
-body
-
-
-.contenu {}
+body .contenu {}
 
 .description {
     height: 200px;
 
-    margin-bottom: 45px;
+    margin-bottom: 25px;
 }
 
 .form {
-    height: 600px;
+    height: 500px;
     background-color: #F3F3F3;
     margin-bottom: 45px;
     border-radius: 64px;
@@ -86,11 +82,11 @@ body
     position: absolute;
     top: 10px;
     left: 10px;
-    width: 100px;
+    width: 90px;
 }
 
 .pastille img {
-    width: 100px;
+    width: 70px;
 }
 
 /*

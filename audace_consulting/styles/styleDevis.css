@@ -173,13 +173,18 @@ body {
     height: 200px;
 }
 
+.navPro4 {
+    text-align: center;
+    height: 200px;
+}
+
 
 .programme {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 500;
     display: inline-block;
-    margin: 80px 20px 0px 20px;
+    margin: 10px 20px 0px 20px;
     text-align: center;
 
 
@@ -189,6 +194,11 @@ body {
     display: inline-block;
     margin-right: 10px;
 
+}
+
+.navPro2 .programme span{
+    font-size: 12px;
+   
 }
 
 .programme div {
@@ -206,14 +216,14 @@ body {
 
 
 .open {
-    height: 100px;
+    height: 190px;
     transition-property: height;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
 }
 
 .managementContenu {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .chevron {
@@ -239,7 +249,7 @@ body {
 }
 
 .form {
-    height: 500px;
+    height: 460px;
     background-color: #F3F3F3;
     padding-top: 20px;
     margin-bottom: 45px;
@@ -313,7 +323,7 @@ body {
 
 
 .footerPush {
-    margin-top: 580px;
+    margin-top: 630px;
     margin-bottom: 0px;
     height: 100px;
 

@@ -31,7 +31,7 @@
     transition-property: all;
     transition-timing-function: ease-in-out;
     transition-duration: 0.2s;
-    margin-top: 131px;
+    margin-top: 18px;
 
 
 
@@ -39,7 +39,7 @@
 }
 
 .titreEtTexteTESTI {
-    transform: translateX(18vw) translateY(-5vw);
+    transform: translateX(18vw) translateY(0vw);
     transition-property: all;
     transition-timing-function: ease-in-out;
     transition-duration: 0.2s;
@@ -183,7 +183,7 @@
     position: fixed;
     z-index: -1;
     opacity: 1;
-    top: 280px;
+    top: 250px;
     right: 22%;
     transition-property: opacity;
     transition-duration: 0.5s;
