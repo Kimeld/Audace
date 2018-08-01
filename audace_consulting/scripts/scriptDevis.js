@@ -1,7 +1,6 @@
 let contenu1 = document.querySelector(".contenu1")
 let contenu2 = document.querySelector(".contenu2")
 let contenu3 = document.querySelector(".contenu3")
-let contenu4 = document.querySelector(".contenu4")
 
 let FG = document.querySelector(".FG")
 let FD = document.querySelector(".FD")
@@ -16,6 +15,9 @@ let cercle2 = document.querySelector(".cercle2")
 let cercle3 = document.querySelector(".cercle3")
 let cercle4 = document.querySelector(".cercle4")
 
+let list = document.querySelector(".list")
+let listNbrs = document.querySelector(".listNbrs")
+let tab = new Array(28)
 
 let audit = document.querySelector(".audit")
 let checkAudit = document.querySelector(".checkAudit")
@@ -170,10 +172,28 @@ let rep3 = document.querySelector(".rep3")
 let rep4 = document.querySelector(".rep4")
 let i = 0
 let y = 0
+let a = 0
 
 bouttonSui.addEventListener('click', () => {
 
+    for (a = 0; a <= 28; a++) {
+        if (tab[a]) {
+            list.innerHTML += '<div><img src="../images/x-circle.png" alt=""><span class="ecartimgF"> ' + tab[a] + '</span></div>'
+            listNbrs.innerHTML += ' <div class="form-group"> <select class="form-control" id="exampleFormControlSelect1"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></div>'
 
+        } else {
+            list.innerHTML += ''
+            listNbrs.innerHTML += ''
+
+        }
+    }
+
+    /*if (auditSelect == 1) {
+        list.innerHTML = '<div><img src="../images/x-circle.png" alt=""><span class="ecartimgF"> ' + tab[0] + '</span></div>'
+    } else {
+        list.innerHTML = ''
+
+    }*/
 
     if (i >= 0 && i < 2) {
         i++
@@ -191,8 +211,7 @@ bouttonSui.addEventListener('click', () => {
             contenu3.classList.remove('contenuActive')
             contenu3.classList.add('contenuNoActive')
 
-            contenu4.classList.remove('contenuActive')
-            contenu4.classList.add('contenuNoActive')
+
 
         } else if (i == 2) {
             rep3.classList.add('repActive')
@@ -207,8 +226,6 @@ bouttonSui.addEventListener('click', () => {
             contenu3.classList.add('contenuActive')
             contenu3.classList.remove('contenuNoActive')
 
-            contenu4.classList.remove('contenuActive')
-            contenu4.classList.add('contenuNoActive')
 
 
 
@@ -225,8 +242,6 @@ bouttonSui.addEventListener('click', () => {
             contenu3.classList.remove('contenuActive')
             contenu3.classList.add('contenuNoActive')
 
-            contenu4.classList.add('contenuActive')
-            contenu4.classList.remove('contenuNoActive')
 
         }
 
@@ -236,6 +251,8 @@ bouttonSui.addEventListener('click', () => {
 
 bouttonPre.addEventListener('click', () => {
 
+    list.innerHTML = ''
+    listNbrs.innerHTML = ''
 
 
     if (i > 0 && i <= 2) {
@@ -255,8 +272,7 @@ bouttonPre.addEventListener('click', () => {
             contenu3.classList.remove('contenuActive')
             contenu3.classList.add('contenuNoActive')
 
-            contenu4.classList.remove('contenuActive')
-            contenu4.classList.add('contenuNoActive')
+
 
         } else if (i == 1) {
             rep3.classList.remove('repActive')
@@ -271,8 +287,7 @@ bouttonPre.addEventListener('click', () => {
             contenu3.classList.remove('contenuActive')
             contenu3.classList.add('contenuNoActive')
 
-            contenu4.classList.remove('contenuActive')
-            contenu4.classList.add('contenuNoActive')
+
 
         } else if (i == 2) {
             rep4.classList.remove('repActive')
@@ -287,8 +302,11 @@ bouttonPre.addEventListener('click', () => {
             contenu3.classList.add('contenuActive')
             contenu3.classList.remove('contenuNoActive')
 
-            contenu4.classList.remove('contenuActive')
-            contenu4.classList.add('contenuNoActive')
+
+
+
+
+
         }
 
     }
@@ -616,9 +634,11 @@ audit.addEventListener('click', () => {
 
     if (auditSelect == 0) {
         checkAudit.setAttribute('src', '../images/check.png')
+        tab[0] = "audit"
         auditSelect++
     } else {
         checkAudit.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(0, 1)
         auditSelect--
 
     }
@@ -631,9 +651,11 @@ consulting.addEventListener('click', () => {
 
     if (consultingSelect == 0) {
         checkConsulting.setAttribute('src', '../images/check.png')
+        tab[1] = "Consulting"
         consultingSelect++
     } else {
         checkConsulting.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(1, 1)
         consultingSelect--
 
     }
@@ -646,9 +668,11 @@ business.addEventListener('click', () => {
 
     if (businessSelect == 0) {
         checkBusiness.setAttribute('src', '../images/check.png')
+        tab[2] = "Bussiness consulting"
         businessSelect++
     } else {
         checkBusiness.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(2, 1)
         businessSelect--
 
     }
@@ -661,9 +685,11 @@ eVente.addEventListener('click', () => {
 
     if (eVenteSelect == 0) {
         checkeVente.setAttribute('src', '../images/check.png')
+        tab[3] = "École de vente"
         eVenteSelect++
     } else {
         checkeVente.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(3, 1)
         eVenteSelect--
 
     }
@@ -676,9 +702,11 @@ eMana.addEventListener('click', () => {
 
     if (eManaSelect == 0) {
         checkeMana.setAttribute('src', '../images/check.png')
+        tab[4] = "École de management"
         eManaSelect++
     } else {
         checkeMana.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(4, 1)
         eManaSelect--
 
     }
@@ -691,9 +719,11 @@ eCoach.addEventListener('click', () => {
 
     if (eCoachSelect == 0) {
         checkeCoach.setAttribute('src', '../images/check.png')
+        tab[5] = "Coaching"
         eCoachSelect++
     } else {
         checkeCoach.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(5, 1)
         eCoachSelect--
 
     }
@@ -706,9 +736,11 @@ eDigi.addEventListener('click', () => {
 
     if (eDigiSelect == 0) {
         checkeDigi.setAttribute('src', '../images/check.png')
+        tab[6] = "digital learning"
         eDigiSelect++
     } else {
         checkeDigi.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(6, 1)
         eDigiSelect--
 
     }
@@ -723,9 +755,11 @@ equipe.addEventListener('click', () => {
 
     if (equipeSelect == 0) {
         checkEquipe.setAttribute('src', '../images/check.png')
+        tab[7] = "Profile équipe"
         equipeSelect++
     } else {
         checkEquipe.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(7, 1)
         equipeSelect--
 
     }
@@ -738,9 +772,11 @@ individuel.addEventListener('click', () => {
 
     if (individuelSelect == 0) {
         checkIndividuel.setAttribute('src', '../images/check.png')
+        tab[8] = "Profile individuel"
         individuelSelect++
     } else {
         checkIndividuel.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(8, 1)
         individuelSelect--
 
     }
@@ -753,9 +789,11 @@ manager.addEventListener('click', () => {
 
     if (managerSelect == 0) {
         checkManager.setAttribute('src', '../images/check.png')
+        tab[9] = "Profile manager"
         managerSelect++
     } else {
         checkManager.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(9, 1)
         managerSelect--
 
     }
@@ -769,9 +807,11 @@ recruteur.addEventListener('click', () => {
 
     if (recruteurSelect == 0) {
         checkRecruteur.setAttribute('src', '../images/check.png')
+        tab[10] = "Profile recruteur"
         recruteurSelect++
     } else {
         checkRecruteur.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(10, 1)
         recruteurSelect--
 
     }
@@ -805,9 +845,11 @@ position.addEventListener('click', () => {
 
     if (positionSelect == 0) {
         checkPosition.setAttribute('src', '../images/check.png')
+        tab[11] = "Position N + 1"
         positionSelect++
     } else {
         checkPosition.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(11, 1)
         positionSelect--
 
     }
@@ -817,9 +859,11 @@ couleur.addEventListener('click', () => {
 
     if (couleurSelect == 0) {
         checkCouleur.setAttribute('src', '../images/check.png')
+        tab[12] = "Couleur du management"
         couleurSelect++
     } else {
         checkCouleur.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(12, 1)
         couleurSelect--
 
     }
@@ -829,9 +873,11 @@ situationnel.addEventListener('click', () => {
 
     if (situationnelSelect == 0) {
         checkSituationnel.setAttribute('src', '../images/check.png')
+        tab[13] = "Management Situationnel"
         situationnelSelect++
     } else {
         checkSituationnel.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(13, 1)
         situationnelSelect--
 
     }
@@ -841,9 +887,11 @@ motivationnel.addEventListener('click', () => {
 
     if (motivationnelSelect == 0) {
         checkMotivationnel.setAttribute('src', '../images/check.png')
+        tab[14] = "Management motivationnel"
         motivationnelSelect++
     } else {
         checkMotivationnel.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(14, 1)
         motivationnelSelect--
 
     }
@@ -853,9 +901,11 @@ projet.addEventListener('click', () => {
 
     if (projetSelect == 0) {
         checkPojet.setAttribute('src', '../images/check.png')
+        tab[15] = "Management de projet"
         projetSelect++
     } else {
         checkPojet.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(15, 1)
         projetSelect--
 
     }
@@ -885,9 +935,11 @@ technique.addEventListener('click', () => {
 
     if (techniqueSelect == 0) {
         checkTechnique.setAttribute('src', '../images/check.png')
+        tab[16] = "Technique de ventes"
         techniqueSelect++
     } else {
         checkTechnique.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(16, 1)
         techniqueSelect--
 
     }
@@ -897,9 +949,11 @@ couleurV.addEventListener('click', () => {
 
     if (couleurVSelect == 0) {
         checkCouleurV.setAttribute('src', '../images/check.png')
+        tab[17] = "Couleur de ventes"
         couleurVSelect++
     } else {
         checkCouleurV.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(17, 1)
         couleurVSelect--
 
     }
@@ -909,9 +963,11 @@ assertive.addEventListener('click', () => {
 
     if (assertiveSelect == 0) {
         checkAssertive.setAttribute('src', '../images/check.png')
+        tab[18] = "Ventes assertive"
         assertiveSelect++
     } else {
         checkAssertive.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(18, 1)
         assertiveSelect--
 
     }
@@ -922,8 +978,10 @@ gociation.addEventListener('click', () => {
     if (gociationSelect == 0) {
         checkGociation.setAttribute('src', '../images/check.png')
         gociationSelect++
+        tab[19] = "La négociation"
     } else {
         checkGociation.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(19, 1)
         gociationSelect--
 
     }
@@ -952,9 +1010,11 @@ relationnelle.addEventListener('click', () => {
 
     if (relationnelleSelect == 0) {
         checkRelationnelle.setAttribute('src', '../images/check.png')
+        tab[20] = "Fléxibilité relationnel"
         relationnelleSelect++
     } else {
         checkRelationnelle.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(20, 1)
         relationnelleSelect--
 
     }
@@ -964,9 +1024,11 @@ assertivit.addEventListener('click', () => {
 
     if (assertivitSelect == 0) {
         checkAssertivit.setAttribute('src', '../images/check.png')
+        tab[21] = "Communiquer avec assertivité"
         assertivitSelect++
     } else {
         checkAssertivit.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(21, 1)
         assertivitSelect--
 
     }
@@ -976,9 +1038,11 @@ situations.addEventListener('click', () => {
 
     if (situationsSelect == 0) {
         checkSituations.setAttribute('src', '../images/check.png')
+        tab[22] = "Gestion de situations dangereuses"
         situationsSelect++
     } else {
         checkSituations.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(22, 1)
         situationsSelect--
 
     }
@@ -988,9 +1052,11 @@ publique.addEventListener('click', () => {
 
     if (publiqueSelect == 0) {
         checkPublique.setAttribute('src', '../images/check.png')
+        tab[23] = "Parler en publique"
         publiqueSelect++
     } else {
         checkPublique.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(23, 1)
         publiqueSelect--
 
     }
@@ -1000,9 +1066,11 @@ board.addEventListener('click', () => {
 
     if (boardSelect == 0) {
         checkBoard.setAttribute('src', '../images/check.png')
+        tab[24] = "Gérer un board"
         boardSelect++
     } else {
         checkBoard.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(24, 1)
         boardSelect--
 
     }
@@ -1031,9 +1099,11 @@ animateur.addEventListener('click', () => {
 
     if (animateurSelect == 0) {
         checkAnimateur.setAttribute('src', '../images/check.png')
+        tab[25] = "Formateur animateur"
         animateurSelect++
     } else {
         checkAnimateur.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(25, 1)
         animateurSelect--
 
     }
@@ -1043,9 +1113,11 @@ coach.addEventListener('click', () => {
 
     if (coachSelect == 0) {
         checkCoach.setAttribute('src', '../images/check.png')
+        tab[26] = "Formateur coach"
         coachSelect++
     } else {
         checkCoach.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(26, 1)
         coachSelect--
 
     }
@@ -1055,9 +1127,11 @@ assertif.addEventListener('click', () => {
 
     if (assertifSelect == 0) {
         checkAssertif.setAttribute('src', '../images/check.png')
+        tab[27] = "Formateur assertif"
         assertifSelect++
     } else {
         checkAssertif.setAttribute('src', '../images/plus-circle.png')
+        tab.splice(27, 1)
         assertifSelect--
 
     }

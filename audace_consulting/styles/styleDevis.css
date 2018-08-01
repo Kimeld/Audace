@@ -196,9 +196,9 @@ body {
 
 }
 
-.navPro2 .programme span{
+.navPro2 .programme span {
     font-size: 12px;
-   
+
 }
 
 .programme div {
@@ -318,8 +318,42 @@ body {
 }
 
 
+.list {
+    margin-top: 50px;
+}
+
+.listNbrs {
+    margin-top: 50px;
 
 
+}
+
+.listNbrs select {
+    width: 30px;
+    margin-left: 90%;
+
+}
+
+
+.list img {
+    display: inline-block;
+}
+
+.ecartimgF {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #707070;
+    font-size: 14px;
+    display: inline-block;
+
+    margin: 0px 0px 30px 0px;
+
+}
+
+
+.nbrs {
+    text-align: right;
+}
 
 
 .footerPush {
