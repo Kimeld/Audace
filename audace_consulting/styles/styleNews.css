@@ -148,6 +148,10 @@ a {
 
 }
 
+.img {
+
+}
+
 .imgSide {
     height: 100px;
     background-image: url(../images/Audit1.png);
@@ -229,7 +233,7 @@ a {
 .pSide {
 
     padding-left: 3px;
-    margin: 5px 0px 10px 0px;;
+    margin: 10px 0px 10px 0px;
 }
 
 .pSide .gras {
@@ -246,7 +250,34 @@ a {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 300;
-    margin-top: 5px;
+
+}
+
+.sideBottom .pSide2 {
+    padding-left: 10px;
+
+}
+
+.pSide2 {
+
+    padding-left: 3px;
+    margin: 0px 0px 10px 0px;
+}
+
+.pSide2 .gras {
+    font-family: 'Roboto', sans-serif;
+    color: #E00034;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0px;
+
+}
+
+.pSide2 p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
 
 }
 
@@ -273,9 +304,9 @@ a {
 
 }
 
-.pSide a{
+.pSide a {
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 14px;
     color: #E00034;
     font-weight: 700;
 }

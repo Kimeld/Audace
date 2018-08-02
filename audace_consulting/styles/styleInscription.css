@@ -46,6 +46,14 @@ body .contenu {}
 }
 
 .form form {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #707070;
+    margin-top: 35px;
+    transform: scale(1.2);
+    transition-property: all;
+    transition-duration: 1s;
+
     margin-top: 18%;
     transform: scale(1.18);
     transition-property: all;

@@ -67,8 +67,8 @@ body {
     border: solid;
     border-radius: 100px;
     border-color: #707070;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     position: absolute;
     text-align: center;
     background-color: #707070;
@@ -166,6 +166,7 @@ body {
 .navPro2 {
     text-align: center;
     height: 200px;
+    position: relative;
 }
 
 .navPro3 {
@@ -186,7 +187,13 @@ body {
     display: inline-block;
     margin: 10px 20px 0px 20px;
     text-align: center;
+    position: relative;
 
+
+}
+
+.fixed {
+    position: absolute;
 
 }
 
@@ -207,7 +214,38 @@ body {
 
 }
 
-.programme:hover {
+.programme div img {
+    width: 15px;
+    position: absolute;
+
+    right: -8px;
+}
+
+.programme .contenuMana:hover {
+    color: #BC1C2A;
+    cursor: pointer;
+
+}
+
+.programme .contenuVent:hover {
+    color: #BC1C2A;
+    cursor: pointer;
+
+}
+
+.programme .contenuComunication:hover {
+    color: #BC1C2A;
+    cursor: pointer;
+
+}
+
+.programme .contenuFormateur:hover {
+    color: #BC1C2A;
+    cursor: pointer;
+
+}
+
+.programme div div span:hover {
     color: #BC1C2A;
     cursor: pointer;
 
@@ -216,7 +254,7 @@ body {
 
 
 .open {
-    height: 190px;
+
     transition-property: height;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -229,6 +267,8 @@ body {
 .chevron {
     display: block;
     display: inline-block;
+    width: 25px;
+
 
 }
 
@@ -247,6 +287,10 @@ body {
     height: 300px;
     background-color: chartreuse;
 }
+
+
+
+/*
 
 .form {
     height: 460px;
@@ -296,6 +340,104 @@ body {
     transform: scale(1.2);
     transition-property: all;
     transition-duration: 1s;
+    
+    
+
+
+
+}
+
+.pastille {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 90px;
+}
+
+.pastille img {
+    width: 70px;
+}
+
+.champs {
+    width: 200px;
+
+}
+
+.champs select {
+    height: 40px;
+}
+
+.second label {
+    margin-left: 20px;
+    padding-top: 2px;
+    height: 25px;
+    width: 300px;
+}
+
+*/
+
+.description {
+    height: 130px;
+
+    margin-bottom: 5px;
+}
+
+.form {
+    height: 500px;
+    background-color: #F3F3F3;
+    margin-bottom: 45px;
+    border-radius: 64px;
+    border: solid;
+    border-width: 1px;
+    border-color: #707070;
+    box-shadow: 3px 2px 5px #707070;
+    transform: scale(1);
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.form:hover {
+    box-shadow: 5px 2px 20px #707070;
+    transform: scale(1.02);
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.form > div {
+    margin-top: 20px;
+}
+
+.description h1 {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #E00034;
+    font-size: 42px;
+}
+
+
+
+.description p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #707070;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.form form {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #707070;
+    margin-top: 35px;
+    transform: scale(1.2);
+    transition-property: all;
+    transition-duration: 1s;
+
+    margin-top: 18%;
+    transform: scale(1.18);
+    transition-property: all;
+    transition-duration: 1s;
 
 
 
@@ -317,6 +459,25 @@ body {
     width: 300px;
 }
 
+.second button {
+    height: 25px;
+    border: solid;
+    border-width: 0.5px;
+    border-color: #707070;
+}
+
+.pastille {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 90px;
+}
+
+.pastille img {
+    width: 70px;
+}
+
+/**/
 
 .list {
     margin-top: 50px;
@@ -328,8 +489,8 @@ body {
 
 }
 
-.listNbrs select {
-    width: 30px;
+.listNbrs textarea {
+    width: 39px;
     margin-left: 90%;
 
 }
@@ -346,7 +507,8 @@ body {
     font-size: 14px;
     display: inline-block;
 
-    margin: 0px 0px 30px 0px;
+    margin-left: 30px;
+    margin-bottom: 13px;
 
 }
 
@@ -401,8 +563,8 @@ body {
     border-color: white;
     color: white;
     background-color: #BC1C2A;
+    border-width: 0.5px;
     border-radius: 50px;
-
     height: 30px;
     text-align: center;
     padding-top: 3px;
@@ -444,6 +606,7 @@ body {
     border-color: white;
     color: white;
     background-color: #BC1C2A;
+    border-width: 0.5px;
     border-radius: 50px;
     width: 140px;
     height: 30px;

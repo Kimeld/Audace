@@ -33,7 +33,7 @@
     border-radius: 100px;
     margin-left: 12%;
     margin-top: 18px;
-    
+
 
 }
 
@@ -91,7 +91,7 @@
 }
 
 .modules {
-   
+
     /*padding-right: 10%;*/
     text-align: center;
 }
@@ -114,7 +114,7 @@
     background-color: white;
     border-radius: 70px;
     display: inline-block;
-    
+
     margin: 119px 100px 230px 100px;
     opacity: 1;
     transition-duration: 2s;
@@ -361,50 +361,50 @@
 
 .imgMana {
     width: 595px;
-    height: 429px;
+    height: 300px;
     top: 150px;
     right: 50px;
     background-image: url(../images/Management2.png);
     background-size: contain;
     background-repeat: no-repeat;
-    position: fixed;
+    position: absolute;
     z-index: -1;
     opacity: 1;
-  
+
     transition-property: opacity;
     transition-duration: 0.5s;
 
 }
 
 .imgVente {
-     width: 595px;
-    height: 429px;
+    width: 595px;
+    height: 300px;
     top: 150px;
     right: 50px;
     background-image: url(../images/Vente&nego.png);
     background-size: contain;
     background-repeat: no-repeat;
-    position: fixed;
+    position: absolute;
     z-index: -1;
     opacity: 1;
- 
+
     transition-property: opacity;
     transition-duration: 0.5s;
 
 }
 
 .imgCom {
-     width: 595px;
-    height: 429px;
+    width: 595px;
+    height: 300px;
     top: 150px;
     right: 50px;
     background-image: url(../images/Communication.png);
     background-size: contain;
     background-repeat: no-repeat;
-    position: fixed;
+    position: absolute;
     z-index: -1;
     opacity: 1;
- 
+
     transition-property: opacity;
     transition-duration: 0.5s;
 
@@ -593,6 +593,6 @@
     right: 20px;
 }
 
-.none{
+.none {
     display: none;
 }

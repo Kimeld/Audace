@@ -123,13 +123,13 @@
 
 .imgEquipe {
     width: 595px;
-    height: 429px;
+      height: 300px;
     top: 150px;
     right: 50px;
     background-image: url(../images/LogoAudaceAC-OR.png);
     background-size: contain;
     background-repeat: no-repeat;
-    position: fixed;
+    position: absolute;
     z-index: -1;
     opacity: 1;
     background-position: center;
@@ -140,13 +140,13 @@
 
 .imgEquipe2 {
     width: 595px;
-    height: 429px;
+    height: 300px;
     top: 150px;
     right: 50px;
     background-image: url(../images/quipe3.png);
     background-size: contain;
     background-repeat: no-repeat;
-    position: fixed;
+    position: absolute;
     z-index: -1;
     opacity: 1;
 
@@ -159,13 +159,13 @@
 
 .imgQualite {
     width: 595px;
-    height: 429px;
+      height: 300px;
     top: 150px;
     right: 50px;
     background-image: url(../images/Nos%20valeurs.png);
     background-size: contain;
     background-repeat: no-repeat;
-    position: fixed;
+    position: absolute;
     z-index: -1;
     opacity: 0.9;
 
@@ -175,12 +175,12 @@
 }
 
 .imgTestimonial {
-    width: 795px;
+    width: 795px; 
     height: 829px;
     background-image: url(../images/Testimonial.png);
     background-size: contain;
     background-repeat: no-repeat;
-    position: fixed;
+    position: absolute;
     z-index: -1;
     opacity: 1;
     top: 250px;
@@ -192,13 +192,13 @@
 
 .imgSolution {
     width: 595px;
-    height: 429px;
+      height: 300px;
     top: 150px;
     right: 50px;
     background-image: url(../images/Solutions&coaching.png);
     background-size: contain;
     background-repeat: no-repeat;
-    position: fixed;
+    position: absolute;
     z-index: -1;
     opacity: 0.4;
 
@@ -209,14 +209,14 @@
 
 .imgPedagogie {
     width: 595px;
-    height: 429px;
+      height: 300px;
     top: 150px;
     right: 50px;
     background-image: url(../images/Qualite.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    position: fixed;
+    position: absolute;
     z-index: -1;
     opacity: 1;
 
