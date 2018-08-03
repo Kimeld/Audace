@@ -359,6 +359,13 @@
 
 .fond {}
 
+@media(max-width: 1100px) {
+    .fond {
+        opacity: 0;
+        display: none;
+    }
+}
+
 .imgMana {
     width: 595px;
     height: 300px;

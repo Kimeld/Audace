@@ -173,6 +173,12 @@ forum.addEventListener('click', () => {
     sm2.classList.remove('col-lg-1');
     sm3.classList.remove('col-lg-1');
 
+    sm2.innerHTML = ''
+    sm1.innerHTML = '<a class="deco" href="news.html">À la une</a>'
+    sm2.innerHTML = '<a class="deco" href="inscription.html">contact</a>'
+    sm3.innerHTML = '<a class="deco" href="devis.html">Devis</a>'
+    sm4.innerHTML = ''
+
     //sm1.classList.add('col-lg-2');
     //sm2.classList.add('col-lg-2');
     //sm3.classList.add('col-lg-2');

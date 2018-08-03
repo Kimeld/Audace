@@ -178,7 +178,7 @@ bouttonSui.addEventListener('click', () => {
 
     for (a = 0; a <= 28; a++) {
         if (tab[a]) {
-            list.innerHTML += '<div><img src="../images/x-circle.png" alt=""><span class="ecartimgF"> ' + tab[a] + '</span></div>'
+            list.innerHTML += '<div><span class="ecartimgF"> ' + tab[a] + '</span></div>'
             listNbrs.innerHTML += ' <div class="form-group"><textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea> </div> '
 
         } else {
