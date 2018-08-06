@@ -165,7 +165,7 @@ body {
 
 .navPro2 {
     text-align: center;
-    height: 200px;
+    height: 100px;
     position: relative;
 }
 
@@ -190,7 +190,30 @@ body {
     position: relative;
 
 
+
 }
+
+.P {
+    transform: translateY(-8vw);
+
+}
+
+.P4 {
+    transform: translateY(-7vw);
+
+}
+
+.P5 {
+    transform: translateY(-8vw);
+
+}
+
+.P3 {
+    transform: translateY(-5vw);
+
+}
+
+
 
 .fixed {
     position: absolute;
@@ -269,6 +292,13 @@ body {
     display: inline-block;
     width: 25px;
 
+
+}
+
+.chevronRotate {
+    transform: rotate(180deg);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
 
 }
 
@@ -404,7 +434,7 @@ body {
 }
 
 .form > div {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .description h1 {
@@ -429,12 +459,12 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #707070;
-    margin-top: 35px;
+    margin-top: 0px;
     transform: scale(1.2);
     transition-property: all;
     transition-duration: 1s;
 
-    margin-top: 18%;
+    margin-top: 8%;
     transform: scale(1.18);
     transition-property: all;
     transition-duration: 1s;
@@ -467,10 +497,10 @@ body {
 }
 
 .pastille {
-    position: absolute;
+
     top: 10px;
-    left: 10px;
-    width: 90px;
+    padding-left: 30px;
+
 }
 
 .pastille img {

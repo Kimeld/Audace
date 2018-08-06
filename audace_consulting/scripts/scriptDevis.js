@@ -15,6 +15,8 @@ let cercle2 = document.querySelector(".cercle2")
 let cercle3 = document.querySelector(".cercle3")
 let cercle4 = document.querySelector(".cercle4")
 
+let chevrons = document.querySelectorAll(".chevron")
+
 let list = document.querySelector(".list")
 let listNbrs = document.querySelector(".listNbrs")
 let tab = new Array(28)
@@ -173,6 +175,12 @@ let rep4 = document.querySelector(".rep4")
 let i = 0
 let y = 0
 let a = 0
+
+let PM = document.querySelector(".PM")
+let PV = document.querySelector(".PV")
+let PC = document.querySelector(".PC")
+let PF = document.querySelector(".PF")
+
 
 bouttonSui.addEventListener('click', () => {
 
@@ -828,13 +836,65 @@ contenuMana.addEventListener('click', () => {
 
 
     if (programmeContenuManaSelect == 0) {
+
+        chevrons[0].classList.add('chevronRotate')
+        chevrons[1].classList.remove('chevronRotate')
+        chevrons[2].classList.remove('chevronRotate')
+        chevrons[3].classList.remove('chevronRotate')
+
         programmeContenuMana.classList.add('open')
         managementContenu.classList.remove('none')
-        programmeContenuManaSelect++
+
+        PV.classList.remove('P4')
+        PM.classList.remove('P4')
+        PC.classList.remove('P4')
+        PF.classList.remove('P4')
+
+        PV.classList.remove('P5')
+        PM.classList.remove('P5')
+        PC.classList.remove('P5')
+        PF.classList.remove('P5')
+
+        PF.classList.remove('P3')
+        PM.classList.remove('P3')
+        PV.classList.remove('P3')
+        PC.classList.remove('P3')
+
+        PM.classList.remove('P5')
+        PV.classList.add('P5')
+        PC.classList.add('P5')
+        PF.classList.add('P5')
+
+        programmeContenuVente.classList.remove('open')
+        venteContenu.classList.add('none')
+        programmeContenuVenteSelect = 0
+
+        programmeContenuComunication.classList.remove('open')
+        comunicationContenu.classList.add('none')
+        programmeContenuComunicationSelect = 0
+
+        programmeContenuformateur.classList.remove('open')
+        formateurContenu.classList.add('none')
+        programmeContenuformateurSelect = 0
+
+
+        programmeContenuManaSelect = 1
     } else {
+        chevrons[0].classList.remove('chevronRotate')
+        chevrons[1].classList.remove('chevronRotate')
+        chevrons[2].classList.remove('chevronRotate')
+        chevrons[3].classList.remove('chevronRotate')
+
         programmeContenuMana.classList.remove('open')
         managementContenu.classList.add('none')
-        programmeContenuManaSelect--
+
+        PV.classList.remove('P5')
+        PM.classList.remove('P5')
+        PC.classList.remove('P5')
+        PF.classList.remove('P5')
+
+
+        programmeContenuManaSelect = 0
 
     }
 
@@ -918,13 +978,60 @@ contenuVent.addEventListener('click', () => {
 
 
     if (programmeContenuVenteSelect == 0) {
+        chevrons[1].classList.add('chevronRotate')
+        chevrons[0].classList.remove('chevronRotate')
+        chevrons[2].classList.remove('chevronRotate')
+        chevrons[3].classList.remove('chevronRotate')
+
         programmeContenuVente.classList.add('open')
         venteContenu.classList.remove('none')
-        programmeContenuVenteSelect++
+
+
+
+        PV.classList.remove('P5')
+        PM.classList.remove('P5')
+        PC.classList.remove('P5')
+        PF.classList.remove('P5')
+
+        PF.classList.remove('P3')
+        PM.classList.remove('P3')
+        PV.classList.remove('P3')
+        PC.classList.remove('P3')
+
+        PV.classList.remove('P4')
+        PM.classList.add('P4')
+        PC.classList.add('P4')
+        PF.classList.add('P4')
+
+        programmeContenuMana.classList.remove('open')
+        managementContenu.classList.add('none')
+        programmeContenuManaSelect = 0
+
+        programmeContenuComunication.classList.remove('open')
+        comunicationContenu.classList.add('none')
+        programmeContenuComunicationSelect = 0
+
+        programmeContenuformateur.classList.remove('open')
+        formateurContenu.classList.add('none')
+        programmeContenuformateurSelect = 0
+
+        programmeContenuVenteSelect = 1
     } else {
+        chevrons[0].classList.remove('chevronRotate')
+        chevrons[1].classList.remove('chevronRotate')
+        chevrons[2].classList.remove('chevronRotate')
+        chevrons[3].classList.remove('chevronRotate')
+
         programmeContenuVente.classList.remove('open')
         venteContenu.classList.add('none')
-        programmeContenuVenteSelect--
+        PV.classList.remove('P4')
+        PM.classList.remove('P4')
+        PC.classList.remove('P4')
+        PF.classList.remove('P4')
+
+
+
+        programmeContenuVenteSelect = 0
 
     }
 
@@ -993,13 +1100,61 @@ contenuComunication.addEventListener('click', () => {
 
 
     if (programmeContenuComunicationSelect == 0) {
+        chevrons[2].classList.add('chevronRotate')
+        chevrons[1].classList.remove('chevronRotate')
+        chevrons[0].classList.remove('chevronRotate')
+        chevrons[3].classList.remove('chevronRotate')
+
         programmeContenuComunication.classList.add('open')
         comunicationContenu.classList.remove('none')
-        programmeContenuComunicationSelect++
+
+        PV.classList.remove('P4')
+        PM.classList.remove('P4')
+        PC.classList.remove('P4')
+        PF.classList.remove('P4')
+
+
+
+        PF.classList.remove('P3')
+        PM.classList.remove('P3')
+        PV.classList.remove('P3')
+        PC.classList.remove('P3')
+
+        PC.classList.remove('P5')
+        PM.classList.add('P5')
+        PV.classList.add('P5')
+        PF.classList.add('P5')
+
+        programmeContenuMana.classList.remove('open')
+        managementContenu.classList.add('none')
+        programmeContenuManaSelect = 0
+
+        programmeContenuVente.classList.remove('open')
+        venteContenu.classList.add('none')
+        programmeContenuVenteSelect = 0
+
+        programmeContenuformateur.classList.remove('open')
+        formateurContenu.classList.add('none')
+        programmeContenuformateurSelect = 0
+
+        programmeContenuComunicationSelect = 1
     } else {
+        chevrons[0].classList.remove('chevronRotate')
+        chevrons[1].classList.remove('chevronRotate')
+        chevrons[2].classList.remove('chevronRotate')
+        chevrons[3].classList.remove('chevronRotate')
+
         programmeContenuComunication.classList.remove('open')
         comunicationContenu.classList.add('none')
-        programmeContenuComunicationSelect--
+
+        PV.classList.remove('P5')
+        PM.classList.remove('P5')
+        PC.classList.remove('P5')
+        PF.classList.remove('P5')
+
+
+
+        programmeContenuComunicationSelect = 0
 
     }
 
@@ -1082,13 +1237,61 @@ contenuFormateur.addEventListener('click', () => {
 
 
     if (programmeContenuformateurSelect == 0) {
+        chevrons[3].classList.add('chevronRotate')
+        chevrons[1].classList.remove('chevronRotate')
+        chevrons[2].classList.remove('chevronRotate')
+        chevrons[0].classList.remove('chevronRotate')
+
         programmeContenuformateur.classList.add('open')
         formateurContenu.classList.remove('none')
-        programmeContenuformateurSelect++
+
+        PV.classList.remove('P4')
+        PM.classList.remove('P4')
+        PC.classList.remove('P4')
+        PF.classList.remove('P4')
+
+        PV.classList.remove('P5')
+        PM.classList.remove('P5')
+        PC.classList.remove('P5')
+        PF.classList.remove('P5')
+
+
+        PF.classList.remove('P3')
+        PM.classList.add('P3')
+        PV.classList.add('P3')
+        PC.classList.add('P3')
+
+        programmeContenuMana.classList.remove('open')
+        managementContenu.classList.add('none')
+        programmeContenuManaSelect = 0
+
+        programmeContenuVente.classList.remove('open')
+        venteContenu.classList.add('none')
+        programmeContenuVenteSelect = 0
+
+        programmeContenuComunication.classList.remove('open')
+        comunicationContenu.classList.add('none')
+        programmeContenuComunicationSelect = 0
+
+        programmeContenuformateurSelect = 1
     } else {
+        chevrons[0].classList.remove('chevronRotate')
+        chevrons[1].classList.remove('chevronRotate')
+        chevrons[2].classList.remove('chevronRotate')
+        chevrons[3].classList.remove('chevronRotate')
+
         programmeContenuformateur.classList.remove('open')
         formateurContenu.classList.add('none')
-        programmeContenuformateurSelect--
+
+        PF.classList.remove('P3')
+        PM.classList.remove('P3')
+        PV.classList.remove('P3')
+        PC.classList.remove('P3')
+
+
+
+
+        programmeContenuformateurSelect = 0
 
     }
 
