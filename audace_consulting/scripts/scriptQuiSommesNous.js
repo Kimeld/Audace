@@ -59,6 +59,11 @@ let key = document.querySelector(".key")
 
 let close = document.querySelector(".close")
 
+let bouttonMsousMenu = document.querySelectorAll(".bouttonMsousMenu")
+let MsousMenu = document.querySelectorAll(".MsousMenu")
+let mobileTestiImg = document.querySelector(".mobileTestiImg")
+
+
 let Msm1 = document.querySelector(".Msm1")
 let Msm2 = document.querySelector(".Msm2")
 let Msm3 = document.querySelector(".Msm3")
@@ -250,7 +255,7 @@ forum.addEventListener('click', () => {
 
     smC.classList.remove('smS');
 
-    
+
     sm1.classList.remove('col-lg-1');
     sm2.classList.remove('col-lg-1');
     sm3.classList.remove('col-lg-1');
@@ -270,10 +275,10 @@ forum.addEventListener('click', () => {
     }, 200)
 
     sm2.innerHTML = ''
-sm1.innerHTML = '<a class="deco" href="news.html">À la une</a>'
-sm2.innerHTML = '<a class="deco" href="inscription.html">contact</a>'
-sm3.innerHTML = '<a class="deco" href="devis.html">Devis</a>'
-sm4.innerHTML = ''
+    sm1.innerHTML = '<a class="deco" href="news.html">À la une</a>'
+    sm2.innerHTML = '<a class="deco" href="inscription.html">contact</a>'
+    sm3.innerHTML = '<a class="deco" href="devis.html">Devis</a>'
+    sm4.innerHTML = ''
 
 
     sm1.setAttribute('href', 'news.html')
@@ -296,6 +301,27 @@ Msm1.addEventListener('click', () => {
 
     titreTexte.classList.remove('opacityM')
 
+    //sm1.classList.add('sm11')
+    MsousMenu[0].classList.add('white2')
+    //sm2.classList.add('sm12')
+    MsousMenu[1].classList.remove('white2')
+    //sm4.classList.add('sm14')
+    MsousMenu[2].classList.remove('white2')
+    //sm3.classList.remove('sm13')
+    MsousMenu[3].classList.remove('white2')
+
+    //sm1.classList.add('sm11')
+    bouttonMsousMenu[0].classList.add('red2')
+    //sm2.classList.add('sm12')
+    bouttonMsousMenu[1].classList.remove('red2')
+    //sm4.classList.add('sm14')
+    bouttonMsousMenu[2].classList.remove('red2')
+    //sm3.classList.remove('sm13')
+    bouttonMsousMenu[3].classList.remove('red2')
+
+    mobileTestiImg.classList.add('None')
+    mobileTestiImg.classList.remove('display')
+
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Nos valeurs'
@@ -317,6 +343,27 @@ Msm2.addEventListener('click', () => {
     fond.classList.remove('imgQualite')
     fond.classList.add('imgEquipe')
 
+    //sm1.classList.add('sm11')
+    MsousMenu[0].classList.remove('white2')
+    //sm2.classList.add('sm12')
+    MsousMenu[1].classList.add('white2')
+    //sm4.classList.add('sm14')
+    MsousMenu[2].classList.remove('white2')
+    //sm3.classList.remove('sm13')
+    MsousMenu[3].classList.remove('white2')
+
+    //sm1.classList.add('sm11')
+    bouttonMsousMenu[0].classList.remove('red2')
+    //sm2.classList.add('sm12')
+    bouttonMsousMenu[1].classList.add('red2')
+    //sm4.classList.add('sm14')
+    bouttonMsousMenu[2].classList.remove('red2')
+    //sm3.classList.remove('sm13')
+    bouttonMsousMenu[3].classList.remove('red2')
+
+    mobileTestiImg.classList.add('None')
+    mobileTestiImg.classList.remove('display')
+
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Notre équipe'
@@ -333,6 +380,28 @@ Msm3.addEventListener('click', () => {
     contenuVente.classList.add('animationContenu')
 
     titreTexte.classList.remove('opacityM')
+
+    //sm1.classList.add('sm11')
+    MsousMenu[0].classList.remove('white2')
+    //sm2.classList.add('sm12')
+    MsousMenu[1].classList.remove('white2')
+    //sm4.classList.add('sm14')
+    MsousMenu[3].classList.remove('white2')
+    //sm3.classList.remove('sm13')
+    MsousMenu[2].classList.add('white2')
+
+    //sm1.classList.add('sm11')
+    bouttonMsousMenu[0].classList.remove('red2')
+    //sm2.classList.add('sm12')
+    bouttonMsousMenu[1].classList.remove('red2')
+    //sm4.classList.add('sm14')
+    bouttonMsousMenu[2].classList.add('red2')
+    //sm3.classList.remove('sm13')
+    bouttonMsousMenu[3].classList.remove('red2')
+
+    mobileTestiImg.classList.add('None')
+    mobileTestiImg.classList.remove('display')
+
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -351,11 +420,40 @@ Msm4.addEventListener('click', () => {
 
     titreTexte.classList.remove('opacityM')
 
+    //sm1.classList.add('sm11')
+    MsousMenu[0].classList.remove('white2')
+    //sm2.classList.add('sm12')
+    MsousMenu[1].classList.remove('white2')
+    //sm4.classList.add('sm14')
+    MsousMenu[3].classList.add('white2')
+    //sm3.classList.remove('sm13')
+    MsousMenu[2].classList.remove('white2')
+
+    //sm1.classList.add('sm11')
+    bouttonMsousMenu[0].classList.remove('red2')
+    //sm2.classList.add('sm12')
+    bouttonMsousMenu[1].classList.remove('red2')
+    //sm4.classList.add('sm14')
+    bouttonMsousMenu[2].classList.remove('red2')
+    //sm3.classList.remove('sm13')
+    bouttonMsousMenu[3].classList.add('red2')
+
+    fond.classList.remove('imgPedagogie')
+
+    fond.classList.remove('imgQualite')
+    fond.classList.remove('imgEquipe')
+    fond.classList.remove('imgEquipe2')
+    fond.classList.add('imgTestimonial')
+
+    mobileTestiImg.classList.remove('None')
+    mobileTestiImg.classList.add('display')
+
+
+
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Testimonial'
-        texte.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, asperiores mollitia repellat illo ullam animi vel, delectus reprehenderit sint dicta culpa eveniet molestiae eos magnam, nulla libero quam reiciendis dignissimos?'
+        titreFormation.innerHTML = ' Les partenaires qui nous ont fait confiance'
+        texte.innerHTML = ''
         contenuVente.classList.remove('animationContenu')
-
-    }, 200)
+    })
 })

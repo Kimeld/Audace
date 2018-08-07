@@ -174,9 +174,9 @@ forum.addEventListener('click', () => {
     sm3.classList.remove('col-lg-1');
 
     sm2.innerHTML = ''
-    sm1.innerHTML = '<a class="deco" href="news.html">À la une</a>'
-    sm2.innerHTML = '<a class="deco" href="inscription.html">contact</a>'
-    sm3.innerHTML = '<a class="deco" href="devis.html">Devis</a>'
+    sm1.innerHTML = '<a class="deco" href="pages/news.html">À la une</a>'
+    sm2.innerHTML = '<a class="deco" href="pages/inscription.html">contact</a>'
+    sm3.innerHTML = '<a class="deco" href="pages/devis.html">Devis</a>'
     sm4.innerHTML = ''
 
     //sm1.classList.add('col-lg-2');
@@ -192,19 +192,19 @@ forum.addEventListener('click', () => {
         sousMenu.classList.add('animationSousMenu');
         sousMenu.classList.add('sousMenuMove');
     }, 200)
+    /*
+        sm2.innerHTML = ''
+        sm1.innerHTML = 'À la une'
+        sm2.innerHTML = 'Contact'
+        sm3.innerHTML = 'Devis'
+        sm4.innerHTML = ''
 
-    sm2.innerHTML = ''
-    sm1.innerHTML = 'À la une'
-    sm2.innerHTML = 'Contact'
-    sm3.innerHTML = 'Devis'
-    sm4.innerHTML = ''
 
-
-    sm1.setAttribute('href', 'pages/news.html')
-    sm2.setAttribute('href', 'pages/inscription.html')
-    sm3.setAttribute('href', 'pages/devis.html')
-    sm4.setAttribute('href', 'formateur.html')
-
+        sm1.setAttribute('href', 'pages/news.html')
+        sm2.setAttribute('href', 'pages/inscription.html')
+        sm3.setAttribute('href', 'pages/devis.html')
+        sm4.setAttribute('href', 'formateur.html')
+    */
 
 
 

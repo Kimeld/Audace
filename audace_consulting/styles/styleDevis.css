@@ -421,6 +421,7 @@ body {
     border-width: 1px;
     border-color: #707070;
     box-shadow: 3px 2px 5px #707070;
+    padding-top: 8px;
     transform: scale(1);
     transition-property: all;
     transition-duration: 1s;
