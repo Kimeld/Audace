@@ -27,6 +27,11 @@ let milieux = document.querySelector(".milieux")
 
 let modules = document.querySelector(".modules")
 
+let bouttonMsousMenu = document.querySelectorAll(".bouttonMsousMenu")
+let MsousMenu = document.querySelectorAll(".MsousMenu")
+let mobileTestiImg = document.querySelector(".mobileTestiImg")
+let MsousMenuBusiness = document.querySelector(".MsousMenuBusiness")
+
 let Msm1 = document.querySelector(".Msm1")
 let Msm2 = document.querySelector(".Msm2")
 let Msm3 = document.querySelector(".Msm3")
@@ -229,6 +234,25 @@ Msm1.addEventListener('click', () => {
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
 
+    //sm1.classList.add('sm11')
+    MsousMenu[0].classList.add('white2')
+    MsousMenuBusiness.classList.remove('white2')
+    //sm2.classList.add('sm12')
+    MsousMenu[1].classList.remove('white2')
+    //sm4.classList.add('sm14')
+    MsousMenu[2].classList.remove('white2')
+    //sm3.classList.remove('sm13')
+    MsousMenu[3].classList.remove('white2')
+
+    //sm1.classList.add('sm11')
+    bouttonMsousMenu[0].classList.add('red2')
+    //sm2.classList.add('sm12')
+    bouttonMsousMenu[1].classList.remove('red2')
+    //sm4.classList.add('sm14')
+    bouttonMsousMenu[2].classList.remove('red2')
+    //sm3.classList.remove('sm13')
+    bouttonMsousMenu[3].classList.remove('red2')
+    bouttonMsousMenu[4].classList.remove('red2')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -244,6 +268,25 @@ Msm2.addEventListener('click', () => {
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
 
+    //sm1.classList.add('sm11')
+    MsousMenu[0].classList.remove('white2')
+    MsousMenuBusiness.classList.add('white2')
+    //sm2.classList.add('sm12')
+    MsousMenu[1].classList.add('white2')
+    //sm4.classList.add('sm14')
+    MsousMenu[2].classList.remove('white2')
+    //sm3.classList.remove('sm13')
+    MsousMenu[3].classList.remove('white2')
+
+    //sm1.classList.add('sm11')
+    bouttonMsousMenu[0].classList.remove('red2')
+    //sm2.classList.add('sm12')
+    bouttonMsousMenu[1].classList.add('red2')
+    //sm4.classList.add('sm14')
+    bouttonMsousMenu[2].classList.remove('red2')
+    //sm3.classList.remove('sm13')
+    bouttonMsousMenu[3].classList.remove('red2')
+    bouttonMsousMenu[4].classList.remove('red2')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -260,13 +303,33 @@ Msm3.addEventListener('click', () => {
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
 
+    //sm1.classList.add('sm11')
+    MsousMenu[0].classList.remove('white2')
+    MsousMenuBusiness.classList.remove('white2')
+    //sm2.classList.add('sm12')
+    MsousMenu[1].classList.add('white2')
+    //sm4.classList.add('sm14')
+    MsousMenu[3].classList.remove('white2')
+    //sm3.classList.remove('sm13')
+    MsousMenu[2].classList.remove('white2')
+
+    //sm1.classList.add('sm11')
+    bouttonMsousMenu[0].classList.remove('red2')
+    //sm2.classList.add('sm12')
+    bouttonMsousMenu[1].classList.remove('red2')
+    //sm4.classList.add('sm14')
+    bouttonMsousMenu[2].classList.add('red2')
+    //sm3.classList.remove('sm13')
+    bouttonMsousMenu[3].classList.remove('red2')
+    bouttonMsousMenu[4].classList.remove('red2')
+
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Coaching '
         texte.innerHTML = 'Notre division stratégie commerciale accompagne les entreprises dans le développement de leur chiffre d’affaires. <br> <br> Nos consultants commerciaux bénéficient d’une solide expérience dans de grandes entreprises où la part commerciale est prépondérante. <br> <br> Ils sont tous formés et maîtrisent l’utilisation de nos outils. <br> Nous nous engageons à trouver des solutions adaptées pour les entreprises afin d’obtenir le meilleur retour sur investissement.'
         contenuVente.classList.remove('animationContenu')
-        milieux.classList.remove('opacityM')
+
     }, 200)
 
 })
@@ -278,12 +341,33 @@ Msm4.addEventListener('click', () => {
     contenuVente.classList.add('animationContenu')
 
 
+
+    //sm1.classList.add('sm11')
+    MsousMenu[0].classList.remove('white2')
+    MsousMenuBusiness.classList.remove('white2')
+    //sm2.classList.add('sm12')
+    MsousMenu[1].classList.remove('white2')
+    //sm4.classList.add('sm14')
+    MsousMenu[3].classList.remove('white2')
+    //sm3.classList.remove('sm13')
+    MsousMenu[2].classList.add('white2')
+
+    //sm1.classList.add('sm11')
+    bouttonMsousMenu[0].classList.remove('red2')
+    //sm2.classList.add('sm12')
+    bouttonMsousMenu[1].classList.remove('red2')
+    //sm4.classList.add('sm14')
+    bouttonMsousMenu[2].classList.remove('red2')
+    //sm3.classList.remove('sm13')
+    bouttonMsousMenu[3].classList.add('red2')
+    bouttonMsousMenu[4].classList.remove('red2')
+
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'digital learning'
         texte.innerHTML = 'Notre division stratégie commerciale accompagne les entreprises dans le développement de leur chiffre d’affaires. <br> <br> Nos consultants commerciaux bénéficient d’une solide expérience dans de grandes entreprises où la part commerciale est prépondérante. <br> <br> Ils sont tous formés et maîtrisent l’utilisation de nos outils. <br> Nous nous engageons à trouver des solutions adaptées pour les entreprises afin d’obtenir le meilleur retour sur investissement.'
         contenuVente.classList.remove('animationContenu')
-        milieux.classList.remove('opacityM')
+
     }, 200)
 
 })
@@ -292,6 +376,26 @@ Msm5.addEventListener('click', () => {
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
+
+    //sm1.classList.add('sm11')
+    MsousMenu[0].classList.remove('white2')
+    MsousMenuBusiness.classList.remove('white2')
+    //sm2.classList.add('sm12')
+    MsousMenu[1].classList.remove('white2')
+    //sm4.classList.add('sm14')
+    MsousMenu[3].classList.add('white2')
+    //sm3.classList.remove('sm13')
+    MsousMenu[2].classList.remove('white2')
+
+    //sm1.classList.add('sm11')
+    bouttonMsousMenu[0].classList.remove('red2')
+    //sm2.classList.add('sm12')
+    bouttonMsousMenu[1].classList.remove('red2')
+    //sm4.classList.add('sm14')
+    bouttonMsousMenu[2].classList.remove('red2')
+    //sm3.classList.remove('sm13')
+    bouttonMsousMenu[3].classList.remove('red2')
+    bouttonMsousMenu[4].classList.add('red2')
 
 
     window.setTimeout(() => {
