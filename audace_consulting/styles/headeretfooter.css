@@ -254,7 +254,7 @@ body {
     color: #878787;
 }
 
-.MsousMenu{
+.MsousMenu {
     display: none;
 }
 
@@ -577,8 +577,10 @@ input {
     }
     .buttonPos {
         position: absolute;
+        z-index: 2;
         left: 10px;
         height: 30px;
+        opacity: 0;
     }
     .navBackColor1 {
         background-color: #E00034;
@@ -619,23 +621,23 @@ input {
 
 
     }
-    
-    .burger h5:hover{
-        cursor: pointer;
-        
-    }
-    
-    .underMenuDiv {
-    padding: 0px;
 
-}
+    .burger h5:hover {
+        cursor: pointer;
+
+    }
+
+    .underMenuDiv {
+        padding: 0px;
+
+    }
 
     .underMenu {
-    height: 1.5px;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    background-color: #E1E1E1;
-}
+        height: 1.5px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        background-color: #E1E1E1;
+    }
 
     .GroupeMsousMenu {
         text-align: center;
@@ -646,7 +648,7 @@ input {
         text-align: center;
         border: solid;
         border-radius: 10px;
-        border-width: 1.5px;
+        border-width: 1px;
         border-color: #E00034;
         transition-duration: 0.5s;
         width: 80px;
@@ -657,7 +659,7 @@ input {
 
 
     .bouttonMsousMenu:hover {
-          display: inline-block;
+        display: inline-block;
         cursor: pointer;
         text-align: center;
         border: solid;
@@ -669,6 +671,11 @@ input {
         height: 40px;
         margin-left: 2px;
         margin-right: 2px;
+    }
+
+    .MsmBusiness {
+
+        padding-bottom: px;
     }
 
     .MsousMenu {
@@ -686,6 +693,20 @@ input {
         text-align: center;
 
 
+    }
+
+    .MsousMenuBusiness {
+        color: #707070;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 10px;
+        display: inline-block;
+        transition-duration: 0.5s;
+        text-decoration: none;
+        transform: translateY(7px);
+
+        text-align: center;
     }
     .MsousMenuF {
         color: #707070;
@@ -729,12 +750,31 @@ input {
         background-color: #E00034;
     }
 
-    .burger img {
+    /*
+    
+    .burger .img{
         position: absolute;
-        width: 50px;
-        right: 10px;
+        text-align: center;
+       right: 10px;
         top: 0px;
 
+    }
+    
+    */
+    .burger .imgBurger {
+        position: absolute;
+        text-align: center;
+        left: 0px;
+        top: 0px;
+
+    }
+
+    .burger .imgBurger img {
+        width: 50px;
+    }
+
+    .burger .imgBurger h4 {
+        font-family: 'Montserrat', sans-serif;
     }
 
 }
