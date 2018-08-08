@@ -69,6 +69,44 @@ let Msm2 = document.querySelector(".Msm2")
 let Msm3 = document.querySelector(".Msm3")
 let Msm4 = document.querySelector(".Msm4")
 
+let MpopContenu0 = document.querySelector(".MpopContenu0")
+let MpopContenu1 = document.querySelector(".MpopContenu1")
+let MpopContenu2 = document.querySelector(".MpopContenu2")
+let MpopContenu3 = document.querySelector(".MpopContenu3")
+let MpopContenu4 = document.querySelector(".MpopContenu4")
+
+let MpopContenuLeft = document.querySelector(".MpopContenuLeft")
+let MpopContenuRight = document.querySelector(".MpopContenuRight")
+
+let titreMpop0 = document.querySelector(".titreMpop0")
+let paraMpop01 = document.querySelector(".paraMpop01")
+let paraMpop02 = document.querySelector(".paraMpop01")
+let paraMpop03 = document.querySelector(".paraMpop01")
+
+let titreMpop1 = document.querySelector(".titreMpop1")
+let paraMpop11 = document.querySelector(".paraMpop11")
+let paraMpop12 = document.querySelector(".paraMpop12")
+let paraMpop13 = document.querySelector(".paraMpop13")
+
+let titreMpop2 = document.querySelector(".titreMpop1")
+let paraMpop21 = document.querySelector(".paraMpop21")
+let paraMpop22 = document.querySelector(".paraMpop22")
+let paraMpop23 = document.querySelector(".paraMpop23")
+
+let titreMpop3 = document.querySelector(".titreMpop03")
+let paraMpop31 = document.querySelector(".paraMpop31")
+let paraMpop32 = document.querySelector(".paraMpop32")
+let paraMpop33 = document.querySelector(".paraMpop33")
+
+let titreMpop4 = document.querySelector(".titreMpop4")
+let paraMpop41 = document.querySelector(".paraMpop41")
+let paraMpop42 = document.querySelector(".paraMpop42")
+let paraMpop43 = document.querySelector(".paraMpop43")
+
+let i = 0
+
+
+
 scrollbars.visible = false;
 
 sousMenu.classList.add('marginFormations');
@@ -125,7 +163,7 @@ if (key.innerHTML == 'comunication') {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Communication'
+        titreFormation.innerHTML = 'Optimisez votre communication'
         texteFormation.innerHTML = 'Optimiser votre communication Nos modules permettent d’améliorer votre communication interpersonnelle et votre flexibilité relationnelle.'
         contenuVente.classList.remove('animationContenu')
 
@@ -1210,4 +1248,194 @@ Msm4.addEventListener('click', () => {
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
+})
+
+MpopContenuRight.addEventListener('click', () => {
+
+
+
+    if (i >= 0 && i < 5) {
+        i++
+
+        if (i == 1) {
+
+
+
+            MpopContenu0.classList.remove('contenuActive')
+            MpopContenu0.classList.add('contenuNoActive')
+
+            MpopContenu1.classList.remove('displayNone')
+
+
+            window.setTimeout(() => {
+
+
+                MpopContenu0.classList.add('displayNone')
+
+                MpopContenu1.classList.add('contenuActive')
+                MpopContenu1.classList.remove('contenuNoActive')
+
+
+            }, 800)
+
+
+
+        } else if (i == 2) {
+
+
+            MpopContenu1.classList.remove('contenuActive')
+            MpopContenu1.classList.add('contenuNoActive')
+
+            MpopContenu2.classList.remove('displayNone')
+
+
+            window.setTimeout(() => {
+
+
+                MpopContenu1.classList.add('displayNone')
+
+                MpopContenu2.classList.add('contenuActive')
+                MpopContenu2.classList.remove('contenuNoActive')
+
+
+
+            }, 800)
+
+
+
+
+        } else if (i == 3) {
+
+            MpopContenu2.classList.remove('contenuActive')
+            MpopContenu2.classList.add('contenuNoActive')
+
+            MpopContenu3.classList.remove('displayNone')
+
+            window.setTimeout(() => {
+
+                MpopContenu2.classList.add('displayNone')
+
+                MpopContenu3.classList.add('contenuActive')
+                MpopContenu3.classList.remove('contenuNoActive')
+            }, 800)
+
+
+        } else if (i == 4) {
+
+            MpopContenu3.classList.remove('contenuActive')
+            MpopContenu3.classList.add('contenuNoActive')
+
+            MpopContenu4.classList.remove('displayNone')
+
+            window.setTimeout(() => {
+
+                MpopContenu3.classList.add('displayNone')
+
+                MpopContenu4.classList.add('contenuActive')
+                MpopContenu4.classList.remove('contenuNoActive')
+            }, 800)
+
+
+        }
+
+    }
+
+})
+
+MpopContenuLeft.addEventListener('click', () => {
+
+
+
+    if (i >= 0 && i < 5) {
+        i--
+
+        if (i == 0) {
+
+
+
+            MpopContenu1.classList.remove('contenuActive')
+            MpopContenu1.classList.add('contenuNoActive')
+
+            MpopContenu0.classList.remove('displayNone')
+
+
+            window.setTimeout(() => {
+
+
+                MpopContenu1.classList.add('displayNone')
+
+                MpopContenu0.classList.add('contenuActive')
+                MpopContenu0.classList.remove('contenuNoActive')
+
+
+            }, 800)
+
+
+
+        } else if (i == 1) {
+
+
+
+
+            MpopContenu0.classList.remove('contenuActive')
+            MpopContenu0.classList.add('contenuNoActive')
+
+            MpopContenu1.classList.remove('displayNone')
+
+
+            window.setTimeout(() => {
+
+
+                MpopContenu0.classList.add('displayNone')
+
+                MpopContenu1.classList.add('contenuActive')
+                MpopContenu1.classList.remove('contenuNoActive')
+
+
+            }, 800)
+
+
+
+
+        } else if (i == 2) {
+
+            MpopContenu1.classList.remove('contenuActive')
+            MpopContenu1.classList.add('contenuNoActive')
+
+            MpopContenu2.classList.remove('displayNone')
+
+
+            window.setTimeout(() => {
+
+
+                MpopContenu1.classList.add('displayNone')
+
+                MpopContenu2.classList.add('contenuActive')
+                MpopContenu2.classList.remove('contenuNoActive')
+
+
+
+            }, 800)
+
+
+        } else if (i == 3) {
+
+            MpopContenu2.classList.remove('contenuActive')
+            MpopContenu2.classList.add('contenuNoActive')
+
+            MpopContenu3.classList.remove('displayNone')
+
+            window.setTimeout(() => {
+
+                MpopContenu2.classList.add('displayNone')
+
+                MpopContenu3.classList.add('contenuActive')
+                MpopContenu3.classList.remove('contenuNoActive')
+            }, 800)
+
+
+        }
+
+    }
+
 })
