@@ -58,7 +58,16 @@ let key = document.querySelector(".key")
 
 let close = document.querySelector(".close")
 
+let bouttonMsousMenu = document.querySelectorAll(".bouttonMsousMenu")
+let MsousMenu = document.querySelectorAll(".MsousMenu")
+let MsousMenuBusiness = document.querySelectorAll(".MsousMenuBusiness")
+let mobileTestiImg = document.querySelector(".mobileTestiImg")
 
+
+let Msm1 = document.querySelector(".Msm1")
+let Msm2 = document.querySelector(".Msm2")
+let Msm3 = document.querySelector(".Msm3")
+let Msm4 = document.querySelector(".Msm4")
 
 scrollbars.visible = false;
 
@@ -122,7 +131,7 @@ if (key.innerHTML == 'comunication') {
 
     }, 200)
 
-            
+
     popOne.classList.remove('opacityM')
     popFive.classList.remove('opacityM')
 
@@ -1018,4 +1027,187 @@ forum.addEventListener('click', () => {
 
 
 
+})
+
+
+Msm1.addEventListener('click', () => {
+
+    contenuVente.classList.add('contenuMove')
+    contenuVente.classList.add('animationContenu')
+    fond.classList.remove('imgEquipe')
+    fond.classList.add('imgQualite')
+
+
+    //sm1.classList.add('sm11')
+    MsousMenu[0].classList.add('white2')
+    //sm2.classList.add('sm12')
+    MsousMenuBusiness[0].classList.remove('white2')
+    //sm4.classList.add('sm14')
+    MsousMenu[1].classList.remove('white2')
+    //sm3.classList.remove('sm13')
+    MsousMenuBusiness[1].classList.remove('white2')
+
+    //sm1.classList.add('sm11')
+    bouttonMsousMenu[0].classList.add('red2')
+    //sm2.classList.add('sm12')
+    bouttonMsousMenu[1].classList.remove('red2')
+    //sm4.classList.add('sm14')
+    bouttonMsousMenu[2].classList.remove('red2')
+    //sm3.classList.remove('sm13')
+    bouttonMsousMenu[3].classList.remove('red2')
+    /*
+        mobileTestiImg.classList.remove('mobileTesti')
+        mobileTestiImg.classList.remove('mobilePedagogie')
+        mobileTestiImg.classList.remove('mobileEquipe')
+        mobileTestiImg.classList.add('mobileValeur')
+
+        mobileTestiImg.classList.remove('None')
+        mobileTestiImg.classList.add('display')
+    */
+    window.setTimeout(() => {
+        contenuVente.classList.remove('contenuMove')
+        titreFormation.innerHTML = ' Développez votre performance managériale'
+        texteFormation.innerHTML = 'Développer votre performance managériale. L’impact du manager est primordial pour la performance et la cohésion d’équipe. Nous aidons les managers à devenir plus performants avec leurs collaborateurs. Pour parvenir à ce résultat nous mettons à disposition des outils simples et efficaces.'
+        contenuVente.classList.remove('animationContenu')
+
+    }, 200)
+})
+
+
+Msm2.addEventListener('click', () => {
+
+    contenuVente.classList.add('contenuMove')
+    contenuVente.classList.add('animationContenu')
+
+
+
+    fond.classList.remove('imgQualite')
+    fond.classList.add('imgEquipe')
+
+    //sm1.classList.add('sm11')
+    MsousMenu[0].classList.remove('white2')
+    //sm2.classList.add('sm12')
+    MsousMenuBusiness[0].classList.add('white2')
+    //sm4.classList.add('sm14')
+    MsousMenu[1].classList.remove('white2')
+    //sm3.classList.remove('sm13')
+    MsousMenuBusiness[1].classList.remove('white2')
+
+    //sm1.classList.add('sm11')
+    bouttonMsousMenu[0].classList.remove('red2')
+    //sm2.classList.add('sm12')
+    bouttonMsousMenu[1].classList.add('red2')
+    //sm4.classList.add('sm14')
+    bouttonMsousMenu[2].classList.remove('red2')
+    //sm3.classList.remove('sm13')
+    bouttonMsousMenu[3].classList.remove('red2')
+    /*
+        mobileTestiImg.classList.remove('mobileTesti')
+        mobileTestiImg.classList.remove('mobilePedagogie')
+        mobileTestiImg.classList.add('mobileEquipe')
+        mobileTestiImg.classList.remove('mobileValeur')
+
+        mobileTestiImg.classList.remove('None')
+        mobileTestiImg.classList.add('display')
+    */
+    window.setTimeout(() => {
+        contenuVente.classList.remove('contenuMove')
+        titreFormation.innerHTML = 'Améliorez votre efficacité commerciale'
+        texteFormation.innerHTML = 'Développer votre efficacité commerciale. La capacité d’une entreprise à réaliser un chiffre d’affaires à la hauteur de ses exigences dépend des bénéfices apportés par les produit(s) promu(s) et en grande partie à la qualité des forces de vente'
+        contenuVente.classList.remove('animationContenu')
+
+    }, 200)
+})
+
+Msm3.addEventListener('click', () => {
+
+    contenuVente.classList.add('contenuMove')
+    contenuVente.classList.add('animationContenu')
+
+
+
+    //sm1.classList.add('sm11')
+    MsousMenu[0].classList.remove('white2')
+    //sm2.classList.add('sm12')
+    MsousMenuBusiness[0].classList.remove('white2')
+    //sm4.classList.add('sm14')
+    MsousMenu[1].classList.add('white2')
+    //sm3.classList.remove('sm13')
+    MsousMenuBusiness[1].classList.remove('white2')
+
+    //sm1.classList.add('sm11')
+    bouttonMsousMenu[0].classList.remove('red2')
+    //sm2.classList.add('sm12')
+    bouttonMsousMenu[1].classList.remove('red2')
+    //sm4.classList.add('sm14')
+    bouttonMsousMenu[2].classList.add('red2')
+    //sm3.classList.remove('sm13')
+    bouttonMsousMenu[3].classList.remove('red2')
+    /*
+        mobileTestiImg.classList.remove('mobileTesti')
+        mobileTestiImg.classList.add('mobilePedagogie')
+        mobileTestiImg.classList.remove('mobileEquipe')
+        mobileTestiImg.classList.remove('mobileValeurremove')
+        mobileTestiImg.classList.remove('None')
+        mobileTestiImg.classList.add('display')
+    */
+
+    window.setTimeout(() => {
+        contenuVente.classList.remove('contenuMove')
+        titreFormation.innerHTML = 'Optimisez votre communication'
+        texteFormation.innerHTML = 'Optimiser votre communication Nos modules permettent d’améliorer votre communication interpersonnelle et votre flexibilité relationnelle.'
+        contenuVente.classList.remove('animationContenu')
+
+    }, 200)
+
+})
+
+Msm4.addEventListener('click', () => {
+
+    contenuVente.classList.add('contenuMove')
+    contenuVente.classList.add('animationContenu')
+
+
+
+    //sm1.classList.add('sm11')
+    MsousMenu[0].classList.remove('white2')
+    //sm2.classList.add('sm12')
+    MsousMenuBusiness[0].classList.remove('white2')
+    //sm4.classList.add('sm14')
+    MsousMenu[1].classList.remove('white2')
+    //sm3.classList.remove('sm13')
+    MsousMenuBusiness[1].classList.add('white2')
+
+    //sm1.classList.add('sm11')
+    bouttonMsousMenu[0].classList.remove('red2')
+    //sm2.classList.add('sm12')
+    bouttonMsousMenu[1].classList.remove('red2')
+    //sm4.classList.add('sm14')
+    bouttonMsousMenu[2].classList.remove('red2')
+    //sm3.classList.remove('sm13')
+    bouttonMsousMenu[3].classList.add('red2')
+
+    fond.classList.remove('imgPedagogie')
+
+    fond.classList.remove('imgQualite')
+    fond.classList.remove('imgEquipe')
+    fond.classList.remove('imgEquipe2')
+    fond.classList.add('imgTestimonial')
+    /*
+        mobileTestiImg.classList.add('mobileTesti')
+        mobileTestiImg.classList.remove('mobilePedagogie')
+        mobileTestiImg.classList.remove('mobileEquipe')
+        mobileTestiImg.classList.remove('mobileValeur')
+
+        mobileTestiImg.classList.remove('None')
+        mobileTestiImg.classList.add('display')
+    */
+
+
+    window.setTimeout(() => {
+        contenuVente.classList.remove('contenuMove')
+        titreFormation.innerHTML = 'Animez, accompagnez et développez les collaborateurs'
+        contenuVente.classList.remove('animationContenu')
+
+    }, 200)
 })

@@ -28,7 +28,16 @@ let milieux = document.querySelector(".milieux")
 
 let modules = document.querySelector(".modules")
 
+let bouttonMsousMenu = document.querySelectorAll(".bouttonMsousMenu")
+let MsousMenu = document.querySelectorAll(".MsousMenu")
+let MsousMenuBusiness = document.querySelectorAll(".MsousMenuBusiness")
+let mobileTestiImg = document.querySelector(".mobileTestiImg")
 
+
+let Msm1 = document.querySelector(".Msm1")
+let Msm2 = document.querySelector(".Msm2")
+let Msm3 = document.querySelector(".Msm3")
+let Msm4 = document.querySelector(".Msm4")
 
 scrollbars.visible = false;
 
@@ -55,6 +64,10 @@ sm4.setAttribute('href', 'formateur.html')
 
 
 
+MsousMenu[0].innerHTML = '<a href="mana.html" class="deco">Management</a>'
+MsousMenuBusiness[0].innerHTML = '<a href="vente.html" class="deco">Vente & négociation</a>'
+MsousMenu[1].innerHTML = '<a href="comunication.html" class="deco">Communication</a>'
+MsousMenuBusiness[1].innerHTML = '<a href="formateur.html" class="deco">Formation de formateur</a>'
 
 
 

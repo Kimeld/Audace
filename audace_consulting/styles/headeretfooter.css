@@ -413,6 +413,7 @@ body {
 
 .arbo {
     margin-top: 0px;
+    display: inline-block;
 }
 
 .arbo div {
@@ -431,6 +432,7 @@ body {
 }
 
 .contact {
+    display: inline-block;
     margin-top: 32px;
 }
 
@@ -541,7 +543,10 @@ body {
 input {
     transform: scaleY(1.2);
 }
-
+   .GroupeMsousMenu {
+        display: none;
+        text-align: center;
+    }
 
 @media(min-width: 851px) {
     .burger {
@@ -640,6 +645,7 @@ input {
     }
 
     .GroupeMsousMenu {
+        display: block;
         text-align: center;
     }
 
@@ -722,6 +728,7 @@ input {
     
     .Msm5{
         margin-top: 10px;
+        
     }
     .MsousMenu:hover {
         transition-duration: 0.5s;

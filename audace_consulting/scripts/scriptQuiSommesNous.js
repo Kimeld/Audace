@@ -319,8 +319,13 @@ Msm1.addEventListener('click', () => {
     //sm3.classList.remove('sm13')
     bouttonMsousMenu[3].classList.remove('red2')
 
-    mobileTestiImg.classList.add('None')
-    mobileTestiImg.classList.remove('display')
+    mobileTestiImg.classList.remove('mobileTesti')
+    mobileTestiImg.classList.remove('mobilePedagogie')
+    mobileTestiImg.classList.remove('mobileEquipe')
+    mobileTestiImg.classList.add('mobileValeur')
+
+    mobileTestiImg.classList.remove('None')
+    mobileTestiImg.classList.add('display')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -361,8 +366,13 @@ Msm2.addEventListener('click', () => {
     //sm3.classList.remove('sm13')
     bouttonMsousMenu[3].classList.remove('red2')
 
-    mobileTestiImg.classList.add('None')
-    mobileTestiImg.classList.remove('display')
+    mobileTestiImg.classList.remove('mobileTesti')
+    mobileTestiImg.classList.remove('mobilePedagogie')
+    mobileTestiImg.classList.add('mobileEquipe')
+    mobileTestiImg.classList.remove('mobileValeur')
+
+    mobileTestiImg.classList.remove('None')
+    mobileTestiImg.classList.add('display')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -399,8 +409,12 @@ Msm3.addEventListener('click', () => {
     //sm3.classList.remove('sm13')
     bouttonMsousMenu[3].classList.remove('red2')
 
-    mobileTestiImg.classList.add('None')
-    mobileTestiImg.classList.remove('display')
+    mobileTestiImg.classList.remove('mobileTesti')
+    mobileTestiImg.classList.add('mobilePedagogie')
+    mobileTestiImg.classList.remove('mobileEquipe')
+    mobileTestiImg.classList.remove('mobileValeurremove')
+    mobileTestiImg.classList.remove('None')
+    mobileTestiImg.classList.add('display')
 
 
     window.setTimeout(() => {
@@ -444,6 +458,11 @@ Msm4.addEventListener('click', () => {
     fond.classList.remove('imgEquipe')
     fond.classList.remove('imgEquipe2')
     fond.classList.add('imgTestimonial')
+
+    mobileTestiImg.classList.add('mobileTesti')
+    mobileTestiImg.classList.remove('mobilePedagogie')
+    mobileTestiImg.classList.remove('mobileEquipe')
+    mobileTestiImg.classList.remove('mobileValeur')
 
     mobileTestiImg.classList.remove('None')
     mobileTestiImg.classList.add('display')
