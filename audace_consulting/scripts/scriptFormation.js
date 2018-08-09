@@ -93,7 +93,7 @@ let paraMpop21 = document.querySelector(".paraMpop21")
 let paraMpop22 = document.querySelector(".paraMpop22")
 let paraMpop23 = document.querySelector(".paraMpop23")
 
-let titreMpop3 = document.querySelector(".titreMpop03")
+let titreMpop3 = document.querySelector(".titreMpop3")
 let paraMpop31 = document.querySelector(".paraMpop31")
 let paraMpop32 = document.querySelector(".paraMpop32")
 let paraMpop33 = document.querySelector(".paraMpop33")
@@ -104,7 +104,7 @@ let paraMpop42 = document.querySelector(".paraMpop42")
 let paraMpop43 = document.querySelector(".paraMpop43")
 
 let i = 0
-
+let e = 5
 
 
 scrollbars.visible = false;
@@ -1070,6 +1070,8 @@ forum.addEventListener('click', () => {
 
 Msm1.addEventListener('click', () => {
 
+    e = 4
+
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
     fond.classList.remove('imgEquipe')
@@ -1109,10 +1111,40 @@ Msm1.addEventListener('click', () => {
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
+
+    titreMpop0.innerHTML = 'Position n+1'
+    paraMpop01.innerHTML = 'Position n+1'
+    paraMpop02.innerHTML = '– Savoir adopter une posture managériale avec son équipe<br>– Savoir adopter une communication efficace et productive'
+    paraMpop03.innerHTML = '– Comprendre et s’approprier la posture managériale adéquate et les techniques de debrief <br> – S’approprier la communication assertive <br> – Savoir formuler un feedback objectif, productif et permetant la mise en énergie des participants'
+
+    titreMpop1.innerHTML = 'Couleurs du management'
+    paraMpop11.innerHTML = 'La flexibilité managériale permet à tout manager de reconnaître le comportement de chaque membre de son équipe afind’adapter sa communication et ainsi optimiser la performance collective'
+    paraMpop12.innerHTML = '– Savoir adopter une posture managériale avec son équipe <br> – Savoir adopter une communication efficace et productive'
+    paraMpop13.innerHTML = ' Comprendre et s’approprier la posture managériale adéquate et les techniques de debrief <br> – S’approprier la communication assertive <br> – Savoir formuler un feedback objectif, productif et permetant la mise en énergie des participants'
+
+    titreMpop2.innerHTML = 'Management situationnel'
+    paraMpop21.innerHTML = 'Le management situationnel permet de manager chaque membre de l’équipe en fonction de sa motivation et de son niveau d’expertise. Un management sur mesure en fonction des différentes missions'
+    paraMpop22.innerHTML = '– Savoir manager en fonction du niveau de développement de chaque membre de son équipe'
+    paraMpop23.innerHTML = '– Savoir reconnaitre et s’adapter au DEMA de chaque <br> collaborateur <br> – Savoir diagnostiquer le niveau de développement<br> – Savoir manager en fonction du niveau de développement <br> et en fonction des situations'
+
+    titreMpop3.innerHTML = 'Management motivationnel'
+    paraMpop31.innerHTML = 'Le management motivationnel permet au manager d’être proche de ses collaborateurs et de travailler dans un partenariat qui les motive dans leur quotidien'
+    paraMpop32.innerHTML = '– Savoir manager dans un esprit motivationnel <br> – Savoir manager avec les compétences motivationnel <br> – Savoir manager avec les processus motivationnel'
+    paraMpop33.innerHTML = '– Savoir manager dans le partenariat avec empathie <br> – Savoir accompagner son collaborateurs dans l’évocation <br> – Savoir être centré sur son collaborateur <br> – Savoir utiliser les processus motivationnel pour accompagner son collaborateur dans ses plans d’action'
+
+    titreMpop4.innerHTML = 'Management de projet'
+    paraMpop41.innerHTML = 'Le chef de projet saura mener un projet avec plus d’aisance, afin d’a`eindre des résultats et de fédérer un certain nombre de personnes autour de l’a`einte de résultats'
+    paraMpop42.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br>– Savoir mener un projet'
+    paraMpop43.innerHTML = '– Comprendre ce qu’est un business case<br>– Savoir construire son Business case<br>– S’approprier les comportements qui favorisent ladécision<br>– Apprendre à gérer les liens avec les différents acteurs<br>– Savoir Clôturer le projet'
+
+
+
 })
 
 
 Msm2.addEventListener('click', () => {
+
+    e = 3
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
@@ -1155,9 +1187,37 @@ Msm2.addEventListener('click', () => {
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
+
+    titreMpop0.innerHTML = 'Technique de vente'
+    paraMpop01.innerHTML = 'Le chef de projet saura mener un projet avec plus d’aisance, afin d’ateindre des résultats et de fédérer un certain nombre de personnes autour de l’ateinte de résultats'
+    paraMpop02.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> – Savoir mener un projet'
+    paraMpop03.innerHTML = '– Comprendre ce qu’est un business case <br> – Savoir construire son Business case <br> – S’approprier les comportements qui favorisent la décision <br> – Apprendre à gérer les liens avec les différents acteurs <br> – Savoir Clôturer le projet'
+
+    titreMpop1.innerHTML = 'La couleur de la ventes'
+    paraMpop11.innerHTML = 'Chaque participant sera capable d’adapter les 4 comportements lors de ses face-face pour obtenir davantage d’adhésion'
+    paraMpop12.innerHTML = '– Être capable d’adapter sa communication face-face après avoir reconnu les préférences comportementales de ses interlocuteurs'
+    paraMpop13.innerHTML = '– Savoir adopter les codes de communication des 4 comportements dominants <br> – Savoir appliquer les 4 comportements aux différents étapes de la vente (de l’objectif à l’engagement) <br> – S’entraîner à gérer les typologies opposées'
+
+    titreMpop2.innerHTML = 'Ventes assertive'
+    paraMpop21.innerHTML = 'À l’issue de la formation chaque participant pourra gérer une situation de vente face face avec authenticité pour créer un vrai partenariat avec son client'
+    paraMpop22.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> – Savoir mener un projet'
+    paraMpop23.innerHTML = '– Savoir utiliser le DESC, dire oui ou dire non <br> – Savoir présenter l’objectif de sa visite afin de le faireaccepter <br> – Savoir questionner sans freins personnels pour obtenir les informations cruciales et les motivations <br> – Savoir adopter une argumentation convaincante et ciblée sans crainte face aux pharmaciens <br> – Savoir répondre aux objections et utiliser les modes de communication pour comprendre les motivations <br> – Gérer ses peurs pour oser conclure, s’engager et engager'
+
+    titreMpop3.innerHTML = 'La négociation'
+    paraMpop31.innerHTML = 'À l’issue de la formation chaqueparticipant pourra négocier sans ambiguité afin d’aboutir à une ? Gagnant/gagnant en toute sérénité'
+    paraMpop32.innerHTML = '– Être capable d’adopter une posture de négociateur aguerrit <br> – Être capable de négocier avec efficience dans une relattion de coopération gagnant/gagnant'
+    paraMpop33.innerHTML = '– Comprendre la différence entre vente et négociation <br>– Savoir préparer sa négociation : méthode et outils <br> – Savoir à Négocier de manière raisonnée en 3 temps <br> – Savoir Gérer les situations difficiles'
+
+    titreMpop4.innerHTML = 'Management de projet'
+    paraMpop41.innerHTML = 'Le chef de projet saura mener un projet avec plus d’aisance, afin d’a`eindre des résultats et de fédérer un certain nombre de personnes autour de l’ateinte de résultats'
+    paraMpop42.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br>– Savoir mener un projet'
+    paraMpop43.innerHTML = '– Comprendre ce qu’est un business case<br>– Savoir construire son Business case<br>– S’approprier les comportements qui favorisent ladécision<br>– Apprendre à gérer les liens avec les différents acteurs<br>– Savoir Clôturer le projet'
+
 })
 
 Msm3.addEventListener('click', () => {
+
+    e = 4
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
@@ -1198,9 +1258,36 @@ Msm3.addEventListener('click', () => {
 
     }, 200)
 
+    titreMpop0.innerHTML = 'La flexibilité relationnelle'
+    paraMpop01.innerHTML = 'A l’issue de la formation chaque participant aura une meilleure connaissance de soi et des autres, sera capable d’adopter une communication plus flexible pour une mise en relation plus efficace'
+    paraMpop02.innerHTML = '– Etre capable de décrypter les comportements de ses interlocuteurs pour adapter sa communication'
+    paraMpop03.innerHTML = '- Savoir reconnaître les 4 comportements du modèle couleur <br> - Savoir faire preuve de flexibilité comportementale face aux 4 comportements <br> - Savoir adopter la communication des 4 comportements du modèle couleur'
+
+    titreMpop1.innerHTML = 'Communiquer avec assertivité'
+    paraMpop11.innerHTML = 'A l’issue de la formation chaque participant sera capable d’oser dire en toute légitimité et oser entendre avec empathie quelque soit les situations rencontrées'
+    paraMpop12.innerHTML = '– Être capable d’adopter une posture Assertive pour communiquer avec authenticité et développer une coopération <br> Oser entendre et oser dire en toute légitimité et en toutes situationse'
+    paraMpop13.innerHTML = '– Savoir adopter une posture Assertive <br> - S’approprier la méthodologie de la communication assertive <br> -Savoir gérer les situations avec assertivité'
+
+    titreMpop2.innerHTML = 'Gestion des situations délicates'
+    paraMpop21.innerHTML = 'A l’issue de la formation chaque participant sera capable d’analyser sa situation et de l’aborder sous un autre angle'
+    paraMpop22.innerHTML = '– Être capable d’appréhender les situations délicates sous d’autres angles afin d’adopter l’approche relationnelle, la stratégie de négociation et/ou la décision adéquates.'
+    paraMpop23.innerHTML = '– Savoir reconnaître la nature de la situation <br> - Savoir gérer des situations d’ordre Relationnel <br> - Savoir gérer des situations qui relèvent de la Négociation <br> - Savoir gérer des situations qui relèvent à la fois de la Relation et de la Négociation'
+
+    titreMpop3.innerHTML = 'Prise de parole en public'
+    paraMpop31.innerHTML = 'A l’issue de la formation chaque participant sera capable de réaliser des présentations impactantes  et percutantes'
+    paraMpop32.innerHTML = '- Être capable de prendre la parole en public avec aisance et d’animer ses 	présentations avec efficacité et fluidité dans l’atteinte d’un objectif prédéfini'
+    paraMpop33.innerHTML = '– Savoir préparer sa prise de parole en public <br> -Savoir définir le fond et trouver la forme du message<br> -Savoir introduire et conclure sa prise de parole en public'
+
+    titreMpop4.innerHTML = 'Gérer un board avec professionnalisme'
+    paraMpop41.innerHTML = 'A l’issue de la formation chaque participant sera capable de gérer un board avec aisance et sérénité pour faciliter la production de livrables'
+    paraMpop42.innerHTML = '- Être capable d’animer un board avec professionnalisme et de gérer les différents comportements des participants'
+    paraMpop43.innerHTML = '– S’approprier les techniques d’animation de groupes<br> - S’approprier les techniques de conduite de débats<br> - Savoir adopter la posture d’animateur de débat Communiquer avec un interlocuteur avec un comportement différent'
+
 })
 
 Msm4.addEventListener('click', () => {
+
+    e = 2
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
@@ -1248,13 +1335,39 @@ Msm4.addEventListener('click', () => {
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
+
+    titreMpop0.innerHTML = 'Formateur animateur'
+    paraMpop01.innerHTML = 'A l’issue de la formation, chaque formateur saura animer des sessions de formations dans un climat permettant le développement des compétences de ses participants'
+    paraMpop02.innerHTML = '– Apprendre à animer une session de formation <br> -S’approprier les techniques de transmission des savoirs <br> -S’approprier les techniques d’animation'
+    paraMpop03.innerHTML = '– Comprendre et apprendre à gérer le comportement de l’apprenant <br> - S’approprier la posture du formateur <br> - Apprendre à gérer les moments clés de la formation'
+
+    titreMpop1.innerHTML = 'Formateur coach'
+    paraMpop11.innerHTML = 'A l’issue de la formation chaque formateur pourra coacher ses apprenants dans le développement de leurs compétences'
+    paraMpop12.innerHTML = '– Apprendre à accompagner et à coacher sur le terrain les stagiaires en formation dans l’objectif de les développer et de pérenniser les acquis de la formation'
+    paraMpop13.innerHTML = '– Savoir faire preuve de flexibilité comportementale <br> Savoir repérer la motivation des apprenants <br> -Savoir faire un feedback aux apprenants<br> - Savoir coacher les apprenants par la définition d’objectifs adéquats'
+
+    titreMpop2.innerHTML = 'Formateur assertif'
+    paraMpop21.innerHTML = 'A la fin de la formation chaque participant sera capable de se positionner en tant que formateur en toute légitimité face à ses apprenants'
+    paraMpop22.innerHTML = '– A la fin de la formation chaque participant sera capable de former les apprenants avec une posture assertive, de coopération et de gérer les différentes situations rencontrées lors des sessions de formation'
+    paraMpop23.innerHTML = '– Savoir utiliser la méthode DESC en toute situation <br> - Savoir dire non, savoir dire oui à un apprenant <br> - Savoir faire une critique et faire face à une critique <br> - Savoir formuler une demande'
+
+    titreMpop3.innerHTML = ''
+    paraMpop31.innerHTML = ''
+    paraMpop32.innerHTML = ''
+    paraMpop33.innerHTML = ''
+
+    titreMpop4.innerHTML = ''
+    paraMpop41.innerHTML = ''
+    paraMpop42.innerHTML = ''
+    paraMpop43.innerHTML = ''
+
 })
 
 MpopContenuRight.addEventListener('click', () => {
 
 
 
-    if (i >= 0 && i < 5) {
+    if (i >= 0 && i < e) {
         i++
 
         if (i == 1) {
@@ -1346,7 +1459,7 @@ MpopContenuLeft.addEventListener('click', () => {
 
 
 
-    if (i >= 0 && i < 5) {
+    if (i > 0 && i <= e) {
         i--
 
         if (i == 0) {
@@ -1377,8 +1490,8 @@ MpopContenuLeft.addEventListener('click', () => {
 
 
 
-            MpopContenu0.classList.remove('contenuActive')
-            MpopContenu0.classList.add('contenuNoActive')
+            MpopContenu2.classList.remove('contenuActive')
+            MpopContenu2.classList.add('contenuNoActive')
 
             MpopContenu1.classList.remove('displayNone')
 
@@ -1386,7 +1499,7 @@ MpopContenuLeft.addEventListener('click', () => {
             window.setTimeout(() => {
 
 
-                MpopContenu0.classList.add('displayNone')
+                MpopContenu2.classList.add('displayNone')
 
                 MpopContenu1.classList.add('contenuActive')
                 MpopContenu1.classList.remove('contenuNoActive')
@@ -1399,16 +1512,19 @@ MpopContenuLeft.addEventListener('click', () => {
 
         } else if (i == 2) {
 
-            MpopContenu1.classList.remove('contenuActive')
-            MpopContenu1.classList.add('contenuNoActive')
+
+
+            MpopContenu3.classList.remove('contenuActive')
+            MpopContenu3.classList.add('contenuNoActive')
 
             MpopContenu2.classList.remove('displayNone')
 
 
             window.setTimeout(() => {
 
+                MpopContenu3.classList.add('displayNone')
 
-                MpopContenu1.classList.add('displayNone')
+
 
                 MpopContenu2.classList.add('contenuActive')
                 MpopContenu2.classList.remove('contenuNoActive')
@@ -1420,17 +1536,38 @@ MpopContenuLeft.addEventListener('click', () => {
 
         } else if (i == 3) {
 
-            MpopContenu2.classList.remove('contenuActive')
-            MpopContenu2.classList.add('contenuNoActive')
+
+
+            MpopContenu4.classList.remove('contenuActive')
+            MpopContenu4.classList.add('contenuNoActive')
+
 
             MpopContenu3.classList.remove('displayNone')
 
             window.setTimeout(() => {
 
-                MpopContenu2.classList.add('displayNone')
+                MpopContenu4.classList.add('displayNone')
+
+
 
                 MpopContenu3.classList.add('contenuActive')
                 MpopContenu3.classList.remove('contenuNoActive')
+            }, 800)
+
+
+        } else if (i == 4) {
+
+            MpopContenu3.classList.remove('contenuActive')
+            MpopContenu3.classList.add('contenuNoActive')
+
+            MpopContenu4.classList.remove('displayNone')
+
+            window.setTimeout(() => {
+
+                MpopContenu3.classList.add('displayNone')
+
+                MpopContenu4.classList.add('contenuActive')
+                MpopContenu4.classList.remove('contenuNoActive')
             }, 800)
 
 
