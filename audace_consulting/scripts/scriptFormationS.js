@@ -64,10 +64,10 @@ sm4.setAttribute('href', 'formateur.html')
 
 
 
-MsousMenu[0].innerHTML = '<a href="mana.html" class="deco">Management</a>'
-MsousMenuBusiness[0].innerHTML = '<a href="vente.html" class="deco">Vente & négociation</a>'
-MsousMenu[1].innerHTML = '<a href="comunication.html" class="deco">Communication</a>'
-MsousMenuBusiness[1].innerHTML = '<a href="formateur.html" class="deco">Formation de formateur</a>'
+MsousMenu[0].innerHTML = '<a class="deco" href="mana.html" class="deco">Management</a>'
+MsousMenuBusiness[0].innerHTML = '<a class="deco" href="vente.html" class="deco">Vente & négociation</a>'
+MsousMenu[1].innerHTML = '<a class="deco" href="comunication.html" class="deco">Communication</a>'
+MsousMenuBusiness[1].innerHTML = '<a class="deco" href="formateur.html" class="deco">Formation de formateur</a>'
 
 
 

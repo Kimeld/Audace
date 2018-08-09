@@ -23,6 +23,11 @@ fonction de recherche
 .blockLeft {
     height: 1100px;
     padding: 0px;
+  
+}
+
+.n{
+      display: none;
 }
 
 .blockCenter {

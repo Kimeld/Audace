@@ -661,8 +661,12 @@
     .MpopContenuLeft {}
 
     .MpopContenu {
-
+        text-align: center;
         height: 440px;
+    }
+     .MpopContenu div{
+        text-align: justify;
+        
     }
     .MpopContenu h1{
         color: #BC1C2A;

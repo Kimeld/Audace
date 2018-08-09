@@ -433,7 +433,7 @@ body {
 
 .contact {
     display: inline-block;
-    margin-top: 32px;
+    margin-top: 10px;
 }
 
 .contact div {
@@ -500,6 +500,11 @@ body {
 .deco {
     text-decoration: none;
     color: #707070;
+}
+
+.deco:hover {
+    text-decoration: none;
+    color: #BC1C2A;
 }
 
 .network img {
@@ -792,5 +797,13 @@ input {
     .burger .imgBurger h4 {
         font-family: 'Montserrat', sans-serif;
     }
+    .contact {
+    display: inline-block;
+    margin-top: -100px;
+}
 
+}
+
+Nnone{
+    display: none;
 }

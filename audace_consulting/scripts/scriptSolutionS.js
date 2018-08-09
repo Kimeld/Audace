@@ -272,7 +272,7 @@ Msm2.addEventListener('click', () => {
     MsousMenu[0].classList.remove('white2')
     MsousMenuBusiness.classList.add('white2')
     //sm2.classList.add('sm12')
-    MsousMenu[1].classList.add('white2')
+    MsousMenu[1].classList.remove('white2')
     //sm4.classList.add('sm14')
     MsousMenu[2].classList.remove('white2')
     //sm3.classList.remove('sm13')

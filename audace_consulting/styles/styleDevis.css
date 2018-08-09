@@ -413,9 +413,10 @@ body {
 }
 
 .form {
-    height: 500px;
+    height: 550px;
     background-color: #F3F3F3;
     margin-bottom: 45px;
+  
     border-radius: 64px;
     border: solid;
     border-width: 1px;
@@ -725,4 +726,94 @@ body {
 input {
     transform: scaleY(1.2);
 }
+.form {
+    height: 500px;
+    background-color: #F3F3F3;
+    margin-bottom: 45px;
+    margin-top: 130px;
+    border-radius: 64px;
+    border: solid;
+    border-width: 1px;
+    border-color: #707070;
+    box-shadow: 3px 2px 5px #707070;
+    padding-top: 8px;
+    transform: scale(1);
+    transition-property: all;
+    transition-duration: 1s;
+}
+
 */
+
+
+@media(min-width: 768px) and (max-width: 991px){
+    .form {
+    height: 500px;
+    background-color: #F3F3F3;
+    margin-bottom: 45px;
+    margin-top: 130px;
+    border-radius: 64px;
+    border: solid;
+    border-width: 1px;
+    border-color: #707070;
+    box-shadow: 3px 2px 5px #707070;
+    padding-top: 8px;
+    transform: scale(1);
+    transition-property: all;
+    transition-duration: 1s;
+}
+}
+
+
+
+@media(max-width: 576px) {
+    .pastille{
+        opacity: 0;
+    }
+    
+    .form {
+        height: 850px;
+        background-color: #F3F3F3;
+        margin-bottom: 45px;
+        border-radius: 64px;
+        border: solid;
+        border-width: 1px;
+        border-color: #707070;
+        box-shadow: 3px 2px 5px #707070;
+        transform: scale(0.9);
+        transition-property: all;
+        transition-duration: 1s;
+    }
+}
+
+
+@media(max-width: 850px) {
+    .description {
+        height: 200px;
+
+        margin-bottom: 75px;
+    }
+    .description h1 {
+
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        color: #E00034;
+        font-size: 38px;
+    }
+
+
+
+    .description p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: #707070;
+        font-size: 14px;
+        margin-top: 40px;
+    }
+    .form {
+       
+        transform: scale(0.9);
+        transition-property: all;
+        transition-duration: 1s;
+    }
+
+}
