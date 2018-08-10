@@ -1288,6 +1288,7 @@ Msm3.addEventListener('click', () => {
 Msm4.addEventListener('click', () => {
 
     e = 2
+    i = 0
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
@@ -1360,6 +1361,8 @@ Msm4.addEventListener('click', () => {
     paraMpop41.innerHTML = ''
     paraMpop42.innerHTML = ''
     paraMpop43.innerHTML = ''
+
+
 
 })
 
