@@ -7,7 +7,7 @@ body .contenu {}
 }
 
 .form {
-    height: 500px;
+    height: 530px;
     background-color: #F3F3F3;
     margin-bottom: 45px;
     border-radius: 64px;
@@ -20,12 +20,12 @@ body .contenu {}
     transition-duration: 1s;
 }
 
-.form:hover {
+/*.form:hover {
     box-shadow: 5px 2px 20px #707070;
     transform: scale(1.02);
     transition-property: all;
     transition-duration: 1s;
-}
+}*/
 
 .description h1 {
 
@@ -139,10 +139,10 @@ input {
 */
 
 @media(max-width: 576px) {
-    .pastille{
+    .pastille {
         opacity: 0;
     }
-    
+
     .form {
         height: 850px;
         background-color: #F3F3F3;
@@ -183,7 +183,7 @@ input {
         margin-top: 40px;
     }
     .form {
-       
+
         transform: scale(0.9);
         transition-property: all;
         transition-duration: 1s;

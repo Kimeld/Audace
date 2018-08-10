@@ -23,11 +23,18 @@ fonction de recherche
 .blockLeft {
     height: 1100px;
     padding: 0px;
-  
+
 }
 
-.n{
-      display: none;
+.blockLeft2 {
+    height: 1100px;
+    padding: 0px;
+
+
+}
+
+.n {
+    display: none;
 }
 
 .blockCenter {
@@ -65,8 +72,8 @@ fonction de recherche
 
 .texteUne {
     margin-top: 10px;
-    height: 220px;
-    padding: 0px;
+
+    padding: 10px;
 
 
 }
@@ -89,7 +96,7 @@ fonction de recherche
 
 .texteUne a {
     right: 0px;
-    bottom: 0px;
+    bottom: 10px;
     position: absolute;
 
 
@@ -153,9 +160,7 @@ a {
 
 }
 
-.img {
-
-}
+.img {}
 
 .imgSide {
     height: 100px;
@@ -293,7 +298,7 @@ a {
 }
 
 .galerie {
-    height: 270px;
+
 
     padding: 0px;
     margin-top: 40px;
@@ -304,6 +309,7 @@ a {
     border: solid;
     border-color: white;
     background-image: url(../images/images1.jpg);
+    display: inline-block;
 
 
 
@@ -314,4 +320,85 @@ a {
     font-size: 14px;
     color: #E00034;
     font-weight: 700;
+}
+
+@media(max-width: 768px) {
+    .blockLeft {
+        height: 1100px;
+        padding: 0px;
+        display: none;
+
+    }
+    .aLaUne h1 {
+        color: #E00034;
+        font-size: 32px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        padding: 0px;
+
+    }
+
+    .texteUne {
+        margin-top: 10px;
+        padding-bottom: 10px;
+
+
+
+    }
+
+    .texteUne p {
+        text-align: justify;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        color: #707070;
+
+
+    }
+
+    .texteUne a {
+        right: 0px;
+        bottom: 0px;
+        position: absolute;
+
+
+        font-size: 14px;
+        transition-duration: 1s;
+
+
+
+
+    }
+
+    .blockLeft2 {
+        height: 1100px;
+        padding: 0px;
+
+
+    }
+    .blockCenter {
+        height: 1100px;
+        padding: 0px;
+        margin-bottom: 100px
+    }
+    .blockRight {
+        height: 800px;
+        padding: 0px;
+    }
+    .side {
+        height: 250px;
+        padding: 0px;
+        margin-bottom: 10px;
+
+    }
+}
+
+@media(min-width: 768px) {
+
+    .blockLeft2 {
+        height: 1100px;
+        padding: 0px;
+        display: none;
+
+
+    }
 }

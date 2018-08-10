@@ -2,7 +2,7 @@ body {
     position: relative;
 }
 
-contenu2{
+contenu2 {
     padding: 0px
 }
 
@@ -53,6 +53,14 @@ contenu2{
 .fleche {
     margin-top: 80px;
     cursor: pointer;
+}
+
+.FD {
+    text-align: right
+}
+
+.FG {
+    text-align: left;
 }
 
 .fleche img {
@@ -465,7 +473,7 @@ contenu2{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: #707070;
-    margin-top: 0px;
+
     transform: scale(1.2);
     transition-property: all;
     transition-duration: 1s;
@@ -506,6 +514,8 @@ contenu2{
 
     top: 10px;
     padding-left: 30px;
+    display: block;
+    padding-top: 0px;
 
 }
 
@@ -758,6 +768,15 @@ input {
 }
 
 @media(min-width: 768px) and (max-width: 991px) {
+    .pastille {
+
+        top: 10px;
+        padding-left: 30px;
+        transform: translateY(-100px);
+        padding-top: 0px;
+
+    }
+
     .form {
         height: 500px;
         background-color: #F3F3F3;
@@ -768,14 +787,37 @@ input {
         border-width: 1px;
         border-color: #707070;
         box-shadow: 3px 2px 5px #707070;
-        padding-top: 8px;
-        transform: scale(1);
+
+        transform: scale(1) translateY(00px);
         transition-property: all;
         transition-duration: 1s;
+    }
+
+
+    .f {
+        transform: scale(1) translateY(-300px);
     }
 }
 
 @media(min-width: 577px) and (max-width: 767px) {
+    .contenu1 .form form {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: #707070;
+
+        transform: scale(1.2) translateY(-100px);
+        transition-property: all;
+        transition-duration: 1s;
+
+        margin-top: 8%;
+        transform: scale(1.18);
+        transition-property: all;
+        transition-duration: 1s;
+
+
+
+    }
+
     .form {
         height: 500px;
         background-color: #F3F3F3;
@@ -791,13 +833,20 @@ input {
         transition-property: all;
         transition-duration: 1s;
     }
+    .footerPush {
+        margin-top: 730px;
+        margin-bottom: 0px;
+        height: 100px;
+
+    }
 }
 
 
 
 @media(max-width: 576px) {
     .pastille {
-        opacity: 0;
+        opacity: 1;
+        transform: scale(0.8)
     }
 
     .form {
@@ -899,6 +948,14 @@ input {
 
 
 @media(max-width: 850px) {
+
+    .pastille {
+
+        top: 0px;
+        padding-left: 0px;
+
+    }
+
     .description {
         height: 200px;
 
@@ -923,4 +980,64 @@ input {
     }
 
 
+}
+
+@media(max-width: 280px) {
+    .titreSolution {
+        width: 140px;
+        position: absolute;
+        margin-left: 22%;
+        top: -16px;
+
+    }
+}
+
+@media(max-width: 376px) {
+
+
+    .bouttonPre {
+
+
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        border: solid;
+        border-width: 1px;
+        border-color: #BC1C2A;
+        color: #BC1C2A;
+        border-radius: 50px;
+        width: 110px;
+        height: 30px;
+        text-align: center;
+        padding-top: 3px;
+        transition-duration: 0.5s;
+        transition-property: all;
+        position: absolute;
+        left: 0px;
+        top: -40px;
+
+        z-index: 1;
+    }
+    .bouttonSui {
+
+
+        font-family: 'Montserrat', sans-serif;
+
+        font-weight: 400;
+        font-size: 16px;
+        border: solid;
+        border-color: #BC1C2A;
+        color: #BC1C2A;
+        border-width: 0.5px;
+        border-radius: 50px;
+        width: 110px;
+        height: 30px;
+        text-align: center;
+        padding-top: 3px;
+        transition-duration: 0.5s;
+        transition-property: all;
+        position: absolute;
+        right: 0px;
+        top: -40px
+    }
 }

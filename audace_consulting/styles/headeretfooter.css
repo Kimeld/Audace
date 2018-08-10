@@ -796,6 +796,7 @@ input {
 
     .burger .imgBurger h4 {
         font-family: 'Montserrat', sans-serif;
+        font-weight: 200;
     }
     .contact {
     display: inline-block;
