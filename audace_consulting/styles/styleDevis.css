@@ -940,9 +940,12 @@ input {
     .trait {
         transform: rotate(90deg) translateY(34vw);
 
+
     }
+
+    .cercleForm {}
     .cercleFormTitres {
-        transform: rotate(-90deg) translateX(140px) scale(0.9);
+        transform: rotate(-90deg) translateX(140px) scale(0.8);
 
     }
     .navPro3 {
@@ -996,11 +999,7 @@ input {
         margin-left: 19%;
     }
 
-    .titreSolution {
-        position: absolute;
-        margin-left: 43%;
-        top: -10px;
-    }
+
 
     .titreMana {
         position: absolute;
@@ -1045,6 +1044,22 @@ input {
 
 }
 
+@media(min-width: 496px) and (max-width: 576px) {
+    .titreSolution {
+        position: absolute;
+        margin-left: 41%;
+        top: -10px;
+    }
+}
+
+@media(min-width: 340px) and (max-width: 495px) {
+    .titreSolution {
+        position: absolute;
+        margin-left: 37%;
+        top: -10px;
+    }
+}
+
 
 @media(max-width: 850px) {
 
@@ -1085,10 +1100,11 @@ input {
     .titreSolution {
         width: 140px;
         position: absolute;
-        margin-left: 19%;
+        margin-left: 17%;
         top: -16px;
 
     }
+
 
 
     .cercle3 {
@@ -1099,7 +1115,7 @@ input {
 
 @media(max-width: 376px) {
     .pastille {
-        opacity: 0;
+        transform: scale(0.6) translateY(-26px);
     }
 
     .bouttonPre {

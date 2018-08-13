@@ -323,6 +323,10 @@ a {
 }
 
 @media(max-width: 768px) {
+    .galerie {
+        text-align: center;
+    }
+
     .blockLeft {
         height: 1100px;
         padding: 0px;
