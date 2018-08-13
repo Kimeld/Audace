@@ -1077,6 +1077,32 @@ Msm1.addEventListener('click', () => {
     fond.classList.remove('imgEquipe')
     fond.classList.add('imgQualite')
 
+    MpopContenu1.classList.remove('contenuActive')
+    MpopContenu1.classList.add('contenuNoActive')
+    MpopContenu2.classList.remove('contenuActive')
+    MpopContenu2.classList.add('contenuNoActive')
+    MpopContenu3.classList.remove('contenuActive')
+    MpopContenu3.classList.add('contenuNoActive')
+    MpopContenu4.classList.remove('contenuActive')
+    MpopContenu4.classList.add('contenuNoActive')
+
+    MpopContenu0.classList.remove('displayNone')
+
+
+    window.setTimeout(() => {
+
+
+        MpopContenu1.classList.add('displayNone')
+        MpopContenu2.classList.add('displayNone')
+        MpopContenu3.classList.add('displayNone')
+        MpopContenu4.classList.add('displayNone')
+
+        MpopContenu0.classList.add('contenuActive')
+        MpopContenu0.classList.remove('contenuNoActive')
+
+
+    }, 800)
+
 
     //sm1.classList.add('sm11')
     MsousMenu[0].classList.add('white2')
@@ -1148,6 +1174,32 @@ Msm2.addEventListener('click', () => {
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
+
+    MpopContenu1.classList.remove('contenuActive')
+    MpopContenu1.classList.add('contenuNoActive')
+    MpopContenu2.classList.remove('contenuActive')
+    MpopContenu2.classList.add('contenuNoActive')
+    MpopContenu3.classList.remove('contenuActive')
+    MpopContenu3.classList.add('contenuNoActive')
+    MpopContenu4.classList.remove('contenuActive')
+    MpopContenu4.classList.add('contenuNoActive')
+
+    MpopContenu0.classList.remove('displayNone')
+
+
+    window.setTimeout(() => {
+
+
+        MpopContenu1.classList.add('displayNone')
+        MpopContenu2.classList.add('displayNone')
+        MpopContenu3.classList.add('displayNone')
+        MpopContenu4.classList.add('displayNone')
+
+        MpopContenu0.classList.add('contenuActive')
+        MpopContenu0.classList.remove('contenuNoActive')
+
+
+    }, 800)
 
 
 
@@ -1223,6 +1275,33 @@ Msm3.addEventListener('click', () => {
     contenuVente.classList.add('animationContenu')
 
 
+    MpopContenu1.classList.remove('contenuActive')
+    MpopContenu1.classList.add('contenuNoActive')
+    MpopContenu2.classList.remove('contenuActive')
+    MpopContenu2.classList.add('contenuNoActive')
+    MpopContenu3.classList.remove('contenuActive')
+    MpopContenu3.classList.add('contenuNoActive')
+    MpopContenu4.classList.remove('contenuActive')
+    MpopContenu4.classList.add('contenuNoActive')
+
+    MpopContenu0.classList.remove('displayNone')
+
+
+    window.setTimeout(() => {
+
+
+        MpopContenu1.classList.add('displayNone')
+        MpopContenu2.classList.add('displayNone')
+        MpopContenu3.classList.add('displayNone')
+        MpopContenu4.classList.add('displayNone')
+
+        MpopContenu0.classList.add('contenuActive')
+        MpopContenu0.classList.remove('contenuNoActive')
+
+
+    }, 800)
+
+
 
     //sm1.classList.add('sm11')
     MsousMenu[0].classList.remove('white2')
@@ -1292,6 +1371,33 @@ Msm4.addEventListener('click', () => {
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
+
+
+    MpopContenu1.classList.remove('contenuActive')
+    MpopContenu1.classList.add('contenuNoActive')
+    MpopContenu2.classList.remove('contenuActive')
+    MpopContenu2.classList.add('contenuNoActive')
+    MpopContenu3.classList.remove('contenuActive')
+    MpopContenu3.classList.add('contenuNoActive')
+    MpopContenu4.classList.remove('contenuActive')
+    MpopContenu4.classList.add('contenuNoActive')
+
+    MpopContenu0.classList.remove('displayNone')
+
+
+    window.setTimeout(() => {
+
+
+        MpopContenu1.classList.add('displayNone')
+        MpopContenu2.classList.add('displayNone')
+        MpopContenu3.classList.add('displayNone')
+        MpopContenu4.classList.add('displayNone')
+
+        MpopContenu0.classList.add('contenuActive')
+        MpopContenu0.classList.remove('contenuNoActive')
+
+
+    }, 800)
 
 
 

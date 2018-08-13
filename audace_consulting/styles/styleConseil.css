@@ -353,3 +353,30 @@
 .key {
     display: none;
 }
+
+@media(max-width: 850px) {
+    .contenu .texte {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: #707070;
+        font-size: 14px;
+        margin-top: 40px;
+    }
+    .titreEtTexte {
+        /*background-color: white;*/
+        border-radius: 100px;
+        margin-bottom: 100px;
+        padding-top: 0px;
+        transition-property: all;
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.2s;
+        margin-top: 18px;
+    }
+    .contenu .titre h1 {
+
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        color: #E00034;
+        font-size: 32px;
+    }
+}
