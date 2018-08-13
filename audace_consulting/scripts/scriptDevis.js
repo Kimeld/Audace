@@ -187,7 +187,7 @@ bouttonSui.addEventListener('click', () => {
     for (a = 0; a <= 28; a++) {
         if (tab[a]) {
             list.innerHTML += '<div><span class="ecartimgF"> ' + tab[a] + '</span></div>'
-            listNbrs.innerHTML += ' <div class="form-group"><textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea> </div> '
+            listNbrs.innerHTML += ' <div class="form-group ecart"><textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea> </div> '
 
         } else {
             list.innerHTML += ''

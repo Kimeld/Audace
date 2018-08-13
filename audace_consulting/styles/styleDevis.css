@@ -554,8 +554,13 @@ contenu2 {
     display: inline-block;
 
     margin-left: 30px;
-    margin-bottom: 13px;
+    margin-bottom: 33px;
 
+}
+
+.ecart {
+     margin-bottom: 33px;
+    
 }
 
 
@@ -840,8 +845,35 @@ input {
 
     }
 }
+/*
+@media(min-width: 281px) and (max-width: 576px) {
 
 
+    .titreConseil {
+        position: absolute;
+        top: -10px;
+        margin-left: 29%;
+    }
+
+    .titreSolution {
+        position: absolute;
+        margin-left: 55%;
+        top: -10px;
+    }
+
+    .titreMana {
+        position: absolute;
+        left: -7px;
+        top: -10px;
+    }
+
+    .titreProfile {
+        position: absolute;
+        top: -10px;
+        right: -7px;
+    }
+}
+*/
 
 @media(max-width: 576px) {
     .pastille {
@@ -924,12 +956,12 @@ input {
     .titreConseil {
         position: absolute;
         top: -10px;
-        margin-left: 18%;
+        margin-left: 19%;
     }
 
     .titreSolution {
         position: absolute;
-        margin-left: 38%;
+        margin-left: 43%;
         top: -10px;
     }
 
@@ -944,6 +976,17 @@ input {
         top: -10px;
         right: -7px;
     }
+    .ecartimgF {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #707070;
+    font-size: 12px;
+    display: inline-block;
+
+    margin-left: 30px;
+    margin-bottom: 33px;
+
+}
 }
 
 
@@ -982,11 +1025,11 @@ input {
 
 }
 
-@media(max-width: 280px) {
+@media(max-width: 340px) {
     .titreSolution {
         width: 140px;
         position: absolute;
-        margin-left: 22%;
+        margin-left: 19%;
         top: -16px;
 
     }
