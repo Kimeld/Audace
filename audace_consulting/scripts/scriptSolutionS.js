@@ -82,7 +82,8 @@ sm1.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'École de vente'
+        titreFormation.innerHTML = 'Booster votre force de vente'
+        texte.innerHTML = 'Audace Consulting vous propose de concevoir et animer un parcours de vente pour vos équipes commerciales pour répondre précisément à vos besoins de développement et/ou de renforcement des compétences souhaitées. Ce parcours de formation allie les techniques de vente, l’approche comportementale et l’assertivité. Véritable booster de compétences, ce parcours est centré sur les besoins et motivations des clients. '
         contenuVente.classList.remove('animationContenu')
         milieux.classList.remove('opacityM')
     }, 200)
@@ -106,8 +107,8 @@ sm2.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'École de management'
-        texte.innerHTML = 'Nous vous guidons et nous répondons à vos besoins par des solutions adaptées et innovantes. AUDACE Consulting accompagne les entreprises dans l’optimisation des ressources humaines et financières, dans le choix des partenaires pour une évolution du chiffre d’affaires et pour une meilleure rentabilité. <br> Notre cœur de métier est : <br> - l’audit <br> - le benchmark <br> - la transformation <br> - la performance opérationnelle'
+        titreFormation.innerHTML = 'Osez un management dynamique '
+        texte.innerHTML = 'Pour harmoniser la politique managériale au sein de votre entreprise, Audace Consulting crée sur-mesure un parcours manager garantissant l’intégrité de vos valeurs, la satisfaction de vos besoins et dans le respect de vos budgets temps et financier.De la position n+1 pour le … ? au management motivationnel, nos formateurs développent les compétences de vos managers pour accroître les performances de vos équipes.'
         contenuVente.classList.remove('animationContenu')
         milieux.classList.remove('opacityM')
     }, 200)

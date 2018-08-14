@@ -517,8 +517,8 @@ contenu2 {
 
 .pastille {
 
-    top: 10px;
-    padding-left: 30px;
+    top: 0px;
+    padding-left: 10px;
     display: block;
     padding-top: 0px;
 
@@ -795,6 +795,10 @@ input {
         height: 0px;
 
     }
+     .pastille {
+        transform: scale(0.8) translateY(-130px) translateX(0px);
+    }
+
 
 }
 
@@ -802,12 +806,16 @@ input {
     .f {
         transform: scale(1) translateY(-150px);
     }
+     .pastille {
+        transform: scale(0.8) translateY(-10px) translateX(-20px);
+    }
+
 
 }
 
 @media(min-width: 768px) and (max-width: 991px) {
 
-
+    
     .form {
         height: 500px;
         background-color: #F3F3F3;
@@ -835,6 +843,15 @@ input {
 }
 
 @media(min-width: 577px) and (max-width: 767px) {
+    .f img {
+        transform: scale(0.6) translateX(-10px);
+    }
+    .f .nbrs img {
+        transform: scale(0.6) translateX(-30px);
+    }
+     .pastille {
+        transform: scale(0.8) translateY(-2px) translateX(0px);
+    }
     .contenu1 .form form {
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
@@ -907,12 +924,7 @@ input {
 */
 
 @media(max-width: 576px) {
-    .f img {
-        transform: scale(0.6);
-    }
-    .f .nbrs img {
-        transform: scale(0.6) translateX(-50px);
-    }
+   
 
     .pastille {
         opacity: 1;
@@ -1046,14 +1058,34 @@ input {
 }
 
 @media(min-width: 496px) and (max-width: 576px) {
+    .pastille {
+        transform: scale(0.6) translateY(-26px) translateX(580px);
+    }
     .titreSolution {
         position: absolute;
         margin-left: 41%;
         top: -10px;
     }
+    
+     .f img {
+        transform: scale(0.6);
+    }
+    .f .nbrs img {
+        transform: scale(0.6) translateX(70px);
+    }
 }
 
 @media(min-width: 340px) and (max-width: 495px) {
+     .f img {
+        transform: scale(0.6);
+    }
+    .f .nbrs img {
+        transform: scale(0.6) translateX(40px);
+    }
+      .pastille {
+        transform: scale(0.6) translateY(-26px) translateX(0px);
+    }
+    
     .titreSolution {
         position: absolute;
         margin-left: 37%;
@@ -1098,6 +1130,16 @@ input {
 }
 
 @media(max-width: 340px) {
+    .f img {
+        transform: scale(0.6);
+    }
+    .f .nbrs img {
+        transform: scale(0.6) translateX(-4px);
+    }
+    
+      .pastille {
+        transform: scale(0.6) translateY(-26px) translateX(190px);
+    }
     .titreSolution {
         width: 140px;
         position: absolute;
@@ -1115,9 +1157,7 @@ input {
 }
 
 @media(max-width: 376px) {
-    .pastille {
-        transform: scale(0.6) translateY(-26px);
-    }
+  
 
     .bouttonPre {
 

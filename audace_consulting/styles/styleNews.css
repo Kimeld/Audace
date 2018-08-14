@@ -240,6 +240,19 @@ a {
 
 }
 
+.pSideTitreTop {
+
+    padding-left: 3px;
+    margin: 0px 0px 10px 0px;
+    padding-top: 0px;
+}
+
+.pSideTitreBut {
+
+    padding-left: 3px;
+    margin: 10px 0px 10px 0px;
+}
+
 .pSide {
 
     padding-left: 3px;
@@ -315,11 +328,25 @@ a {
 
 }
 
-.pSide a {
+.pSideTitreTop a {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: #E00034;
     font-weight: 700;
+}
+
+.pSideTitreBut a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #E00034;
+    font-weight: 700;
+}
+
+.pSide a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #E00034;
+    font-weight: 900;
 }
 
 @media(max-width: 768px) {

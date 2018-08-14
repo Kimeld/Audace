@@ -323,9 +323,10 @@ Msm1.addEventListener('click', () => {
     mobileTestiImg.classList.remove('mobilePedagogie')
     mobileTestiImg.classList.remove('mobileEquipe')
     mobileTestiImg.classList.add('mobileValeur')
+    mobileTestiImg.classList.remove('mobileQSN')
 
-    mobileTestiImg.classList.remove('None')
-    mobileTestiImg.classList.add('display')
+    //mobileTestiImg.classList.remove('None')
+    //mobileTestiImg.classList.add('display')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -370,9 +371,10 @@ Msm2.addEventListener('click', () => {
     mobileTestiImg.classList.remove('mobilePedagogie')
     mobileTestiImg.classList.add('mobileEquipe')
     mobileTestiImg.classList.remove('mobileValeur')
+    mobileTestiImg.classList.remove('mobileQSN')
 
-    mobileTestiImg.classList.remove('None')
-    mobileTestiImg.classList.add('display')
+    //mobileTestiImg.classList.remove('None')
+    //mobileTestiImg.classList.add('display')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -413,14 +415,16 @@ Msm3.addEventListener('click', () => {
     mobileTestiImg.classList.add('mobilePedagogie')
     mobileTestiImg.classList.remove('mobileEquipe')
     mobileTestiImg.classList.remove('mobileValeurremove')
-    mobileTestiImg.classList.remove('None')
-    mobileTestiImg.classList.add('display')
+    mobileTestiImg.classList.remove('mobileQSN')
+
+    //mobileTestiImg.classList.remove('None')
+    //mobileTestiImg.classList.add('display')
 
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Pédagogie'
-        texte.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, asperiores mollitia repellat illo ullam animi vel, delectus reprehenderit sint dicta culpa eveniet molestiae eos magnam, nulla libero quam reiciendis dignissimos?'
+        titreFormation.innerHTML = 'L’insight allié à l’opérationnel '
+        texte.innerHTML = 'Notre philosophie privilégie une approche comportementale où nos modules de formation déclenche les insight nécessaires à la flexibilité comportementale requise dans toute relation interpersonnelle. En synergie avec nos sessions sont pragmatiques - 80 % d’activité et de training pour 20 % de théorie -,  nous garantissions le développement des compétences des participants afin qu’ils soient opérationnels et confortables dès la fin de la formation'
         contenuVente.classList.remove('animationContenu')
 
 
@@ -463,9 +467,10 @@ Msm4.addEventListener('click', () => {
     mobileTestiImg.classList.remove('mobilePedagogie')
     mobileTestiImg.classList.remove('mobileEquipe')
     mobileTestiImg.classList.remove('mobileValeur')
+    mobileTestiImg.classList.remove('mobileQSN')
 
-    mobileTestiImg.classList.remove('None')
-    mobileTestiImg.classList.add('display')
+    //mobileTestiImg.classList.remove('None')
+    //mobileTestiImg.classList.add('display')
 
 
 

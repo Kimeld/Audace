@@ -1121,15 +1121,13 @@ Msm1.addEventListener('click', () => {
     bouttonMsousMenu[2].classList.remove('red2')
     //sm3.classList.remove('sm13')
     bouttonMsousMenu[3].classList.remove('red2')
-    /*
-        mobileTestiImg.classList.remove('mobileTesti')
-        mobileTestiImg.classList.remove('mobilePedagogie')
-        mobileTestiImg.classList.remove('mobileEquipe')
-        mobileTestiImg.classList.add('mobileValeur')
-
-        mobileTestiImg.classList.remove('None')
-        mobileTestiImg.classList.add('display')
-    */
+    
+      mobileTestiImg.classList.remove('mobileFormateur')
+    mobileTestiImg.classList.remove('mobileCom')
+    mobileTestiImg.classList.remove('mobileVente')
+    mobileTestiImg.classList.add('mobileMana')
+    mobileTestiImg.classList.remove('mobileQSN')
+    
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = ' Développez votre performance managériale'
@@ -1223,15 +1221,13 @@ Msm2.addEventListener('click', () => {
     bouttonMsousMenu[2].classList.remove('red2')
     //sm3.classList.remove('sm13')
     bouttonMsousMenu[3].classList.remove('red2')
-    /*
-        mobileTestiImg.classList.remove('mobileTesti')
-        mobileTestiImg.classList.remove('mobilePedagogie')
-        mobileTestiImg.classList.add('mobileEquipe')
-        mobileTestiImg.classList.remove('mobileValeur')
-
-        mobileTestiImg.classList.remove('None')
-        mobileTestiImg.classList.add('display')
-    */
+    
+    mobileTestiImg.classList.remove('mobileFormateur')
+    mobileTestiImg.classList.remove('mobileCom')
+    mobileTestiImg.classList.add('mobileVente')
+    mobileTestiImg.classList.remove('mobileMana')
+    mobileTestiImg.classList.remove('mobileQSN')
+    
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Améliorez votre efficacité commerciale'
@@ -1320,14 +1316,12 @@ Msm3.addEventListener('click', () => {
     bouttonMsousMenu[2].classList.add('red2')
     //sm3.classList.remove('sm13')
     bouttonMsousMenu[3].classList.remove('red2')
-    /*
-        mobileTestiImg.classList.remove('mobileTesti')
-        mobileTestiImg.classList.add('mobilePedagogie')
-        mobileTestiImg.classList.remove('mobileEquipe')
-        mobileTestiImg.classList.remove('mobileValeurremove')
-        mobileTestiImg.classList.remove('None')
-        mobileTestiImg.classList.add('display')
-    */
+    
+    mobileTestiImg.classList.remove('mobileFormateur')
+    mobileTestiImg.classList.add('mobileCom')
+    mobileTestiImg.classList.remove('mobileVente')
+    mobileTestiImg.classList.remove('mobileMana')
+    mobileTestiImg.classList.remove('mobileQSN')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -1425,15 +1419,12 @@ Msm4.addEventListener('click', () => {
     fond.classList.remove('imgEquipe')
     fond.classList.remove('imgEquipe2')
     fond.classList.add('imgTestimonial')
-    /*
-        mobileTestiImg.classList.add('mobileTesti')
-        mobileTestiImg.classList.remove('mobilePedagogie')
-        mobileTestiImg.classList.remove('mobileEquipe')
-        mobileTestiImg.classList.remove('mobileValeur')
-
-        mobileTestiImg.classList.remove('None')
-        mobileTestiImg.classList.add('display')
-    */
+    
+    mobileTestiImg.classList.add('mobileFormateur')
+    mobileTestiImg.classList.remove('mobileCom')
+    mobileTestiImg.classList.remove('mobileVente')
+    mobileTestiImg.classList.remove('mobileMana')
+    mobileTestiImg.classList.remove('mobileQSN')
 
 
     window.setTimeout(() => {

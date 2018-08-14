@@ -249,18 +249,30 @@
 }
 
 @media(max-width: 850px) {
-
+    .titreDiv {
+        text-align: center;
+    }
+    .titreDiv div {
+        display: inline-block;
+    }
 
     .mobileTestiImg {
 
 
         width: 250px;
-        height: 300px;
+        height: 250px;
 
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
     }
+    .mobileQSN{
+        background-image: url(../images/LogoAudaceAC-OR.png);
+    }
+      .mobileQSNSolution{
+        background-image: url(../images/Solutions&coaching.png);
+    }
+    
 
     .mobileValeur {
         background-image: url(../images/Nos%20valeurs.png);

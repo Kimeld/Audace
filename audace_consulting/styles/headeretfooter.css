@@ -800,11 +800,22 @@ input {
     }
     .contact {
     display: inline-block;
-    margin-top: -100px;
+  
 }
 
 }
 
 Nnone{
     display: none;
+}
+@media(min-width: 575px) and (max-width: 758px) {
+    .contact{
+        transform: translateY(-130px);
+    }
+}
+
+@media(min-width:75px) and (max-width: 575px) {
+    .contact{
+        transform: translateY(-40px);
+    }
 }

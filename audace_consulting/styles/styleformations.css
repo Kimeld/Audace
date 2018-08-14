@@ -717,5 +717,45 @@
     .displayNone {
         display: none;
     }
+    .titreDiv {
+        text-align: center;
+    }
+    .titreDiv div {
+        display: inline-block;
+    }
+
+    .mobileTestiImg {
+
+
+        width: 250px;
+        height: 250px;
+
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .mobileQSN{
+        background-image: url(../images/Management2.png);
+    }
+    
+    .mobileMana {
+        background-image: url(../images/Management2.png);
+
+    }
+    
+    .mobileVente {
+        background-image: url(../images/Vente&nego.png);
+
+    }
+    .mobileCom {
+        background-image: url(../images/Communication.png);
+
+    }
+    .mobileFormateur {
+        background-image: url(../images/LogoAudaceAC-OR.png);
+
+    }
+
+   
 
 }
