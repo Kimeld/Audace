@@ -57,7 +57,7 @@ window.setTimeout(() => {
 sm1.innerHTML = 'École de vente'
 sm2.innerHTML = 'École de management'
 sm3.innerHTML = 'Coaching'
-sm4.innerHTML = 'digital learning'
+sm4.innerHTML = 'Digital learning'
 sm5.innerHTML = 'Quizz'
 
 /*
@@ -215,7 +215,7 @@ forum.addEventListener('click', () => {
 
     sm5.innerHTML = ''
     sm1.innerHTML = '<a class="deco" href="news.html">À la une</a>'
-    sm2.innerHTML = '<a class="deco" href="inscription.html">contact</a>'
+    sm2.innerHTML = '<a class="deco" href="inscription.html">Contact</a>'
     sm3.innerHTML = '<a class="deco" href="devis.html">Devis</a>'
     sm4.innerHTML = ''
 
@@ -365,7 +365,7 @@ Msm4.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'digital learning'
+        titreFormation.innerHTML = 'Digital learning'
         texte.innerHTML = 'Notre division stratégie commerciale accompagne les entreprises dans le développement de leur chiffre d’affaires. <br> <br> Nos consultants commerciaux bénéficient d’une solide expérience dans de grandes entreprises où la part commerciale est prépondérante. <br> <br> Ils sont tous formés et maîtrisent l’utilisation de nos outils. <br> Nous nous engageons à trouver des solutions adaptées pour les entreprises afin d’obtenir le meilleur retour sur investissement.'
         contenuVente.classList.remove('animationContenu')
 

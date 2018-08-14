@@ -60,7 +60,7 @@ window.setTimeout(() => {
 
 sm2.innerHTML = ''
 sm1.innerHTML = '<a class="deco" href="news.html">À la une</a>'
-sm2.innerHTML = '<a class="deco" href="inscription.html">contact</a>'
+sm2.innerHTML = '<a class="deco" href="inscription.html">Contact</a>'
 sm3.innerHTML = '<a class="deco" href="devis.html">Devis</a>'
 sm4.innerHTML = ''
 
@@ -103,7 +103,7 @@ forum.addEventListener('click', () => {
 
     sm2.innerHTML = ''
     sm1.innerHTML = '<a class="deco" href="news.html">À la une</a>'
-    sm2.innerHTML = '<a class="deco" href="inscription.html">contact</a>'
+    sm2.innerHTML = '<a class="deco" href="inscription.html">Contact</a>'
     sm3.innerHTML = '<a class="deco" href="devis.html">Devis</a>'
     sm4.innerHTML = ''
 

@@ -6,6 +6,11 @@ body .contenu {}
     margin-bottom: 25px;
 }
 
+.souscrire img{
+    display: block;
+    width: 100px;
+}
+
 .form {
     height: 530px;
     background-color: #F3F3F3;
