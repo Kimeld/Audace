@@ -124,7 +124,7 @@ sm1.addEventListener('click', () => {
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Performance, Développement, Bienveillance'
-        texte.innerHTML = 'Nous croyons énormément à la capacité de tout un chacun à «Oser pour réussir » Pour cela, nous optimisons le « Savoir être » pour développer le « Savoir faire » des managers et collaborateurs au travers des valeurs suivantes : <br> - Performance <br> - Développement durable de la formation <br> - Bienveillance'
+        texte.innerHTML = 'Audace Consulting prône une démarche tournée vers l’humain. Afin de faire de l’individu la pierre angulaire de l’entreprise, nous sommes résolument convaincu que la personne est la solution-clé pour que l entreprise atteigne ses objectifs et optimise ses résultats. Nous accompagnons les entreprises et leurs forces vives avec des valeurs suivantes : Performance, Développement et bienveillance'
         contenuVente.classList.remove('animationContenu')
 
 
@@ -158,7 +158,7 @@ sm2.addEventListener('click', () => {
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Une équipe centrée sur vos besoins'
-        texte.innerHTML = 'Une équipe à votre écoute et à votre service AUDACE Consulting est constituée de consultants tous formés aux différents outils de mesure de la personnalité,à la Programmation Neuro-Linguistique PNL, et sont en formation continue afin de toujours maintenir :  <br> - Une équipe de formateurs compétents <br> - Une organisation solide et rigoureuse  <br> - Une proposition de solutions sur mesure <br> - Un respect des délais  <br> - Une orientation vers l’efficacité <br> - Un feedback clair et précis'
+        texte.innerHTML = 'Nos consultants sont tous formés au décryptage de comportement et à la Programmation Neuro-Linguistique (PNL). Ils suivent continuellement des formations afin de toujours maintenir leur niveau d’expertise avec pour leitmotiv compétence, rigueur et qualité.Ils accompagnent les collaborateurs dans leur démarche de changement. '
         contenuVente.classList.remove('animationContenu')
 
 
@@ -194,8 +194,8 @@ sm3.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Une approche pragmatique et opérationnelle'
-        texte.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, asperiores mollitia repellat illo ullam animi vel, delectus reprehenderit sint dicta culpa eveniet molestiae eos magnam, nulla libero quam reiciendis dignissimos?'
+        titreFormation.innerHTML = 'L’insight allié à l’opérationnel '
+        texte.innerHTML = 'Notre philosophie privilégie une approche comportementale où nos modules de formation déclenche les insight nécessaires à la flexibilité comportementale Nos sessions sont pragmatiques - 80 % d’activité et de training pour 20 % de théorie -,  nous garantissions le développement des compétences des participants afin qu’ils soient opérationnels et confortables dès la fin de la formation'
         contenuVente.classList.remove('animationContenu')
 
 
@@ -330,8 +330,8 @@ Msm1.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Nos valeurs'
-        texte.innerHTML = 'Nous croyons énormément à la capacité de tout un chacun à «Oser pour réussir » Pour cela, nous optimisons le « Savoir être » pour développer le « Savoir faire » des managers et collaborateurs au travers des valeurs suivantes : <br> - Performance <br> - Développement durable de la formation <br> - Bienveillance'
+        titreFormation.innerHTML = 'Performance, Développement, Bienveillance'
+        texte.innerHTML = 'Audace Consulting prône une démarche tournée vers l’humain. Afin de faire de l’individu la pierre angulaire de l’entreprise, nous sommes résolument convaincu que la personne est la solution-clé pour que l entreprise atteigne ses objectifs et optimise ses résultats. Nous accompagnons les entreprises et leurs forces vives avec des valeurs suivantes : Performance, Développement et bienveillance''
         contenuVente.classList.remove('animationContenu')
 
 
@@ -378,8 +378,8 @@ Msm2.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Notre équipe'
-        texte.innerHTML = 'Une équipe à votre écoute et à votre service AUDACE Consulting est constituée de consultants tous formés aux différents outils de mesure de la personnalité,à la Programmation Neuro-Linguistique PNL, et sont en formation continue afin de toujours maintenir :  <br> Une équipe de formateurs compétents <br> Une organisation solide et rigoureuse  <br> Une proposition de solutions sur mesure <br> Un respect des délais  <br> Une orientation vers l’efficacité <br> Un feedback clair et précis'
+         titreFormation.innerHTML = 'Une équipe centrée sur vos besoins'
+        texte.innerHTML = 'Nos consultants sont tous formés au décryptage de comportement et à la Programmation Neuro-Linguistique (PNL). Ils suivent continuellement des formations afin de toujours maintenir leur niveau d’expertise avec pour leitmotiv compétence, rigueur et qualité.Ils accompagnent les collaborateurs dans leur démarche de changement. '
         contenuVente.classList.remove('animationContenu')
 
 

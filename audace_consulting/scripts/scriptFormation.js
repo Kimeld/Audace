@@ -407,9 +407,7 @@ if (key.innerHTML == 'comunication') {
     titreModule4.innerHTML = 'La négociation'
     titreModule5.classList.add('titreModuleNego');
     titreModule5.innerHTML = 'La négociation'
-    titreModule4.classList.remove('titreModuleVentePublique');
-    titreModule4.classList.add('titreModuleVenteAssertive');
-
+ 
 
     popOne.setAttribute('title', 'Technique de vente')
     popTwo.setAttribute('title', 'La couleur de <br> la ventes')
