@@ -219,7 +219,7 @@
     position: absolute;
     top: 90px;
     text-align: center;
-    transform: translateX(-24%);
+    transform: translateX(vw);
     padding-left: 0px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -231,7 +231,8 @@
 }
 
 .titreModuleFlex {
-    transform: translateX(-30%);
+     transform-origin: center;
+    transform: translateX(-1vw);
 }
 
 
@@ -240,7 +241,8 @@
     position: absolute;
     top: 90px;
     text-align: center;
-    transform: translateX(-35%);
+    transform-origin: center;
+    transform: translateX(-2.5vw);
     padding-left: 0px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -256,7 +258,8 @@
     position: absolute;
     top: 90px;
     text-align: center;
-    transform: translateX(-35%);
+    transform-origin: center;
+    transform: translateX(-2.5vw);
     padding-left: 0px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -271,7 +274,8 @@
     position: absolute;
     top: 90px;
     text-align: center;
-    transform: translateX(-35%);
+    transform-origin: center;
+    transform: translateX(-1vw);
     padding-left: 0px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -287,15 +291,23 @@
 }
 
 .titreModuleVenteAssertive {
-    transform: translateX(-25%);
+    transform-origin: center;
+    transform: translateX(-0.3vw);
 }
+
+.titreModuleVentePublique {
+    transform-origin: center;
+    transform: translateX(0.1vw);
+}
+
 
 .titreModule5 {
     width: 100px;
     position: absolute;
     top: 90px;
     text-align: center;
-    transform: translateX(-35%);
+     transform-origin: center;
+    transform: translateX(-1vw);
     padding-left: 0px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -654,44 +666,48 @@
         padding: 0px
     }
     .Mpop1 {
-     padding-top: 10px;
+        padding-top: 10px;
         height: 440px;
+        position: relative;
     }
 
-    .MpopContenuLeft {}
+    .MpopContenuRight {
+        position: absolute;
+        right: 4%;
+    }
 
     .MpopContenu {
         text-align: center;
         height: 440px;
     }
-     .MpopContenu div{
+    .MpopContenu div {
         text-align: justify;
-        
+
     }
-    .MpopContenu h1{
+    .MpopContenu h1 {
         color: #BC1C2A;
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
-          font-size: 22px;
-        
-        
+        font-size: 22px;
+
+
     }
-    .MpopContenu h3{
+    .MpopContenu h3 {
         color: #BC1C2A;
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
-          font-size: 18px;
-        
-        
+        font-size: 18px;
+
+
     }
-    
-    .MpopContenu p{
+
+    .MpopContenu p {
         color: #707070;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
-          font-size: 10px;
-        
-        
+        font-size: 10px;
+
+
     }
     .MpopContenu div {
         margin: 40px 0px;
@@ -699,9 +715,9 @@
 
     .contenuActive {
 
-        transform: translateX(0vw);
+        transform: translateX(5vw);
         transition-property: all;
-        transition-duration: 1.5s;
+        transition-duration: 0.3s;
         opacity: 1;
         transition-timing-function: ease-in-out;
     }
@@ -711,7 +727,7 @@
         transform: translateX(100vw) scale(0.5);
         opacity: 0;
         transition-property: all;
-        transition-duration: 1s;
+        transition-duration: 0.3s;
         transition-timing-function: ease-in-out;
     }
     .displayNone {
@@ -734,15 +750,15 @@
         background-position: center;
         background-repeat: no-repeat;
     }
-    .mobileQSN{
+    .mobileQSN {
         background-image: url(../images/Management2.png);
     }
-    
+
     .mobileMana {
         background-image: url(../images/Management2.png);
 
     }
-    
+
     .mobileVente {
         background-image: url(../images/Vente&nego.png);
 
@@ -756,6 +772,32 @@
 
     }
 
-   
+    .MpopContenu {}
+
+    .MpopContenu h1 + div {
+        position: relative;
+
+    }
+
+    .MpopContenu h1 + div + div {
+        position: relative;
+
+    }
+
+    .MpopContenu h1 + div + div + div {
+        position: relative;
+
+    }
+
+    .pictoMobile {
+        position: absolute;
+        top: 0px;
+        left: -50px;
+        width: 40px;
+    }
+
+
+
+
 
 }

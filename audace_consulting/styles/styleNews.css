@@ -439,12 +439,19 @@ a {
 @media(min-width: 575px) and (max-width: 768px) {
     .blockLeft2 {
 
-        transform: translateY(-1020px);
+        transform: translateY(-1040px);
+    }
+       .contenu{
+        height: 2300px
+    }
+    footer{
+        margin: 0px;
     }
 
 }
 
 @media(min-width: 575px) and (max-width: 992px) {
+ 
     .side {
 
         padding-left: 3px;

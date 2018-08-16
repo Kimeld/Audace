@@ -198,6 +198,9 @@ if (key.innerHTML == 'comunication') {
 
     titreModule1.classList.add('titreModuleFlex')
 
+    titreModule4.classList.add('titreModuleVentePublique');
+    titreModule4.classList.remove('titreModuleVenteAssertive');
+
 
     close.setAttribute('href', 'comunication.html')
 
@@ -301,6 +304,9 @@ if (key.innerHTML == 'comunication') {
     titreModule4.classList.remove('titreModuleVenteAssertive')
 
     titreModule5.classList.remove('titreModuleNego')
+    titreModule4.classList.remove('titreModuleVentePublique');
+    titreModule4.classList.remove('titreModuleVenteAssertive');
+
 
     popOne.setAttribute('title', 'Position n+1')
     popTwo.setAttribute('title', 'Fléxibilité manegériale')
@@ -396,10 +402,14 @@ if (key.innerHTML == 'comunication') {
     titreModule1.innerHTML = 'Technique de vente'
     titreModule2.innerHTML = 'La couleur de <br> la ventes'
     titreModule3.innerHTML = 'Ventes assertive'
+    titreModule4.classList.remove('titreModuleVentePublique');
     titreModule4.classList.add('titreModuleVenteAssertive');
     titreModule4.innerHTML = 'La négociation'
     titreModule5.classList.add('titreModuleNego');
     titreModule5.innerHTML = 'La négociation'
+    titreModule4.classList.remove('titreModuleVentePublique');
+    titreModule4.classList.add('titreModuleVenteAssertive');
+
 
     popOne.setAttribute('title', 'Technique de vente')
     popTwo.setAttribute('title', 'La couleur de <br> la ventes')
@@ -470,6 +480,8 @@ if (key.innerHTML == 'comunication') {
     contenuVente.classList.add('animationContenu')
     close.setAttribute('href', 'formateur.html')
 
+    titreModule4.classList.remove('titreModuleVentePublique');
+    titreModule4.classList.add('titreModuleVenteAssertive');
 
     sm1.classList.add('sm11')
     sm1.classList.remove('red')
@@ -832,9 +844,9 @@ sm3.addEventListener('click', () => {
     titreModule4.innerHTML = 'Parler en publique'
     titreModule5.innerHTML = 'Gérer <br> un board'
 
-
-    titreModule4.classList.add('titreModuleVenteAssertive')
-    titreModule5.classList.add('titreModuleVenteAssertive')
+    titreModule4.classList.add('titreModuleVentePublique');
+    titreModule4.classList.remove('titreModuleVenteAssertive');
+    titreModule5.classList.add('titreModuleVentePublique')
 
 
     titreModule5.classList.remove('titreModuleNego')
@@ -962,6 +974,7 @@ sm4.addEventListener('click', () => {
     titreModule4.innerHTML = 'Formateur assertif'
 
     titreModule3.classList.remove('titreModuleCoach')
+    titreModule4.classList.remove('titreModuleVentePublique');
     titreModule4.classList.add('titreModuleVenteAssertive');
 
     titreModule5.classList.remove('titreModuleNego')
@@ -1121,13 +1134,13 @@ Msm1.addEventListener('click', () => {
     bouttonMsousMenu[2].classList.remove('red2')
     //sm3.classList.remove('sm13')
     bouttonMsousMenu[3].classList.remove('red2')
-    
-      mobileTestiImg.classList.remove('mobileFormateur')
+
+    mobileTestiImg.classList.remove('mobileFormateur')
     mobileTestiImg.classList.remove('mobileCom')
     mobileTestiImg.classList.remove('mobileVente')
     mobileTestiImg.classList.add('mobileMana')
     mobileTestiImg.classList.remove('mobileQSN')
-    
+
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = ' Développez votre performance managériale'
@@ -1221,13 +1234,13 @@ Msm2.addEventListener('click', () => {
     bouttonMsousMenu[2].classList.remove('red2')
     //sm3.classList.remove('sm13')
     bouttonMsousMenu[3].classList.remove('red2')
-    
+
     mobileTestiImg.classList.remove('mobileFormateur')
     mobileTestiImg.classList.remove('mobileCom')
     mobileTestiImg.classList.add('mobileVente')
     mobileTestiImg.classList.remove('mobileMana')
     mobileTestiImg.classList.remove('mobileQSN')
-    
+
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Améliorez votre efficacité commerciale'
@@ -1316,7 +1329,7 @@ Msm3.addEventListener('click', () => {
     bouttonMsousMenu[2].classList.add('red2')
     //sm3.classList.remove('sm13')
     bouttonMsousMenu[3].classList.remove('red2')
-    
+
     mobileTestiImg.classList.remove('mobileFormateur')
     mobileTestiImg.classList.add('mobileCom')
     mobileTestiImg.classList.remove('mobileVente')
@@ -1419,7 +1432,7 @@ Msm4.addEventListener('click', () => {
     fond.classList.remove('imgEquipe')
     fond.classList.remove('imgEquipe2')
     fond.classList.add('imgTestimonial')
-    
+
     mobileTestiImg.classList.add('mobileFormateur')
     mobileTestiImg.classList.remove('mobileCom')
     mobileTestiImg.classList.remove('mobileVente')
@@ -1489,7 +1502,7 @@ MpopContenuRight.addEventListener('click', () => {
                 MpopContenu1.classList.remove('contenuNoActive')
 
 
-            }, 800)
+            }, 300)
 
 
 
@@ -1512,7 +1525,7 @@ MpopContenuRight.addEventListener('click', () => {
 
 
 
-            }, 800)
+            }, 300)
 
 
 
@@ -1530,7 +1543,7 @@ MpopContenuRight.addEventListener('click', () => {
 
                 MpopContenu3.classList.add('contenuActive')
                 MpopContenu3.classList.remove('contenuNoActive')
-            }, 800)
+            }, 300)
 
 
         } else if (i == 4) {
@@ -1546,7 +1559,7 @@ MpopContenuRight.addEventListener('click', () => {
 
                 MpopContenu4.classList.add('contenuActive')
                 MpopContenu4.classList.remove('contenuNoActive')
-            }, 800)
+            }, 300)
 
 
         }
@@ -1581,7 +1594,7 @@ MpopContenuLeft.addEventListener('click', () => {
                 MpopContenu0.classList.remove('contenuNoActive')
 
 
-            }, 800)
+            }, 300)
 
 
 
@@ -1605,7 +1618,7 @@ MpopContenuLeft.addEventListener('click', () => {
                 MpopContenu1.classList.remove('contenuNoActive')
 
 
-            }, 800)
+            }, 300)
 
 
 
@@ -1631,7 +1644,7 @@ MpopContenuLeft.addEventListener('click', () => {
 
 
 
-            }, 800)
+            }, 300)
 
 
         } else if (i == 3) {
@@ -1652,7 +1665,7 @@ MpopContenuLeft.addEventListener('click', () => {
 
                 MpopContenu3.classList.add('contenuActive')
                 MpopContenu3.classList.remove('contenuNoActive')
-            }, 800)
+            }, 300)
 
 
         } else if (i == 4) {
@@ -1668,7 +1681,7 @@ MpopContenuLeft.addEventListener('click', () => {
 
                 MpopContenu4.classList.add('contenuActive')
                 MpopContenu4.classList.remove('contenuNoActive')
-            }, 800)
+            }, 300)
 
 
         }
