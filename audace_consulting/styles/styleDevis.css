@@ -11,20 +11,27 @@ contenu2 {
     position: absolute;
     transform: translateX(0vw);
     transition-property: all;
-    transition-duration: 1.5s;
+    transition-duration: 0.8s;
     opacity: 1;
     transition-timing-function: ease-in-out;
 }
 
 .contenuNoActive {
-    position: fixed;
+    position: absolute;
     transform: translateX(100vw) scale(0.5);
     opacity: 0;
     transition-property: all;
-    transition-duration: 1s;
+    transition-duration: 0.8s;
     transition-timing-function: ease-in-out;
 }
 
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}
 
 .contenuNoActive2 {
 
@@ -795,7 +802,7 @@ input {
         height: 0px;
 
     }
-     .pastille {
+    .pastille {
         transform: scale(0.8) translateY(-130px) translateX(0px);
     }
 
@@ -806,7 +813,7 @@ input {
     .f {
         transform: scale(1) translateY(-150px);
     }
-     .pastille {
+    .pastille {
         transform: scale(0.8) translateY(-10px) translateX(-20px);
     }
 
@@ -815,7 +822,7 @@ input {
 
 @media(min-width: 768px) and (max-width: 991px) {
 
-    
+
     .form {
         height: 500px;
         background-color: #F3F3F3;
@@ -849,7 +856,7 @@ input {
     .f .nbrs img {
         transform: scale(0.6) translateX(-30px);
     }
-     .pastille {
+    .pastille {
         transform: scale(0.8) translateY(-2px) translateX(0px);
     }
     .contenu1 .form form {
@@ -924,7 +931,7 @@ input {
 */
 
 @media(max-width: 576px) {
-   
+
 
     .pastille {
         opacity: 1;
@@ -1066,8 +1073,8 @@ input {
         margin-left: 41%;
         top: -10px;
     }
-    
-     .f img {
+
+    .f img {
         transform: scale(0.6);
     }
     .f .nbrs img {
@@ -1076,16 +1083,16 @@ input {
 }
 
 @media(min-width: 340px) and (max-width: 495px) {
-     .f img {
+    .f img {
         transform: scale(0.6);
     }
     .f .nbrs img {
         transform: scale(0.6) translateX(40px);
     }
-      .pastille {
+    .pastille {
         transform: scale(0.6) translateY(-26px) translateX(0px);
     }
-    
+
     .titreSolution {
         position: absolute;
         margin-left: 37%;
@@ -1136,8 +1143,8 @@ input {
     .f .nbrs img {
         transform: scale(0.6) translateX(-4px);
     }
-    
-      .pastille {
+
+    .pastille {
         transform: scale(0.6) translateY(-26px) translateX(190px);
     }
     .titreSolution {
@@ -1157,7 +1164,7 @@ input {
 }
 
 @media(max-width: 376px) {
-  
+
 
     .bouttonPre {
 

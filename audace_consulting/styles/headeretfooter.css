@@ -548,10 +548,11 @@ body {
 input {
     transform: scaleY(1.2);
 }
-   .GroupeMsousMenu {
-        display: none;
-        text-align: center;
-    }
+
+.GroupeMsousMenu {
+    display: none;
+    text-align: center;
+}
 
 @media(min-width: 851px) {
     .burger {
@@ -730,15 +731,15 @@ input {
 
 
     }
-    
-        .Msm4{
+
+    .Msm4 {
         margin-top: 10px;
-        
+
     }
-    
-    .Msm5{
+
+    .Msm5 {
         margin-top: 10px;
-        
+
     }
     .MsousMenu:hover {
         transition-duration: 0.5s;
@@ -799,23 +800,24 @@ input {
         font-weight: 200;
     }
     .contact {
-    display: inline-block;
-  
-}
+        display: inline-block;
+
+    }
 
 }
 
-Nnone{
+Nnone {
     display: none;
 }
-@media(min-width: 575px) and (max-width: 758px) {
-    .contact{
+
+@media only screen and (min-width: 575px) and (max-width: 758px) {
+    .contact {
         transform: translateY(-130px);
     }
 }
 
-@media(min-width:75px) and (max-width: 575px) {
-    .contact{
+@media only screen and (min-width:75px) and (max-width: 575px) {
+    .contact {
         transform: translateY(-40px);
     }
 }

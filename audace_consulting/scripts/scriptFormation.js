@@ -407,7 +407,7 @@ if (key.innerHTML == 'comunication') {
     titreModule4.innerHTML = 'La négociation'
     titreModule5.classList.add('titreModuleNego');
     titreModule5.innerHTML = 'La négociation'
- 
+
 
     popOne.setAttribute('title', 'Technique de vente')
     popTwo.setAttribute('title', 'La couleur de <br> la ventes')
@@ -1082,6 +1082,7 @@ forum.addEventListener('click', () => {
 Msm1.addEventListener('click', () => {
 
     e = 4
+    i = 0
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
@@ -1180,6 +1181,7 @@ Msm1.addEventListener('click', () => {
 Msm2.addEventListener('click', () => {
 
     e = 3
+    i = 0
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
@@ -1277,6 +1279,7 @@ Msm2.addEventListener('click', () => {
 Msm3.addEventListener('click', () => {
 
     e = 4
+    i = 0
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')

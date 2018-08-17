@@ -207,17 +207,40 @@ bouttonSui.addEventListener('click', () => {
         i++
 
         if (i == 1) {
+
             rep2.classList.add('repActive')
             bouttonPre.classList.remove('preInvi')
 
             contenu1.classList.remove('contenuActive')
             contenu1.classList.add('contenuNoActive')
 
-            contenu2.classList.add('contenuActive')
-            contenu2.classList.remove('contenuNoActive')
+            contenu2.classList.remove('none')
 
-            contenu3.classList.remove('contenuActive')
-            contenu3.classList.add('contenuNoActive')
+            window.setTimeout(() => {
+                contenu1.classList.add('none')
+                contenu2.classList.add('contenuActive')
+                contenu2.classList.remove('contenuNoActive')
+
+            }, 800)
+
+
+            /*
+            rep2.classList.add('repActive')
+            bouttonPre.classList.remove('preInvi')
+
+            contenu1.classList.remove('contenuActive')
+            contenu1.classList.add('contenuNoActive')
+            contenu1.classList.add('absolute')
+
+            contenu2.classList.remove('fixed')
+
+
+            window.setTimeout(() => {
+                contenu1.classList.add('fixed')
+                contenu2.classList.remove('contenuNoActive')
+                contenu2.classList.add('contenuActive')
+            }, 500)
+            */
 
 
 
@@ -225,33 +248,35 @@ bouttonSui.addEventListener('click', () => {
             rep3.classList.add('repActive')
             bouttonPre.classList.remove('preInvi')
 
-            contenu1.classList.remove('contenuActive')
-            contenu1.classList.add('contenuNoActive')
-
             contenu2.classList.remove('contenuActive')
             contenu2.classList.add('contenuNoActive')
 
-            contenu3.classList.add('contenuActive')
-            contenu3.classList.remove('contenuNoActive')
+            contenu3.classList.remove('none')
 
+            window.setTimeout(() => {
+                contenu2.classList.add('none')
+                contenu3.classList.add('contenuActive')
+                contenu3.classList.remove('contenuNoActive')
 
-
-
-        } else if (i == 3) {
-            rep4.classList.add('repActive')
-            bouttonPre.classList.remove('preInvi')
-
-            contenu1.classList.remove('contenuActive')
-            contenu1.classList.add('contenuNoActive')
-
-            contenu2.classList.remove('contenuActive')
-            contenu2.classList.add('contenuNoActive')
-
-            contenu3.classList.remove('contenuActive')
-            contenu3.classList.add('contenuNoActive')
+            }, 800)
 
 
         }
+        /*else if (i == 3) {
+                   rep4.classList.add('repActive')
+                   bouttonPre.classList.remove('preInvi')
+
+                   contenu1.classList.remove('contenuActive')
+                   contenu1.classList.add('contenuNoActive')
+
+                   contenu2.classList.remove('contenuActive')
+                   contenu2.classList.add('contenuNoActive')
+
+                   contenu3.classList.remove('contenuActive')
+                   contenu3.classList.add('contenuNoActive')
+
+
+               }*/
 
     }
 
@@ -269,16 +294,19 @@ bouttonPre.addEventListener('click', () => {
 
         if (i == 0) {
             rep2.classList.remove('repActive')
-            bouttonPre.classList.add('preInvi')
-
-            contenu1.classList.add('contenuActive')
-            contenu1.classList.remove('contenuNoActive')
+            bouttonPre.classList.remove('preInvi')
 
             contenu2.classList.remove('contenuActive')
             contenu2.classList.add('contenuNoActive')
 
-            contenu3.classList.remove('contenuActive')
-            contenu3.classList.add('contenuNoActive')
+            contenu1.classList.remove('none')
+
+            window.setTimeout(() => {
+                contenu2.classList.add('none')
+                contenu1.classList.add('contenuActive')
+                contenu1.classList.remove('contenuNoActive')
+
+            }, 800)
 
 
 
@@ -286,18 +314,22 @@ bouttonPre.addEventListener('click', () => {
             rep3.classList.remove('repActive')
             bouttonPre.classList.remove('preInvi')
 
-            contenu1.classList.remove('contenuActive')
-            contenu1.classList.add('contenuNoActive')
-
-            contenu2.classList.add('contenuActive')
-            contenu2.classList.remove('contenuNoActive')
-
             contenu3.classList.remove('contenuActive')
             contenu3.classList.add('contenuNoActive')
 
+            contenu2.classList.remove('none')
+
+            window.setTimeout(() => {
+                contenu3.classList.add('none')
+                contenu2.classList.add('contenuActive')
+                contenu2.classList.remove('contenuNoActive')
+
+            }, 800)
 
 
-        } else if (i == 2) {
+
+        }
+        /*else if (i == 2) {
             rep4.classList.remove('repActive')
             bouttonPre.classList.remove('preInvi')
 
@@ -316,7 +348,7 @@ bouttonPre.addEventListener('click', () => {
 
 
         }
-
+*/
     }
 
 })
