@@ -744,7 +744,6 @@ input {
     .MsousMenu:hover {
         transition-duration: 0.5s;
         text-decoration: none;
-        color: #E00034;
         opacity: 1;
 
 
@@ -810,14 +809,31 @@ Nnone {
     display: none;
 }
 
-@media only screen and (min-width: 575px) and (max-width: 758px) {
+@media(min-width: 575px) and (max-width: 758px) {
     .contact {
         transform: translateY(-130px);
     }
 }
 
-@media only screen and (min-width:75px) and (max-width: 575px) {
+@media(min-width:480px) and (max-width: 575px) {
+    .contact {
+        transform: translateY(-84px);
+    }
+}
+
+@media(min-width:377px) and (max-width: 480px) {
     .contact {
         transform: translateY(-40px);
     }
 }
+
+@media(min-width:37px) and (max-width: 376px) {
+    .contact {
+        transform: translateY(-60px);
+    }
+    /*@media(min-width:0px) and (max-width: 356px) {
+        .contact {
+            transform: translateY(120px);
+        }
+    }
+    */

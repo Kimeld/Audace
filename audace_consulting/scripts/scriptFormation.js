@@ -80,15 +80,15 @@ let MpopContenuRight = document.querySelector(".MpopContenuRight")
 
 let titreMpop0 = document.querySelector(".titreMpop0")
 let paraMpop01 = document.querySelector(".paraMpop01")
-let paraMpop02 = document.querySelector(".paraMpop01")
-let paraMpop03 = document.querySelector(".paraMpop01")
+let paraMpop02 = document.querySelector(".paraMpop02")
+let paraMpop03 = document.querySelector(".paraMpop03")
 
 let titreMpop1 = document.querySelector(".titreMpop1")
 let paraMpop11 = document.querySelector(".paraMpop11")
 let paraMpop12 = document.querySelector(".paraMpop12")
 let paraMpop13 = document.querySelector(".paraMpop13")
 
-let titreMpop2 = document.querySelector(".titreMpop1")
+let titreMpop2 = document.querySelector(".titreMpop2")
 let paraMpop21 = document.querySelector(".paraMpop21")
 let paraMpop22 = document.querySelector(".paraMpop22")
 let paraMpop23 = document.querySelector(".paraMpop23")
@@ -105,6 +105,9 @@ let paraMpop43 = document.querySelector(".paraMpop43")
 
 let i = 0
 let e = 5
+
+let MpopupCercleImg = document.querySelectorAll(".MpopupCercleImg")
+let MimgPopup = [5]
 
 
 scrollbars.visible = false;
@@ -142,6 +145,17 @@ sm5.innerHTML = ''
 
 if (key.innerHTML == 'comunication') {
 
+    MimgPopup[0] = '../images/Flex%20rela%20button.png'
+    MimgPopup[1] = '../images/Conseils%20associ%C3%A9.png'
+    MimgPopup[2] = '../images/D%C3%A9v%20prse.png'
+    MimgPopup[3] = '../images/Parole_public_button.png'
+    MimgPopup[4] = '../images/82726790-drugs-shopping-cart-flat-vector-icon-with-colored-versions-color-drugs-shopping-cart-icon-variants-w.jpg'
+
+    MpopupCercleImg[0].setAttribute('src', MimgPopup[0])
+    MpopupCercleImg[1].setAttribute('src', MimgPopup[1])
+    MpopupCercleImg[2].setAttribute('src', MimgPopup[2])
+    MpopupCercleImg[3].setAttribute('src', MimgPopup[3])
+    MpopupCercleImg[4].setAttribute('src', MimgPopup[4])
 
 
     contenuVente.classList.add('contenuMove')
@@ -268,6 +282,18 @@ if (key.innerHTML == 'comunication') {
 
 } else if (key.innerHTML == 'mana') {
 
+    MimgPopup[0] = '../images/n+1_button.png'
+    MimgPopup[1] = '../images/Coul%20Management.png'
+    MimgPopup[2] = '../images/Management_situa_button.png'
+    MimgPopup[3] = '../images/Management_Moti_button.png'
+    MimgPopup[4] = '../images/Manag_projet.png'
+
+    MpopupCercleImg[0].setAttribute('src', MimgPopup[0])
+    MpopupCercleImg[1].setAttribute('src', MimgPopup[1])
+    MpopupCercleImg[2].setAttribute('src', MimgPopup[2])
+    MpopupCercleImg[3].setAttribute('src', MimgPopup[3])
+    MpopupCercleImg[4].setAttribute('src', MimgPopup[4])
+
     sm1.classList.add('surBrilliance')
 
 
@@ -378,6 +404,18 @@ if (key.innerHTML == 'comunication') {
 
 } else if (key.innerHTML == 'vente') {
 
+    MimgPopup[0] = '../images/Conseils%20associ%C3%A9.png'
+    MimgPopup[1] = '../images/Conseils%20associ%C3%A9.png'
+    MimgPopup[2] = '../images/D%C3%A9v%20prse.png'
+    MimgPopup[3] = '../images/Vente_assertive_button.png'
+    MimgPopup[4] = '../images/82726790-drugs-shopping-cart-flat-vector-icon-with-colored-versions-color-drugs-shopping-cart-icon-variants-w.jpg'
+
+    MpopupCercleImg[0].setAttribute('src', MimgPopup[0])
+    MpopupCercleImg[1].setAttribute('src', MimgPopup[1])
+    MpopupCercleImg[2].setAttribute('src', MimgPopup[2])
+    MpopupCercleImg[3].setAttribute('src', MimgPopup[3])
+    MpopupCercleImg[4].setAttribute('src', MimgPopup[4])
+
     sm2.classList.add('surBrilliance')
 
 
@@ -471,6 +509,18 @@ if (key.innerHTML == 'comunication') {
 
 
 } else if (key.innerHTML == 'formateur') {
+
+    MimgPopup[0] = '..//images/Conseils%20associ%C3%A9.png'
+    MimgPopup[1] = '../images/Formateur_coach_button.png'
+    MimgPopup[2] = '../images/Formateur_assertif.png'
+    MimgPopup[3] = '../images/Image%20de%20fond%20test.png'
+    MimgPopup[4] = '../images/82726790-drugs-shopping-cart-flat-vector-icon-with-colored-versions-color-drugs-shopping-cart-icon-variants-w.jpg'
+
+    MpopupCercleImg[0].setAttribute('src', MimgPopup[0])
+    MpopupCercleImg[1].setAttribute('src', MimgPopup[1])
+    MpopupCercleImg[2].setAttribute('src', MimgPopup[2])
+    MpopupCercleImg[3].setAttribute('src', MimgPopup[3])
+    MpopupCercleImg[4].setAttribute('src', MimgPopup[4])
 
     sm4.classList.add('surBrilliance')
 
@@ -1084,6 +1134,19 @@ Msm1.addEventListener('click', () => {
     e = 4
     i = 0
 
+    MimgPopup[0] = '../images/n+1_button.png'
+    MimgPopup[1] = '../images/Coul%20Management.png'
+    MimgPopup[2] = '../images/Management_situa_button.png'
+    MimgPopup[3] = '../images/Management_Moti_button.png'
+    MimgPopup[4] = '../images/Manag_projet.png'
+
+    MpopupCercleImg[0].setAttribute('src', MimgPopup[0])
+    MpopupCercleImg[1].setAttribute('src', MimgPopup[1])
+    MpopupCercleImg[2].setAttribute('src', MimgPopup[2])
+    MpopupCercleImg[3].setAttribute('src', MimgPopup[3])
+    MpopupCercleImg[4].setAttribute('src', MimgPopup[4])
+
+
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
     fond.classList.remove('imgEquipe')
@@ -1183,6 +1246,18 @@ Msm2.addEventListener('click', () => {
     e = 3
     i = 0
 
+    MimgPopup[0] = '../images/n+1_button.png'
+    MimgPopup[1] = '../images/Conseils%20associ%C3%A9.png'
+    MimgPopup[2] = '../images/Vente_assertive_button.png'
+    MimgPopup[3] = '../images/Image%20de%20fond%20test.png'
+    MimgPopup[4] = '../images/82726790-drugs-shopping-cart-flat-vector-icon-with-colored-versions-color-drugs-shopping-cart-icon-variants-w.jpg'
+
+    MpopupCercleImg[0].setAttribute('src', MimgPopup[0])
+    MpopupCercleImg[1].setAttribute('src', MimgPopup[1])
+    MpopupCercleImg[2].setAttribute('src', MimgPopup[2])
+    MpopupCercleImg[3].setAttribute('src', MimgPopup[3])
+    MpopupCercleImg[4].setAttribute('src', MimgPopup[4])
+
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
 
@@ -1281,6 +1356,18 @@ Msm3.addEventListener('click', () => {
     e = 4
     i = 0
 
+    MimgPopup[0] = '../images/Flex%20rela%20button.png'
+    MimgPopup[1] = '../images/Conseils%20associ%C3%A9.png'
+    MimgPopup[2] = '../images/D%C3%A9v%20prse.png'
+    MimgPopup[3] = '../images/Parole_public_button.png'
+    MimgPopup[4] = '../images/Gérer_board.png'
+
+    MpopupCercleImg[0].setAttribute('src', MimgPopup[0])
+    MpopupCercleImg[1].setAttribute('src', MimgPopup[1])
+    MpopupCercleImg[2].setAttribute('src', MimgPopup[2])
+    MpopupCercleImg[3].setAttribute('src', MimgPopup[3])
+    MpopupCercleImg[4].setAttribute('src', MimgPopup[4])
+
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
 
@@ -1376,6 +1463,20 @@ Msm4.addEventListener('click', () => {
 
     e = 2
     i = 0
+
+    MimgPopup[0] = '../images/images/n+1_button.png'
+    MimgPopup[1] = '../images/Formateur_coach_button.png'
+    MimgPopup[2] = '../images/Formateur_assertif.png'
+    MimgPopup[3] = '../images/Image%20de%20fond%20test.png'
+    MimgPopup[4] = '../images/82726790-drugs-shopping-cart-flat-vector-icon-with-colored-versions-color-drugs-shopping-cart-icon-variants-w.jpg'
+
+    MpopupCercleImg[0].setAttribute('src', MimgPopup[0])
+    MpopupCercleImg[1].setAttribute('src', MimgPopup[1])
+    MpopupCercleImg[2].setAttribute('src', MimgPopup[2])
+    MpopupCercleImg[3].setAttribute('src', MimgPopup[3])
+    MpopupCercleImg[4].setAttribute('src', MimgPopup[4])
+
+
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
@@ -1493,6 +1594,7 @@ MpopContenuRight.addEventListener('click', () => {
 
             MpopContenu1.classList.remove('displayNone')
 
+            MpopupCercleImg[1].setAttribute('src', MimgPopup[1])
 
             window.setTimeout(() => {
 
@@ -1516,6 +1618,8 @@ MpopContenuRight.addEventListener('click', () => {
             MpopContenu2.classList.remove('displayNone')
 
 
+            MpopupCercleImg[2].setAttribute('src', MimgPopup[2])
+
             window.setTimeout(() => {
 
 
@@ -1538,6 +1642,8 @@ MpopContenuRight.addEventListener('click', () => {
 
             MpopContenu3.classList.remove('displayNone')
 
+            MpopupCercleImg[3].setAttribute('src', MimgPopup[3])
+
             window.setTimeout(() => {
 
                 MpopContenu2.classList.add('displayNone')
@@ -1553,6 +1659,8 @@ MpopContenuRight.addEventListener('click', () => {
             MpopContenu3.classList.add('contenuNoActive')
 
             MpopContenu4.classList.remove('displayNone')
+
+            MpopupCercleImg[4].setAttribute('src', MimgPopup[4])
 
             window.setTimeout(() => {
 
@@ -1585,6 +1693,7 @@ MpopContenuLeft.addEventListener('click', () => {
 
             MpopContenu0.classList.remove('displayNone')
 
+            MpopupCercleImg[0].setAttribute('src', MimgPopup[0])
 
             window.setTimeout(() => {
 
@@ -1609,6 +1718,7 @@ MpopContenuLeft.addEventListener('click', () => {
 
             MpopContenu1.classList.remove('displayNone')
 
+            MpopupCercleImg[1].setAttribute('src', MimgPopup[1])
 
             window.setTimeout(() => {
 
@@ -1633,6 +1743,7 @@ MpopContenuLeft.addEventListener('click', () => {
 
             MpopContenu2.classList.remove('displayNone')
 
+            MpopupCercleImg[2].setAttribute('src', MimgPopup[2])
 
             window.setTimeout(() => {
 
@@ -1658,6 +1769,8 @@ MpopContenuLeft.addEventListener('click', () => {
 
             MpopContenu3.classList.remove('displayNone')
 
+            MpopupCercleImg[3].setAttribute('src', MimgPopup[3])
+
             window.setTimeout(() => {
 
                 MpopContenu4.classList.add('displayNone')
@@ -1675,6 +1788,8 @@ MpopContenuLeft.addEventListener('click', () => {
             MpopContenu3.classList.add('contenuNoActive')
 
             MpopContenu4.classList.remove('displayNone')
+
+            MpopupCercleImg[4].setAttribute('src', MimgPopup[4])
 
             window.setTimeout(() => {
 

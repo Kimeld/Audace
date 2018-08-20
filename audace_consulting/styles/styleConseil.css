@@ -405,7 +405,7 @@
     .titreEtTexte {
         /*background-color: white;*/
         border-radius: 100px;
-        margin-bottom: 100px;
+        margin-bottom: 0px;
         padding-top: 0px;
         transition-property: all;
         transition-timing-function: ease-in-out;
@@ -418,5 +418,8 @@
         font-weight: 400;
         color: #E00034;
         font-size: 32px;
+    }
+    .contenu{
+        height: 800px;
     }
 }

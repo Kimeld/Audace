@@ -91,7 +91,7 @@
 }
 
 .modules {
-    
+
     /*padding-right: 10%;*/
     text-align: center;
 }
@@ -231,7 +231,7 @@
 }
 
 .titreModuleFlex {
-     transform-origin: center;
+    transform-origin: center;
     transform: translateX(-1vw);
 }
 
@@ -306,7 +306,7 @@
     position: absolute;
     top: 90px;
     text-align: center;
-     transform-origin: center;
+    transform-origin: center;
     transform: translateX(-1vw);
     padding-left: 0px;
     font-family: 'Montserrat', sans-serif;
@@ -644,7 +644,7 @@
     .titreEtTexte {
         /*background-color: white;*/
         border-radius: 100px;
-        margin-bottom: 50px;
+        margin-bottom: 90px;
         padding-top: 0px;
         transition-property: all;
         transition-timing-function: ease-in-out;
@@ -661,12 +661,13 @@
     .fondMpop {
         display: block;
         background-color: #F5F5F5;
-        height: 469px;
+        height: 569px;
         margin-bottom: 50px;
-        padding: 0px
+        padding: 0px;
+
     }
     .Mpop1 {
-        padding-top: 10px;
+        padding-top: 60px;
         height: 440px;
         position: relative;
     }
@@ -679,6 +680,7 @@
     .MpopContenu {
         text-align: center;
         height: 440px;
+        position: relative;
     }
     .MpopContenu div {
         text-align: justify;
@@ -776,16 +778,34 @@
 
     .MpopContenu h1 + div {
         position: relative;
+        text-align: left;
 
+    }
+
+
+    /*.MpopContenu > img{
+        width: 80px;
+    
+
+    }*/
+    .MpopupCercleImg {
+        position: absolute;
+        top: -100px;
+        width: 80px;
+        transform-origin: center;
+        left: 50%;
+        transform: translateX(-40px) scale(1.4);
     }
 
     .MpopContenu h1 + div + div {
         position: relative;
+        text-align: left;
 
     }
 
     .MpopContenu h1 + div + div + div {
         position: relative;
+        text-align: left;
 
     }
 

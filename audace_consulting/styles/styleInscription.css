@@ -6,9 +6,23 @@ body .contenu {}
     margin-bottom: 25px;
 }
 
-.souscrire img{
+.souscrire {
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+    /*background-color: #E00034;*/
+    padding: 0px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    
+
+}
+
+.souscrire img {
     display: block;
     width: 100px;
+    margin: 0px;
 }
 
 .form {
@@ -77,6 +91,10 @@ body .contenu {}
     height: 40px;
 }
 
+.second {
+    position: relative;
+}
+
 .second label {
     margin-left: 20px;
     padding-top: 2px;
@@ -98,6 +116,12 @@ body .contenu {}
 
 .pastille img {
     width: 70px;
+}
+
+.submit {
+    width: 100px;
+    opacity: 0;
+
 }
 
 /*
@@ -145,7 +169,7 @@ input {
 
 @media(max-width: 576px) {
     .pastille {
-        opacity: 0;
+        opacity: 1;
     }
 
     .form {
@@ -194,4 +218,31 @@ input {
         transition-duration: 1s;
     }
 
+}
+
+@media(min-width: 496px) and (max-width: 576px) {
+    .pastille {
+        transform: scale(0.6) translateY(-26px) translateX(-160px);
+    }
+}
+
+
+@media(min-width: 335px) and (max-width: 495px) {
+    .pastille {
+        transform: scale(0.6) translateY(-36px) translateX(-140px);
+    }
+}
+
+
+@media(min-width: 340px) and (max-width: 435px) {
+    .pastille {
+        transform: scale(0.6) translateY(-36px) translateX(-120px);
+    }
+}
+
+
+@media(max-width: 340px) {
+    .pastille {
+        transform: scale(0.45) translateY(-56px) translateX(-160px);
+    }
 }

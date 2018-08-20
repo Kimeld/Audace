@@ -331,7 +331,7 @@ Msm1.addEventListener('click', () => {
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Performance, Développement, Bienveillance'
-        texte.innerHTML = 'Audace Consulting prône une démarche tournée vers l’humain. Afin de faire de l’individu la pierre angulaire de l’entreprise, nous sommes résolument convaincu que la personne est la solution-clé pour que l entreprise atteigne ses objectifs et optimise ses résultats. Nous accompagnons les entreprises et leurs forces vives avec des valeurs suivantes : Performance, Développement et bienveillance''
+        texte.innerHTML = 'Audace Consulting prône une démarche tournée vers l’humain. Afin de faire de l’individu la pierre angulaire de l’entreprise, nous sommes résolument convaincu que la personne est la solution-clé pour que l entreprise atteigne ses objectifs et optimise ses résultats. Nous accompagnons les entreprises et leurs forces vives avec des valeurs suivantes : Performance, Développement et bienveillance'
         contenuVente.classList.remove('animationContenu')
 
 
@@ -378,7 +378,7 @@ Msm2.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-         titreFormation.innerHTML = 'Une équipe centrée sur vos besoins'
+        titreFormation.innerHTML = 'Une équipe centrée sur vos besoins'
         texte.innerHTML = 'Nos consultants sont tous formés au décryptage de comportement et à la Programmation Neuro-Linguistique (PNL). Ils suivent continuellement des formations afin de toujours maintenir leur niveau d’expertise avec pour leitmotiv compétence, rigueur et qualité.Ils accompagnent les collaborateurs dans leur démarche de changement. '
         contenuVente.classList.remove('animationContenu')
 

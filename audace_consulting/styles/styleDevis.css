@@ -1066,7 +1066,7 @@ input {
 
 @media(min-width: 496px) and (max-width: 576px) {
     .pastille {
-        transform: scale(0.6) translateY(-26px) translateX(580px);
+        transform: scale(0.6) translateY(-26px) translateX(0px);
     }
     .titreSolution {
         position: absolute;
@@ -1145,7 +1145,7 @@ input {
     }
 
     .pastille {
-        transform: scale(0.6) translateY(-26px) translateX(190px);
+        transform: scale(0.6) translateY(-26px) translateX(0px);
     }
     .titreSolution {
         width: 140px;

@@ -182,6 +182,8 @@ let PC = document.querySelector(".PC")
 let PF = document.querySelector(".PF")
 
 
+
+
 bouttonSui.addEventListener('click', () => {
 
     for (a = 0; a <= 28; a++) {

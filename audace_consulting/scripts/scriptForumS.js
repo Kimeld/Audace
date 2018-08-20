@@ -3,6 +3,7 @@ let conseil = document.querySelector(".conseil")
 let formations = document.querySelector(".formations")
 let solutions = document.querySelector(".solutions")
 let forum = document.querySelector(".forum")
+let contenu = document.querySelector(".contenu")
 
 let sousMenu = document.querySelector(".sousMenu")
 
@@ -27,7 +28,9 @@ let milieux = document.querySelector(".milieux")
 
 let modules = document.querySelector(".modules")
 
+let submit = document.querySelector(".submit")
 
+let souscrireImg = document.querySelector(".souscrireImg")
 
 scrollbars.visible = false;
 
@@ -114,6 +117,24 @@ forum.addEventListener('click', () => {
     sm4.setAttribute('href', 'formateur.html')
 
 
+
+
+})
+
+
+
+submit.addEventListener('mouseover', () => {
+
+
+    souscrireImg.setAttribute('src', "../images/bouton%20Suivant.png")
+
+
+})
+
+submit.addEventListener('mouseout', () => {
+
+
+    souscrireImg.setAttribute('src', "../images/Bouton%20gris%20suivant%201.png")
 
 
 })
