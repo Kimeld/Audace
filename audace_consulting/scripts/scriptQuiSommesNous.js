@@ -69,15 +69,11 @@ let Msm2 = document.querySelector(".Msm2")
 let Msm3 = document.querySelector(".Msm3")
 let Msm4 = document.querySelector(".Msm4")
 
-scrollbars.visible = false;
-
-//sousMenu.classList.add('marginFormations');
-//sousMenu.classList.add('marginQuiSommesNous');
-
+scrollbars.visible = false
 
 window.setTimeout(() => {
-    sousMenu.classList.add('animationSousMenu');
-    sousMenu.classList.add('sousMenuMove');
+    sousMenu.classList.add('animationSousMenu')
+    sousMenu.classList.add('sousMenuMove')
 }, 200)
 
 
@@ -86,15 +82,6 @@ sm2.innerHTML = 'Notre équipe'
 sm3.innerHTML = 'Pédagogie'
 sm4.innerHTML = 'Testimonial'
 sm5.innerHTML = ''
-
-/*
-
-sm1.setAttribute('href', 'valeur.html')
-
-sm2.setAttribute('href', 'equipe.html')
-sm3.setAttribute('href', 'pedagogie.html')
-sm4.setAttribute('href', 'testimonial.html')
-*/
 
 sm1.addEventListener('click', () => {
 
@@ -246,26 +233,21 @@ sm4.addEventListener('click', () => {
 forum.addEventListener('click', () => {
     console.log(quiSommes)
 
-    sousMenu.classList.remove('animationSousMenu');
-    sousMenu.classList.remove('sousMenuMove');
-    sousMenu.classList.add('marginConseil');
-    sousMenu.classList.remove('marginQuiSommesNous');
-    sousMenu.classList.remove('marginSolution');
-    //sousMenu.classList.add('marginFormations');
+    sousMenu.classList.remove('animationSousMenu')
+    sousMenu.classList.remove('sousMenuMove')
+    sousMenu.classList.add('marginConseil')
+    sousMenu.classList.remove('marginQuiSommesNous')
+    sousMenu.classList.remove('marginSolution')
+    
 
-    smC.classList.remove('smS');
+    smC.classList.remove('smS')
 
 
-    sm1.classList.remove('col-lg-1');
-    sm2.classList.remove('col-lg-1');
-    sm3.classList.remove('col-lg-1');
+    sm1.classList.remove('col-lg-1')
+    sm2.classList.remove('col-lg-1')
+    sm3.classList.remove('col-lg-1')
 
-    //sm1.classList.add('col-lg-2');
-    //sm2.classList.add('col-lg-2');
-    //sm3.classList.add('col-lg-2');
-
-    //firstOf4.classList.add('col-lg-offset-3');
-    //firstOf4.classList.remove('col-lg-offset-4');
+    
 
 
 
@@ -301,22 +283,22 @@ Msm1.addEventListener('click', () => {
 
     titreTexte.classList.remove('opacityM')
 
-    //sm1.classList.add('sm11')
+ 
     MsousMenu[0].classList.add('white2')
-    //sm2.classList.add('sm12')
+ 
     MsousMenu[1].classList.remove('white2')
-    //sm4.classList.add('sm14')
+ 
     MsousMenu[2].classList.remove('white2')
-    //sm3.classList.remove('sm13')
+    
     MsousMenu[3].classList.remove('white2')
 
-    //sm1.classList.add('sm11')
+ 
     bouttonMsousMenu[0].classList.add('red2')
-    //sm2.classList.add('sm12')
+ 
     bouttonMsousMenu[1].classList.remove('red2')
-    //sm4.classList.add('sm14')
+ 
     bouttonMsousMenu[2].classList.remove('red2')
-    //sm3.classList.remove('sm13')
+    
     bouttonMsousMenu[3].classList.remove('red2')
 
     mobileTestiImg.classList.remove('mobileTesti')
@@ -325,8 +307,6 @@ Msm1.addEventListener('click', () => {
     mobileTestiImg.classList.add('mobileValeur')
     mobileTestiImg.classList.remove('mobileQSN')
 
-    //mobileTestiImg.classList.remove('None')
-    //mobileTestiImg.classList.add('display')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -349,22 +329,22 @@ Msm2.addEventListener('click', () => {
     fond.classList.remove('imgQualite')
     fond.classList.add('imgEquipe')
 
-    //sm1.classList.add('sm11')
+ 
     MsousMenu[0].classList.remove('white2')
-    //sm2.classList.add('sm12')
+ 
     MsousMenu[1].classList.add('white2')
-    //sm4.classList.add('sm14')
+ 
     MsousMenu[2].classList.remove('white2')
-    //sm3.classList.remove('sm13')
+    
     MsousMenu[3].classList.remove('white2')
 
-    //sm1.classList.add('sm11')
+ 
     bouttonMsousMenu[0].classList.remove('red2')
-    //sm2.classList.add('sm12')
+ 
     bouttonMsousMenu[1].classList.add('red2')
-    //sm4.classList.add('sm14')
+ 
     bouttonMsousMenu[2].classList.remove('red2')
-    //sm3.classList.remove('sm13')
+    
     bouttonMsousMenu[3].classList.remove('red2')
 
     mobileTestiImg.classList.remove('mobileTesti')
@@ -373,8 +353,6 @@ Msm2.addEventListener('click', () => {
     mobileTestiImg.classList.remove('mobileValeur')
     mobileTestiImg.classList.remove('mobileQSN')
 
-    //mobileTestiImg.classList.remove('None')
-    //mobileTestiImg.classList.add('display')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -393,22 +371,22 @@ Msm3.addEventListener('click', () => {
 
     titreTexte.classList.remove('opacityM')
 
-    //sm1.classList.add('sm11')
+ 
     MsousMenu[0].classList.remove('white2')
-    //sm2.classList.add('sm12')
+ 
     MsousMenu[1].classList.remove('white2')
-    //sm4.classList.add('sm14')
+ 
     MsousMenu[3].classList.remove('white2')
-    //sm3.classList.remove('sm13')
+    
     MsousMenu[2].classList.add('white2')
 
-    //sm1.classList.add('sm11')
+ 
     bouttonMsousMenu[0].classList.remove('red2')
-    //sm2.classList.add('sm12')
+ 
     bouttonMsousMenu[1].classList.remove('red2')
-    //sm4.classList.add('sm14')
+ 
     bouttonMsousMenu[2].classList.add('red2')
-    //sm3.classList.remove('sm13')
+    
     bouttonMsousMenu[3].classList.remove('red2')
 
     mobileTestiImg.classList.remove('mobileTesti')
@@ -417,8 +395,8 @@ Msm3.addEventListener('click', () => {
     mobileTestiImg.classList.remove('mobileValeurremove')
     mobileTestiImg.classList.remove('mobileQSN')
 
-    //mobileTestiImg.classList.remove('None')
-    //mobileTestiImg.classList.add('display')
+    
+    
 
 
     window.setTimeout(() => {
@@ -438,22 +416,22 @@ Msm4.addEventListener('click', () => {
 
     titreTexte.classList.remove('opacityM')
 
-    //sm1.classList.add('sm11')
+ 
     MsousMenu[0].classList.remove('white2')
-    //sm2.classList.add('sm12')
+ 
     MsousMenu[1].classList.remove('white2')
-    //sm4.classList.add('sm14')
+ 
     MsousMenu[3].classList.add('white2')
-    //sm3.classList.remove('sm13')
+    
     MsousMenu[2].classList.remove('white2')
 
-    //sm1.classList.add('sm11')
+ 
     bouttonMsousMenu[0].classList.remove('red2')
-    //sm2.classList.add('sm12')
+ 
     bouttonMsousMenu[1].classList.remove('red2')
-    //sm4.classList.add('sm14')
+ 
     bouttonMsousMenu[2].classList.remove('red2')
-    //sm3.classList.remove('sm13')
+    
     bouttonMsousMenu[3].classList.add('red2')
 
     fond.classList.remove('imgPedagogie')
@@ -469,8 +447,7 @@ Msm4.addEventListener('click', () => {
     mobileTestiImg.classList.remove('mobileValeur')
     mobileTestiImg.classList.remove('mobileQSN')
 
-    //mobileTestiImg.classList.remove('None')
-    //mobileTestiImg.classList.add('display')
+   
 
 
 

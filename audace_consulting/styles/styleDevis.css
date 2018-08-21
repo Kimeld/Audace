@@ -600,7 +600,7 @@ contenu2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    border: solid;
+
     border-width: 1px;
     border-color: #BC1C2A;
     color: #BC1C2A;
@@ -614,6 +614,9 @@ contenu2 {
     position: absolute;
     left: 0px;
     z-index: 1;
+    background-image: url(../images/Bouton%20gris%20precedent.png);
+    background-position: center;
+    background-size: cover;
 }
 
 .bouttonPre:hover {
@@ -622,12 +625,12 @@ contenu2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    border: solid;
+
     border-color: white;
     color: white;
-    background-color: #BC1C2A;
-    border-width: 0.5px;
+
     border-radius: 50px;
+    width: 140px;
     height: 30px;
     text-align: center;
     padding-top: 3px;
@@ -635,6 +638,9 @@ contenu2 {
     transition-property: all;
     transition-timing-function: ease-out;
     cursor: pointer;
+    background-image: url(../images/Bouton%20Pr%C3%A9c%C3%A9dent.png);
+    background-position: center;
+    background-size: cover;
 }
 
 .bouttonSui {
@@ -644,9 +650,8 @@ contenu2 {
 
     font-weight: 400;
     font-size: 16px;
-    border: solid;
-    border-color: #BC1C2A;
-    color: #BC1C2A;
+
+
     border-width: 0.5px;
     border-radius: 50px;
     width: 140px;
@@ -657,7 +662,10 @@ contenu2 {
     transition-property: all;
     position: absolute;
     right: 0px;
-    top: 0px
+    top: 0px;
+    background-image: url(../images/Bouton%20gris%20suivant.png);
+    background-position: center;
+    background-size: cover;
 }
 
 .bouttonSui:hover {
@@ -666,10 +674,10 @@ contenu2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    border: solid;
+
     border-color: white;
     color: white;
-    background-color: #BC1C2A;
+
     border-width: 0.5px;
     border-radius: 50px;
     width: 140px;
@@ -680,6 +688,9 @@ contenu2 {
     transition-property: all;
     transition-timing-function: ease-out;
     cursor: pointer;
+    background-image: url(../images/bouton%20Suivant.png);
+    background-position: center;
+    background-size: cover;
 }
 
 .boutonRep {
@@ -1172,7 +1183,7 @@ input {
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         font-size: 16px;
-        border: solid;
+
         border-width: 1px;
         border-color: #BC1C2A;
         color: #BC1C2A;
@@ -1196,7 +1207,7 @@ input {
 
         font-weight: 400;
         font-size: 16px;
-        border: solid;
+
         border-color: #BC1C2A;
         color: #BC1C2A;
         border-width: 0.5px;

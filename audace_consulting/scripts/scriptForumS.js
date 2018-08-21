@@ -32,33 +32,25 @@ let submit = document.querySelector(".submit")
 
 let souscrireImg = document.querySelector(".souscrireImg")
 
-scrollbars.visible = false;
+scrollbars.visible = false
 
 
 
-sousMenu.classList.remove('marginQuiSommesNous');
-sousMenu.classList.remove('marginSolution');
-sousMenu.classList.add('marginConseil');
-//sousMenu.classList.add('marginFormations');
+sousMenu.classList.remove('marginQuiSommesNous')
+sousMenu.classList.remove('marginSolution')
+sousMenu.classList.add('marginConseil')
 
-smC.classList.remove('smS');
+smC.classList.remove('smS')
 
-sm1.classList.remove('col-lg-1');
-sm2.classList.remove('col-lg-1');
-sm3.classList.remove('col-lg-1');
-
-//sm1.classList.add('col-lg-2');
-//sm2.classList.add('col-lg-2');
-//sm3.classList.add('col-lg-2');
-
-//firstOf4.classList.add('col-lg-offset-3');
-//firstOf4.classList.remove('col-lg-offset-4');
+sm1.classList.remove('col-lg-1')
+sm2.classList.remove('col-lg-1')
+sm3.classList.remove('col-lg-1')
 
 
 
 window.setTimeout(() => {
-    sousMenu.classList.add('animationSousMenu');
-    sousMenu.classList.add('sousMenuMove');
+    sousMenu.classList.add('animationSousMenu')
+    sousMenu.classList.add('sousMenuMove')
 }, 200)
 
 sm2.innerHTML = ''
@@ -76,19 +68,19 @@ sm4.setAttribute('href', '../pages/formateur.html')
 forum.addEventListener('click', () => {
     console.log(quiSommes)
 
-    sousMenu.classList.remove('animationSousMenu');
-    sousMenu.classList.remove('sousMenuMove');
-    sousMenu.classList.add('marginConseil');
+    sousMenu.classList.remove('animationSousMenu')
+    sousMenu.classList.remove('sousMenuMove')
+    sousMenu.classList.add('marginConseil')
 
-    sousMenu.classList.remove('marginQuiSommesNous');
-    sousMenu.classList.remove('marginSolution');
+    sousMenu.classList.remove('marginQuiSommesNous')
+    sousMenu.classList.remove('marginSolution')
     //sousMenu.classList.add('marginFormations');
 
-    smC.classList.remove('smS');
+    smC.classList.remove('smS')
 
-    sm1.classList.remove('col-lg-1');
-    sm2.classList.remove('col-lg-1');
-    sm3.classList.remove('col-lg-1');
+    sm1.classList.remove('col-lg-1')
+    sm2.classList.remove('col-lg-1')
+    sm3.classList.remove('col-lg-1')
 
     //sm1.classList.add('col-lg-2');
     //sm2.classList.add('col-lg-2');
@@ -100,8 +92,8 @@ forum.addEventListener('click', () => {
 
 
     window.setTimeout(() => {
-        sousMenu.classList.add('animationSousMenu');
-        sousMenu.classList.add('sousMenuMove');
+        sousMenu.classList.add('animationSousMenu')
+        sousMenu.classList.add('sousMenuMove')
     }, 200)
 
     sm2.innerHTML = ''
@@ -126,7 +118,7 @@ forum.addEventListener('click', () => {
 submit.addEventListener('mouseover', () => {
 
 
-    souscrireImg.setAttribute('src', "../images/bouton%20Suivant.png")
+    souscrireImg.setAttribute('src', "../images/Bouton%20valider.png")
 
 
 })
@@ -134,7 +126,7 @@ submit.addEventListener('mouseover', () => {
 submit.addEventListener('mouseout', () => {
 
 
-    souscrireImg.setAttribute('src', "../images/Bouton%20gris%20suivant%201.png")
+    souscrireImg.setAttribute('src', "../images/Bouton%20gris%20Valider.png")
 
 
 })

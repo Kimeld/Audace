@@ -26,6 +26,7 @@ let texteFormation = document.querySelector(".texte")
 
 let milieux = document.querySelector(".milieux")
 
+let module = document.querySelectorAll(".module")
 let modules = document.querySelector(".modules")
 let ref = document.querySelector(".ref")
 let allRef = document.querySelector(".allRef")
@@ -149,7 +150,7 @@ if (key.innerHTML == 'comunication') {
     MimgPopup[1] = '../images/Conseils%20associ%C3%A9.png'
     MimgPopup[2] = '../images/D%C3%A9v%20prse.png'
     MimgPopup[3] = '../images/Parole_public_button.png'
-    MimgPopup[4] = '../images/82726790-drugs-shopping-cart-flat-vector-icon-with-colored-versions-color-drugs-shopping-cart-icon-variants-w.jpg'
+    MimgPopup[4] = '../images/Gérer_board.png'
 
     MpopupCercleImg[0].setAttribute('src', MimgPopup[0])
     MpopupCercleImg[1].setAttribute('src', MimgPopup[1])
@@ -157,6 +158,11 @@ if (key.innerHTML == 'comunication') {
     MpopupCercleImg[3].setAttribute('src', MimgPopup[3])
     MpopupCercleImg[4].setAttribute('src', MimgPopup[4])
 
+    module[0].classList.add('flexiRelaImg')
+    module[1].classList.add('comAssertivImg')
+    module[2].classList.add('gestionImg')
+    module[3].classList.add('parlerImg')
+    module[4].classList.add('boardImg')
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
@@ -213,7 +219,7 @@ if (key.innerHTML == 'comunication') {
     titreModule1.classList.add('titreModuleFlex')
 
     titreModule4.classList.add('titreModuleVentePublique');
-    titreModule4.classList.remove('titreModuleVenteAssertive');
+    titreModule4.classList.remove('titreModuleVenteAssertive')
 
 
     close.setAttribute('href', 'comunication.html')
@@ -294,6 +300,12 @@ if (key.innerHTML == 'comunication') {
     MpopupCercleImg[3].setAttribute('src', MimgPopup[3])
     MpopupCercleImg[4].setAttribute('src', MimgPopup[4])
 
+    module[0].classList.add('positionImg')
+    module[1].classList.add('FlxibilitImg')
+    module[2].classList.add('managementSituImg')
+    module[3].classList.add('managementMotivImg')
+    module[4].classList.add('managementProjetImg')
+
     sm1.classList.add('surBrilliance')
 
 
@@ -330,8 +342,8 @@ if (key.innerHTML == 'comunication') {
     titreModule4.classList.remove('titreModuleVenteAssertive')
 
     titreModule5.classList.remove('titreModuleNego')
-    titreModule4.classList.remove('titreModuleVentePublique');
-    titreModule4.classList.remove('titreModuleVenteAssertive');
+    titreModule4.classList.remove('titreModuleVentePublique')
+    titreModule4.classList.remove('titreModuleVenteAssertive')
 
 
     popOne.setAttribute('title', 'Position n+1')
@@ -406,8 +418,8 @@ if (key.innerHTML == 'comunication') {
 
     MimgPopup[0] = '../images/Conseils%20associ%C3%A9.png'
     MimgPopup[1] = '../images/Conseils%20associ%C3%A9.png'
-    MimgPopup[2] = '../images/D%C3%A9v%20prse.png'
-    MimgPopup[3] = '../images/Vente_assertive_button.png'
+    MimgPopup[2] = '../images/Vente_assertive_button.png'
+    MimgPopup[3] = '../images/Conseils%20associ%C3%A9.png'
     MimgPopup[4] = '../images/82726790-drugs-shopping-cart-flat-vector-icon-with-colored-versions-color-drugs-shopping-cart-icon-variants-w.jpg'
 
     MpopupCercleImg[0].setAttribute('src', MimgPopup[0])
@@ -415,6 +427,12 @@ if (key.innerHTML == 'comunication') {
     MpopupCercleImg[2].setAttribute('src', MimgPopup[2])
     MpopupCercleImg[3].setAttribute('src', MimgPopup[3])
     MpopupCercleImg[4].setAttribute('src', MimgPopup[4])
+
+    module[0].classList.add('techniqueImg')
+    module[1].classList.add('couleurImg')
+    module[2].classList.add('assertiveImg')
+    module[3].classList.add('negoImg')
+
 
     sm2.classList.add('surBrilliance')
 
@@ -440,10 +458,10 @@ if (key.innerHTML == 'comunication') {
     titreModule1.innerHTML = 'Technique de vente'
     titreModule2.innerHTML = 'La couleur de <br> la ventes'
     titreModule3.innerHTML = 'Ventes assertive'
-    titreModule4.classList.remove('titreModuleVentePublique');
-    titreModule4.classList.add('titreModuleVenteAssertive');
+    titreModule4.classList.remove('titreModuleVentePublique')
+    titreModule4.classList.add('titreModuleVenteAssertive')
     titreModule4.innerHTML = 'La négociation'
-    titreModule5.classList.add('titreModuleNego');
+    titreModule5.classList.add('titreModuleNego')
     titreModule5.innerHTML = 'La négociation'
 
 
@@ -521,6 +539,11 @@ if (key.innerHTML == 'comunication') {
     MpopupCercleImg[2].setAttribute('src', MimgPopup[2])
     MpopupCercleImg[3].setAttribute('src', MimgPopup[3])
     MpopupCercleImg[4].setAttribute('src', MimgPopup[4])
+
+    module[1].classList.add('formateurImg')
+    module[2].classList.add('coachImg')
+    module[3].classList.add('formatAssertifImg')
+
 
     sm4.classList.add('surBrilliance')
 
@@ -615,9 +638,13 @@ if (key.innerHTML == 'comunication') {
 }
 
 
-
-
 sm1.addEventListener('click', () => {
+
+    module[0].classList.add('positionImg')
+    module[1].classList.add('FlxibilitImg')
+    module[2].classList.add('managementSituImg')
+    module[3].classList.add('managementMotivImg')
+    module[4].classList.add('managementProjetImg')
 
     sm1.classList.add('surBrilliance')
 
@@ -742,6 +769,11 @@ sm1.addEventListener('click', () => {
 
 sm2.addEventListener('click', () => {
 
+    module[0].classList.add('techniqueImg')
+    module[1].classList.add('couleurImg')
+    module[2].classList.add('assertiveImg')
+    module[3].classList.add('negoImg')
+
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
     close.setAttribute('href', 'vente.html')
@@ -850,6 +882,12 @@ sm2.addEventListener('click', () => {
 
 sm3.addEventListener('click', () => {
 
+    module[0].classList.add('flexiRelaImg')
+    module[1].classList.add('comAssertivImg')
+    module[2].classList.add('gestionImg')
+    module[3].classList.add('parlerImg')
+    module[4].classList.add('boardImg')
+
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
     close.setAttribute('href', 'comunication.html')
@@ -893,7 +931,7 @@ sm3.addEventListener('click', () => {
     titreModule5.innerHTML = 'Gérer <br> un board'
 
     titreModule4.classList.add('titreModuleVentePublique');
-    titreModule4.classList.remove('titreModuleVenteAssertive');
+    titreModule4.classList.remove('titreModuleVenteAssertive')
     titreModule5.classList.add('titreModuleVentePublique')
 
 
@@ -981,6 +1019,10 @@ sm3.addEventListener('click', () => {
 
 
 sm4.addEventListener('click', () => {
+
+    module[1].classList.add('formateurImg')
+    module[2].classList.add('coachImg')
+    module[3].classList.add('formatAssertifImg')
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
@@ -1258,6 +1300,11 @@ Msm2.addEventListener('click', () => {
     MpopupCercleImg[3].setAttribute('src', MimgPopup[3])
     MpopupCercleImg[4].setAttribute('src', MimgPopup[4])
 
+    module[0].classList.add('techniqueImg')
+    module[1].classList.add('couleurImg')
+    module[2].classList.add('assertiveImg')
+    module[3].classList.add('negoImg')
+
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
 
@@ -1368,6 +1415,12 @@ Msm3.addEventListener('click', () => {
     MpopupCercleImg[3].setAttribute('src', MimgPopup[3])
     MpopupCercleImg[4].setAttribute('src', MimgPopup[4])
 
+    module[0].classList.add('flexiRelaImg')
+    module[1].classList.add('comAssertivImg')
+    module[2].classList.add('gestionImg')
+    module[3].classList.add('parlerImg')
+    module[4].classList.add('boardImg')
+
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
 
@@ -1400,22 +1453,22 @@ Msm3.addEventListener('click', () => {
 
 
 
-    //sm1.classList.add('sm11')
+
     MsousMenu[0].classList.remove('white2')
-    //sm2.classList.add('sm12')
+
     MsousMenuBusiness[0].classList.remove('white2')
-    //sm4.classList.add('sm14')
+
     MsousMenu[1].classList.add('white2')
-    //sm3.classList.remove('sm13')
+
     MsousMenuBusiness[1].classList.remove('white2')
 
-    //sm1.classList.add('sm11')
+
     bouttonMsousMenu[0].classList.remove('red2')
-    //sm2.classList.add('sm12')
+
     bouttonMsousMenu[1].classList.remove('red2')
-    //sm4.classList.add('sm14')
+
     bouttonMsousMenu[2].classList.add('red2')
-    //sm3.classList.remove('sm13')
+
     bouttonMsousMenu[3].classList.remove('red2')
 
     mobileTestiImg.classList.remove('mobileFormateur')
@@ -1510,22 +1563,22 @@ Msm4.addEventListener('click', () => {
 
 
 
-    //sm1.classList.add('sm11')
+
     MsousMenu[0].classList.remove('white2')
-    //sm2.classList.add('sm12')
+
     MsousMenuBusiness[0].classList.remove('white2')
-    //sm4.classList.add('sm14')
+
     MsousMenu[1].classList.remove('white2')
-    //sm3.classList.remove('sm13')
+
     MsousMenuBusiness[1].classList.add('white2')
 
-    //sm1.classList.add('sm11')
+
     bouttonMsousMenu[0].classList.remove('red2')
-    //sm2.classList.add('sm12')
+
     bouttonMsousMenu[1].classList.remove('red2')
-    //sm4.classList.add('sm14')
+
     bouttonMsousMenu[2].classList.remove('red2')
-    //sm3.classList.remove('sm13')
+
     bouttonMsousMenu[3].classList.add('red2')
 
     fond.classList.remove('imgPedagogie')

@@ -121,28 +121,147 @@
     transform: scale(1.4);
     position: relative;
     background-image: url(../images/82726790-drugs-shopping-cart-flat-vector-icon-with-colored-versions-color-drugs-shopping-cart-icon-variants-w.jpg);
+
+}
+
+.positionImg {
+    background-image: url(../images/n+1_button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.FlxibilitImg {
+    background-image: url(../images/Coul%20Management.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.managementSituImg {
+    background-image: url(../images/Management_situa_button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.managementMotivImg {
+    background-image: url(../images/Management_Moti_button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.managementProjetImg {
+    background-image: url(../images/Manag_projet.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.techniqueImg {
+    background-image: url(../images/n+1_button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.couleurImg {
+    background-image: url(../images/n+1_button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.assertiveImg {
+    background-image: url(../images/Vente_assertive_button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.negoImg {
+    background-image: url(../images/n+1_button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.flexiRelaImg {
+    background-image: url(../images/Flex%20rela%20button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.comAssertivImg {
+    background-image: url(../images/n+1_button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.gestionImg {
+    background-image: url(../images/n+1_button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.parlerImg {
+    background-image: url(../images/Parole_public_button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.boardImg {
+    background-image: url(../images/G%C3%A9rer_board.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.formateurImg {
+    background-image: url(../images/n+1_button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.coachImg {
+    background-image: url(../images/Formateur_coach_button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.formatAssertifImg {
+    background-image: url(../images/Formateur_assertif.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 
+
+
 /*
 .moduleVenteOne {
     margin-left: 7%;
 }
-*/
+
 
 .two .module {
     background-image: url(../images/Management%20Moti%20button.png);
 
 }
 
-/*
+
 .moduleVenteTwo {
     margin-right: -190px;
 }
-*/
+
 
 .three .module {
     background-image: url(../images/Conseils%20associ%C3%A9.png);
@@ -159,8 +278,7 @@
 .five .module {
     background-image: url(../images/Image%20de%20fond%20test.png);
 }
-
-
+*/
 
 .module:hover {
     transform: scale(1.3);
@@ -675,7 +793,27 @@
     .MpopContenuRight {
         position: absolute;
         right: 4%;
+        transition-duration: 0.3s;
+
     }
+
+    .MpopContenuLeft {
+
+        transition-duration: 0.3s;
+    }
+
+    .MpopContenuRight:hover {
+        transform: scale(1.2);
+        transition-property: all;
+        transition-duration: 0.3s;
+    }
+
+    .MpopContenuLeft:hover {
+        transform: scale(1.2);
+        transition-property: all;
+        transition-duration: 0.3s;
+    }
+
 
     .MpopContenu {
         text-align: center;
@@ -722,15 +860,17 @@
         transition-duration: 0.3s;
         opacity: 1;
         transition-timing-function: ease-in-out;
+        transform-style: preserve-3d;
     }
 
     .contenuNoActive {
         position: absolute;
-        transform: translateX(100vw) scale(0.5);
+        transform: translateX(100vw) scale(0.5) rotate(10deg);
         opacity: 0;
         transition-property: all;
         transition-duration: 0.3s;
         transition-timing-function: ease-in-out;
+        transform-style: preserve-3d;
     }
     .displayNone {
         display: none;

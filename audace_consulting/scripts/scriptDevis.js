@@ -198,12 +198,7 @@ bouttonSui.addEventListener('click', () => {
         }
     }
 
-    /*if (auditSelect == 1) {
-        list.innerHTML = '<div><img src="../images/x-circle.png" alt=""><span class="ecartimgF"> ' + tab[0] + '</span></div>'
-    } else {
-        list.innerHTML = ''
-
-    }*/
+  
 
     if (i >= 0 && i < 2) {
         i++
@@ -224,26 +219,6 @@ bouttonSui.addEventListener('click', () => {
                 contenu2.classList.remove('contenuNoActive')
 
             }, 800)
-
-
-            /*
-            rep2.classList.add('repActive')
-            bouttonPre.classList.remove('preInvi')
-
-            contenu1.classList.remove('contenuActive')
-            contenu1.classList.add('contenuNoActive')
-            contenu1.classList.add('absolute')
-
-            contenu2.classList.remove('fixed')
-
-
-            window.setTimeout(() => {
-                contenu1.classList.add('fixed')
-                contenu2.classList.remove('contenuNoActive')
-                contenu2.classList.add('contenuActive')
-            }, 500)
-            */
-
 
 
         } else if (i == 2) {
@@ -331,37 +306,11 @@ bouttonPre.addEventListener('click', () => {
 
 
         }
-        /*else if (i == 2) {
-            rep4.classList.remove('repActive')
-            bouttonPre.classList.remove('preInvi')
 
-            contenu1.classList.remove('contenuActive')
-            contenu1.classList.add('contenuNoActive')
-
-            contenu2.classList.remove('contenuActive')
-            contenu2.classList.add('contenuNoActive')
-
-            contenu3.classList.add('contenuActive')
-            contenu3.classList.remove('contenuNoActive')
-
-
-
-
-
-
-        }
-*/
     }
 
 })
-/*
-if (i == 0) {
-    contenu.classList.add('contenuActive')
-} else {
-    contenu.classList.remove('contenuActive')
-    contenu.classList.add('contenuNoActive')
-}
-*/
+
 
 
 cercle1.addEventListener('click', () => {

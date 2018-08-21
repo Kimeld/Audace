@@ -47,13 +47,13 @@ let Msm4 = document.querySelector(".Msm4")
 
 scrollbars.visible = false;
 
-sousMenu.classList.remove('marginQuiSommesNous');
-sousMenu.classList.remove('marginSolution');
-sousMenu.classList.add('marginConseil');
+sousMenu.classList.remove('marginQuiSommesNous')
+sousMenu.classList.remove('marginSolution')
+sousMenu.classList.add('marginConseil')
 
 window.setTimeout(() => {
-    sousMenu.classList.add('animationSousMenu');
-    sousMenu.classList.add('sousMenuMove');
+    sousMenu.classList.add('animationSousMenu')
+    sousMenu.classList.add('sousMenuMove')
 }, 200)
 
 
@@ -62,12 +62,6 @@ sm2.innerHTML = 'Consulting'
 sm3.innerHTML = 'Business consulting'
 sm4.innerHTML = ''
 sm5.innerHTML = ''
-
-/*
-sm1.setAttribute('href', 'audit.html')
-sm2.setAttribute('href', 'consulting.html')
-sm3.setAttribute('href', 'business.html')
-*/
 
 sm1.addEventListener('click', () => {
 
@@ -141,8 +135,6 @@ sm3.addEventListener('click', () => {
 
 })
 
-
-
 forum.addEventListener('click', () => {
     console.log(quiSommes)
 
@@ -159,14 +151,6 @@ forum.addEventListener('click', () => {
     sm1.classList.remove('col-lg-1');
     sm2.classList.remove('col-lg-1');
     sm3.classList.remove('col-lg-1');
-
-    //sm1.classList.add('col-lg-2');
-    //sm2.classList.add('col-lg-2');
-    //sm3.classList.add('col-lg-2');
-
-    //firstOf4.classList.add('col-lg-offset-3');
-    //firstOf4.classList.remove('col-lg-offset-4');
-
 
 
     window.setTimeout(() => {
@@ -186,9 +170,6 @@ forum.addEventListener('click', () => {
     sm3.setAttribute('href', 'devis.html')
     sm4.setAttribute('href', 'formateur.html')
 
-
-
-
 })
 
 Msm1.addEventListener('click', () => {
@@ -199,22 +180,22 @@ Msm1.addEventListener('click', () => {
 
 
 
-    //sm1.classList.add('sm11')
+ 
     MsousMenuAudit.classList.add('white2')
-    //sm2.classList.add('sm12')
+ 
     MsousMenuConsulting.classList.remove('white2')
-    //sm4.classList.add('sm14')
+ 
     MsousMenuBusiness.classList.remove('white2')
-    //sm3.classList.remove('sm13')
+    
 
 
-    //sm1.classList.add('sm11')
+ 
     bouttonMsousMenu[0].classList.add('red2')
-    //sm2.classList.add('sm12')
+ 
     bouttonMsousMenu[1].classList.remove('red2')
-    //sm4.classList.add('sm14')
+ 
     bouttonMsousMenu[2].classList.remove('red2')
-    //sm3.classList.remove('sm13')
+    
 
 
 
@@ -236,22 +217,22 @@ Msm2.addEventListener('click', () => {
 
 
 
-    //sm1.classList.add('sm11')
+ 
     MsousMenuAudit.classList.remove('white2')
-    //sm2.classList.add('sm12')
+ 
     MsousMenuConsulting.classList.add('white2')
-    //sm4.classList.add('sm14')
+ 
     MsousMenuBusiness.classList.remove('white2')
-    //sm3.classList.remove('sm13')
+    
 
 
-    //sm1.classList.add('sm11')
+ 
     bouttonMsousMenu[0].classList.remove('red2')
-    //sm2.classList.add('sm12')
+ 
     bouttonMsousMenu[1].classList.add('red2')
-    //sm4.classList.add('sm14')
+ 
     bouttonMsousMenu[2].classList.remove('red2')
-    //sm3.classList.remove('sm13')
+    
 
 
 
@@ -272,25 +253,21 @@ Msm3.addEventListener('click', () => {
 
 
 
-    //sm1.classList.add('sm11')
+ 
     MsousMenuAudit.classList.remove('white2')
-    //sm2.classList.add('sm12')
+ 
     MsousMenuConsulting.classList.remove('white2')
 
-    //sm3.classList.remove('sm13')
+    
     MsousMenuBusiness.classList.add('white2')
 
-    //sm1.classList.add('sm11')
+ 
     bouttonMsousMenu[0].classList.remove('red2')
-    //sm2.classList.add('sm12')
+ 
     bouttonMsousMenu[1].classList.remove('red2')
-    //sm4.classList.add('sm14')
+ 
     bouttonMsousMenu[2].classList.add('red2')
-    //sm3.classList.remove('sm13')
-
-
-
-
+    
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')

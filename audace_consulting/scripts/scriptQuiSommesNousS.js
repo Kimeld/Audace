@@ -47,28 +47,7 @@ sm5.innerHTML = ''
 
 
 sm1.setAttribute('href', 'valeur.html')
-/*
-sm2.setAttribute('href', 'equipe.html')
-sm3.setAttribute('href', 'pedagogie.html')
-sm4.setAttribute('href', 'testimonial.html')
 
-
-sm1.addEventListener('click', () => {
-
-    contenuVente.classList.add('contenuMove')
-    contenuVente.classList.add('animationContenu')
-
-
-    window.setTimeout(() => {
-        contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Nos valeurs'
-        contenuVente.classList.remove('animationContenu')
-
-
-    }, 200)
-})
-
-*/
 
 sm2.addEventListener('click', () => {
 
@@ -126,7 +105,7 @@ forum.addEventListener('click', () => {
 sousMenu.classList.add('marginConseil');
     sousMenu.classList.remove('marginQuiSommesNous');
     sousMenu.classList.remove('marginSolution');
-    //sousMenu.classList.add('marginFormations');
+  
 
     smC.classList.remove('smS');
 
@@ -134,12 +113,7 @@ sousMenu.classList.add('marginConseil');
     sm2.classList.remove('col-lg-1');
     sm3.classList.remove('col-lg-1');
 
-    //sm1.classList.add('col-lg-2');
-    //sm2.classList.add('col-lg-2');
-    //sm3.classList.add('col-lg-2');
-
-    //firstOf4.classList.add('col-lg-offset-3');
-    //firstOf4.classList.remove('col-lg-offset-4');
+   
 
 
 

@@ -60,13 +60,12 @@ let close = document.querySelector(".close")
 
 scrollbars.visible = false;
 
-//sousMenu.classList.add('marginFormations');
-sousMenu.classList.add('marginQuiSommesNous');
+sousMenu.classList.add('marginQuiSommesNous')
 
 
 window.setTimeout(() => {
-    sousMenu.classList.add('animationSousMenu');
-    sousMenu.classList.add('sousMenuMove');
+    sousMenu.classList.add('animationSousMenu')
+    sousMenu.classList.add('sousMenuMove')
 }, 200)
 
 

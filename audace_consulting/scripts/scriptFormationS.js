@@ -41,8 +41,7 @@ let Msm4 = document.querySelector(".Msm4")
 
 scrollbars.visible = false;
 
-//sousMenu.classList.add('marginFormations');
-//sousMenu.classList.add('marginQuiSommesNous');
+
 formations.classList.add('red')
 
 window.setTimeout(() => {
@@ -74,31 +73,25 @@ MsousMenuBusiness[1].innerHTML = '<a class="deco" href="formateur.html" class="d
 forum.addEventListener('click', () => {
     console.log(quiSommes)
 
-    sousMenu.classList.remove('animationSousMenu');
-    sousMenu.classList.remove('sousMenuMove');
-    sousMenu.classList.add('marginConseil');
-    sousMenu.classList.remove('marginQuiSommesNous');
-    sousMenu.classList.remove('marginSolution');
-    //sousMenu.classList.add('marginFormations');
+    sousMenu.classList.remove('animationSousMenu')
+    sousMenu.classList.remove('sousMenuMove')
+    sousMenu.classList.add('marginConseil')
+    sousMenu.classList.remove('marginQuiSommesNous')
+    sousMenu.classList.remove('marginSolution')
 
-    smC.classList.remove('smS');
+    smC.classList.remove('smS')
 
-    sm1.classList.remove('col-lg-1');
-    sm2.classList.remove('col-lg-1');
-    sm3.classList.remove('col-lg-1');
+    sm1.classList.remove('col-lg-1')
+    sm2.classList.remove('col-lg-1')
+    sm3.classList.remove('col-lg-1')
 
-    //sm1.classList.add('col-lg-2');
-    //sm2.classList.add('col-lg-2');
-    //sm3.classList.add('col-lg-2');
-
-    //firstOf4.classList.add('col-lg-offset-3');
-    //firstOf4.classList.remove('col-lg-offset-4');
+ 
 
 
 
     window.setTimeout(() => {
-        sousMenu.classList.add('animationSousMenu');
-        sousMenu.classList.add('sousMenuMove');
+        sousMenu.classList.add('animationSousMenu')
+        sousMenu.classList.add('sousMenuMove')
     }, 200)
 
     sm2.innerHTML = ''
