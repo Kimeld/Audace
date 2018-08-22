@@ -97,7 +97,7 @@
 }
 
 .modulesVentes {
-    margin-left: 5%;
+    margin-left: %;
 }
 
 .modulesFormation {
@@ -125,14 +125,14 @@
 }
 
 .positionImg {
-    background-image: url(../images/n+1_button.png);
+    background-image: url(../images/Position_n+1_button.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .FlxibilitImg {
-    background-image: url(../images/Coul%20Management.png);
+    background-image: url(../images/Couleurs_management.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -160,14 +160,14 @@
 }
 
 .techniqueImg {
-    background-image: url(../images/n+1_button.png);
+    background-image: url(../images/Technique_vente.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .couleurImg {
-    background-image: url(../images/n+1_button.png);
+    background-image: url(../images/Couleurs_vente.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -181,28 +181,28 @@
 }
 
 .negoImg {
-    background-image: url(../images/n+1_button.png);
+    background-image: url(../images/Nego_vente.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .flexiRelaImg {
-    background-image: url(../images/Flex%20rela%20button.png);
+    background-image: url(../images/Flexibilte_rela.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .comAssertivImg {
-    background-image: url(../images/n+1_button.png);
+    background-image: url(../images/Communication_assertive.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .gestionImg {
-    background-image: url(../images/n+1_button.png);
+    background-image: url(../images/Situations_difficiles.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -223,7 +223,7 @@
 }
 
 .formateurImg {
-    background-image: url(../images/n+1_button.png);
+    background-image: url(../images/formateur_animateur.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -724,10 +724,10 @@
 }
 
 .imgPop {
-    background-color: black;
+    /*background-color: black;
     background-image: url(../images/Consulting.png);
     background-position: center;
-    background-size: cover;
+    background-size: cover;*/
     height: 200px;
     position: absolute;
     top: 135px;

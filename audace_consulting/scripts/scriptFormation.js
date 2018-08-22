@@ -23,6 +23,7 @@ let contenuManagement = document.querySelector(".contenuManagement")
 let titreFormation = document.querySelector(".titreFormation")
 let fond = document.querySelector(".fond")
 let texteFormation = document.querySelector(".texte")
+let imgPop = document.querySelector(".imgPop")
 
 let milieux = document.querySelector(".milieux")
 
@@ -146,9 +147,9 @@ sm5.innerHTML = ''
 
 if (key.innerHTML == 'comunication') {
 
-    MimgPopup[0] = '../images/Flex%20rela%20button.png'
-    MimgPopup[1] = '../images/Conseils%20associ%C3%A9.png'
-    MimgPopup[2] = '../images/D%C3%A9v%20prse.png'
+    MimgPopup[0] = '../images/Flexibilte_rela.png'
+    MimgPopup[1] = '../images/Communication_assertive.png'
+    MimgPopup[2] = '../images/Situations_difficiles.png'
     MimgPopup[3] = '../images/Parole_public_button.png'
     MimgPopup[4] = '../images/Gérer_board.png'
 
@@ -224,6 +225,21 @@ if (key.innerHTML == 'comunication') {
 
     close.setAttribute('href', 'comunication.html')
 
+    imgPop.classList.remove('formateurImg')
+    imgPop.classList.remove('coachImg')
+    imgPop.classList.remove('formatAssertifImg')
+
+    imgPop.classList.remove('techniqueImg')
+    imgPop.classList.remove('couleurImg')
+    imgPop.classList.remove('assertiveImg')
+    imgPop.classList.remove('negoImg')
+
+    imgPop.classList.remove('positionImg')
+    imgPop.classList.remove('FlxibilitImg')
+    imgPop.classList.remove('managementSituImg')
+    imgPop.classList.remove('managementMotivImg')
+    imgPop.classList.remove('managementProjetImg')
+
     popOne.addEventListener('click', () => {
 
         titrePopUp.innerHTML = 'La flexibilité relationnelle'
@@ -233,6 +249,7 @@ if (key.innerHTML == 'comunication') {
         secondTexteP.innerHTML = '– Etre capable de décrypter les comportements de ses interlocuteurs pour adapter sa communication'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '- Savoir reconnaître les 4 comportements du modèle couleur <br> - Savoir faire preuve de flexibilité comportementale face aux 4 comportements <br> - Savoir adopter la communication des 4 comportements du modèle couleur'
+        imgPop.classList.add('flexiRelaImg')
 
 
     })
@@ -245,7 +262,7 @@ if (key.innerHTML == 'comunication') {
         secondTexteP.innerHTML = '– Être capable d’adopter une posture Assertive pour communiquer avec authenticité et développer une coopération <br> Oser entendre et oser dire en toute légitimité et en toutes situations'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– Savoir adopter une posture Assertive <br> - S’approprier la méthodologie de la communication assertive <br> -Savoir gérer les situations avec assertivité'
-
+        imgPop.classList.add('comAssertivImg')
 
     })
     popThree.addEventListener('click', () => {
@@ -257,7 +274,7 @@ if (key.innerHTML == 'comunication') {
         secondTexteP.innerHTML = '– Être capable d’appréhender les situations délicates sous d’autres angles afin d’adopter l’approche relationnelle, la stratégie de négociation et/ou la décision adéquates.'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '–  Savoir reconnaître la nature de la situation <br> - Savoir gérer des situations d’ordre Relationnel <br> - Savoir gérer des situations qui relèvent de la Négociation <br> - Savoir gérer des situations qui relèvent à la fois de la Relation et de la Négociation'
-
+        imgPop.classList.add('gestionImg')
 
     })
     popFour.addEventListener('click', () => {
@@ -269,7 +286,7 @@ if (key.innerHTML == 'comunication') {
         secondTexteP.innerHTML = '- Être capable de prendre la parole en public avec aisance et d’animer ses 	présentations avec efficacité et fluidité dans l’atteinte d’un objectif prédéfini'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– Savoir préparer sa prise de parole en public <br> -Savoir définir le fond et trouver la forme du message<br> -Savoir introduire et conclure sa prise de parole en public'
-
+        imgPop.classList.add('parlerImg')
 
     })
     popFive.addEventListener('click', () => {
@@ -281,15 +298,15 @@ if (key.innerHTML == 'comunication') {
         secondTexteP.innerHTML = '- Être capable d’animer un board avec professionnalisme et de gérer les différents comportements des participants'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– S’approprier les techniques d’animation de groupes<br> - S’approprier les techniques de conduite de débats<br> - Savoir adopter la posture d’animateur de débat Communiquer avec un interlocuteur avec un comportement différent'
-
+        imgPop.classList.add('boardImg')
 
     })
 
 
 } else if (key.innerHTML == 'mana') {
 
-    MimgPopup[0] = '../images/n+1_button.png'
-    MimgPopup[1] = '../images/Coul%20Management.png'
+    MimgPopup[0] = '../images/Position_n+1_button.png'
+    MimgPopup[1] = '../images/Couleurs_management.png'
     MimgPopup[2] = '../images/Management_situa_button.png'
     MimgPopup[3] = '../images/Management_Moti_button.png'
     MimgPopup[4] = '../images/Manag_projet.png'
@@ -353,6 +370,21 @@ if (key.innerHTML == 'comunication') {
 
     close.setAttribute('href', 'mana.html')
 
+    imgPop.classList.remove('formateurImg')
+    imgPop.classList.remove('coachImg')
+    imgPop.classList.remove('formatAssertifImg')
+
+    imgPop.classList.remove('flexiRelaImg')
+    imgPop.classList.remove('comAssertivImg')
+    imgPop.classList.remove('gestionImg')
+    imgPop.classList.remove('parlerImg')
+    imgPop.classList.remove('boardImg')
+
+    imgPop.classList.remove('techniqueImg')
+    imgPop.classList.remove('couleurImg')
+    imgPop.classList.remove('assertiveImg')
+    imgPop.classList.remove('negoImg')
+
     popOne.addEventListener('click', () => {
 
         titrePopUp.innerHTML = 'Position n+1'
@@ -362,7 +394,7 @@ if (key.innerHTML == 'comunication') {
         secondTexteP.innerHTML = '– Savoir adopter une posture managériale avec son équipe <br> – Savoir adopter une communication efficace et productive'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = 'Comprendre et s’approprier la posture managériale adéquate et les techniques de debrief <br> – S’approprier la communication assertive <br> – Savoir formuler un feedback objectif, productif et permetant la mise en énergie des participants'
-
+        imgPop.classList.add('positionImg')
 
     })
     popTwo.addEventListener('click', () => {
@@ -374,7 +406,7 @@ if (key.innerHTML == 'comunication') {
         secondTexteP.innerHTML = '– Savoir adopter une posture managériale avec son équipe <br> – Savoir adopter une communication efficace et productive'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– Comprendre et s’approprier la posture managériale adéquate et les techniques de debrief <br> – S’approprier la communication assertive <br> – Savoir formuler un feedback objectif, productif et permetant la mise en énergie des participants'
-
+        imgPop.classList.add('FlxibilitImg')
 
     })
     popThree.addEventListener('click', () => {
@@ -386,7 +418,7 @@ if (key.innerHTML == 'comunication') {
         secondTexteP.innerHTML = '– Savoir manager en fonction du niveau de développement de chaque membre de son équipe'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– Savoir reconnaitre et s’adapter au DEMA de chaque <br> collaborateur <br> – Savoir diagnostiquer le niveau de développement<br> – Savoir manager en fonction du niveau de développement <br> et en fonction des situations'
-
+        imgPop.classList.add('managementSituImg')
 
     })
     popFour.addEventListener('click', () => {
@@ -398,7 +430,7 @@ if (key.innerHTML == 'comunication') {
         secondTexteP.innerHTML = '– Savoir manager dans un esprit motivationnel <br> – Savoir manager avec les compétences motivationnel <br> – Savoir manager avec les processus motivationnel'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– Savoir manager dans le partenariat avec empathie <br> – Savoir accompagner son collaborateurs dans l’évocation <br> – Savoir être centré sur son collaborateur <br> – Savoir utiliser les processus motivationnel pour accompagner son collaborateur dans ses plans d’action'
-
+        imgPop.classList.add('managementMotivImg')
 
     })
     popFive.addEventListener('click', () => {
@@ -410,17 +442,17 @@ if (key.innerHTML == 'comunication') {
         secondTexteP.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> – Savoir mener un projet'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– Comprendre ce qu’est un business case <br>  – Savoir construire son Business case <br> – S’approprier les comportements qui favorisent ladécision <br> – Apprendre à gérer les liens avec les différents acteurs <br> – Savoir Clôturer le projet'
-
+        imgPop.classList.add('managementProjetImg')
 
     })
 
 } else if (key.innerHTML == 'vente') {
 
-    MimgPopup[0] = '../images/Conseils%20associ%C3%A9.png'
-    MimgPopup[1] = '../images/Conseils%20associ%C3%A9.png'
-    MimgPopup[2] = '../images/Vente_assertive_button.png'
-    MimgPopup[3] = '../images/Conseils%20associ%C3%A9.png'
-    MimgPopup[4] = '../images/82726790-drugs-shopping-cart-flat-vector-icon-with-colored-versions-color-drugs-shopping-cart-icon-variants-w.jpg'
+    MimgPopup[0] = '../images/Technique_vente.png'
+    MimgPopup[1] = '../images/Couleurs_vente.png'
+    MimgPopup[2] = '../images/Couleurs_vente.png'
+    MimgPopup[3] = '../images/Vente_assertive_button.png'
+    MimgPopup[4] = '../images/Nego_vente.png'
 
     MpopupCercleImg[0].setAttribute('src', MimgPopup[0])
     MpopupCercleImg[1].setAttribute('src', MimgPopup[1])
@@ -476,6 +508,22 @@ if (key.innerHTML == 'comunication') {
 
     close.setAttribute('href', 'vente.html')
 
+    imgPop.classList.remove('formateurImg')
+    imgPop.classList.remove('coachImg')
+    imgPop.classList.remove('formatAssertifImg')
+
+    imgPop.classList.remove('flexiRelaImg')
+    imgPop.classList.remove('comAssertivImg')
+    imgPop.classList.remove('gestionImg')
+    imgPop.classList.remove('parlerImg')
+    imgPop.classList.remove('boardImg')
+
+    imgPop.classList.remove('positionImg')
+    imgPop.classList.remove('FlxibilitImg')
+    imgPop.classList.remove('managementSituImg')
+    imgPop.classList.remove('managementMotivImg')
+    imgPop.classList.remove('managementProjetImg')
+
     popOne.addEventListener('click', () => {
 
         titrePopUp.innerHTML = 'Technique de vente'
@@ -485,7 +533,7 @@ if (key.innerHTML == 'comunication') {
         secondTexteP.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> – Savoir mener un projet'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– Comprendre ce qu’est un business case <br> – Savoir construire son Business case <br> – S’approprier les comportements qui favorisent la décision <br> – Apprendre à gérer les liens avec les différents acteurs <br> – Savoir Clôturer le projet'
-
+        imgPop.classList.add('techniqueImg')
 
     })
     popTwo.addEventListener('click', () => {
@@ -497,7 +545,7 @@ if (key.innerHTML == 'comunication') {
         secondTexteP.innerHTML = '– Être capable d’adapter sa communication face-face après avoir reconnu les préférences comportementales de ses interlocuteurs'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– Savoir adopter les codes de communication des 4 comportements dominants <br> – Savoir appliquer les 4 comportements aux différents étapes de la vente (de l’objectif à l’engagement) <br> – S’entraîner à gérer les typologies opposées'
-
+        imgPop.classList.add('couleurImg')
 
     })
     popThree.addEventListener('click', () => {
@@ -509,7 +557,7 @@ if (key.innerHTML == 'comunication') {
         secondTexteP.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> – Savoir mener un projet'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– Savoir utiliser le DESC, dire oui ou dire non <br> – Savoir présenter l’objectif de sa visite afin de le faireaccepter <br> – Savoir questionner sans freins personnels pour obtenir les informations cruciales et les motivations <br> – Savoir adopter une argumentation convaincante et ciblée sans crainte face aux pharmaciens <br> – Savoir répondre aux objections et utiliser les modes de communication pour comprendre les motivations <br> – Gérer ses peurs pour oser conclure, s’engager et engager'
-
+        imgPop.classList.add('assertiveImg')
 
     })
     popFour.addEventListener('click', () => {
@@ -521,18 +569,18 @@ if (key.innerHTML == 'comunication') {
         secondTexteP.innerHTML = '– Être capable d’adopter une posture de négociateur aguerrit <br> – Être capable de négocier avec efficience dans une relattion de coopération gagnant/gagnant'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– Comprendre la différence entre vente et négociation <br>– Savoir préparer sa négociation : méthode et outils <br> – Savoir à Négocier de manière raisonnée en 3 temps <br> – Savoir Gérer les situations difficiles'
-
+        imgPop.classList.add('negoImg')
 
     })
 
 
 } else if (key.innerHTML == 'formateur') {
 
-    MimgPopup[0] = '..//images/Conseils%20associ%C3%A9.png'
+    MimgPopup[0] = '..//images/formateur_animateur.png'
     MimgPopup[1] = '../images/Formateur_coach_button.png'
     MimgPopup[2] = '../images/Formateur_assertif.png'
     MimgPopup[3] = '../images/Image%20de%20fond%20test.png'
-    MimgPopup[4] = '../images/82726790-drugs-shopping-cart-flat-vector-icon-with-colored-versions-color-drugs-shopping-cart-icon-variants-w.jpg'
+    MimgPopup[4] = '../images/Formateur_assertif.png'
 
     MpopupCercleImg[0].setAttribute('src', MimgPopup[0])
     MpopupCercleImg[1].setAttribute('src', MimgPopup[1])
@@ -596,7 +644,26 @@ if (key.innerHTML == 'comunication') {
 
     close.setAttribute('href', 'formateur.html')
 
-    titreModule4.classList.add('titreModuleVenteAssertive');
+    titreModule4.classList.add('titreModuleVenteAssertive')
+
+    imgPop.classList.remove('flexiRelaImg')
+    imgPop.classList.remove('comAssertivImg')
+    imgPop.classList.remove('gestionImg')
+    imgPop.classList.remove('parlerImg')
+    imgPop.classList.remove('boardImg')
+
+    imgPop.classList.remove('techniqueImg')
+    imgPop.classList.remove('couleurImg')
+    imgPop.classList.remove('assertiveImg')
+    imgPop.classList.remove('negoImg')
+
+    imgPop.classList.remove('positionImg')
+    imgPop.classList.remove('FlxibilitImg')
+    imgPop.classList.remove('managementSituImg')
+    imgPop.classList.remove('managementMotivImg')
+    imgPop.classList.remove('managementPrimgPop')
+
+
 
     popTwo.addEventListener('click', () => {
 
@@ -607,7 +674,7 @@ if (key.innerHTML == 'comunication') {
         secondTexteP.innerHTML = '– Apprendre à animer une session de formation <br> -S’approprier les techniques de transmission des savoirs <br> -S’approprier les techniques d’animation'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– Comprendre et apprendre  à gérer le comportement de l’apprenant <br> - S’approprier la posture du formateur <br> - Apprendre à  gérer les moments clés de la formation'
-
+        imgPop.classList.add('formateurImg')
 
     })
     popThree.addEventListener('click', () => {
@@ -619,7 +686,7 @@ if (key.innerHTML == 'comunication') {
         secondTexteP.innerHTML = '– Apprendre à accompagner  et à coacher sur le terrain les stagiaires en formation dans l’objectif de les développer et de pérenniser les acquis de la formation'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– Savoir faire preuve de flexibilité comportementale <br> Savoir repérer la motivation des apprenants <br> -Savoir faire un feedback aux apprenants<br> - Savoir coacher les apprenants par la définition d’objectifs adéquats'
-
+        imgPop.classList.add('coachImg')
 
     })
     popFour.addEventListener('click', () => {
@@ -631,7 +698,7 @@ if (key.innerHTML == 'comunication') {
         secondTexteP.innerHTML = '– A la fin de la formation chaque participant sera capable de former les apprenants avec une posture assertive, de coopération et de gérer les différentes situations rencontrées lors des sessions de formation'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– Savoir utiliser la méthode DESC en toute situation <br> - Savoir dire non, savoir dire oui à un apprenant <br> - Savoir faire une critique et faire face à une critique <br> - Savoir formuler une demande'
-
+        imgPop.classList.add('formatAssertifImg')
 
     })
 
@@ -639,6 +706,21 @@ if (key.innerHTML == 'comunication') {
 
 
 sm1.addEventListener('click', () => {
+
+    module[1].classList.remove('formateurImg')
+    module[2].classList.remove('coachImg')
+    module[3].classList.remove('formatAssertifImg')
+
+    module[0].classList.remove('flexiRelaImg')
+    module[1].classList.remove('comAssertivImg')
+    module[2].classList.remove('gestionImg')
+    module[3].classList.remove('parlerImg')
+    module[4].classList.remove('boardImg')
+
+    module[0].classList.remove('techniqueImg')
+    module[1].classList.remove('couleurImg')
+    module[2].classList.remove('assertiveImg')
+    module[3].classList.remove('negoImg')
 
     module[0].classList.add('positionImg')
     module[1].classList.add('FlxibilitImg')
@@ -702,6 +784,21 @@ sm1.addEventListener('click', () => {
     popTwo.classList.remove('moduleVenteTwo')
 
     close.setAttribute('href', 'mana.html')
+
+    imgPop.classList.remove('formateurImg')
+    imgPop.classList.remove('coachImg')
+    imgPop.classList.remove('formatAssertifImg')
+
+    imgPop.classList.remove('flexiRelaImg')
+    imgPop.classList.remove('comAssertivImg')
+    imgPop.classList.remove('gestionImg')
+    imgPop.classList.remove('parlerImg')
+    imgPop.classList.remove('boardImg')
+
+    imgPop.classList.remove('techniqueImg')
+    imgPop.classList.remove('couleurImg')
+    imgPop.classList.remove('assertiveImg')
+    imgPop.classList.remove('negoImg')
 
     popOne.addEventListener('click', () => {
 
@@ -768,6 +865,22 @@ sm1.addEventListener('click', () => {
 })
 
 sm2.addEventListener('click', () => {
+
+    module[1].classList.remove('formateurImg')
+    module[2].classList.remove('coachImg')
+    module[3].classList.remove('formatAssertifImg')
+
+    module[0].classList.remove('flexiRelaImg')
+    module[1].classList.remove('comAssertivImg')
+    module[2].classList.remove('gestionImg')
+    module[3].classList.remove('parlerImg')
+    module[4].classList.remove('boardImg')
+
+    module[0].classList.remove('positionImg')
+    module[1].classList.remove('FlxibilitImg')
+    module[2].classList.remove('managementSituImg')
+    module[3].classList.remove('managementMotivImg')
+    module[4].classList.remove('managementProjetImg')
 
     module[0].classList.add('techniqueImg')
     module[1].classList.add('couleurImg')
@@ -881,6 +994,21 @@ sm2.addEventListener('click', () => {
 })
 
 sm3.addEventListener('click', () => {
+
+    module[1].classList.remove('formateurImg')
+    module[2].classList.remove('coachImg')
+    module[3].classList.remove('formatAssertifImg')
+
+    module[0].classList.remove('techniqueImg')
+    module[1].classList.remove('couleurImg')
+    module[2].classList.remove('assertiveImg')
+    module[3].classList.remove('negoImg')
+
+    module[0].classList.remove('positionImg')
+    module[1].classList.remove('FlxibilitImg')
+    module[2].classList.remove('managementSituImg')
+    module[3].classList.remove('managementMotivImg')
+    module[4].classList.remove('managementProjetImg')
 
     module[0].classList.add('flexiRelaImg')
     module[1].classList.add('comAssertivImg')
@@ -1019,6 +1147,23 @@ sm3.addEventListener('click', () => {
 
 
 sm4.addEventListener('click', () => {
+
+    module[0].classList.remove('flexiRelaImg')
+    module[1].classList.remove('comAssertivImg')
+    module[2].classList.remove('gestionImg')
+    module[3].classList.remove('parlerImg')
+    module[4].classList.remove('boardImg')
+
+    module[0].classList.remove('techniqueImg')
+    module[1].classList.remove('couleurImg')
+    module[2].classList.remove('assertiveImg')
+    module[3].classList.remove('negoImg')
+
+    module[0].classList.remove('positionImg')
+    module[1].classList.remove('FlxibilitImg')
+    module[2].classList.remove('managementSituImg')
+    module[3].classList.remove('managementMotivImg')
+    module[4].classList.remove('managementProjetImg')
 
     module[1].classList.add('formateurImg')
     module[2].classList.add('coachImg')
@@ -1176,8 +1321,8 @@ Msm1.addEventListener('click', () => {
     e = 4
     i = 0
 
-    MimgPopup[0] = '../images/n+1_button.png'
-    MimgPopup[1] = '../images/Coul%20Management.png'
+    MimgPopup[0] = '../images/Position_n+1_button.png'
+    MimgPopup[1] = '../images/Couleurs_management.png'
     MimgPopup[2] = '../images/Management_situa_button.png'
     MimgPopup[3] = '../images/Management_Moti_button.png'
     MimgPopup[4] = '../images/Manag_projet.png'
@@ -1288,11 +1433,11 @@ Msm2.addEventListener('click', () => {
     e = 3
     i = 0
 
-    MimgPopup[0] = '../images/n+1_button.png'
-    MimgPopup[1] = '../images/Conseils%20associ%C3%A9.png'
+    MimgPopup[0] = '../images/Technique_vente.png'
+    MimgPopup[1] = '../images/Couleurs_vente.png'
     MimgPopup[2] = '../images/Vente_assertive_button.png'
-    MimgPopup[3] = '../images/Image%20de%20fond%20test.png'
-    MimgPopup[4] = '../images/82726790-drugs-shopping-cart-flat-vector-icon-with-colored-versions-color-drugs-shopping-cart-icon-variants-w.jpg'
+    MimgPopup[3] = '../images/Nego_vente.png'
+    MimgPopup[4] = '../images/Nego_vente.png'
 
     MpopupCercleImg[0].setAttribute('src', MimgPopup[0])
     MpopupCercleImg[1].setAttribute('src', MimgPopup[1])
@@ -1403,9 +1548,9 @@ Msm3.addEventListener('click', () => {
     e = 4
     i = 0
 
-    MimgPopup[0] = '../images/Flex%20rela%20button.png'
-    MimgPopup[1] = '../images/Conseils%20associ%C3%A9.png'
-    MimgPopup[2] = '../images/D%C3%A9v%20prse.png'
+    MimgPopup[0] = '../images/Flexibilte_rela.png'
+    MimgPopup[1] = '../images/Communication_assertive.png'
+    MimgPopup[2] = '../images/Situations_difficiles.png'
     MimgPopup[3] = '../images/Parole_public_button.png'
     MimgPopup[4] = '../images/Gérer_board.png'
 
@@ -1517,11 +1662,11 @@ Msm4.addEventListener('click', () => {
     e = 2
     i = 0
 
-    MimgPopup[0] = '../images/images/n+1_button.png'
+    MimgPopup[0] = '..//images/formateur_animateur.png'
     MimgPopup[1] = '../images/Formateur_coach_button.png'
     MimgPopup[2] = '../images/Formateur_assertif.png'
     MimgPopup[3] = '../images/Image%20de%20fond%20test.png'
-    MimgPopup[4] = '../images/82726790-drugs-shopping-cart-flat-vector-icon-with-colored-versions-color-drugs-shopping-cart-icon-variants-w.jpg'
+    MimgPopup[4] = '../images/Formateur_assertif.png'
 
     MpopupCercleImg[0].setAttribute('src', MimgPopup[0])
     MpopupCercleImg[1].setAttribute('src', MimgPopup[1])

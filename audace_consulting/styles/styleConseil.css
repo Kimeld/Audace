@@ -305,12 +305,13 @@
     height: 300px;
     top: 150px;
     right: 50px;
-    background-image: url(../images/Audit1.png);
+    background-image: url(../images/Audit.png);
+    background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
     z-index: -1;
-    opacity: 0.5;
+    opacity: 1;
 
 
 }
