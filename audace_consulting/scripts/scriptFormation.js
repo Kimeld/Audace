@@ -185,7 +185,7 @@ if (key.innerHTML == 'comunication') {
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Optimisez votre communication'
-        texteFormation.innerHTML = 'Optimiser votre communication Nos modules permettent d’améliorer votre communication interpersonnelle et votre flexibilité relationnelle.'
+        texteFormation.innerHTML = 'Nos modules permettent d’améliorer votre communication interpersonnelle et votre flexibilité relationnelle.'
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -259,7 +259,7 @@ if (key.innerHTML == 'comunication') {
         firstTexteH2.innerHTML = 'Le bénéfice'
         firstTexteP.innerHTML = 'A l’issue de la formation chaque participant sera capable d’oser dire en toute légitimité et oser entendre avec empathie quelque soit les situations rencontrées'
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Être capable d’adopter une posture Assertive pour communiquer avec authenticité et développer une coopération <br> Oser entendre et oser dire en toute légitimité et en toutes situations'
+        secondTexteP.innerHTML = '– Être capable d’adopter une posture assertive pour communiquer avec authenticité et développer une coopération <br> Oser entendre et oser dire en toute légitimité et en toutes situations'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– Savoir adopter une posture Assertive <br> - S’approprier la méthodologie de la communication assertive <br> -Savoir gérer les situations avec assertivité'
         imgPop.classList.add('comAssertivImg')
@@ -348,7 +348,7 @@ if (key.innerHTML == 'comunication') {
     allRef.classList.add('modules')
     allRef.classList.remove('modulesFormation')
 
-    texteFormation.innerHTML = 'Développer votre performance managériale. L’impact du manager est primordial pour la performance et la cohésion d’équipe. Nous aidons les managers à devenir plus performants avec leurs collaborateurs. Pour parvenir à ce résultat nous mettons à disposition des outils simples et efficaces.'
+    texteFormation.innerHTML = 'L’impact du manager est primordial pour la performance et la cohésion d’équipe. Nous aidons les managers à devenir plus performants avec leurs collaborateurs. Pour parvenir à ce résultat nous mettons à disposition des outils simples et efficaces.'
 
     titreModule1.innerHTML = 'Position n+1'
     titreModule2.innerHTML = 'Fléxibilité manegériale'
@@ -389,7 +389,7 @@ if (key.innerHTML == 'comunication') {
 
         titrePopUp.innerHTML = 'Position n+1'
         firstTexteH2.innerHTML = 'Position n+1'
-        firstTexteP.innerHTML = 'Position n+1'
+        firstTexteP.innerHTML = 'A l’issue de la formation chaque participant connaitra et pourra appliquer les bases du management. '
         secondTexteH2.innerHTML = 'Objectifs'
         secondTexteP.innerHTML = '– Savoir adopter une posture managériale avec son équipe <br> – Savoir adopter une communication efficace et productive'
         thirdTexteH2.innerHTML = 'Compétences à développer '
@@ -401,7 +401,7 @@ if (key.innerHTML == 'comunication') {
 
         titrePopUp.innerHTML = 'Couleurs du management'
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'La flexibilité managériale permet à tout manager de reconnaître le comportement de chaque membre de son équipe afind’adapter sa communication et ainsi optimiser la performance collective.'
+        firstTexteP.innerHTML = 'Les couleurs du management permet à tout manager de reconnaître le comportement de chaque membre de son équipe afind’adapter sa communication et ainsi optimiser la performance collective.'
         secondTexteH2.innerHTML = 'Objectifs'
         secondTexteP.innerHTML = '– Savoir adopter une posture managériale avec son équipe <br> – Savoir adopter une communication efficace et productive'
         thirdTexteH2.innerHTML = 'Compétences à développer '
@@ -437,11 +437,11 @@ if (key.innerHTML == 'comunication') {
 
         titrePopUp.innerHTML = 'Management de projet'
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'Le chef de projet saura mener un projet avec plus d’aisance, afin d’ateindre des résultats et de fédérer un certain nombre de personnes autour de l’ateinte de résultats'
+        firstTexteP.innerHTML = 'Le chef de projet saura mener un projet avec plus d’aisance, afin d’atteindre des résultats et de fédérer un certain nombre de personnes autour de l’ateinte de résultats'
         secondTexteH2.innerHTML = 'Objectifs'
         secondTexteP.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> – Savoir mener un projet'
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Comprendre ce qu’est un business case <br>  – Savoir construire son Business case <br> – S’approprier les comportements qui favorisent ladécision <br> – Apprendre à gérer les liens avec les différents acteurs <br> – Savoir Clôturer le projet'
+        thirdTexteP.innerHTML = '– Comprendre ce qu’est un Business case <br>  – Savoir construire son Business case <br> – S’approprier les comportements qui favorisent la décision <br> – Apprendre à gérer les liens avec les différents acteurs <br> – Savoir Clôturer le projet'
         imgPop.classList.add('managementProjetImg')
 
     })
@@ -485,7 +485,7 @@ if (key.innerHTML == 'comunication') {
 
     modules.classList.add('modulesVentes')
 
-    texteFormation.innerHTML = 'Développer votre efficacité commerciale. La capacité d’une entreprise à réaliser un chiffre d’affaires à la hauteur de ses exigences dépend des bénéfices apportés par les produit(s) promu(s) et en grande partie à la qualité des forces de vente'
+    texteFormation.innerHTML = 'La capacité d’une entreprise à réaliser un chiffre d’affaires à la hauteur de ses exigences dépend des bénéfices apportés par les produit(s) promu(s) et en grande partie à la qualité des forces de vente;'
 
     titreModule1.innerHTML = 'Technique de vente'
     titreModule2.innerHTML = 'La couleur de <br> la ventes'
@@ -538,13 +538,13 @@ if (key.innerHTML == 'comunication') {
     })
     popTwo.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'La couleur de la ventes'
+        titrePopUp.innerHTML = 'Les couleurs de la ventes'
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'Chaque participant sera capable d’adapter les 4 comportements lors de ses face-face pour obtenir davantage d’adhésion'
+        firstTexteP.innerHTML = 'Chaque participant sera capable d’adapter les 4 comportements lors de ses face-faces pour obtenir davantage d’adhésion'
         secondTexteH2.innerHTML = 'Objectifs'
         secondTexteP.innerHTML = '– Être capable d’adapter sa communication face-face après avoir reconnu les préférences comportementales de ses interlocuteurs'
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Savoir adopter les codes de communication des 4 comportements dominants <br> – Savoir appliquer les 4 comportements aux différents étapes de la vente (de l’objectif à l’engagement) <br> – S’entraîner à gérer les typologies opposées'
+        thirdTexteP.innerHTML = '– Savoir adopter les codes de communication des 4 comportements dominants <br> – Savoir appliquer les 4 comportements aux différentes étapes de la vente (de l’objectif à l’engagement) <br> – S’entraîner à gérer les typologies opposées'
         imgPop.classList.add('couleurImg')
 
     })
@@ -554,9 +554,9 @@ if (key.innerHTML == 'comunication') {
         firstTexteH2.innerHTML = 'Le bénéfice'
         firstTexteP.innerHTML = 'À l’issue de la formation chaque participant pourra gérer une situation de vente face face avec authenticité pour créer un vrai partenariat avec son client'
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> – Savoir mener un projet'
+        secondTexteP.innerHTML = '- Être capable de défendre son point de vue au cours d’une vente avec assurance.<br> - Savoir entendre un point de vue opposé avec sérénité et avec assertivité.'
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Savoir utiliser le DESC, dire oui ou dire non <br> – Savoir présenter l’objectif de sa visite afin de le faireaccepter <br> – Savoir questionner sans freins personnels pour obtenir les informations cruciales et les motivations <br> – Savoir adopter une argumentation convaincante et ciblée sans crainte face aux pharmaciens <br> – Savoir répondre aux objections et utiliser les modes de communication pour comprendre les motivations <br> – Gérer ses peurs pour oser conclure, s’engager et engager'
+        thirdTexteP.innerHTML = '– Savoir utiliser le DESC, dire oui ou dire non <br> – Savoir présenter l’objectif de sa visite afin de le faire accepter <br> – Savoir questionner sans freins personnels pour obtenir les informations cruciales et les motivations <br> – Savoir adopter une argumentation convaincante et ciblée sans crainte <br>  – Gérer ses peurs pour oser conclure, s’engager et engager <br> - Savoir dire oui et non. '
         imgPop.classList.add('assertiveImg')
 
     })
@@ -564,11 +564,11 @@ if (key.innerHTML == 'comunication') {
 
         titrePopUp.innerHTML = 'La négociation'
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'À l’issue de la formation chaqueparticipant pourra négocier sans ambiguité afin d’aboutir à une ? Gagnant/gagnant en toute sérénité'
+        firstTexteP.innerHTML = 'À l’issue de la formation chaqueparticipant pourra négocier sans ambiguité afin d’aboutir à une coopération Gagnant/gagnant en toute sérénité'
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Être capable d’adopter une posture de négociateur aguerrit <br> – Être capable de négocier avec efficience dans une relattion de coopération gagnant/gagnant'
+        secondTexteP.innerHTML = '– Être capable d’adopter une posture de négociateur aguerri <br> – Être capable de négocier avec efficience dans une relation de coopération gagnant/gagnant'
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Comprendre la différence entre vente et négociation <br>– Savoir préparer sa négociation : méthode et outils <br> – Savoir à Négocier de manière raisonnée en 3 temps <br> – Savoir Gérer les situations difficiles'
+        thirdTexteP.innerHTML = '– Comprendre la différence entre vente et négociation <br>– Savoir préparer sa négociation : méthode et outils <br> – Savoir à négocier de manière raisonnée en 3 temps <br> – Savoir gérer les situations difficiles'
         imgPop.classList.add('negoImg')
 
     })
@@ -671,9 +671,9 @@ if (key.innerHTML == 'comunication') {
         firstTexteH2.innerHTML = 'Le bénéfice'
         firstTexteP.innerHTML = 'A l’issue de la formation, chaque formateur saura animer des sessions de formations dans un climat permettant le développement des compétences de ses participants'
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Apprendre à animer une session de formation <br> -S’approprier les techniques de transmission des savoirs <br> -S’approprier les techniques d’animation'
+        secondTexteP.innerHTML = 'Apprendre à animer une session de formation <br>S’approprier les techniques de transmission des savoirs <br>S’approprier les techniques d’animation'
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Comprendre et apprendre  à gérer le comportement de l’apprenant <br> - S’approprier la posture du formateur <br> - Apprendre à  gérer les moments clés de la formation'
+        thirdTexteP.innerHTML = 'Comprendre et apprendre  à gérer le comportement de l’apprenant <br>S’approprier la posture du formateur <br>Apprendre à  gérer les moments clés de la formation'
         imgPop.classList.add('formateurImg')
 
     })
@@ -683,9 +683,9 @@ if (key.innerHTML == 'comunication') {
         firstTexteH2.innerHTML = 'Le bénéfice'
         firstTexteP.innerHTML = 'A l’issue de la formation chaque formateur pourra coacher ses apprenants dans le développement de leurs compétences '
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Apprendre à accompagner  et à coacher sur le terrain les stagiaires en formation dans l’objectif de les développer et de pérenniser les acquis de la formation'
+        secondTexteP.innerHTML = 'Apprendre à accompagner  et à coacher sur le terrain les stagiaires en formation dans l’objectif de les développer et de pérenniser les acquis de la formation'
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Savoir faire preuve de flexibilité comportementale <br> Savoir repérer la motivation des apprenants <br> -Savoir faire un feedback aux apprenants<br> - Savoir coacher les apprenants par la définition d’objectifs adéquats'
+        thirdTexteP.innerHTML = 'Savoir faire preuve de flexibilité comportementale <br> Savoir repérer la motivation des apprenants <br>Savoir faire un feedback aux apprenants<br>Savoir coacher les apprenants par la définition d’objectifs adéquats'
         imgPop.classList.add('coachImg')
 
     })
@@ -695,9 +695,9 @@ if (key.innerHTML == 'comunication') {
         firstTexteH2.innerHTML = 'Le bénéfice'
         firstTexteP.innerHTML = 'A la fin de la formation chaque participant sera capable de se positionner en tant que formateur en toute légitimité face à ses apprenants.'
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– A la fin de la formation chaque participant sera capable de former les apprenants avec une posture assertive, de coopération et de gérer les différentes situations rencontrées lors des sessions de formation'
+        secondTexteP.innerHTML = 'A la fin de la formation chaque participant sera capable de former les apprenants avec une posture assertive, de coopération et de gérer les différentes situations rencontrées lors des sessions de formation'
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Savoir utiliser la méthode DESC en toute situation <br> - Savoir dire non, savoir dire oui à un apprenant <br> - Savoir faire une critique et faire face à une critique <br> - Savoir formuler une demande'
+        thirdTexteP.innerHTML = 'Savoir utiliser la méthode DESC en toute situation <br>Savoir dire non, savoir dire oui à un apprenant <br>Savoir faire une critique et faire face à une critique <br>Savoir formuler une demande'
         imgPop.classList.add('formatAssertifImg')
 
     })
@@ -804,24 +804,24 @@ sm1.addEventListener('click', () => {
 
         titrePopUp.innerHTML = 'Position n+1'
         firstTexteH2.innerHTML = 'Position n+1'
-        firstTexteP.innerHTML = 'Position n+1'
+        firstTexteP.innerHTML = 'A l’issue de la formation chaque participant connaitra et pourra appliquer les bases du management. '
         secondTexteH2.innerHTML = 'Objectifs'
         secondTexteP.innerHTML = '– Savoir adopter une posture managériale avec son équipe <br> – Savoir adopter une communication efficace et productive'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = 'Comprendre et s’approprier la posture managériale adéquate et les techniques de debrief <br> – S’approprier la communication assertive <br> – Savoir formuler un feedback objectif, productif et permetant la mise en énergie des participants'
-
+        imgPop.classList.add('positionImg')
 
     })
     popTwo.addEventListener('click', () => {
 
         titrePopUp.innerHTML = 'Couleurs du management'
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'La flexibilité managériale permet à tout manager de reconnaître le comportement de chaque membre de son équipe afind’adapter sa communication et ainsi optimiser la performance collective.'
+        firstTexteP.innerHTML = 'Les couleurs du management permet à tout manager de reconnaître le comportement de chaque membre de son équipe afind’adapter sa communication et ainsi optimiser la performance collective.'
         secondTexteH2.innerHTML = 'Objectifs'
         secondTexteP.innerHTML = '– Savoir adopter une posture managériale avec son équipe <br> – Savoir adopter une communication efficace et productive'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– Comprendre et s’approprier la posture managériale adéquate et les techniques de debrief <br> – S’approprier la communication assertive <br> – Savoir formuler un feedback objectif, productif et permetant la mise en énergie des participants'
-
+        imgPop.classList.add('FlxibilitImg')
 
     })
     popThree.addEventListener('click', () => {
@@ -833,7 +833,7 @@ sm1.addEventListener('click', () => {
         secondTexteP.innerHTML = '– Savoir manager en fonction du niveau de développement de chaque membre de son équipe'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– Savoir reconnaitre et s’adapter au DEMA de chaque <br> collaborateur <br> – Savoir diagnostiquer le niveau de développement<br> – Savoir manager en fonction du niveau de développement <br> et en fonction des situations'
-
+        imgPop.classList.add('managementSituImg')
 
     })
     popFour.addEventListener('click', () => {
@@ -845,19 +845,19 @@ sm1.addEventListener('click', () => {
         secondTexteP.innerHTML = '– Savoir manager dans un esprit motivationnel <br> – Savoir manager avec les compétences motivationnel <br> – Savoir manager avec les processus motivationnel'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– Savoir manager dans le partenariat avec empathie <br> – Savoir accompagner son collaborateurs dans l’évocation <br> – Savoir être centré sur son collaborateur <br> – Savoir utiliser les processus motivationnel pour accompagner son collaborateur dans ses plans d’action'
-
+        imgPop.classList.add('managementMotivImg')
 
     })
     popFive.addEventListener('click', () => {
 
         titrePopUp.innerHTML = 'Management de projet'
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'Le chef de projet saura mener un projet avec plus d’aisance, afin d’ateindre des résultats et de fédérer un certain nombre de personnes autour de l’ateinte de résultats'
+        firstTexteP.innerHTML = 'Le chef de projet saura mener un projet avec plus d’aisance, afin d’atteindre des résultats et de fédérer un certain nombre de personnes autour de l’ateinte de résultats'
         secondTexteH2.innerHTML = 'Objectifs'
         secondTexteP.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> – Savoir mener un projet'
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Comprendre ce qu’est un business case <br>  – Savoir construire son Business case <br> – S’approprier les comportements qui favorisent ladécision <br> – Apprendre à gérer les liens avec les différents acteurs <br> – Savoir Clôturer le projet'
-
+        thirdTexteP.innerHTML = '– Comprendre ce qu’est un Business case <br>  – Savoir construire son Business case <br> – S’approprier les comportements qui favorisent la décision <br> – Apprendre à gérer les liens avec les différents acteurs <br> – Savoir Clôturer le projet'
+        imgPop.classList.add('managementProjetImg')
 
     })
 
@@ -940,6 +940,22 @@ sm2.addEventListener('click', () => {
 
     close.setAttribute('href', 'vente.html')
 
+    imgPop.classList.remove('formateurImg')
+    imgPop.classList.remove('coachImg')
+    imgPop.classList.remove('formatAssertifImg')
+
+    imgPop.classList.remove('flexiRelaImg')
+    imgPop.classList.remove('comAssertivImg')
+    imgPop.classList.remove('gestionImg')
+    imgPop.classList.remove('parlerImg')
+    imgPop.classList.remove('boardImg')
+
+    imgPop.classList.remove('positionImg')
+    imgPop.classList.remove('FlxibilitImg')
+    imgPop.classList.remove('managementSituImg')
+    imgPop.classList.remove('managementMotivImg')
+    imgPop.classList.remove('managementProjetImg')
+
     popOne.addEventListener('click', () => {
 
         titrePopUp.innerHTML = 'Technique de vente'
@@ -949,19 +965,19 @@ sm2.addEventListener('click', () => {
         secondTexteP.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> – Savoir mener un projet'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– Comprendre ce qu’est un business case <br> – Savoir construire son Business case <br> – S’approprier les comportements qui favorisent la décision <br> – Apprendre à gérer les liens avec les différents acteurs <br> – Savoir Clôturer le projet'
-
+        imgPop.classList.add('techniqueImg')
 
     })
     popTwo.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'La couleur de la ventes'
+        titrePopUp.innerHTML = 'Les couleurs de la ventes'
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'Chaque participant sera capable d’adapter les 4 comportements lors de ses face-face pour obtenir davantage d’adhésion'
+        firstTexteP.innerHTML = 'Chaque participant sera capable d’adapter les 4 comportements lors de ses face-faces pour obtenir davantage d’adhésion'
         secondTexteH2.innerHTML = 'Objectifs'
         secondTexteP.innerHTML = '– Être capable d’adapter sa communication face-face après avoir reconnu les préférences comportementales de ses interlocuteurs'
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Savoir adopter les codes de communication des 4 comportements dominants <br> – Savoir appliquer les 4 comportements aux différents étapes de la vente (de l’objectif à l’engagement) <br> – S’entraîner à gérer les typologies opposées'
-
+        thirdTexteP.innerHTML = '– Savoir adopter les codes de communication des 4 comportements dominants <br> – Savoir appliquer les 4 comportements aux différentes étapes de la vente (de l’objectif à l’engagement) <br> – S’entraîner à gérer les typologies opposées'
+        imgPop.classList.add('couleurImg')
 
     })
     popThree.addEventListener('click', () => {
@@ -970,24 +986,25 @@ sm2.addEventListener('click', () => {
         firstTexteH2.innerHTML = 'Le bénéfice'
         firstTexteP.innerHTML = 'À l’issue de la formation chaque participant pourra gérer une situation de vente face face avec authenticité pour créer un vrai partenariat avec son client'
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> – Savoir mener un projet'
+        secondTexteP.innerHTML = '- Être capable de défendre son point de vue au cours d’une vente avec assurance.<br> - Savoir entendre un point de vue opposé avec sérénité et avec assertivité.'
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Savoir utiliser le DESC, dire oui ou dire non <br> – Savoir présenter l’objectif de sa visite afin de le faireaccepter <br> – Savoir questionner sans freins personnels pour obtenir les informations cruciales et les motivations <br> – Savoir adopter une argumentation convaincante et ciblée sans crainte face aux pharmaciens <br> – Savoir répondre aux objections et utiliser les modes de communication pour comprendre les motivations <br> – Gérer ses peurs pour oser conclure, s’engager et engager'
-
+        thirdTexteP.innerHTML = '– Savoir utiliser le DESC, dire oui ou dire non <br> – Savoir présenter l’objectif de sa visite afin de le faire accepter <br> – Savoir questionner sans freins personnels pour obtenir les informations cruciales et les motivations <br> – Savoir adopter une argumentation convaincante et ciblée sans crainte <br>  – Gérer ses peurs pour oser conclure, s’engager et engager <br> - Savoir dire oui et non. '
+        imgPop.classList.add('assertiveImg')
 
     })
     popFour.addEventListener('click', () => {
 
         titrePopUp.innerHTML = 'La négociation'
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'À l’issue de la formation chaqueparticipant pourra négocier sans ambiguité afin d’aboutir à une ? Gagnant/gagnant en toute sérénité'
+        firstTexteP.innerHTML = 'À l’issue de la formation chaqueparticipant pourra négocier sans ambiguité afin d’aboutir à une coopération Gagnant/gagnant en toute sérénité'
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Être capable d’adopter une posture de négociateur aguerrit <br> – Être capable de négocier avec efficience dans une relattion de coopération gagnant/gagnant'
+        secondTexteP.innerHTML = '– Être capable d’adopter une posture de négociateur aguerri <br> – Être capable de négocier avec efficience dans une relation de coopération gagnant/gagnant'
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Comprendre la différence entre vente et négociation <br>– Savoir préparer sa négociation : méthode et outils <br> – Savoir à Négocier de manière raisonnée en 3 temps <br> – Savoir Gérer les situations difficiles'
-
+        thirdTexteP.innerHTML = '– Comprendre la différence entre vente et négociation <br>– Savoir préparer sa négociation : méthode et outils <br> – Savoir à négocier de manière raisonnée en 3 temps <br> – Savoir gérer les situations difficiles'
+        imgPop.classList.add('negoImg')
 
     })
+
 
 
 
@@ -1081,6 +1098,21 @@ sm3.addEventListener('click', () => {
 
     close.setAttribute('href', 'comunication.html')
 
+    imgPop.classList.remove('formateurImg')
+    imgPop.classList.remove('coachImg')
+    imgPop.classList.remove('formatAssertifImg')
+
+    imgPop.classList.remove('techniqueImg')
+    imgPop.classList.remove('couleurImg')
+    imgPop.classList.remove('assertiveImg')
+    imgPop.classList.remove('negoImg')
+
+    imgPop.classList.remove('positionImg')
+    imgPop.classList.remove('FlxibilitImg')
+    imgPop.classList.remove('managementSituImg')
+    imgPop.classList.remove('managementMotivImg')
+    imgPop.classList.remove('managementProjetImg')
+
     popOne.addEventListener('click', () => {
 
         titrePopUp.innerHTML = 'La flexibilité relationnelle'
@@ -1090,6 +1122,7 @@ sm3.addEventListener('click', () => {
         secondTexteP.innerHTML = '– Etre capable de décrypter les comportements de ses interlocuteurs pour adapter sa communication'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '- Savoir reconnaître les 4 comportements du modèle couleur <br> - Savoir faire preuve de flexibilité comportementale face aux 4 comportements <br> - Savoir adopter la communication des 4 comportements du modèle couleur'
+        imgPop.classList.add('flexiRelaImg')
 
 
     })
@@ -1099,10 +1132,10 @@ sm3.addEventListener('click', () => {
         firstTexteH2.innerHTML = 'Le bénéfice'
         firstTexteP.innerHTML = 'A l’issue de la formation chaque participant sera capable d’oser dire en toute légitimité et oser entendre avec empathie quelque soit les situations rencontrées'
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Être capable d’adopter une posture Assertive pour communiquer avec authenticité et développer une coopération <br> Oser entendre et oser dire en toute légitimité et en toutes situations'
+        secondTexteP.innerHTML = '– Être capable d’adopter une posture assertive pour communiquer avec authenticité et développer une coopération <br> Oser entendre et oser dire en toute légitimité et en toutes situations'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– Savoir adopter une posture Assertive <br> - S’approprier la méthodologie de la communication assertive <br> -Savoir gérer les situations avec assertivité'
-
+        imgPop.classList.add('comAssertivImg')
 
     })
     popThree.addEventListener('click', () => {
@@ -1114,7 +1147,7 @@ sm3.addEventListener('click', () => {
         secondTexteP.innerHTML = '– Être capable d’appréhender les situations délicates sous d’autres angles afin d’adopter l’approche relationnelle, la stratégie de négociation et/ou la décision adéquates.'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '–  Savoir reconnaître la nature de la situation <br> - Savoir gérer des situations d’ordre Relationnel <br> - Savoir gérer des situations qui relèvent de la Négociation <br> - Savoir gérer des situations qui relèvent à la fois de la Relation et de la Négociation'
-
+        imgPop.classList.add('gestionImg')
 
     })
     popFour.addEventListener('click', () => {
@@ -1126,7 +1159,7 @@ sm3.addEventListener('click', () => {
         secondTexteP.innerHTML = '- Être capable de prendre la parole en public avec aisance et d’animer ses 	présentations avec efficacité et fluidité dans l’atteinte d’un objectif prédéfini'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– Savoir préparer sa prise de parole en public <br> -Savoir définir le fond et trouver la forme du message<br> -Savoir introduire et conclure sa prise de parole en public'
-
+        imgPop.classList.add('parlerImg')
 
     })
     popFive.addEventListener('click', () => {
@@ -1138,9 +1171,10 @@ sm3.addEventListener('click', () => {
         secondTexteP.innerHTML = '- Être capable d’animer un board avec professionnalisme et de gérer les différents comportements des participants'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– S’approprier les techniques d’animation de groupes<br> - S’approprier les techniques de conduite de débats<br> - Savoir adopter la posture d’animateur de débat Communiquer avec un interlocuteur avec un comportement différent'
-
+        imgPop.classList.add('boardImg')
 
     })
+
 
 
 })
@@ -1225,6 +1259,23 @@ sm4.addEventListener('click', () => {
 
     close.setAttribute('href', 'formateur.html')
 
+    imgPop.classList.remove('flexiRelaImg')
+    imgPop.classList.remove('comAssertivImg')
+    imgPop.classList.remove('gestionImg')
+    imgPop.classList.remove('parlerImg')
+    imgPop.classList.remove('boardImg')
+
+    imgPop.classList.remove('techniqueImg')
+    imgPop.classList.remove('couleurImg')
+    imgPop.classList.remove('assertiveImg')
+    imgPop.classList.remove('negoImg')
+
+    imgPop.classList.remove('positionImg')
+    imgPop.classList.remove('FlxibilitImg')
+    imgPop.classList.remove('managementSituImg')
+    imgPop.classList.remove('managementMotivImg')
+    imgPop.classList.remove('managementPrimgPop')
+
     popTwo.addEventListener('click', () => {
 
         titrePopUp.innerHTML = 'Formateur animateur'
@@ -1234,7 +1285,7 @@ sm4.addEventListener('click', () => {
         secondTexteP.innerHTML = '– Apprendre à animer une session de formation <br> -S’approprier les techniques de transmission des savoirs <br> -S’approprier les techniques d’animation'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– Comprendre et apprendre  à gérer le comportement de l’apprenant <br> - S’approprier la posture du formateur <br> - Apprendre à  gérer les moments clés de la formation'
-
+        imgPop.classList.add('formateurImg')
 
     })
     popThree.addEventListener('click', () => {
@@ -1246,7 +1297,7 @@ sm4.addEventListener('click', () => {
         secondTexteP.innerHTML = '– Apprendre à accompagner  et à coacher sur le terrain les stagiaires en formation dans l’objectif de les développer et de pérenniser les acquis de la formation'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– Savoir faire preuve de flexibilité comportementale <br> Savoir repérer la motivation des apprenants <br> -Savoir faire un feedback aux apprenants<br> - Savoir coacher les apprenants par la définition d’objectifs adéquats'
-
+        imgPop.classList.add('coachImg')
 
     })
     popFour.addEventListener('click', () => {
@@ -1258,7 +1309,7 @@ sm4.addEventListener('click', () => {
         secondTexteP.innerHTML = '– A la fin de la formation chaque participant sera capable de former les apprenants avec une posture assertive, de coopération et de gérer les différentes situations rencontrées lors des sessions de formation'
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = '– Savoir utiliser la méthode DESC en toute situation <br> - Savoir dire non, savoir dire oui à un apprenant <br> - Savoir faire une critique et faire face à une critique <br> - Savoir formuler une demande'
-
+        imgPop.classList.add('formatAssertifImg')
 
     })
 
@@ -1749,18 +1800,18 @@ Msm4.addEventListener('click', () => {
 
     titreMpop0.innerHTML = 'Formateur animateur'
     paraMpop01.innerHTML = 'A l’issue de la formation, chaque formateur saura animer des sessions de formations dans un climat permettant le développement des compétences de ses participants'
-    paraMpop02.innerHTML = '– Apprendre à animer une session de formation <br> -S’approprier les techniques de transmission des savoirs <br> -S’approprier les techniques d’animation'
-    paraMpop03.innerHTML = '– Comprendre et apprendre à gérer le comportement de l’apprenant <br> - S’approprier la posture du formateur <br> - Apprendre à gérer les moments clés de la formation'
+    paraMpop02.innerHTML = 'Apprendre à animer une session de formation <br>S’approprier les techniques de transmission des savoirs <br>S’approprier les techniques d’animation'
+    paraMpop03.innerHTML = 'Comprendre et apprendre à gérer le comportement de l’apprenant <br>S’approprier la posture du formateur <br>Apprendre à gérer les moments clés de la formation'
 
     titreMpop1.innerHTML = 'Formateur coach'
     paraMpop11.innerHTML = 'A l’issue de la formation chaque formateur pourra coacher ses apprenants dans le développement de leurs compétences'
-    paraMpop12.innerHTML = '– Apprendre à accompagner et à coacher sur le terrain les stagiaires en formation dans l’objectif de les développer et de pérenniser les acquis de la formation'
-    paraMpop13.innerHTML = '– Savoir faire preuve de flexibilité comportementale <br> Savoir repérer la motivation des apprenants <br> -Savoir faire un feedback aux apprenants<br> - Savoir coacher les apprenants par la définition d’objectifs adéquats'
+    paraMpop12.innerHTML = 'Apprendre à accompagner et à coacher sur le terrain les stagiaires en formation dans l’objectif de les développer et de pérenniser les acquis de la formation'
+    paraMpop13.innerHTML = 'Savoir faire preuve de flexibilité comportementale <br> Savoir repérer la motivation des apprenants <br>Savoir faire un feedback aux apprenants<br>Savoir coacher les apprenants par la définition d’objectifs adéquats'
 
     titreMpop2.innerHTML = 'Formateur assertif'
     paraMpop21.innerHTML = 'A la fin de la formation chaque participant sera capable de se positionner en tant que formateur en toute légitimité face à ses apprenants'
-    paraMpop22.innerHTML = '– A la fin de la formation chaque participant sera capable de former les apprenants avec une posture assertive, de coopération et de gérer les différentes situations rencontrées lors des sessions de formation'
-    paraMpop23.innerHTML = '– Savoir utiliser la méthode DESC en toute situation <br> - Savoir dire non, savoir dire oui à un apprenant <br> - Savoir faire une critique et faire face à une critique <br> - Savoir formuler une demande'
+    paraMpop22.innerHTML = 'A la fin de la formation chaque participant sera capable de former les apprenants avec une posture assertive, de coopération et de gérer les différentes situations rencontrées lors des sessions de formation'
+    paraMpop23.innerHTML = 'Savoir utiliser la méthode DESC en toute situation <br>Savoir dire non, savoir dire oui à un apprenant <br>Savoir faire une critique et faire face à une critique <br>Savoir formuler une demande'
 
     titreMpop3.innerHTML = ''
     paraMpop31.innerHTML = ''

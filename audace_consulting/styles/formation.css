@@ -202,12 +202,12 @@
     height: 300px;
     top: 150px;
     right: 50px;
-    background-image: url(../images/Solutions&coaching.png);
+    background-image: url(../images/DDF.png);
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
     z-index: -1;
-    opacity: 0.4;
+    opacity: 1;
 
     transition-property: opacity;
     transition-duration: 0.5s;

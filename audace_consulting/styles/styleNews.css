@@ -344,16 +344,17 @@ a {
 
 .pSide a {
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 24px;
     color: #E00034;
     font-weight: 900;
 }
 
 .pSide2 a {
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 24px;
     color: #E00034;
     font-weight: 900;
+    
 }
 
 @media(min-width: 992px) and (max-width: 1360px) {

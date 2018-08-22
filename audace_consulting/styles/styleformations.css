@@ -561,6 +561,7 @@
 
 .titrePop {
     text-align: left;
+    transform: translateX(2vw);
 }
 
 .titrePop h1 {
@@ -586,15 +587,15 @@
 }
 
 .first img {
-    width: 67px;
+    width: 47px;
 
 }
 
 .firstImg {
 
     position: absolute;
-    top: 0px;
-    left: 2.5%;
+    top: 5px;
+    left: 6.5%;
 }
 
 .first div {
@@ -652,7 +653,7 @@
 
 
 .second img {
-    width: 67px;
+    width: 47px;
 }
 
 
@@ -666,8 +667,8 @@
 
 
     position: absolute;
-    top: 0px;
-    left: 2.5%;
+    top: 5px;
+    left: 6.5%;
 }
 
 .third {
@@ -682,7 +683,7 @@
 
 
 .third img {
-    width: 67px;
+    width: 47px;
 }
 
 
@@ -694,8 +695,8 @@
 
 .thirdImg {
     position: absolute;
-    top: 0px;
-    left: 2.5%;
+    top: 5px;
+    left: 6.5%;
 }
 
 .sablier {
@@ -719,20 +720,67 @@
     font-size: 15px;
 }
 
+.sablier1 {
+    position: absolute;
+    bottom: -200px;
+    left: -13vw;
+    width: 67px;
+    text-align: right;
+    transform: scale(0.8)
+}
+
+.sablier1 img {
+    width: 67px;
+}
+
+.sablier1 div {
+    margin: auto;
+    padding-left: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #707070;
+    font-size: 15px;
+    margin-top: 0px;
+    text-align: center;
+    transform: translateY(-30px) translateX(12px);
+}
+
 .key {
     display: none;
 }
 
+
+
 .imgPop {
-    /*background-color: black;
-    background-image: url(../images/Consulting.png);
-    background-position: center;
-    background-size: cover;*/
-    height: 200px;
+    height: 220px;
+    width: 250px;
     position: absolute;
     top: 135px;
-    right: 20px;
+    right: 4vw;
 }
+
+
+
+/*
+.imgPop {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+*/
+/*
+.imgPop {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    right: 100px;
+}
+*/
+
+
 
 .none {
     display: none;
@@ -779,7 +827,7 @@
     .fondMpop {
         display: block;
         background-color: #F5F5F5;
-        height: 569px;
+        height: 619px;
         margin-bottom: 50px;
         padding: 0px;
 

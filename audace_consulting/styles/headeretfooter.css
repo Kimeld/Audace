@@ -815,9 +815,15 @@ Nnone {
     }
 }
 
-@media(min-width:480px) and (max-width: 575px) {
+@media(min-width:499px) and (max-width: 575px) {
     .contact {
         transform: translateY(-84px);
+    }
+}
+
+@media(min-width:480px) and (max-width: 499px) {
+    .contact {
+        transform: translateY(-34px);
     }
 }
 
@@ -831,20 +837,20 @@ Nnone {
     .contact {
         transform: translateY(-60px);
         padding-top: -110px;
-        
+
     }
 
-@media(max-width: 387px) {
-    .footer{
-        position: relative;
-    }
-    
-    .contact {
-        transform: translateY(60px);
-        position: absolute;
-        top: 1110px;
-    }
-        
+    @media(max-width: 387px) {
+        .footer {
+            position: relative;
+        }
+
+        .contact {
+            transform: translateY(60px);
+            position: absolute;
+            top: 1110px;
+        }
+
     }
     /*@media(min-width:0px) and (max-width: 356px) {
         .contact {

@@ -111,7 +111,7 @@ sm1.addEventListener('click', () => {
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Performance, Développement, Bienveillance'
-        texte.innerHTML = 'Audace Consulting prône une démarche tournée vers l’humain. Afin de faire de l’individu la pierre angulaire de l’entreprise, nous sommes résolument convaincu que la personne est la solution-clé pour que l entreprise atteigne ses objectifs et optimise ses résultats. Nous accompagnons les entreprises et leurs forces vives avec des valeurs suivantes : Performance, Développement et bienveillance'
+        texte.innerHTML = "Audace Consulting prône une démarche tournée vers l’humain. Afin de faire de l’individu la pierre angulaire de l’entreprise, nous sommes résolument convaincus que la personne est la solution-clé pour que l'entreprise atteigne ses objectifs et optimise ses résultats. Nous accompagnons les entreprises et leurs forces vives avec les valeurs suivantes : Performance, Développement et Bienveillance"
         contenuVente.classList.remove('animationContenu')
 
 
@@ -145,7 +145,7 @@ sm2.addEventListener('click', () => {
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Une équipe centrée sur vos besoins'
-        texte.innerHTML = 'Nos consultants sont tous formés au décryptage de comportement et à la Programmation Neuro-Linguistique (PNL). Ils suivent continuellement des formations afin de toujours maintenir leur niveau d’expertise avec pour leitmotiv compétence, rigueur et qualité.Ils accompagnent les collaborateurs dans leur démarche de changement. '
+        texte.innerHTML = 'Nos consultants sont tous formés au décryptage de comportement et à la Programmation Neuro-Linguistique (PNL). Ils suivent continuellement des formations afin de toujours maintenir leur niveau d’expertise avec pour leitmotiv compétence, rigueur et qualité. Ils accompagnent les collaborateurs dans leur démarche de changement. '
         contenuVente.classList.remove('animationContenu')
 
 
@@ -182,7 +182,7 @@ sm3.addEventListener('click', () => {
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'L’insight allié à l’opérationnel '
-        texte.innerHTML = 'Notre philosophie privilégie une approche comportementale où nos modules de formation déclenche les insight nécessaires à la flexibilité comportementale Nos sessions sont pragmatiques - 80 % d’activité et de training pour 20 % de théorie -,  nous garantissions le développement des compétences des participants afin qu’ils soient opérationnels et confortables dès la fin de la formation'
+        texte.innerHTML = 'Notre philosophie privilégie une approche comportementale. Nos modules de formation déclenchent les insight nécessaires à la flexibilité comportementale Nos sessions sont pragmatiques - 80 % d’activité et de training pour 20 % de théorie -,  nous garantissons le développement des compétences des participants afin qu’ils soient opérationnels et confortables dès la fin de la formation'
         contenuVente.classList.remove('animationContenu')
 
 
@@ -218,7 +218,7 @@ sm4.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = ' Les partenaires qui nous ont fait confiance'
+        titreFormation.innerHTML = ' Les partenaires qui nous ont font confiance'
         texte.innerHTML = ''
         contenuVente.classList.remove('animationContenu')
 
@@ -238,7 +238,7 @@ forum.addEventListener('click', () => {
     sousMenu.classList.add('marginConseil')
     sousMenu.classList.remove('marginQuiSommesNous')
     sousMenu.classList.remove('marginSolution')
-    
+
 
     smC.classList.remove('smS')
 
@@ -247,7 +247,7 @@ forum.addEventListener('click', () => {
     sm2.classList.remove('col-lg-1')
     sm3.classList.remove('col-lg-1')
 
-    
+
 
 
 
@@ -283,22 +283,22 @@ Msm1.addEventListener('click', () => {
 
     titreTexte.classList.remove('opacityM')
 
- 
+
     MsousMenu[0].classList.add('white2')
- 
+
     MsousMenu[1].classList.remove('white2')
- 
+
     MsousMenu[2].classList.remove('white2')
-    
+
     MsousMenu[3].classList.remove('white2')
 
- 
+
     bouttonMsousMenu[0].classList.add('red2')
- 
+
     bouttonMsousMenu[1].classList.remove('red2')
- 
+
     bouttonMsousMenu[2].classList.remove('red2')
-    
+
     bouttonMsousMenu[3].classList.remove('red2')
 
     mobileTestiImg.classList.remove('mobileTesti')
@@ -329,22 +329,22 @@ Msm2.addEventListener('click', () => {
     fond.classList.remove('imgQualite')
     fond.classList.add('imgEquipe')
 
- 
+
     MsousMenu[0].classList.remove('white2')
- 
+
     MsousMenu[1].classList.add('white2')
- 
+
     MsousMenu[2].classList.remove('white2')
-    
+
     MsousMenu[3].classList.remove('white2')
 
- 
+
     bouttonMsousMenu[0].classList.remove('red2')
- 
+
     bouttonMsousMenu[1].classList.add('red2')
- 
+
     bouttonMsousMenu[2].classList.remove('red2')
-    
+
     bouttonMsousMenu[3].classList.remove('red2')
 
     mobileTestiImg.classList.remove('mobileTesti')
@@ -371,22 +371,22 @@ Msm3.addEventListener('click', () => {
 
     titreTexte.classList.remove('opacityM')
 
- 
+
     MsousMenu[0].classList.remove('white2')
- 
+
     MsousMenu[1].classList.remove('white2')
- 
+
     MsousMenu[3].classList.remove('white2')
-    
+
     MsousMenu[2].classList.add('white2')
 
- 
+
     bouttonMsousMenu[0].classList.remove('red2')
- 
+
     bouttonMsousMenu[1].classList.remove('red2')
- 
+
     bouttonMsousMenu[2].classList.add('red2')
-    
+
     bouttonMsousMenu[3].classList.remove('red2')
 
     mobileTestiImg.classList.remove('mobileTesti')
@@ -395,8 +395,8 @@ Msm3.addEventListener('click', () => {
     mobileTestiImg.classList.remove('mobileValeurremove')
     mobileTestiImg.classList.remove('mobileQSN')
 
-    
-    
+
+
 
 
     window.setTimeout(() => {
@@ -416,22 +416,22 @@ Msm4.addEventListener('click', () => {
 
     titreTexte.classList.remove('opacityM')
 
- 
+
     MsousMenu[0].classList.remove('white2')
- 
+
     MsousMenu[1].classList.remove('white2')
- 
+
     MsousMenu[3].classList.add('white2')
-    
+
     MsousMenu[2].classList.remove('white2')
 
- 
+
     bouttonMsousMenu[0].classList.remove('red2')
- 
+
     bouttonMsousMenu[1].classList.remove('red2')
- 
+
     bouttonMsousMenu[2].classList.remove('red2')
-    
+
     bouttonMsousMenu[3].classList.add('red2')
 
     fond.classList.remove('imgPedagogie')
@@ -447,7 +447,7 @@ Msm4.addEventListener('click', () => {
     mobileTestiImg.classList.remove('mobileValeur')
     mobileTestiImg.classList.remove('mobileQSN')
 
-   
+
 
 
 

@@ -107,7 +107,7 @@ sm2.addEventListener('click', () => {
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Osez un management dynamique '
-        texte.innerHTML = 'Pour harmoniser la politique managériale au sein de votre entreprise, Audace Consulting crée sur-mesure un parcours manager garantissant l’intégrité de vos valeurs, la satisfaction de vos besoins dans le respect de vos budgets temps et financier.De la position n+1 au management motivationnel, nos formateurs développent les compétences de vos managers pour accroître les performances de vos équipes.'
+        texte.innerHTML = 'Pour harmoniser la politique managériale au sein de votre entreprise, Audace Consulting crée sur-mesure un parcours manager garantissant l’intégrité de vos valeurs, la satisfaction de vos besoins dans le respect de vos budgets temps et financier. De la position n+1 au management motivationnel, nos formateurs développent les compétences de vos managers pour accroître les performances de vos équipes.'
         contenuVente.classList.remove('animationContenu')
         milieux.classList.remove('opacityM')
     }, 200)
@@ -132,7 +132,7 @@ sm3.addEventListener('click', () => {
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Coaching '
-        texte.innerHTML = 'AUDACE Consulting considère le coaching comme le cheminement vers un état désiré de manière élégante afin d’obtenir le maximum de résultat. Le coaching post-formation facilite le Développement Durable de la Formation qui est essentiel pour un  ancrage des compétences sur le long terme'
+        texte.innerHTML = 'AUDACE Consulting considère le coaching comme le cheminement vers un état désiré de manière élégante afin d’obtenir le maximum de résultat. Le coaching post-formation facilite le Développement Durable de la Formation qui est essentiel pour un  ancrage des compétences sur le long terme.   '
         contenuVente.classList.remove('animationContenu')
         milieux.classList.remove('opacityM')
     }, 200)

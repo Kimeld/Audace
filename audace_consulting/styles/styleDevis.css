@@ -580,6 +580,18 @@ contenu2 {
     text-align: right;
 }
 
+.f > div{
+    margin-top: 20px;
+}
+
+.f > div .listGroupe img{
+    transform: translateX(1.5vw) scale(1);
+}
+
+.f > div .nbrs img{
+    transform: translateX(1.5vw) scale(1);
+}
+
 
 .footerPush {
     margin-top: 630px;
@@ -1094,11 +1106,11 @@ input {
 }
 
 @media(min-width: 340px) and (max-width: 495px) {
-    .f img {
+    .f .listGroupe img {
         transform: scale(0.6);
     }
     .f .nbrs img {
-        transform: scale(0.6) translateX(40px);
+        transform: scale(0.6) translateX(0px);
     }
     .pastille {
         transform: scale(0.6) translateY(-26px) translateX(0px);

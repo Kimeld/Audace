@@ -80,6 +80,7 @@ sm1.addEventListener('click', () => {
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Un diagnostic précis de la situation '
+        texte.innerHTML = 'Nos consultants auditionnent, recueillent les informations et observent le fonctionnement des entreprises pour réaliser un diagnostic précis de la situation. Notre audit a pour objectif de déterminer les axes de travail tant sur le plan des ressources humaines que sur le plan des ressources financières. '
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -103,7 +104,7 @@ sm2.addEventListener('click', () => {
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Des solutions pertinentes'
-        texte.innerHTML = 'Nous vous guidons et nous répondons à vos besoins par des solutions adaptées et innovantes. AUDACE Consulting accompagne les entreprises dans l’optimisation des ressources humaines et financières, dans le choix des partenaires pour une évolution du chiffre d’affaires et pour une meilleure rentabilité. <br> Notre cœur de métier est : <br> - l’audit <br> - le benchmark <br> - la transformation <br> - la performance opérationnelle'
+        texte.innerHTML = 'AUDACE Consulting vous conseille dans la résolution de vos problématiques en faisant émerger des solutions adéquates.<br>Notre cœur de métier est : <br> - le benchmark <br> - la transformation <br> - la performance opérationnelle'
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -128,7 +129,7 @@ sm3.addEventListener('click', () => {
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Des stratégies commerciales rentables '
-        texte.innerHTML = 'Notre division stratégie commerciale accompagne les entreprises dans le développement de leur chiffre d’affaires. <br> <br> Nos consultants commerciaux bénéficient d’une solide expérience dans de grandes entreprises où la part commerciale est prépondérante. <br> <br> Ils sont tous formés et maîtrisent l’utilisation de nos outils. <br> Nous nous engageons à trouver des solutions adaptées pour les entreprises afin d’obtenir le meilleur retour sur investissement.'
+        texte.innerHTML = 'Notre division stratégie commerciale accompagne les entreprises dans le développement de leur chiffre d’affaires. Nos consultants bénéficient d’une solide expérience commerciale, sont formés et maîtrisent l’utilisation de nos outils. Nous nous engageons à trouver des solutions adaptées pour les entreprises afin d’obtenir le meilleur retour sur investissement.'
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
