@@ -36,7 +36,7 @@ let MsousMenuAudit = document.querySelector(".MsousMenuAudit")
 
 let MsousMenuConsulting = document.querySelector(".MsousMenuConsulting")
 
-
+let fond = document.querySelector(".fond")
 
 let Msm1 = document.querySelector(".Msm1")
 let Msm2 = document.querySelector(".Msm2")
@@ -77,9 +77,11 @@ sm1.addEventListener('click', () => {
     sm1.classList.remove('sm11')
     sm1.classList.add('red')
 
+    fond.classList.add('fondAudit')
+
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Un diagnostic précis de la situation '
+        titreFormation.innerHTML = 'Un diagnostic précis '
         texte.innerHTML = 'Nos consultants auditionnent, recueillent les informations et observent le fonctionnement des entreprises pour réaliser un diagnostic précis de la situation. Notre audit a pour objectif de déterminer les axes de travail tant sur le plan des ressources humaines que sur le plan des ressources financières. '
         contenuVente.classList.remove('animationContenu')
 
@@ -126,9 +128,11 @@ sm3.addEventListener('click', () => {
     sm3.classList.remove('sm13')
     sm3.classList.add('red')
 
+    fond.classList.add('fondBusiness')
+
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Des stratégies commerciales rentables '
+        titreFormation.innerHTML = 'Des stratégies rentables '
         texte.innerHTML = 'Notre division stratégie commerciale accompagne les entreprises dans le développement de leur chiffre d’affaires. Nos consultants bénéficient d’une solide expérience commerciale, sont formés et maîtrisent l’utilisation de nos outils. Nous nous engageons à trouver des solutions adaptées pour les entreprises afin d’obtenir le meilleur retour sur investissement.'
         contenuVente.classList.remove('animationContenu')
 
@@ -181,22 +185,22 @@ Msm1.addEventListener('click', () => {
 
 
 
- 
+
     MsousMenuAudit.classList.add('white2')
- 
+
     MsousMenuConsulting.classList.remove('white2')
- 
+
     MsousMenuBusiness.classList.remove('white2')
-    
 
 
- 
+
+
     bouttonMsousMenu[0].classList.add('red2')
- 
+
     bouttonMsousMenu[1].classList.remove('red2')
- 
+
     bouttonMsousMenu[2].classList.remove('red2')
-    
+
 
 
 
@@ -218,22 +222,22 @@ Msm2.addEventListener('click', () => {
 
 
 
- 
+
     MsousMenuAudit.classList.remove('white2')
- 
+
     MsousMenuConsulting.classList.add('white2')
- 
+
     MsousMenuBusiness.classList.remove('white2')
-    
 
 
- 
+
+
     bouttonMsousMenu[0].classList.remove('red2')
- 
+
     bouttonMsousMenu[1].classList.add('red2')
- 
+
     bouttonMsousMenu[2].classList.remove('red2')
-    
+
 
 
 
@@ -254,21 +258,21 @@ Msm3.addEventListener('click', () => {
 
 
 
- 
+
     MsousMenuAudit.classList.remove('white2')
- 
+
     MsousMenuConsulting.classList.remove('white2')
 
-    
+
     MsousMenuBusiness.classList.add('white2')
 
- 
+
     bouttonMsousMenu[0].classList.remove('red2')
- 
+
     bouttonMsousMenu[1].classList.remove('red2')
- 
+
     bouttonMsousMenu[2].classList.add('red2')
-    
+
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')

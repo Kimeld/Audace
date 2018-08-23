@@ -32,6 +32,8 @@ let MsousMenu = document.querySelectorAll(".MsousMenu")
 let mobileTestiImg = document.querySelector(".mobileTestiImg")
 let MsousMenuBusiness = document.querySelector(".MsousMenuBusiness")
 
+let fond = document.querySelector(".fond")
+
 let Msm1 = document.querySelector(".Msm1")
 let Msm2 = document.querySelector(".Msm2")
 let Msm3 = document.querySelector(".Msm3")
@@ -106,10 +108,10 @@ sm2.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Osez un management dynamique '
+        titreFormation.innerHTML = 'Oser un management dynamique '
         texte.innerHTML = 'Pour harmoniser la politique managériale au sein de votre entreprise, Audace Consulting crée sur-mesure un parcours manager garantissant l’intégrité de vos valeurs, la satisfaction de vos besoins dans le respect de vos budgets temps et financier. De la position n+1 au management motivationnel, nos formateurs développent les compétences de vos managers pour accroître les performances de vos équipes.'
         contenuVente.classList.remove('animationContenu')
-        milieux.classList.remove('opacityM')
+
     }, 200)
 
 })
@@ -134,7 +136,7 @@ sm3.addEventListener('click', () => {
         titreFormation.innerHTML = 'Coaching '
         texte.innerHTML = 'AUDACE Consulting considère le coaching comme le cheminement vers un état désiré de manière élégante afin d’obtenir le maximum de résultat. Le coaching post-formation facilite le Développement Durable de la Formation qui est essentiel pour un  ancrage des compétences sur le long terme.   '
         contenuVente.classList.remove('animationContenu')
-        milieux.classList.remove('opacityM')
+
     }, 200)
 
 })
@@ -154,13 +156,22 @@ sm4.addEventListener('click', () => {
     sm4.classList.remove('sm14')
     sm4.classList.add('red')
 
+    fond.classList.remove('imgSolution')
+    fond.classList.remove('imgQualite')
+    fond.classList.remove('imgTestimonial')
+    fond.classList.remove('imgPedagogie')
+    fond.classList.add('imgDigitale')
+
+
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'digital learning'
+        titreFormation.innerHTML = 'Digital learning'
         texte.innerHTML = 'Notre division stratégie commerciale accompagne les entreprises dans le développement de leur chiffre d’affaires. <br> <br> Nos consultants commerciaux bénéficient d’une solide expérience dans de grandes entreprises où la part commerciale est prépondérante. <br> <br> Ils sont tous formés et maîtrisent l’utilisation de nos outils. <br> Nous nous engageons à trouver des solutions adaptées pour les entreprises afin d’obtenir le meilleur retour sur investissement.'
         contenuVente.classList.remove('animationContenu')
-        milieux.classList.remove('opacityM')
+
+
+
     }, 200)
 
 })
@@ -190,7 +201,7 @@ forum.addEventListener('click', () => {
     sousMenu.classList.add('marginConseil')
     sousMenu.classList.remove('marginQuiSommesNous')
     sousMenu.classList.remove('marginSolution')
-    
+
 
 
     smC.classList.remove('smS');

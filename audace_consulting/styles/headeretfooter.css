@@ -265,9 +265,20 @@ body {
         color: #707070;
         font-size: 12px;
         transition-duration: 0.5s;
+        
+        
 
 
     }
+    
+    .red {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+    transition-duration: 0.5s;
+    color: #E00034;
+}
 
 }
 
@@ -280,6 +291,15 @@ body {
 
 
     }
+    
+    .red {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+    transition-duration: 0.5s;
+    color: #E00034;
+}
 
 }
 
@@ -301,6 +321,15 @@ body {
 
 
     }
+    
+    .red {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+    transition-duration: 0.5s;
+    color: #E00034;
+}
 
 }
 
@@ -313,6 +342,14 @@ body {
 
 
     }
+    .red {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+    transition-duration: 0.5s;
+    color: #E00034;
+}
 
 }
 

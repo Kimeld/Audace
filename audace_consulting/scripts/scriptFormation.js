@@ -184,7 +184,7 @@ if (key.innerHTML == 'comunication') {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Optimisez votre communication'
+        titreFormation.innerHTML = 'Optimiser<br>votre communication'
         texteFormation.innerHTML = 'Nos modules permettent d’améliorer votre communication interpersonnelle et votre flexibilité relationnelle.'
         contenuVente.classList.remove('animationContenu')
 
@@ -204,9 +204,9 @@ if (key.innerHTML == 'comunication') {
 
 
     titreModule1.innerHTML = 'La flexibilité relationnelle '
-    titreModule2.innerHTML = 'Communiquer avec assertivité'
-    titreModule3.innerHTML = 'Gestion situations délicates'
-    titreModule4.innerHTML = 'Parler en publique'
+    titreModule2.innerHTML = 'Communiquer<br>avec assertivité'
+    titreModule3.innerHTML = 'Gestion des situations délicates'
+    titreModule4.innerHTML = 'Parler<br>en public'
     titreModule5.innerHTML = 'Gérer <br> un board'
 
 
@@ -219,7 +219,7 @@ if (key.innerHTML == 'comunication') {
 
     titreModule1.classList.add('titreModuleFlex')
 
-    titreModule4.classList.add('titreModuleVentePublique');
+    titreModule4.classList.remove('titreModuleVentePublique')
     titreModule4.classList.remove('titreModuleVenteAssertive')
 
 
@@ -291,7 +291,7 @@ if (key.innerHTML == 'comunication') {
     })
     popFive.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Gérer un board avec professionnalisme'
+        titrePopUp.innerHTML = 'Gérer un board'
         firstTexteH2.innerHTML = 'Le bénéfice'
         firstTexteP.innerHTML = 'A l’issue de la formation chaque participant sera capable de gérer un board avec aisance et sérénité pour faciliter la production de livrables'
         secondTexteH2.innerHTML = 'Objectifs'
@@ -348,10 +348,12 @@ if (key.innerHTML == 'comunication') {
     allRef.classList.add('modules')
     allRef.classList.remove('modulesFormation')
 
+
+
     texteFormation.innerHTML = 'L’impact du manager est primordial pour la performance et la cohésion d’équipe. Nous aidons les managers à devenir plus performants avec leurs collaborateurs. Pour parvenir à ce résultat nous mettons à disposition des outils simples et efficaces.'
 
     titreModule1.innerHTML = 'Position n+1'
-    titreModule2.innerHTML = 'Fléxibilité manegériale'
+    titreModule2.innerHTML = 'Fléxibilité managériale'
     titreModule3.innerHTML = 'Management situationnel'
     titreModule4.innerHTML = 'Management motivationnel'
     titreModule5.innerHTML = 'Management de projet'
@@ -361,6 +363,7 @@ if (key.innerHTML == 'comunication') {
     titreModule5.classList.remove('titreModuleNego')
     titreModule4.classList.remove('titreModuleVentePublique')
     titreModule4.classList.remove('titreModuleVenteAssertive')
+    titreModule5.classList.remove('titreModuleVentePublique')
 
 
     popOne.setAttribute('title', 'Position n+1')
@@ -446,6 +449,7 @@ if (key.innerHTML == 'comunication') {
 
     })
 
+
 } else if (key.innerHTML == 'vente') {
 
     MimgPopup[0] = '../images/Technique_vente.png'
@@ -487,12 +491,12 @@ if (key.innerHTML == 'comunication') {
 
     texteFormation.innerHTML = 'La capacité d’une entreprise à réaliser un chiffre d’affaires à la hauteur de ses exigences dépend des bénéfices apportés par les produit(s) promu(s) et en grande partie à la qualité des forces de vente;'
 
-    titreModule1.innerHTML = 'Technique de vente'
-    titreModule2.innerHTML = 'La couleur de <br> la ventes'
-    titreModule3.innerHTML = 'Ventes assertive'
+    titreModule1.innerHTML = 'Techniques de vente'
+    titreModule2.innerHTML = 'La couleur<br>de la ventes'
+    titreModule3.innerHTML = 'Vente assertive'
     titreModule4.classList.remove('titreModuleVentePublique')
-    titreModule4.classList.add('titreModuleVenteAssertive')
-    titreModule4.innerHTML = 'La négociation'
+    titreModule4.classList.remove('titreModuleVenteAssertive')
+    titreModule4.innerHTML = 'Négociation'
     titreModule5.classList.add('titreModuleNego')
     titreModule5.innerHTML = 'La négociation'
 
@@ -526,7 +530,7 @@ if (key.innerHTML == 'comunication') {
 
     popOne.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Technique de vente'
+        titrePopUp.innerHTML = 'Techniques de vente'
         firstTexteH2.innerHTML = 'Le bénéfice'
         firstTexteP.innerHTML = 'Le chef de projet saura mener un projet avec plus d’aisance, afin d’ateindre des résultats et de fédérer un certain nombre de personnes autour de l’ateinte de résultats'
         secondTexteH2.innerHTML = 'Objectifs'
@@ -618,7 +622,7 @@ if (key.innerHTML == 'comunication') {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Formation de formateur'
+        titreFormation.innerHTML = 'Former avec aisance'
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -644,7 +648,7 @@ if (key.innerHTML == 'comunication') {
 
     close.setAttribute('href', 'formateur.html')
 
-    titreModule4.classList.add('titreModuleVenteAssertive')
+    titreModule4.classList.remove('titreModuleVenteAssertive')
 
     imgPop.classList.remove('flexiRelaImg')
     imgPop.classList.remove('comAssertivImg')
@@ -751,7 +755,7 @@ sm1.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = ' Développez votre performance managériale'
+        titreFormation.innerHTML = 'Optimiser votre managerial'
         texteFormation.innerHTML = 'Développer votre performance managériale. L’impact du manager est primordial pour la performance et la cohésion d’équipe. Nous aidons les managers à devenir plus performants avec leurs collaborateurs. Pour parvenir à ce résultat nous mettons à disposition des outils simples et efficaces.'
         contenuVente.classList.remove('animationContenu')
 
@@ -764,7 +768,7 @@ sm1.addEventListener('click', () => {
 
 
     titreModule1.innerHTML = 'Position n+1'
-    titreModule2.innerHTML = 'Fléxibilité manegériale'
+    titreModule2.innerHTML = 'Fléxibilité managériale'
     titreModule3.innerHTML = 'Management situationnel'
     titreModule4.innerHTML = 'Management motivationnel'
     titreModule5.innerHTML = 'Management de projet'
@@ -774,6 +778,13 @@ sm1.addEventListener('click', () => {
     titreModule5.classList.remove('titreModuleNego')
 
     titreModule3.classList.remove('titreModuleCoach')
+
+    titreModule4.classList.remove('titreModuleVenteAssertive')
+
+    titreModule5.classList.remove('titreModuleNego')
+    titreModule4.classList.remove('titreModuleVentePublique')
+
+    titreModule1.classList.remove('titreModuleFlex')
 
     popOne.setAttribute('title', 'Position n+1')
     popTwo.setAttribute('title', 'Fléxibilité manegériale')
@@ -908,7 +919,7 @@ sm2.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Améliorez votre efficacité commerciale'
+        titreFormation.innerHTML = 'Renforcer vos forces de vente'
         texteFormation.innerHTML = 'Développer votre efficacité commerciale. La capacité d’une entreprise à réaliser un chiffre d’affaires à la hauteur de ses exigences dépend des bénéfices apportés par les produit(s) promu(s) et en grande partie à la qualité des forces de vente'
         contenuVente.classList.remove('animationContenu')
 
@@ -920,11 +931,11 @@ sm2.addEventListener('click', () => {
 
 
 
-    titreModule1.innerHTML = 'Technique de vente'
-    titreModule2.innerHTML = 'La couleur de <br> la ventes'
-    titreModule3.innerHTML = 'Ventes assertive'
+    titreModule1.innerHTML = 'Techniques de vente'
+    titreModule2.innerHTML = 'La couleur <br> de la ventes'
+    titreModule3.innerHTML = 'Vente assertive'
     titreModule4.classList.add('titreModuleVenteAssertive')
-    titreModule4.innerHTML = 'La négociation'
+    titreModule4.innerHTML = 'Négociation'
     titreModule5.classList.add('titreModuleNego')
     titreModule5.innerHTML = 'La négociation'
 
@@ -958,7 +969,7 @@ sm2.addEventListener('click', () => {
 
     popOne.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Technique de vente'
+        titrePopUp.innerHTML = 'Techniques de vente'
         firstTexteH2.innerHTML = 'Le bénéfice'
         firstTexteP.innerHTML = 'Le chef de projet saura mener un projet avec plus d’aisance, afin d’ateindre des résultats et de fédérer un certain nombre de personnes autour de l’ateinte de résultats'
         secondTexteH2.innerHTML = 'Objectifs'
@@ -1055,7 +1066,7 @@ sm3.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Optimisez votre communication'
+        titreFormation.innerHTML = 'Optimiser<br>votre communication'
         texteFormation.innerHTML = 'Optimiser votre communication Nos modules permettent d’améliorer votre communication interpersonnelle et votre flexibilité relationnelle.'
         contenuVente.classList.remove('animationContenu')
 
@@ -1072,10 +1083,10 @@ sm3.addEventListener('click', () => {
     titreModule1.innerHTML = 'La flexibilité relationnelle '
     titreModule2.innerHTML = 'Communiquer avec assertivité'
     titreModule3.innerHTML = 'Gestion situations délicates'
-    titreModule4.innerHTML = 'Parler en publique'
+    titreModule4.innerHTML = 'Parler en public'
     titreModule5.innerHTML = 'Gérer <br> un board'
 
-    titreModule4.classList.add('titreModuleVentePublique');
+    titreModule4.classList.remove('titreModuleVentePublique')
     titreModule4.classList.remove('titreModuleVenteAssertive')
     titreModule5.classList.add('titreModuleVentePublique')
 
@@ -1164,7 +1175,7 @@ sm3.addEventListener('click', () => {
     })
     popFive.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Gérer un board avec professionnalisme'
+        titrePopUp.innerHTML = 'Gérer un board'
         firstTexteH2.innerHTML = 'Le bénéfice'
         firstTexteP.innerHTML = 'A l’issue de la formation chaque participant sera capable de gérer un board avec aisance et sérénité pour faciliter la production de livrables'
         secondTexteH2.innerHTML = 'Objectifs'
@@ -1222,10 +1233,11 @@ sm4.addEventListener('click', () => {
 
     fond.classList.remove('imgMana')
     fond.classList.remove('imgVente')
+    fond.classList.add('imgFormateur')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Animez, accompagnez et développez les collaborateurs'
+        titreFormation.innerHTML = 'Former avec aisance'
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -1244,10 +1256,10 @@ sm4.addEventListener('click', () => {
 
     titreModule3.classList.remove('titreModuleCoach')
     titreModule4.classList.remove('titreModuleVentePublique');
-    titreModule4.classList.add('titreModuleVenteAssertive');
+
 
     titreModule5.classList.remove('titreModuleNego')
-
+    titreModule4.classList.remove('titreModuleVenteAssertive')
 
     popThree.setAttribute('title', 'Formateur coach')
     popTwo.setAttribute('title', 'Formateur animateur')

@@ -21,6 +21,9 @@
     color: #707070;
     font-size: 18px;
     margin-top: 40px;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .titreEtTexte {
@@ -118,7 +121,7 @@
 */
 
 .fond {
-    opacity: 0;
+    opacity: 1;
 }
 
 @media(max-width: 1100px) {
@@ -150,7 +153,7 @@
     height: 300px;
     top: 150px;
     right: 50px;
-    background-image: url(../images/quipe3.png);
+    background-image: url(../images/equipe.png);
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -231,6 +234,40 @@
     transition-duration: 0.5s;
 }
 
+.imgFormation {
+    width: 595px;
+    height: 300px;
+    top: 150px;
+    right: 50px;
+    background-image: url(../images/Formations.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+
+.imgDigitale {
+    width: 595px;
+    height: 300px;
+    top: 150px;
+    right: 50px;
+    background-image: url(../images/Digital%20learning.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+
 
 
 
@@ -266,13 +303,13 @@
         background-position: center;
         background-repeat: no-repeat;
     }
-    .mobileQSN{
+    .mobileQSN {
         background-image: url(../images/LogoAudaceAC-OR.png);
     }
-      .mobileQSNSolution{
+    .mobileQSNSolution {
         background-image: url(../images/Solutions&coaching.png);
     }
-    
+
 
     .mobileValeur {
         background-image: url(../images/Nos%20valeurs.png);

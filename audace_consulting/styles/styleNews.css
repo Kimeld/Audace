@@ -311,7 +311,7 @@ a {
 }
 
 .galerie {
-
+    height: 100px;
     text-align: center;
     padding: 0px;
     margin-top: 40px;
@@ -344,17 +344,17 @@ a {
 
 .pSide a {
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 14px;
     color: #E00034;
     font-weight: 900;
 }
 
 .pSide2 a {
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 14px;
     color: #E00034;
     font-weight: 900;
-    
+
 }
 
 @media(min-width: 992px) and (max-width: 1360px) {
@@ -408,11 +408,9 @@ a {
     }
 
     .texteUne a {
-        right: 0px;
-        bottom: 0px;
+        right: 90px;
+        bottom: -10px;
         position: absolute;
-
-
         font-size: 14px;
         transition-duration: 1s;
 
@@ -442,17 +440,17 @@ a {
 
         transform: translateY(-1040px);
     }
-       .contenu{
+    .contenu {
         height: 2300px
     }
-    footer{
+    footer {
         margin: 0px;
     }
 
 }
 
 @media(min-width: 575px) and (max-width: 992px) {
- 
+
     .side {
 
         padding-left: 3px;

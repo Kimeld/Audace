@@ -22,6 +22,8 @@
     font-size: 18px;
     margin-top: 40px;
     text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 
@@ -299,8 +301,23 @@
 
 }
 */
-
+/*
 .fond {
+    width: 595px;
+    height: 300px;
+    top: 150px;
+    right: 50px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+
+
+}
+*/
+.fondAudit {
     width: 595px;
     height: 300px;
     top: 150px;
@@ -315,6 +332,24 @@
 
 
 }
+
+.fondBusiness {
+    width: 595px;
+    height: 300px;
+    top: 150px;
+    right: 50px;
+    background-image: url(../images/Business_consulting.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+
+
+}
+
+
 
 @media(max-width: 1250px) {
 
