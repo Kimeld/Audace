@@ -167,6 +167,9 @@
 
 
 
+
+
+
 .imgQualite {
     width: 595px;
     height: 300px;
@@ -269,7 +272,37 @@
 }
 
 
+.imgManSch {
+    width: 595px;
+    height: 300px;
+    top: 150px;
+    right: 50px;
+    background-image: url(../images/Management-school.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
 
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+.imgSellSch {
+    width: 595px;
+    height: 300px;
+    top: 150px;
+    right: 50px;
+    background-image: url(../images/Selling-school.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
 
 .opacityM {
     opacity: 0;
@@ -307,7 +340,7 @@
         background-image: url(../images/LogoAudaceAC-OR.png);
     }
     .mobileQSNSolution {
-        background-image: url(../images/Solutions&coaching.png);
+        background-image: url(../images/DDF.png);
     }
 
 
@@ -316,7 +349,7 @@
 
     }
     .mobileEquipe {
-        background-image: url(../images/quipe3.png);
+        background-image: url(../images/equipe.png);
 
     }
     .mobilePedagogie {
@@ -328,8 +361,21 @@
         background-image: url(../images/Testimonial.png);
 
     }
+    
+        .mobileDigital {
+        background-image: url(../images/Digital%20learning.png);
 
+    }
+       .mobileManSch {
+        background-image: url(../images/Management-school.png);
 
+    }
+       .mobileSellSch {
+        background-image: url(../images/Selling-school.png);
+
+    }
+    
+     
 
     .contenu .texte {
         font-family: 'Roboto', sans-serif;

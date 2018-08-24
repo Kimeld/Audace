@@ -327,7 +327,7 @@ Msm2.addEventListener('click', () => {
     titreTexte.classList.remove('opacityM')
 
     fond.classList.remove('imgQualite')
-    fond.classList.add('imgEquipe')
+    fond.classList.add('imgEquipe3')
 
 
     MsousMenu[0].classList.remove('white2')

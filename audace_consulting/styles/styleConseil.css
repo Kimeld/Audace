@@ -349,6 +349,39 @@
 
 }
 
+.fondConsulting {
+    width: 595px;
+    height: 300px;
+    top: 150px;
+    right: 50px;
+    background-image: url(../images/Consulting.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+
+
+}
+
+
+.fondConseil {
+    width: 595px;
+    height: 300px;
+    top: 150px;
+    right: 50px;
+    background-image: url(../images/Conseil.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+
+
+}
+
 
 
 @media(max-width: 1250px) {
@@ -429,6 +462,21 @@
     .mobileTesti {
         background-image: url(../images/Testimonial.png);
 
+    }
+    .mobileBusiness {
+        background-image: url(../images/Business_consulting.png);
+
+    }
+
+    .mobileAudit{
+         background-image: url(../images/Audit.png);
+    }
+    
+    .mobileConsul{
+         background-image: url(../images/Audit.png);
+    }
+    .mobileconseil{
+         background-image: url(../images/Audit.png);
     }
 
     .contenu .texte {

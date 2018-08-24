@@ -825,7 +825,7 @@
         border-radius: 100px;
         margin-bottom: 100px;
         margin-top: 18px;
-
+        height: 600px;
 
     }
     .contenu .texte {
@@ -834,6 +834,7 @@
         color: #707070;
         font-size: 14px;
         margin-top: 40px;
+        text-align: left;
     }
     .titreEtTexte {
         /*background-color: white;*/
@@ -973,12 +974,12 @@
     }
 
     .mobileMana {
-        background-image: url(../images/Management2.png);
+        background-image: url(../images/boussole.png);
 
     }
 
     .mobileVente {
-        background-image: url(../images/Vente&nego.png);
+        background-image: url(../images/boussole.png);
 
     }
     .mobileCom {
@@ -986,7 +987,7 @@
 
     }
     .mobileFormateur {
-        background-image: url(../images/LogoAudaceAC-OR.png);
+        background-image: url(../images/Formation-formateurs.png);
 
     }
 

@@ -580,15 +580,15 @@ contenu2 {
     text-align: right;
 }
 
-.f > div{
+.f > div {
     margin-top: 20px;
 }
 
-.f > div .listGroupe img{
+.f > div .listGroupe img {
     transform: translateX(1.5vw) scale(1);
 }
 
-.f > div .nbrs img{
+.f > div .nbrs img {
     transform: translateX(1.5vw) scale(1);
 }
 
@@ -599,6 +599,16 @@ contenu2 {
     height: 100px;
 
 }
+
+.submitDevis {
+    opacity: 1;
+    position: absolute;
+    right: 0px;
+    width: 140px;
+
+}
+
+
 
 .sectionNav {
     text-align: center;

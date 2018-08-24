@@ -303,7 +303,9 @@ if (key.innerHTML == 'comunication') {
     })
 
 
-} else if (key.innerHTML == 'mana') {
+} 
+
+else if (key.innerHTML == 'mana') {
 
     MimgPopup[0] = '../images/Position_n+1_button.png'
     MimgPopup[1] = '../images/Couleurs_management.png'
@@ -450,7 +452,9 @@ if (key.innerHTML == 'comunication') {
     })
 
 
-} else if (key.innerHTML == 'vente') {
+} 
+
+else if (key.innerHTML == 'vente') {
 
     MimgPopup[0] = '../images/Technique_vente.png'
     MimgPopup[1] = '../images/Couleurs_vente.png'
@@ -502,7 +506,7 @@ if (key.innerHTML == 'comunication') {
 
 
     popOne.setAttribute('title', 'Technique de vente')
-    popTwo.setAttribute('title', 'La couleur de <br> la ventes')
+    popTwo.setAttribute('title', 'Les couleurs de <br> la ventes')
     popFour.setAttribute('title', 'Ventes assertive')
     popFive.setAttribute('title', 'La négociation')
 
@@ -578,7 +582,9 @@ if (key.innerHTML == 'comunication') {
     })
 
 
-} else if (key.innerHTML == 'formateur') {
+} 
+
+else if (key.innerHTML == 'formateur') {
 
     MimgPopup[0] = '..//images/formateur_animateur.png'
     MimgPopup[1] = '../images/Formateur_coach_button.png'
@@ -932,7 +938,7 @@ sm2.addEventListener('click', () => {
 
 
     titreModule1.innerHTML = 'Techniques de vente'
-    titreModule2.innerHTML = 'La couleur <br> de la ventes'
+    titreModule2.innerHTML = 'Les couleurs <br> de la ventes'
     titreModule3.innerHTML = 'Vente assertive'
     titreModule4.classList.add('titreModuleVenteAssertive')
     titreModule4.innerHTML = 'Négociation'
@@ -1400,7 +1406,7 @@ Msm1.addEventListener('click', () => {
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
     fond.classList.remove('imgEquipe')
-    fond.classList.add('imgQualite')
+    fond.classList.add('imgMana')
 
     MpopContenu1.classList.remove('contenuActive')
     MpopContenu1.classList.add('contenuNoActive')
@@ -1412,6 +1418,8 @@ Msm1.addEventListener('click', () => {
     MpopContenu4.classList.add('contenuNoActive')
 
     MpopContenu0.classList.remove('displayNone')
+    
+ 
 
 
     window.setTimeout(() => {
@@ -1453,9 +1461,9 @@ Msm1.addEventListener('click', () => {
     mobileTestiImg.classList.add('mobileMana')
     mobileTestiImg.classList.remove('mobileQSN')
 
-    window.setTimeout(() => {
+   window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = ' Développez votre performance managériale'
+        titreFormation.innerHTML = 'Optimiser votre managerial'
         texteFormation.innerHTML = 'Développer votre performance managériale. L’impact du manager est primordial pour la performance et la cohésion d’équipe. Nous aidons les managers à devenir plus performants avec leurs collaborateurs. Pour parvenir à ce résultat nous mettons à disposition des outils simples et efficaces.'
         contenuVente.classList.remove('animationContenu')
 
@@ -1571,9 +1579,9 @@ Msm2.addEventListener('click', () => {
     mobileTestiImg.classList.remove('mobileMana')
     mobileTestiImg.classList.remove('mobileQSN')
 
-    window.setTimeout(() => {
+     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Améliorez votre efficacité commerciale'
+        titreFormation.innerHTML = 'Renforcer vos forces de vente'
         texteFormation.innerHTML = 'Développer votre efficacité commerciale. La capacité d’une entreprise à réaliser un chiffre d’affaires à la hauteur de ses exigences dépend des bénéfices apportés par les produit(s) promu(s) et en grande partie à la qualité des forces de vente'
         contenuVente.classList.remove('animationContenu')
 
@@ -1685,9 +1693,9 @@ Msm3.addEventListener('click', () => {
     mobileTestiImg.classList.remove('mobileMana')
     mobileTestiImg.classList.remove('mobileQSN')
 
-    window.setTimeout(() => {
+     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Optimisez votre communication'
+        titreFormation.innerHTML = 'Optimiser<br>votre communication'
         texteFormation.innerHTML = 'Optimiser votre communication Nos modules permettent d’améliorer votre communication interpersonnelle et votre flexibilité relationnelle.'
         contenuVente.classList.remove('animationContenu')
 
@@ -1790,11 +1798,11 @@ Msm4.addEventListener('click', () => {
     bouttonMsousMenu[3].classList.add('red2')
 
     fond.classList.remove('imgPedagogie')
-
+     fond.classList.remove('imgMana')
     fond.classList.remove('imgQualite')
     fond.classList.remove('imgEquipe')
     fond.classList.remove('imgEquipe2')
-    fond.classList.add('imgTestimonial')
+    fond.classList.add('imgFormateur')
 
     mobileTestiImg.classList.add('mobileFormateur')
     mobileTestiImg.classList.remove('mobileCom')
@@ -1805,7 +1813,7 @@ Msm4.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Animez, accompagnez et développez les collaborateurs'
+        titreFormation.innerHTML = 'Former avec aisance'
         contenuVente.classList.remove('animationContenu')
 
     }, 200)

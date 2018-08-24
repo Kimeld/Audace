@@ -1,9 +1,9 @@
 <?php
 // Connexion variables
 define('DB_HOST', 'localhost');
-define('DB_PORT', '8889');
-define('DB_NAME', 'hetic_p2021_first');
-define('DB_USER', 'root');
+define('DB_PORT', '3306');
+define('DB_NAME', 'apart521_new');
+define('DB_USER', 'cpses_apjs2wbnha@localhost');
 define('DB_PASS', 'root');
 
 try

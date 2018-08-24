@@ -77,6 +77,9 @@ sm1.addEventListener('click', () => {
     sm1.classList.remove('sm11')
     sm1.classList.add('red')
 
+    fond.classList.remove('fondConseil')
+     fond.classList.remove('fond')
+    fond.classList.remove('fondConsulting')
     fond.classList.add('fondAudit')
 
     window.setTimeout(() => {
@@ -102,6 +105,11 @@ sm2.addEventListener('click', () => {
     sm4.classList.remove('red')
     sm2.classList.remove('sm12')
     sm2.classList.add('red')
+    
+      fond.classList.remove('fondConseil')
+     fond.classList.remove('fondbusiness')
+    fond.classList.remove('fondAudit')
+    fond.classList.add('fondConsulting')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -128,6 +136,9 @@ sm3.addEventListener('click', () => {
     sm3.classList.remove('sm13')
     sm3.classList.add('red')
 
+    fond.classList.remove('fondConsulting')
+      fond.classList.remove('fondConseil')
+     fond.classList.remove('fondAudit')
     fond.classList.add('fondBusiness')
 
     window.setTimeout(() => {
@@ -202,7 +213,10 @@ Msm1.addEventListener('click', () => {
     bouttonMsousMenu[2].classList.remove('red2')
 
 
-
+    mobileTestiImg.classList.add('mobileAudit')
+    mobileTestiImg.classList.remove('mobileBusiness')
+    mobileTestiImg.classList.remove('mobileConsul')
+    mobileTestiImg.classList.remove('mobileconseil')
 
 
     window.setTimeout(() => {
@@ -229,8 +243,11 @@ Msm2.addEventListener('click', () => {
 
     MsousMenuBusiness.classList.remove('white2')
 
-
-
+    
+     mobileTestiImg.classList.remove('mobileConsul')
+    mobileTestiImg.classList.add('mobileconseil')
+    mobileTestiImg.classList.remove('mobileAudit')
+    mobileTestiImg.classList.remove('mobileBusiness')
 
     bouttonMsousMenu[0].classList.remove('red2')
 
@@ -272,11 +289,17 @@ Msm3.addEventListener('click', () => {
     bouttonMsousMenu[1].classList.remove('red2')
 
     bouttonMsousMenu[2].classList.add('red2')
+    
+    
+    mobileTestiImg.classList.remove('mobileAudit')
+    mobileTestiImg.classList.add('mobileBusiness')
+     mobileTestiImg.classList.remove('mobileConsul')
+    mobileTestiImg.classList.remove('mobileconseil')
 
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Des stratégies commerciales rentables '
+        titreFormation.innerHTML = 'Des stratégies rentables '
         texte.innerHTML = 'Notre division stratégie commerciale accompagne les entreprises dans le développement de leur chiffre d’affaires. <br> <br> Nos consultants commerciaux bénéficient d’une solide expérience dans de grandes entreprises où la part commerciale est prépondérante. <br> <br> Ils sont tous formés et maîtrisent l’utilisation de nos outils. <br> Nous nous engageons à trouver des solutions adaptées pour les entreprises afin d’obtenir le meilleur retour sur investissement.'
         contenuVente.classList.remove('animationContenu')
 

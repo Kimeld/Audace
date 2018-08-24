@@ -81,6 +81,11 @@ sm1.addEventListener('click', () => {
     sm2.classList.remove('red')
     sm1.classList.remove('sm11')
     sm1.classList.add('red')
+    
+     fond.classList.remove('imgDigitale')
+     fond.classList.remove('imgSolution')
+    fond.classList.remove('imgManSch')
+    fond.classList.add('imgSellSch')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -105,6 +110,11 @@ sm2.addEventListener('click', () => {
     sm4.classList.remove('red')
     sm2.classList.remove('sm12')
     sm2.classList.add('red')
+    
+     fond.classList.remove('imgDigitale')
+     fond.classList.remove('imgSolution')
+    fond.classList.remove('imgSellSch')
+    fond.classList.add('imgManSch')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -256,13 +266,16 @@ Msm1.addEventListener('click', () => {
     //sm3.classList.remove('sm13')
     bouttonMsousMenu[3].classList.remove('red2')
     bouttonMsousMenu[4].classList.remove('red2')
+    
+    mobileTestiImg.classList.add('mobileSellSch')
+    mobileTestiImg.classList.remove('mobileDigital')
+    mobileTestiImg.classList.remove('mobileQSNSolution')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Booster votre force de vente'
-        texte.innerHTML = 'Audace Consulting vous propose de concevoir et animer un parcours de vente pour vos équipes commerciales pour répondre précisément à vos besoins de développement et/ou de renforcement des compétences souhaitées. Ce parcours de formation allie les techniques de vente, l’approche comportementale et l’assertivité. Véritable booster de compétences, ce parcours est centré sur les besoins et motivations des clients. '
+        texte.innerHTML = 'Audace Consulting vous propose de concevoir et animer un parcours de vente pour vos équipes commerciales pour répondre précisément à vos besoins de développement et/ou de renforcement des compétences. Ce parcours de formation allie les techniques de vente, l’approche comportementale et l’assertivité. Véritable booster de compétences, ce parcours est centré sur les besoins et motivations de vos clients. '
         contenuVente.classList.remove('animationContenu')
-
     }, 200)
 
 })
@@ -291,10 +304,14 @@ Msm2.addEventListener('click', () => {
     //sm3.classList.remove('sm13')
     bouttonMsousMenu[3].classList.remove('red2')
     bouttonMsousMenu[4].classList.remove('red2')
+    
+    mobileTestiImg.classList.add('mobileManSch')
+    mobileTestiImg.classList.remove('mobileDigital')
+    mobileTestiImg.classList.remove('mobileQSNSolution')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Osez un management dynamique '
+        titreFormation.innerHTML = 'Oser un management dynamique '
         texte.innerHTML = 'Pour harmoniser la politique managériale au sein de votre entreprise, Audace Consulting crée sur-mesure un parcours manager garantissant l’intégrité de vos valeurs, la satisfaction de vos besoins et dans le respect de vos budgets temps et financier.De la position n+1 pour le … ? au management motivationnel, nos formateurs développent les compétences de vos managers pour accroître les performances de vos équipes.'
         contenuVente.classList.remove('animationContenu')
         milieux.classList.remove('opacityM')
@@ -326,6 +343,9 @@ Msm3.addEventListener('click', () => {
     //sm3.classList.remove('sm13')
     bouttonMsousMenu[3].classList.remove('red2')
     bouttonMsousMenu[4].classList.remove('red2')
+    
+    mobileTestiImg.classList.add('mobileQSNSolution')
+    mobileTestiImg.classList.remove('mobileDigital')
 
 
     window.setTimeout(() => {
@@ -365,6 +385,9 @@ Msm4.addEventListener('click', () => {
     //sm3.classList.remove('sm13')
     bouttonMsousMenu[3].classList.add('red2')
     bouttonMsousMenu[4].classList.remove('red2')
+    
+    mobileTestiImg.classList.remove('mobileQSNSolution')
+    mobileTestiImg.classList.add('mobileDigital')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -400,6 +423,9 @@ Msm5.addEventListener('click', () => {
     //sm3.classList.remove('sm13')
     bouttonMsousMenu[3].classList.remove('red2')
     bouttonMsousMenu[4].classList.add('red2')
+    
+    mobileTestiImg.classList.add('mobileQSNSolution')
+    mobileTestiImg.classList.remove('mobileDigital')
 
 
     window.setTimeout(() => {

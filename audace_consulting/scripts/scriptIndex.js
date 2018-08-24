@@ -16,6 +16,17 @@ let sm5 = document.querySelector(".sm5")
 
 let smC = document.querySelector(".smC")
 
+let test = new Array(5)
+
+test[0] = 1
+test[1] = 1
+
+var x="Ceci est une variable JS";
+function envoyer(elt)
+{
+ document.getElementById("param1").value=test;
+ elt.form.submit();
+}
 
 forum.addEventListener('click', () => {
     console.log(quiSommes)

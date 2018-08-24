@@ -1,3 +1,8 @@
+
+
+
+
+
 <!doctype html>
 <html lang="fr">
 
@@ -93,67 +98,70 @@
             <div class="form col-12 col-md-8 offset-md-2">
 
                 <div class="pastille col-3 offset-0"><img src="../images/LogoAudaceAC-OR.png" alt=""></div>
-                <form action="#" methode="post" class="f2 col-sm-10 offset-sm-1">
+
+                <form action="#" methode="get" class="f2 col-sm-10 offset-sm-1">
                     <div class="row align-items-start">
                         <div class="col-sm-6 offset-sm-0 col-10 offset-1 ">
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Entreprise</label>
-                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                                <input type="text" class="form-control form-control-lg entreprise" id="exampleInputEmail1" height="100" name="entreprise">
 
                             </div>
 
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Nom</label>
-                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" height="100">
-
+                                <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" height="100" name="nom">
                             </div>
 
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Prénom</label>
-                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" name="prenom" >
 
                             </div>
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Fonction</label>
-                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="text" class="form-control form-control-lg" id="exampleInputEmail1"  name="fonction">
 
                             </div>
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Tel.</label>
-                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="text" class="form-control form-control-lg" id="exampleInputEmail1"  name="tel">
 
                             </div>
 
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Email</label>
-                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="text" class="form-control form-control-lg" id="exampleInputEmail1"  name="email">
 
                             </div>
 
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Ville</label>
-                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" name="ville" >
 
                             </div>-
 
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Pays</label>
-                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="text" class="form-control form-control-lg" id="exampleInputEmail1"  name="pays">
 
                             </div>
 
 
                         </div>
-                        <div class="col-sm-6 offset-sm-0 col-10 offset-1  second">
+                        <div class="col-sm-4 offset-sm-0 col-10 offset-1  second">
 
                             <div class="form-group">
                                 <label for="exampleFormControlTextarea1">Object (facultatif)</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
                             </div>
 
-
+                            <input class="submit" type="submit">
                         </div>
+
                     </div>
+
                 </form>
             </div>
         </div>
@@ -357,47 +365,60 @@ un board<img class="checkBoard" src="../images/plus-circle.png" alt=""></span></
                 <div class="rep3"></div>
 
             </div>
-            <div class="bouttonSui"></div>
-        </div>
-    </div>
-    <footer class="container-fluid footer">
 
-        <div class="arbo col-6 col-sm-3 offset-0 col-md-3 offset-md-2 col-lg-3 offset-md-3">
-            <div><a href="#">Home</a></div>
-            <div><a href="#">Qui sommes nous ?</a></div>
-            <div><a href="#">Conseil</a></div>
-            <div><a href="#">Formations</a></div>
-            <div><a href="#">Solutions et coaching</a></div>
-            <div><a href="#">forum</a></div>
-        </div>
-        <div class="contact col-3 offset-0 offset-sm-4 offset-md-1 ">
-            <div><a href="inscription.html">Contact</a></div>
-            <div><a href="inscription.html">NewsLetter</a></div>
-            <div><a href="devis.html">Devis</a></div>
-
-            <div class="network">
-                <a href="https://www.facebook.com/audaceconsulting/?hc_ref=ARSvORTghtA3nkvlstqvfWbaAsXkeQbCSBmkZmNTZ9nlYZQsUQ9roXzqPq75S8y1_oM&fref=nf" class="face"><img src="../images/facebook.svg" alt=""></a>
-                <a href="https://www.linkedin.com/company/audace-consulting/" class="linke"><img src="../images/linkedin.svg" alt=""></a>
+            <div class="bouttonSui">
+                <!--<form class="submitDevis" action="#" method="get">
+<input type="button" onclick="envoyer(this)" value="Envoyer">
+<input type="hidden" id="param1" name="param1" value="">
+</form>-->
             </div>
         </div>
+    </div>
+
+        <form action="devis.html" method="get">
+            <input type="button" onclick="envoyer(this)" value="Envoyer">
+            <input type="hidden" id="param1" name="param1" value="">
+        </form>
+        <?= json_encode($_GET); ?>
+        <div class="none tabForm1"><?= json_encode($_GET); ?></div>
+        <footer class="container-fluid footer">
+
+            <div class="arbo col-6 col-sm-3 offset-0 col-md-3 offset-md-2 col-lg-3 offset-md-3">
+                <div><a href="#">Home</a></div>
+                <div><a href="#">Qui sommes nous ?</a></div>
+                <div><a href="#">Conseil</a></div>
+                <div><a href="#">Formations</a></div>
+                <div><a href="#">Solutions et coaching</a></div>
+                <div><a href="#">forum</a></div>
+            </div>
+            <div class="contact col-3 offset-0 offset-sm-4 offset-md-1 ">
+                <div><a href="inscription.html">Contact</a></div>
+                <div><a href="inscription.html">NewsLetter</a></div>
+                <div><a href="devis.html">Devis</a></div>
+
+                <div class="network">
+                    <a href="https://www.facebook.com/audaceconsulting/?hc_ref=ARSvORTghtA3nkvlstqvfWbaAsXkeQbCSBmkZmNTZ9nlYZQsUQ9roXzqPq75S8y1_oM&fref=nf" class="face"><img src="../images/facebook.svg" alt=""></a>
+                    <a href="https://www.linkedin.com/company/audace-consulting/" class="linke"><img src="../images/linkedin.svg" alt=""></a>
+                </div>
+            </div>
 
 
 
-        </div>
+            </div>
 
 
-    </footer>
+        </footer>
+        
 
 
 
 
-
-    <script src="../scripts/scriptForumS.js"></script>
-    <script src="../scripts/scriptDevis.js"></script>
-    <script src="../scripts/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <script src="../scripts/scriptForumS.js"></script>
+        <script src="../scripts/scriptDevis.js"></script>
+        <script src="../scripts/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </body>
 
 </html>

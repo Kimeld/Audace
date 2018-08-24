@@ -20,6 +20,8 @@ let chevrons = document.querySelectorAll(".chevron")
 let list = document.querySelector(".list")
 let listNbrs = document.querySelector(".listNbrs")
 let tab = new Array(28)
+let form1 = document.querySelector(".tabForm1").innerHTML
+let form2 = new Array(15)
 
 let audit = document.querySelector(".audit")
 let checkAudit = document.querySelector(".checkAudit")
@@ -181,7 +183,38 @@ let PV = document.querySelector(".PV")
 let PC = document.querySelector(".PC")
 let PF = document.querySelector(".PF")
 
+let test = new Array(5)
 
+test[0] = 1
+test[1] = 1454
+
+if (form1[0] != 0) {
+    i = 1
+
+    rep2.classList.add('repActive')
+    bouttonPre.classList.remove('preInvi')
+
+    contenu1.classList.remove('contenuActive')
+    contenu1.classList.add('contenuNoActive')
+
+    contenu2.classList.remove('none')
+
+    form1[0] = document.querySelector('.entreprise').innerContent
+
+    window.setTimeout(() => {
+        contenu1.classList.add('none')
+        contenu2.classList.add('contenuActive')
+        contenu2.classList.remove('contenuNoActive')
+
+    }, 800)
+
+
+}
+
+function envoyer(elt) {
+    document.getElementById("param1").value = tab + test;
+    elt.form.submit();
+}
 
 
 bouttonSui.addEventListener('click', () => {
@@ -189,7 +222,7 @@ bouttonSui.addEventListener('click', () => {
     for (a = 0; a <= 28; a++) {
         if (tab[a]) {
             list.innerHTML += '<div><span class="ecartimgF"> ' + tab[a] + '</span></div>'
-            listNbrs.innerHTML += ' <div class="form-group ecart"><textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea> </div> '
+            listNbrs.innerHTML += '<form action="#" methonde="get"> <div class="form-group ecart"><textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea> </div></form> '
 
         } else {
             list.innerHTML += ''
@@ -198,7 +231,7 @@ bouttonSui.addEventListener('click', () => {
         }
     }
 
-  
+
 
     if (i >= 0 && i < 2) {
         i++
@@ -212,6 +245,8 @@ bouttonSui.addEventListener('click', () => {
             contenu1.classList.add('contenuNoActive')
 
             contenu2.classList.remove('none')
+
+            form1[0] = document.querySelector('.entreprise').innerContent
 
             window.setTimeout(() => {
                 contenu1.classList.add('none')
