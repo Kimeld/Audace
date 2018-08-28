@@ -89,7 +89,7 @@ sm1.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Booster votre force de vente'
+        titreFormation.innerHTML = 'Booster vos compétences'
         texte.innerHTML = 'Audace Consulting vous propose de concevoir et animer un parcours de vente pour vos équipes commerciales pour répondre précisément à vos besoins de développement et/ou de renforcement des compétences. Ce parcours de formation allie les techniques de vente, l’approche comportementale et l’assertivité. Véritable booster de compétences, ce parcours est centré sur les besoins et motivations de vos clients. '
         contenuVente.classList.remove('animationContenu')
     }, 200)
@@ -118,7 +118,7 @@ sm2.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Oser un management dynamique '
+        titreFormation.innerHTML = 'Dynamiser votre management'
         texte.innerHTML = 'Pour harmoniser la politique managériale au sein de votre entreprise, Audace Consulting crée sur-mesure un parcours manager garantissant l’intégrité de vos valeurs, la satisfaction de vos besoins dans le respect de vos budgets temps et financier. De la position n+1 au management motivationnel, nos formateurs développent les compétences de vos managers pour accroître les performances de vos équipes.'
         contenuVente.classList.remove('animationContenu')
 
@@ -141,9 +141,12 @@ sm3.addEventListener('click', () => {
     sm3.classList.remove('sm13')
     sm3.classList.add('red')
 
+    
+
+    
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Coaching '
+        titreFormation.innerHTML = 'Une vison à long terme'
         texte.innerHTML = 'AUDACE Consulting considère le coaching comme le cheminement vers un état désiré de manière élégante afin d’obtenir le maximum de résultat. Le coaching post-formation facilite le Développement Durable de la Formation qui est essentiel pour un  ancrage des compétences sur le long terme.   '
         contenuVente.classList.remove('animationContenu')
 
@@ -166,18 +169,17 @@ sm4.addEventListener('click', () => {
     sm4.classList.remove('sm14')
     sm4.classList.add('red')
 
-    fond.classList.remove('imgSolution')
-    fond.classList.remove('imgQualite')
-    fond.classList.remove('imgTestimonial')
-    fond.classList.remove('imgPedagogie')
+        
+     fond.classList.remove('imgSolution')
+    fond.classList.remove('imgSellSch')
+    fond.classList.remove('imgManSch')
     fond.classList.add('imgDigitale')
-
 
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Digital learning'
-        texte.innerHTML = 'Notre division stratégie commerciale accompagne les entreprises dans le développement de leur chiffre d’affaires. <br> <br> Nos consultants commerciaux bénéficient d’une solide expérience dans de grandes entreprises où la part commerciale est prépondérante. <br> <br> Ils sont tous formés et maîtrisent l’utilisation de nos outils. <br> Nous nous engageons à trouver des solutions adaptées pour les entreprises afin d’obtenir le meilleur retour sur investissement.'
+        titreFormation.innerHTML = 'Une solution confortable'
+        texte.innerHTML = 'Audace Consulting développe aussi pour vous une solution de formation distancielle qui présente un double avantage : Le premier avantage, les collaborateurs de votre entreprise bénéficieront de leur temps de formation dans le confort de leur environnement de travail habituel ; ils pourront adapter leur temps de formation, à leur guise, en fonction de leur planning et sans répercussions.'
         contenuVente.classList.remove('animationContenu')
 
 
@@ -194,8 +196,8 @@ sm5.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Quizz'
-        texte.innerHTML = 'Notre division stratégie commerciale accompagne les entreprises dans le développement de leur chiffre d’affaires. <br> <br> Nos consultants commerciaux bénéficient d’une solide expérience dans de grandes entreprises où la part commerciale est prépondérante. <br> <br> Ils sont tous formés et maîtrisent l’utilisation de nos outils. <br> Nous nous engageons à trouver des solutions adaptées pour les entreprises afin d’obtenir le meilleur retour sur investissement.'
+        titreFormation.innerHTML = 'Votre outil post-formation'
+        texte.innerHTML = 'Le Quizz est un outil que nous désirons dispenser aux collaborateurs de votre entreprise. Son objectif est d’assurer un suivi post-formation afin de pérenniser les acquis de la formation. C’est un outil ludique que nous mettons à votre disposition pour raviver ou mettre à jour vos connaissances. '
         contenuVente.classList.remove('animationContenu')
         milieux.classList.remove('opacityM')
     }, 200)
@@ -273,7 +275,7 @@ Msm1.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Booster votre force de vente'
+        titreFormation.innerHTML = 'Booster vos compétences'
         texte.innerHTML = 'Audace Consulting vous propose de concevoir et animer un parcours de vente pour vos équipes commerciales pour répondre précisément à vos besoins de développement et/ou de renforcement des compétences. Ce parcours de formation allie les techniques de vente, l’approche comportementale et l’assertivité. Véritable booster de compétences, ce parcours est centré sur les besoins et motivations de vos clients. '
         contenuVente.classList.remove('animationContenu')
     }, 200)
@@ -311,7 +313,7 @@ Msm2.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Oser un management dynamique '
+        titreFormation.innerHTML = 'Dynamiser votre management'
         texte.innerHTML = 'Pour harmoniser la politique managériale au sein de votre entreprise, Audace Consulting crée sur-mesure un parcours manager garantissant l’intégrité de vos valeurs, la satisfaction de vos besoins et dans le respect de vos budgets temps et financier.De la position n+1 pour le … ? au management motivationnel, nos formateurs développent les compétences de vos managers pour accroître les performances de vos équipes.'
         contenuVente.classList.remove('animationContenu')
         milieux.classList.remove('opacityM')
@@ -391,8 +393,8 @@ Msm4.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Digital learning'
-        texte.innerHTML = 'Notre division stratégie commerciale accompagne les entreprises dans le développement de leur chiffre d’affaires. <br> <br> Nos consultants commerciaux bénéficient d’une solide expérience dans de grandes entreprises où la part commerciale est prépondérante. <br> <br> Ils sont tous formés et maîtrisent l’utilisation de nos outils. <br> Nous nous engageons à trouver des solutions adaptées pour les entreprises afin d’obtenir le meilleur retour sur investissement.'
+        titreFormation.innerHTML = 'Une solution confortable'
+        texte.innerHTML = 'Audace Consulting développe aussi pour vous une solution de formation distancielle qui présente un double avantage : Le premier avantage, les collaborateurs de votre entreprise bénéficieront de leur temps de formation dans le confort de leur environnement de travail habituel ; ils pourront adapter leur temps de formation, à leur guise, en fonction de leur planning et sans répercussions.'
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -430,8 +432,8 @@ Msm5.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Quizz'
-        texte.innerHTML = 'Notre division stratégie commerciale accompagne les entreprises dans le développement de leur chiffre d’affaires. <br> <br> Nos consultants commerciaux bénéficient d’une solide expérience dans de grandes entreprises où la part commerciale est prépondérante. <br> <br> Ils sont tous formés et maîtrisent l’utilisation de nos outils. <br> Nous nous engageons à trouver des solutions adaptées pour les entreprises afin d’obtenir le meilleur retour sur investissement.'
+        titreFormation.innerHTML = 'Votre outil post-formation'
+        texte.innerHTML = 'Le Quizz est un outil que nous désirons dispenser aux collaborateurs de votre entreprise. Son objectif est d’assurer un suivi post-formation afin de pérenniser les acquis de la formation. C’est un outil ludique que nous mettons à votre disposition pour raviver ou mettre à jour vos connaissances. '
         contenuVente.classList.remove('animationContenu')
 
     }, 200)

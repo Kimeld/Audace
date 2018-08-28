@@ -20,8 +20,12 @@ let chevrons = document.querySelectorAll(".chevron")
 let list = document.querySelector(".list")
 let listNbrs = document.querySelector(".listNbrs")
 let tab = new Array(28)
+
+//let tabForm1 = document.querySelector(".tabForm1").innerHTML
+let submitDevis = document.querySelector(".submitDevis")
+
 let form1 = document.querySelector(".tabForm1").innerHTML
-let form2 = new Array(15)
+let form2 = document.querySelector(".tabForm2").innerHTML
 
 let audit = document.querySelector(".audit")
 let checkAudit = document.querySelector(".checkAudit")
@@ -177,6 +181,8 @@ let rep4 = document.querySelector(".rep4")
 let i = 0
 let y = 0
 let a = 0
+let b = 0
+let c = 0
 
 let PM = document.querySelector(".PM")
 let PV = document.querySelector(".PV")
@@ -188,7 +194,7 @@ let test = new Array(5)
 test[0] = 1
 test[1] = 1454
 
-if (form1[0] != 0) {
+if (form1 != "[]") {
     i = 1
 
     rep2.classList.add('repActive')
@@ -211,8 +217,47 @@ if (form1[0] != 0) {
 
 }
 
+/*
+if (form1.length > 102) {
+
+    rep3.classList.add('repActive')
+    bouttonPre.classList.remove('preInvi')
+
+    contenu2.classList.remove('contenuActive')
+    contenu2.classList.add('contenuNoActive')
+
+    contenu3.classList.remove('none')
+
+  */
+/*
+    for (b = 0; b <= 28; b++) {
+
+        for (c = 0; c <= form1.length; c++) {
+
+            if (form1[c] == "a" || form1[c] == "b" || form1[c] == "c" ||form1[c] == "d" || form1[c] == "e" || form1[c] == "f" || form1[c] == "g" || form1[c] == "h" || form1[c] == "i" || form1[c] == "j" || form1[c] == "k" || form1[c] == "l" || form1[c] == "m" || form1[c] == "n" || form1[c] == "o" || form1[c] == "p" || form1[c] == "q" ||form1[c] == "q" || form1[c] == "r" || form1[c] == "s" || form1[c] == "t" ||form1[c] == "w" ||form1[c] == "x" || form1[c] == "y" || form1[c] == "z"){
+               tab[b] += form1[c]
+               
+            }
+
+
+
+
+        }
+    }
+
+    window.setTimeout(() => {
+        contenu2.classList.add('none')
+        contenu3.classList.add('contenuActive')
+        contenu3.classList.remove('contenuNoActive')
+
+    }, 800)
+
+}
+*/
 function envoyer(elt) {
-    document.getElementById("param1").value = tab + test;
+    document.getElementById("param1").value = tab
+    document.getElementById("param2").value = form1
+    document.getElementById("param3").value = form2
     elt.form.submit();
 }
 
@@ -221,8 +266,8 @@ bouttonSui.addEventListener('click', () => {
 
     for (a = 0; a <= 28; a++) {
         if (tab[a]) {
-            list.innerHTML += '<div><span class="ecartimgF"> ' + tab[a] + '</span></div>'
-            listNbrs.innerHTML += '<form action="#" methonde="get"> <div class="form-group ecart"><textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea> </div></form> '
+            list.innerHTML += '<div class="form-group ecart"><textarea class="form-control" id="exampleFormControlTextarea2" rows="1" name="Formaton' + a + '"> ' + tab[a] + '</textarea></div>'
+            listNbrs.innerHTML += ' <div class="form-group ecart"><textarea class="form-control" id="exampleFormControlTextarea1" rows="1" name="Nombre_de_personne' + a + '"></textarea> </div>'
 
         } else {
             list.innerHTML += ''
@@ -264,6 +309,8 @@ bouttonSui.addEventListener('click', () => {
             contenu2.classList.add('contenuNoActive')
 
             contenu3.classList.remove('none')
+            
+            //submitDevis.classList.remove('none')
 
             window.setTimeout(() => {
                 contenu2.classList.add('none')

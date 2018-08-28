@@ -2,6 +2,25 @@ body {
     position: relative;
 }
 
+.souscrire {
+    position: absolute;
+    bottom: -5px;
+    left: -5px;
+    /*background-color: #E00034;*/
+    padding: 0px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    
+
+}
+
+.souscrire img {
+    display: block;
+    width: 100px;
+    margin: 0px;
+}
+
 contenu2 {
     padding: 0px
 }
@@ -508,6 +527,10 @@ contenu2 {
     height: 40px;
 }
 
+.second{
+    position: relative;
+}
+
 .second label {
     margin-left: 20px;
     padding-top: 2px;
@@ -521,6 +544,10 @@ contenu2 {
     border-width: 0.5px;
     border-color: #707070;
 }
+.submit{
+  opacity: 0;  
+}
+
 
 .pastille {
 
@@ -538,7 +565,7 @@ contenu2 {
 /**/
 
 .list {
-    margin-top: 50px;
+    margin-top: 45px;
 }
 
 .listNbrs {
@@ -876,6 +903,12 @@ input {
     .f2 {
         position: absolute;
         top: 90px;
+    }
+      .f img {
+        transform: scale(0.6);
+    }
+    .f .nbrs img {
+        transform: scale(0.6) translateX(70px);
     }
 
 

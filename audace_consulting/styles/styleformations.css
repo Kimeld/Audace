@@ -524,7 +524,7 @@
     height: 300px;
     top: 150px;
     right: 50px;
-    background-image: url(../images/boussole.png);
+    background-image: url(../images/Vente-nego.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -559,7 +559,7 @@
     height: 300px;
     top: 150px;
     right: 50px;
-    background-image: url(../images/Formation-formateurs.png);
+    background-image: url(../images/Formateur-formateur.png);
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -785,7 +785,7 @@
     width: 250px;
     position: absolute;
     top: 7.5vw;
-    right: 3vw;
+    right: 0vw;
 }
 
 
@@ -979,7 +979,7 @@
     }
 
     .mobileVente {
-        background-image: url(../images/boussole.png);
+        background-image: url(../images/Vente-nego.png);
 
     }
     .mobileCom {

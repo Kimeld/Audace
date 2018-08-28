@@ -184,7 +184,7 @@ if (key.innerHTML == 'comunication') {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Optimiser<br>votre communication'
+        titreFormation.innerHTML = 'Une communication flexible'
         texteFormation.innerHTML = 'Nos modules permettent d’améliorer votre communication interpersonnelle et votre flexibilité relationnelle.'
         contenuVente.classList.remove('animationContenu')
 
@@ -1463,7 +1463,7 @@ Msm1.addEventListener('click', () => {
 
    window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Optimiser votre managerial'
+        titreFormation.innerHTML = 'Optimiser votre management'
         texteFormation.innerHTML = 'Développer votre performance managériale. L’impact du manager est primordial pour la performance et la cohésion d’équipe. Nous aidons les managers à devenir plus performants avec leurs collaborateurs. Pour parvenir à ce résultat nous mettons à disposition des outils simples et efficaces.'
         contenuVente.classList.remove('animationContenu')
 
@@ -1695,7 +1695,7 @@ Msm3.addEventListener('click', () => {
 
      window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Optimiser<br>votre communication'
+        titreFormation.innerHTML = 'Une communication flexible'
         texteFormation.innerHTML = 'Optimiser votre communication Nos modules permettent d’améliorer votre communication interpersonnelle et votre flexibilité relationnelle.'
         contenuVente.classList.remove('animationContenu')
 

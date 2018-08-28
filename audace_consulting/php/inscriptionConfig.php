@@ -1,7 +1,6 @@
 <?php
 
-$param1 = json_encode($_GET);
-$param2 = json_encode($_POST);
+
 
 
 
@@ -11,12 +10,12 @@ $param2 = json_encode($_POST);
 //echo  $param2;
 
 
-//echo json_encode($_GET['Nom']);
+echo json_encode($_GET['Nom']);
 
 
-if(!empty($_GET) && !empty($_POST))
+if(!empty($_GET))
 {
-   $prepare = $pdo->prepare('INSERT INTO devis (Entreprise, Nom, Prenom, Fonction, Tel, Email, Ville, Pays, Object, Formation_et_Nombre_de_personne) VALUES (:Entreprise, :Nom, :Prenom, :Fonction, :Tel, :Email, :Ville, :Pays, :Object, :Formation_et_Nombre_de_personne)');
+   $prepare = $pdo->prepare('INSERT INTO contact (Entreprise, Nom, Prenom, Fonction, Tel, Email, Ville, Pays, Object, Letter) VALUES (:Entreprise, :Nom, :Prenom, :Fonction, :Tel, :Email, :Ville, :Pays, :Object, :Letter)');
 
 
 $prepare->bindValue(':Entreprise', $_GET['Entreprise']);
@@ -28,7 +27,7 @@ $prepare->bindValue(':Email', $_GET['Email']);
 $prepare->bindValue(':Ville', $_GET['Ville']);
 $prepare->bindValue(':Pays', $_GET['Pays']);
 $prepare->bindValue(':Object', $_GET['Object']);
-$prepare->bindValue(':Formation_et_Nombre_de_personne', $param2);
+$prepare->bindValue(':Letter', $_GET['Letter']);
 
    
 

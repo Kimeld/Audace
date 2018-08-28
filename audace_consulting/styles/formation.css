@@ -278,7 +278,7 @@
     top: 150px;
     right: 50px;
     background-image: url(../images/Management-school.png);
-    background-size: contain;
+    
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -294,6 +294,7 @@
     top: 150px;
     right: 50px;
     background-image: url(../images/Selling-school.png);
+    
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;

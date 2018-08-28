@@ -1,3 +1,11 @@
+<?php
+ 
+    include '../php/config.php';
+    include '../php/inscriptionConfig.php';
+
+
+?>
+
 <!doctype html>
 <html lang="fr">
 
@@ -93,52 +101,52 @@
             <div class="form col-12 col-md-8 offset-md-2">
 
                 <div class="pastille col-sm-3 col-sm-offset-0"><img src="../images/LogoAudaceAC-OR.png" alt=""></div>
-                <form action="#" methode="post" class="col-sm-10 offset-sm-1">
+                <form action="#" method="get" class="col-sm-10 offset-sm-1">
                     <div class="row align-items-start">
                         <div class="col-sm-6 offset-sm-0 col-10 offset-1 ">
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Entreprise</label>
-                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" name="Entreprise">
 
                             </div>
 
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Nom</label>
-                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" height="100">
+                                <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" name="Nom" height="100">
 
                             </div>
 
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Prénom</label>
-                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" name="Prenom">
 
                             </div>
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Fonction</label>
-                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" name="Fonction">
 
                             </div>
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Tel.</label>
-                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" name="Tel">
 
                             </div>
 
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Email</label>
-                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" name="Email">
 
                             </div>
 
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Ville</label>
-                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" name="Ville">
 
                             </div>-
 
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Pays</label>
-                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" name="Pays">
 
                             </div>
 
@@ -148,10 +156,10 @@
 
                             <div class="form-group">
                                 <label for="exampleFormControlTextarea1">Object (facultatif)</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" name="Object"></textarea>
                             </div>
                             <div class="form-group form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1" name="Letter">
                                 <label class="form-check-label" for="exampleCheck1">je souhaite reçevoir la newsletter</label>
                             </div>
                             <div class="souscrire">
@@ -170,7 +178,7 @@
         </div>
     </div>
 
-
+<?= json_encode($_GET['Ville']); ?>
     <footer class="container-fluid footer">
 
         <div class="arbo col-6 col-sm-3 offset-0 col-md-3 offset-md-2 col-lg-3 offset-md-3">

@@ -144,7 +144,7 @@ sm2.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Une équipe centrée<br>sur vos besoins'
+        titreFormation.innerHTML = "À l'écoute de vos besoins"
         texte.innerHTML = 'Nos consultants sont tous formés au décryptage de comportement et à la Programmation Neuro-Linguistique (PNL). Ils suivent continuellement des formations afin de toujours maintenir leur niveau d’expertise avec pour leitmotiv compétence, rigueur et qualité. Ils accompagnent les collaborateurs dans leur démarche de changement. '
         contenuVente.classList.remove('animationContenu')
 
