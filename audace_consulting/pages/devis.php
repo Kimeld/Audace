@@ -356,7 +356,7 @@ un board<img class="checkBoard" src="../images/plus-circle.png" alt=""></span></
                                 <div class="form-group ecart listNbrs">
 
                                 </div>
-                                <input class="submit" type="submit">
+                                <input class="submit0" type="submit">
 
 
                             </div>
@@ -431,7 +431,7 @@ un board<img class="checkBoard" src="../images/plus-circle.png" alt=""></span></
 
 
 
-                <script src="../scripts/scriptForumS.js"></script>
+                <script src="../scripts/scriptForum.js"></script>
                 <script src="../scripts/scriptDevis.js"></script>
                 <script src="../scripts/bootstrap.min.js"></script>
                 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

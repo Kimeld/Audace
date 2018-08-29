@@ -185,7 +185,7 @@ if (key.innerHTML == 'comunication') {
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Une communication flexible'
-        texteFormation.innerHTML = 'Nos modules permettent d’améliorer votre communication interpersonnelle et votre flexibilité relationnelle.'
+        texteFormation.innerHTML = 'Nos modules permettent aux participants d’optimiser leur communication interpersonnelle et leur flexibilité relationnelle de par une meilleure connaissance de soi, la perception des autres et l’évaluation des situations. Les participants sauront communiquer avec assertivité. Les participants disposeront également de toutes les clés essentielles de communication dans diverses situations telles que les situations délicates, la prise de parole et l’animation de débat… '
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -297,7 +297,7 @@ if (key.innerHTML == 'comunication') {
         secondTexteH2.innerHTML = 'Objectifs'
         secondTexteP.innerHTML = '- Être capable d’animer un board avec professionnalisme et de gérer les différents comportements des participants'
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– S’approprier les techniques d’animation de groupes<br> - S’approprier les techniques de conduite de débats<br> - Savoir adopter la posture d’animateur de débat Communiquer avec un interlocuteur avec un comportement différent'
+        thirdTexteP.innerHTML = '– S’approprier les techniques d’animation de groupes<br> - S’approprier les techniques de conduite de débats<br> - Savoir adopter la posture d’animateur de débat communiquer avec un interlocuteur avec un comportement différent'
         imgPop.classList.add('boardImg')
 
     })
@@ -352,7 +352,7 @@ else if (key.innerHTML == 'mana') {
 
 
 
-    texteFormation.innerHTML = 'L’impact du manager est primordial pour la performance et la cohésion d’équipe. Nous aidons les managers à devenir plus performants avec leurs collaborateurs. Pour parvenir à ce résultat nous mettons à disposition des outils simples et efficaces.'
+    texteFormation.innerHTML = 'L’impact du manager est primordial pour la performance et pour renforcer la cohésion d’équipe. A l’issue des formations, les managers sauront adapter leur communication aux profils comportementaux des collaborateurs, motiver leurs équipes, développer les performances de chacun. Notre objectif est de développer le leadership managérial.'
 
     titreModule1.innerHTML = 'Position n+1'
     titreModule2.innerHTML = 'Fléxibilité managériale'
@@ -432,9 +432,9 @@ else if (key.innerHTML == 'mana') {
         firstTexteH2.innerHTML = 'Le bénéfice'
         firstTexteP.innerHTML = 'Le management motivationnel permet au manager d’être proche de ses collaborateurs et de travailler dans un partenariat qui les motive dans leur quotidien'
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Savoir manager dans un esprit motivationnel <br> – Savoir manager avec les compétences motivationnel <br> – Savoir manager avec les processus motivationnel'
+        secondTexteP.innerHTML = '– Savoir manager dans un esprit motivationnel <br> – Savoir manager avec les compétences motivationnelles <br> – Savoir manager avec les processus motivationnels'
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Savoir manager dans le partenariat avec empathie <br> – Savoir accompagner son collaborateurs dans l’évocation <br> – Savoir être centré sur son collaborateur <br> – Savoir utiliser les processus motivationnel pour accompagner son collaborateur dans ses plans d’action'
+        thirdTexteP.innerHTML = '– Savoir manager dans le partenariat avec empathie <br> – Savoir accompagner son collaborateur dans l’évocation <br> – Savoir être centré sur son collaborateur <br> – Savoir utiliser les processus motivationnels pour accompagner son collaborateur dans ses plans d’action'
         imgPop.classList.add('managementMotivImg')
 
     })
@@ -444,9 +444,9 @@ else if (key.innerHTML == 'mana') {
         firstTexteH2.innerHTML = 'Le bénéfice'
         firstTexteP.innerHTML = 'Le chef de projet saura mener un projet avec plus d’aisance, afin d’atteindre des résultats et de fédérer un certain nombre de personnes autour de l’ateinte de résultats'
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> – Savoir mener un projet'
+        secondTexteP.innerHTML = 'Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> – Savoir mener un projet'
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Comprendre ce qu’est un Business case <br>  – Savoir construire son Business case <br> – S’approprier les comportements qui favorisent la décision <br> – Apprendre à gérer les liens avec les différents acteurs <br> – Savoir Clôturer le projet'
+        thirdTexteP.innerHTML = '– Comprendre le Business case <br>  – Savoir construire son Business case <br> – S’approprier les comportements qui favorisent la décision <br> – Apprendre à gérer les liens avec les différents acteurs <br> – Savoir clôturer le projet'
         imgPop.classList.add('managementProjetImg')
 
     })
@@ -493,10 +493,10 @@ else if (key.innerHTML == 'vente') {
 
     modules.classList.add('modulesVentes')
 
-    texteFormation.innerHTML = 'La capacité d’une entreprise à réaliser un chiffre d’affaires à la hauteur de ses exigences dépend des bénéfices apportés par les produit(s) promu(s) et en grande partie à la qualité des forces de vente;'
+    texteFormation.innerHTML = 'La capacité d’une entreprise à réaliser un chiffre d’affaires à la hauteur de ses exigences dépend des bénéfices apportés par les produit(s) promu(s) et en grande partie à la qualité des forces de vente. Les participants seront capables d’adapter la vente et la négociation au profil du client, de gagner en efficience et en pertinence, pour accroître la satisfaction et la fidélisation du client.'
 
     titreModule1.innerHTML = 'Techniques de vente'
-    titreModule2.innerHTML = 'La couleur<br>de la ventes'
+    titreModule2.innerHTML = 'Couleur<br>de la ventes'
     titreModule3.innerHTML = 'Vente assertive'
     titreModule4.classList.remove('titreModuleVentePublique')
     titreModule4.classList.remove('titreModuleVenteAssertive')
@@ -506,7 +506,7 @@ else if (key.innerHTML == 'vente') {
 
 
     popOne.setAttribute('title', 'Technique de vente')
-    popTwo.setAttribute('title', 'Les couleurs de <br> la ventes')
+    popTwo.setAttribute('title', 'Couleurs de <br> la ventes')
     popFour.setAttribute('title', 'Ventes assertive')
     popFive.setAttribute('title', 'La négociation')
 
@@ -546,19 +546,19 @@ else if (key.innerHTML == 'vente') {
     })
     popTwo.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Les couleurs de la ventes'
+        titrePopUp.innerHTML = 'Couleurs de la vente'
         firstTexteH2.innerHTML = 'Le bénéfice'
         firstTexteP.innerHTML = 'Chaque participant sera capable d’adapter les 4 comportements lors de ses face-faces pour obtenir davantage d’adhésion'
         secondTexteH2.innerHTML = 'Objectifs'
         secondTexteP.innerHTML = '– Être capable d’adapter sa communication face-face après avoir reconnu les préférences comportementales de ses interlocuteurs'
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Savoir adopter les codes de communication des 4 comportements dominants <br> – Savoir appliquer les 4 comportements aux différentes étapes de la vente (de l’objectif à l’engagement) <br> – S’entraîner à gérer les typologies opposées'
+        thirdTexteP.innerHTML = '– Savoir adopter les codes de communication des 4 comportements dominants <br> – Savoir appliquer les 4 comportements aux différentes étapes de la vente <br> – S’entraîner à gérer les typologies opposées'
         imgPop.classList.add('couleurImg')
 
     })
     popThree.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Ventes assertive'
+        titrePopUp.innerHTML = 'Vente assertive'
         firstTexteH2.innerHTML = 'Le bénéfice'
         firstTexteP.innerHTML = 'À l’issue de la formation chaque participant pourra gérer une situation de vente face face avec authenticité pour créer un vrai partenariat avec son client'
         secondTexteH2.innerHTML = 'Objectifs'
@@ -761,8 +761,8 @@ sm1.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Optimiser votre managerial'
-        texteFormation.innerHTML = 'Développer votre performance managériale. L’impact du manager est primordial pour la performance et la cohésion d’équipe. Nous aidons les managers à devenir plus performants avec leurs collaborateurs. Pour parvenir à ce résultat nous mettons à disposition des outils simples et efficaces.'
+        titreFormation.innerHTML = 'Optimiser votre management'
+        texteFormation.innerHTML = 'L’impact du manager est primordial pour la performance et pour renforcer la cohésion d’équipe. A l’issue des formations, les managers sauront adapter leur communication aux profils comportementaux des collaborateurs, motiver leurs équipes, développer les performances de chacun. Notre objectif est de développer le leadership managérial.'
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -793,7 +793,7 @@ sm1.addEventListener('click', () => {
     titreModule1.classList.remove('titreModuleFlex')
 
     popOne.setAttribute('title', 'Position n+1')
-    popTwo.setAttribute('title', 'Fléxibilité manegériale')
+    popTwo.setAttribute('title', 'Couleurs du management')
     popFour.setAttribute('title', 'Management de projet')
     popFive.setAttribute('title', 'Management situationnel')
 
@@ -833,11 +833,11 @@ sm1.addEventListener('click', () => {
 
         titrePopUp.innerHTML = 'Couleurs du management'
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'Les couleurs du management permet à tout manager de reconnaître le comportement de chaque membre de son équipe afind’adapter sa communication et ainsi optimiser la performance collective.'
+        firstTexteP.innerHTML = 'Les couleurs du management permet à tout manager de reconnaître le comportement de chaque membre de son équipe afin d’adapter sa communication et ainsi optimiser la performance collective.'
         secondTexteH2.innerHTML = 'Objectifs'
         secondTexteP.innerHTML = '– Savoir adopter une posture managériale avec son équipe <br> – Savoir adopter une communication efficace et productive'
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Comprendre et s’approprier la posture managériale adéquate et les techniques de debrief <br> – S’approprier la communication assertive <br> – Savoir formuler un feedback objectif, productif et permetant la mise en énergie des participants'
+        thirdTexteP.innerHTML = 'Comprendre et s’approprier la posture managériale adéquate et les techniques de debrief <br> S’approprier la communication assertive <br> Savoir formuler un feedback objectif, productif et permetant la mise en énergie des participants'
         imgPop.classList.add('FlxibilitImg')
 
     })
@@ -873,7 +873,7 @@ sm1.addEventListener('click', () => {
         secondTexteH2.innerHTML = 'Objectifs'
         secondTexteP.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> – Savoir mener un projet'
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Comprendre ce qu’est un Business case <br>  – Savoir construire son Business case <br> – S’approprier les comportements qui favorisent la décision <br> – Apprendre à gérer les liens avec les différents acteurs <br> – Savoir Clôturer le projet'
+        thirdTexteP.innerHTML = '– Comprendre le Business case <br>  – Savoir construire son Business case <br> – S’approprier les comportements qui favorisent la décision <br> – Apprendre à gérer les liens avec les différents acteurs <br> – Savoir clôturer le projet''
         imgPop.classList.add('managementProjetImg')
 
     })
@@ -925,8 +925,8 @@ sm2.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Renforcer vos forces de vente'
-        texteFormation.innerHTML = 'Développer votre efficacité commerciale. La capacité d’une entreprise à réaliser un chiffre d’affaires à la hauteur de ses exigences dépend des bénéfices apportés par les produit(s) promu(s) et en grande partie à la qualité des forces de vente'
+        titreFormation.innerHTML = 'Stimuler vos forces de vente'
+        texteFormation.innerHTML = 'La capacité d’une entreprise à réaliser un chiffre d’affaires à la hauteur de ses exigences dépend des bénéfices apportés par les produit(s) promu(s) et en grande partie à la qualité des forces de vente. Les participants seront capables d’adapter la vente et la négociation au profil du client, de gagner en efficience et en pertinence, pour accroître la satisfaction et la fidélisation du client.'
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -938,7 +938,7 @@ sm2.addEventListener('click', () => {
 
 
     titreModule1.innerHTML = 'Techniques de vente'
-    titreModule2.innerHTML = 'Les couleurs <br> de la ventes'
+    titreModule2.innerHTML = 'Couleurs de <br> la ventes'
     titreModule3.innerHTML = 'Vente assertive'
     titreModule4.classList.add('titreModuleVenteAssertive')
     titreModule4.innerHTML = 'Négociation'
@@ -987,19 +987,19 @@ sm2.addEventListener('click', () => {
     })
     popTwo.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Les couleurs de la ventes'
+        titrePopUp.innerHTML = 'Couleurs de la vente'
         firstTexteH2.innerHTML = 'Le bénéfice'
         firstTexteP.innerHTML = 'Chaque participant sera capable d’adapter les 4 comportements lors de ses face-faces pour obtenir davantage d’adhésion'
         secondTexteH2.innerHTML = 'Objectifs'
         secondTexteP.innerHTML = '– Être capable d’adapter sa communication face-face après avoir reconnu les préférences comportementales de ses interlocuteurs'
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Savoir adopter les codes de communication des 4 comportements dominants <br> – Savoir appliquer les 4 comportements aux différentes étapes de la vente (de l’objectif à l’engagement) <br> – S’entraîner à gérer les typologies opposées'
+        thirdTexteP.innerHTML = '– Savoir adopter les codes de communication des 4 comportements dominants <br> – Savoir appliquer les 4 comportements aux différentes étapes de la vente<br> – S’entraîner à gérer les typologies opposées'
         imgPop.classList.add('couleurImg')
 
     })
     popThree.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Ventes assertive'
+        titrePopUp.innerHTML = 'Vente assertive'
         firstTexteH2.innerHTML = 'Le bénéfice'
         firstTexteP.innerHTML = 'À l’issue de la formation chaque participant pourra gérer une situation de vente face face avec authenticité pour créer un vrai partenariat avec son client'
         secondTexteH2.innerHTML = 'Objectifs'
@@ -1073,7 +1073,7 @@ sm3.addEventListener('click', () => {
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Optimiser<br>votre communication'
-        texteFormation.innerHTML = 'Optimiser votre communication Nos modules permettent d’améliorer votre communication interpersonnelle et votre flexibilité relationnelle.'
+        texteFormation.innerHTML = 'Nos modules permettent aux participants d’optimiser leur communication interpersonnelle et leur flexibilité relationnelle de par une meilleure connaissance de soi, la perception des autres et l’évaluation des situations. Les participants sauront communiquer avec assertivité. Les participants disposeront également de toutes les clés essentielles de communication dans diverses situations telles que les situations délicates, la prise de parole et l’animation de débat… '
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -1187,7 +1187,7 @@ sm3.addEventListener('click', () => {
         secondTexteH2.innerHTML = 'Objectifs'
         secondTexteP.innerHTML = '- Être capable d’animer un board avec professionnalisme et de gérer les différents comportements des participants'
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– S’approprier les techniques d’animation de groupes<br> - S’approprier les techniques de conduite de débats<br> - Savoir adopter la posture d’animateur de débat Communiquer avec un interlocuteur avec un comportement différent'
+        thirdTexteP.innerHTML = '– S’approprier les techniques d’animation de groupes<br> - S’approprier les techniques de conduite de débats<br> - Savoir adopter la posture d’animateur de débat communiquer avec un interlocuteur avec un comportement différent'
         imgPop.classList.add('boardImg')
 
     })
@@ -1374,9 +1374,9 @@ forum.addEventListener('click', () => {
     sm4.innerHTML = ''
 
 
-    sm1.setAttribute('href', 'news.html')
-    sm2.setAttribute('href', 'inscription.html')
-    sm3.setAttribute('href', 'devis.html')
+      sm1.setAttribute('href', 'news.html')
+    sm2.setAttribute('href', 'inscription.php')
+    sm3.setAttribute('href', 'devis.php')
     sm4.setAttribute('href', 'formateur.html')
 
 
@@ -1464,7 +1464,7 @@ Msm1.addEventListener('click', () => {
    window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Optimiser votre management'
-        texteFormation.innerHTML = 'Développer votre performance managériale. L’impact du manager est primordial pour la performance et la cohésion d’équipe. Nous aidons les managers à devenir plus performants avec leurs collaborateurs. Pour parvenir à ce résultat nous mettons à disposition des outils simples et efficaces.'
+        texteFormation.innerHTML = 'L’impact du manager est primordial pour la performance et pour renforcer la cohésion d’équipe. A l’issue des formations, les managers sauront adapter leur communication aux profils comportementaux des collaborateurs, motiver leurs équipes, développer les performances de chacun. Notre objectif est de développer le leadership managérial.'
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -1486,13 +1486,13 @@ Msm1.addEventListener('click', () => {
 
     titreMpop3.innerHTML = 'Management motivationnel'
     paraMpop31.innerHTML = 'Le management motivationnel permet au manager d’être proche de ses collaborateurs et de travailler dans un partenariat qui les motive dans leur quotidien'
-    paraMpop32.innerHTML = '– Savoir manager dans un esprit motivationnel <br> – Savoir manager avec les compétences motivationnel <br> – Savoir manager avec les processus motivationnel'
-    paraMpop33.innerHTML = '– Savoir manager dans le partenariat avec empathie <br> – Savoir accompagner son collaborateurs dans l’évocation <br> – Savoir être centré sur son collaborateur <br> – Savoir utiliser les processus motivationnel pour accompagner son collaborateur dans ses plans d’action'
+    paraMpop32.innerHTML = '– Savoir manager dans un esprit motivationnel <br> – Savoir manager avec les compétences motivationnelles <br> – Savoir manager avec les processus motivationnels'
+    paraMpop33.innerHTML = '– Savoir manager dans le partenariat avec empathie <br> – Savoir accompagner son collaborateur dans l’évocation <br> – Savoir être centré sur son collaborateur <br> – Savoir utiliser les processus motivationnels pour accompagner son collaborateur dans ses plans d’action'
 
     titreMpop4.innerHTML = 'Management de projet'
     paraMpop41.innerHTML = 'Le chef de projet saura mener un projet avec plus d’aisance, afin d’a`eindre des résultats et de fédérer un certain nombre de personnes autour de l’a`einte de résultats'
     paraMpop42.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br>– Savoir mener un projet'
-    paraMpop43.innerHTML = '– Comprendre ce qu’est un business case<br>– Savoir construire son Business case<br>– S’approprier les comportements qui favorisent ladécision<br>– Apprendre à gérer les liens avec les différents acteurs<br>– Savoir Clôturer le projet'
+    paraMpop43.innerHTML = '– Comprendre le Business case <br>  – Savoir construire son Business case <br> – S’approprier les comportements qui favorisent la décision <br> – Apprendre à gérer les liens avec les différents acteurs <br> – Savoir clôturer le projet''
 
 
 
@@ -1581,8 +1581,8 @@ Msm2.addEventListener('click', () => {
 
      window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Renforcer vos forces de vente'
-        texteFormation.innerHTML = 'Développer votre efficacité commerciale. La capacité d’une entreprise à réaliser un chiffre d’affaires à la hauteur de ses exigences dépend des bénéfices apportés par les produit(s) promu(s) et en grande partie à la qualité des forces de vente'
+        titreFormation.innerHTML = 'Stimuler vos forces de vente'
+        texteFormation.innerHTML = 'La capacité d’une entreprise à réaliser un chiffre d’affaires à la hauteur de ses exigences dépend des bénéfices apportés par les produit(s) promu(s) et en grande partie à la qualité des forces de vente. Les participants seront capables d’adapter la vente et la négociation au profil du client, de gagner en efficience et en pertinence, pour accroître la satisfaction et la fidélisation du client.'
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -1592,12 +1592,12 @@ Msm2.addEventListener('click', () => {
     paraMpop02.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> – Savoir mener un projet'
     paraMpop03.innerHTML = '– Comprendre ce qu’est un business case <br> – Savoir construire son Business case <br> – S’approprier les comportements qui favorisent la décision <br> – Apprendre à gérer les liens avec les différents acteurs <br> – Savoir Clôturer le projet'
 
-    titreMpop1.innerHTML = 'La couleur de la ventes'
+    titreMpop1.innerHTML = 'Couleur de la vente'
     paraMpop11.innerHTML = 'Chaque participant sera capable d’adapter les 4 comportements lors de ses face-face pour obtenir davantage d’adhésion'
     paraMpop12.innerHTML = '– Être capable d’adapter sa communication face-face après avoir reconnu les préférences comportementales de ses interlocuteurs'
-    paraMpop13.innerHTML = '– Savoir adopter les codes de communication des 4 comportements dominants <br> – Savoir appliquer les 4 comportements aux différents étapes de la vente (de l’objectif à l’engagement) <br> – S’entraîner à gérer les typologies opposées'
+    paraMpop13.innerHTML = '– Savoir adopter les codes de communication des 4 comportements dominants <br> – Savoir appliquer les 4 comportements aux différents étapes de la vente <br> – S’entraîner à gérer les typologies opposées'
 
-    titreMpop2.innerHTML = 'Ventes assertive'
+    titreMpop2.innerHTML = 'Vente assertive'
     paraMpop21.innerHTML = 'À l’issue de la formation chaque participant pourra gérer une situation de vente face face avec authenticité pour créer un vrai partenariat avec son client'
     paraMpop22.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> – Savoir mener un projet'
     paraMpop23.innerHTML = '– Savoir utiliser le DESC, dire oui ou dire non <br> – Savoir présenter l’objectif de sa visite afin de le faireaccepter <br> – Savoir questionner sans freins personnels pour obtenir les informations cruciales et les motivations <br> – Savoir adopter une argumentation convaincante et ciblée sans crainte face aux pharmaciens <br> – Savoir répondre aux objections et utiliser les modes de communication pour comprendre les motivations <br> – Gérer ses peurs pour oser conclure, s’engager et engager'
@@ -1696,7 +1696,7 @@ Msm3.addEventListener('click', () => {
      window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Une communication flexible'
-        texteFormation.innerHTML = 'Optimiser votre communication Nos modules permettent d’améliorer votre communication interpersonnelle et votre flexibilité relationnelle.'
+        texteFormation.innerHTML = 'Nos modules permettent aux participants d’optimiser leur communication interpersonnelle et leur flexibilité relationnelle de par une meilleure connaissance de soi, la perception des autres et l’évaluation des situations. Les participants sauront communiquer avec assertivité. Les participants disposeront également de toutes les clés essentielles de communication dans diverses situations telles que les situations délicates, la prise de parole et l’animation de débat… '
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -1724,7 +1724,7 @@ Msm3.addEventListener('click', () => {
     titreMpop4.innerHTML = 'Gérer un board avec professionnalisme'
     paraMpop41.innerHTML = 'A l’issue de la formation chaque participant sera capable de gérer un board avec aisance et sérénité pour faciliter la production de livrables'
     paraMpop42.innerHTML = '- Être capable d’animer un board avec professionnalisme et de gérer les différents comportements des participants'
-    paraMpop43.innerHTML = '– S’approprier les techniques d’animation de groupes<br> - S’approprier les techniques de conduite de débats<br> - Savoir adopter la posture d’animateur de débat Communiquer avec un interlocuteur avec un comportement différent'
+    paraMpop43.innerHTML = '– S’approprier les techniques d’animation de groupes<br> - S’approprier les techniques de conduite de débats<br> - Savoir adopter la posture d’animateur de débat communiquer avec un interlocuteur avec un comportement différent'
 
 })
 

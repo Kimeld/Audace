@@ -182,8 +182,8 @@ forum.addEventListener('click', () => {
 
 
     sm1.setAttribute('href', 'news.html')
-    sm2.setAttribute('href', 'inscription.html')
-    sm3.setAttribute('href', 'devis.html')
+    sm2.setAttribute('href', 'inscription.php')
+    sm3.setAttribute('href', 'devis.php')
     sm4.setAttribute('href', 'formateur.html')
 
 })

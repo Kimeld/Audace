@@ -6,13 +6,15 @@ define('DB_PORT', '3306');
 define('DB_NAME', 'apart521_AD');
 define('DB_USER', 'cpses_apy9rotk08');
 define('DB_PASS', 'audace98douk');
+
+define('DB_PASS', 'Oser&reussir2018');
 */
 
 define('DB_HOST', 'localhost');
 define('DB_PORT', '3306');
-define('DB_NAME', 'audace_consulting');
-define('DB_USER', 'root');
-define('DB_PASS', 'root');
+define('DB_NAME', 'apart521_ac');
+define('DB_USER', 'apart521_ac');
+define('DB_PASS', 'Oser&reussir2018');
 
 /*
 define('DB_HOST', 'localhost');
@@ -36,7 +38,7 @@ catch (Exception $e)
 }
 
 // Delete next line if working
-//die('All good ;)');
+
 /*
 echo '<pre>';
 echo  json_encode($_GET["param1"]);

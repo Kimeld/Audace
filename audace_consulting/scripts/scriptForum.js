@@ -60,9 +60,9 @@ sm3.innerHTML = '<a class="deco" href="devis.html">Devis</a>'
 sm4.innerHTML = ''
 
 
-sm1.setAttribute('href', '../pages/news.html')
-sm2.setAttribute('href', '../pages/inscription.html')
-sm3.setAttribute('href', '../pages/devis.html')
+  sm1.setAttribute('href', 'news.html')
+    sm2.setAttribute('href', 'inscription.php')
+    sm3.setAttribute('href', 'devis.php')
 sm4.setAttribute('href', '../pages/formateur.html')
 
 forum.addEventListener('click', () => {

@@ -263,9 +263,9 @@ forum.addEventListener('click', () => {
     sm4.innerHTML = ''
 
 
-    sm1.setAttribute('href', 'news.html')
-    sm2.setAttribute('href', 'inscritption.html')
-    sm3.setAttribute('href', 'devis.html')
+      sm1.setAttribute('href', 'news.html')
+    sm2.setAttribute('href', 'inscription.php')
+    sm3.setAttribute('href', 'devis.php')
     sm4.setAttribute('href', 'formateur.html')
 
 
@@ -310,7 +310,7 @@ Msm1.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Performance, Développement, Bienveillance'
+        titreFormation.innerHTML = "La performance et l'humain"
         texte.innerHTML = 'Audace Consulting prône une démarche tournée vers l’humain. Afin de faire de l’individu la pierre angulaire de l’entreprise, nous sommes résolument convaincu que la personne est la solution-clé pour que l entreprise atteigne ses objectifs et optimise ses résultats. Nous accompagnons les entreprises et leurs forces vives avec des valeurs suivantes : Performance, Développement et bienveillance'
         contenuVente.classList.remove('animationContenu')
 
@@ -356,7 +356,7 @@ Msm2.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Une équipe centrée sur vos besoins'
+        titreFormation.innerHTML = "À l'écoute de vos besoins"
         texte.innerHTML = 'Nos consultants sont tous formés au décryptage de comportement et à la Programmation Neuro-Linguistique (PNL). Ils suivent continuellement des formations afin de toujours maintenir leur niveau d’expertise avec pour leitmotiv compétence, rigueur et qualité.Ils accompagnent les collaborateurs dans leur démarche de changement. '
         contenuVente.classList.remove('animationContenu')
 
@@ -453,7 +453,7 @@ Msm4.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = ' Les partenaires qui nous ont fait confiance'
+        titreFormation.innerHTML = 'Les clients qui<br>nous font confiance'
         texte.innerHTML = ''
         contenuVente.classList.remove('animationContenu')
     })

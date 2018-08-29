@@ -197,7 +197,7 @@ sm5.addEventListener('click', () => {
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = 'Votre outil post-formation'
-        texte.innerHTML = 'Le Quizz est un outil que nous désirons dispenser aux collaborateurs de votre entreprise. Son objectif est d’assurer un suivi post-formation afin de pérenniser les acquis de la formation. C’est un outil ludique que nous mettons à votre disposition pour raviver ou mettre à jour vos connaissances. '
+        texte.innerHTML = 'Le profil comportemental couleur est un outil fiable qui donne accès aux forces vives des entreprises, une meilleure connaissance de soi (forces et points de développement) dans sa fonction professionnelle, une perception adéquate des autres (collaborateurs, collègues, manager) pour une communication efficiente afin de favoriser une prise en compte plus concrète de la situation.Le profil comportemental couleur s’applique à tous les domaines de formation et de conseil et dans tous les domaines d’activité.'
         contenuVente.classList.remove('animationContenu')
         milieux.classList.remove('opacityM')
     }, 200)
@@ -233,9 +233,9 @@ forum.addEventListener('click', () => {
     sm3.innerHTML = '<a class="deco" href="devis.html">Devis</a>'
     sm4.innerHTML = ''
 
-    sm1.setAttribute('href', 'news.html')
-    sm2.setAttribute('href', 'inscription.html')
-    sm3.setAttribute('href', 'devis.html')
+      sm1.setAttribute('href', 'news.html')
+    sm2.setAttribute('href', 'inscription.php')
+    sm3.setAttribute('href', 'devis.php')
     sm4.setAttribute('href', 'formateur.html')
 
 

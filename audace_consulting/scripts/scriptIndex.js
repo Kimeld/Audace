@@ -45,8 +45,8 @@ forum.addEventListener('click', () => {
 
     sm2.innerHTML = ''
     sm1.innerHTML = '<a class="deco" href="pages/news.html">À la une</a>'
-    sm2.innerHTML = '<a class="deco" href="pages/inscription.html">contact</a>'
-    sm3.innerHTML = '<a class="deco" href="pages/devis.html">Devis</a>'
+    sm2.innerHTML = '<a class="deco" href="pages/inscription.php">contact</a>'
+    sm3.innerHTML = '<a class="deco" href="pages/devis.php">Devis</a>'
     sm4.innerHTML = ''
 
     window.setTimeout(() => {
