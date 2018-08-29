@@ -43,7 +43,20 @@ let Msm2 = document.querySelector(".Msm2")
 let Msm3 = document.querySelector(".Msm3")
 let Msm4 = document.querySelector(".Msm4")
 
+//////////////////////////////////////////////////////////
+//CONTENU
+/////////////////////////////////////////////////////////
 
+let titreAudit = "Un diagnostic précis"
+let texteAudit = "Nos consultants auditionnent, recueillent les informations et observent le fonctionnement des entreprises pour réaliser un diagnostic précis de la situation. Notre audit a pour objectif de déterminer les axes de travail tant sur le plan des ressources humaines que sur le plan des ressources financières. "
+
+let titreConseil = "Des solutions pertinentes"
+let texteConseil = "AUDACE Consulting vous conseille dans la résolution de vos problématiques en faisant émerger des solutions adéquates.<br>Notre cœur de métier est : <br> - le benchmark <br> - la transformation <br> - la performance opérationnelle"
+
+let titreBusiness = "Des stratégies rentables"
+let texteBusiness = "Notre division stratégie commerciale accompagne les entreprises dans le développement de leur chiffre d’affaires. Nos consultants bénéficient d’une solide expérience commerciale, sont formés et maîtrisent l’utilisation de nos outils. Nous nous engageons à trouver des solutions adaptées pour les entreprises afin d’obtenir le meilleur retour sur investissement."
+
+//////////////////////////
 
 scrollbars.visible = false;
 
@@ -84,8 +97,8 @@ sm1.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Un diagnostic précis '
-        texte.innerHTML = 'Nos consultants auditionnent, recueillent les informations et observent le fonctionnement des entreprises pour réaliser un diagnostic précis de la situation. Notre audit a pour objectif de déterminer les axes de travail tant sur le plan des ressources humaines que sur le plan des ressources financières. '
+        titreFormation.innerHTML = titreAudit
+        texte.innerHTML = texteAudit
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -113,8 +126,8 @@ sm2.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Des solutions pertinentes'
-        texte.innerHTML = 'AUDACE Consulting vous conseille dans la résolution de vos problématiques en faisant émerger des solutions adéquates.<br>Notre cœur de métier est : <br> - le benchmark <br> - la transformation <br> - la performance opérationnelle'
+        titreFormation.innerHTML = titreConseil
+        texte.innerHTML = texteConseil
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -143,8 +156,8 @@ sm3.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Des stratégies rentables '
-        texte.innerHTML = 'Notre division stratégie commerciale accompagne les entreprises dans le développement de leur chiffre d’affaires. Nos consultants bénéficient d’une solide expérience commerciale, sont formés et maîtrisent l’utilisation de nos outils. Nous nous engageons à trouver des solutions adaptées pour les entreprises afin d’obtenir le meilleur retour sur investissement.'
+        titreFormation.innerHTML = titreBusiness
+        texte.innerHTML = texteBusiness
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -244,10 +257,12 @@ Msm2.addEventListener('click', () => {
     MsousMenuBusiness.classList.remove('white2')
 
     
-     mobileTestiImg.classList.remove('mobileConsul')
-    mobileTestiImg.classList.add('mobileconseil')
+ 
+
     mobileTestiImg.classList.remove('mobileAudit')
     mobileTestiImg.classList.remove('mobileBusiness')
+      mobileTestiImg.classList.remove('mobileconseil')
+        mobileTestiImg.classList.add('mobileConsul')
 
     bouttonMsousMenu[0].classList.remove('red2')
 

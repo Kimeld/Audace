@@ -69,6 +69,23 @@ let Msm2 = document.querySelector(".Msm2")
 let Msm3 = document.querySelector(".Msm3")
 let Msm4 = document.querySelector(".Msm4")
 
+//////////////////////////////////////////////////////////
+//CONTENU
+/////////////////////////////////////////////////////////
+
+let titreValeurs = "La performance et l'humain"
+let texteValeurs = "Audace Consulting prône une démarche tournée vers l’humain. Afin de faire de l’individu la pierre angulaire de l’entreprise, nous sommes résolument convaincus que la personne est la solution-clé pour que l'entreprise atteigne ses objectifs et optimise ses résultats. Nous accompagnons les entreprises et leurs forces vives avec les valeurs suivantes : Performance, Développement et Bienveillance. AUDACE Consulting œuvre pour le développement et l’épanouissement des collaborateurs ainsi que pour la pérennité des entreprises."
+
+let titreEquipe = "À l'écoute de vos besoins"
+let texteEquipe = "Nos consultants sont tous formés au décryptage de comportement et à la Programmation Neuro-Linguistique (PNL). Ils suivent continuellement des formations afin de toujours maintenir leur niveau d’expertise avec pour leitmotiv compétence, rigueur et qualité. Ils accompagnent les collaborateurs dans leur démarche de changement et de développement des compétences."
+
+let titrePedagogie = "L’insight allié à l’opérationnel"
+let textePedagogie = "Notre philosophie privilégie une approche comportementale. Nos modules de formation déclenchent les insight nécessaires à la flexibilité comportementale Nos sessions sont pragmatiques - 80 % d’activité et de training pour 20 % de théorie -,  nous garantissons le développement des compétences des participants afin qu’ils soient opérationnels et confortables dès la fin de la formation"
+
+let titreTestimonial = "Les clients qui<br>nous font confiance"
+let texteTestimonial = ""
+
+//////////////////////////
 scrollbars.visible = false
 
 window.setTimeout(() => {
@@ -110,8 +127,8 @@ sm1.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = "La performance et l'humain"
-        texte.innerHTML = "Audace Consulting prône une démarche tournée vers l’humain. Afin de faire de l’individu la pierre angulaire de l’entreprise, nous sommes résolument convaincus que la personne est la solution-clé pour que l'entreprise atteigne ses objectifs et optimise ses résultats. Nous accompagnons les entreprises et leurs forces vives avec les valeurs suivantes : Performance, Développement et Bienveillance"
+        titreFormation.innerHTML = titreValeurs
+        texte.innerHTML = texteValeurs
         contenuVente.classList.remove('animationContenu')
 
 
@@ -144,8 +161,8 @@ sm2.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = "À l'écoute de vos besoins"
-        texte.innerHTML = 'Nos consultants sont tous formés au décryptage de comportement et à la Programmation Neuro-Linguistique (PNL). Ils suivent continuellement des formations afin de toujours maintenir leur niveau d’expertise avec pour leitmotiv compétence, rigueur et qualité. Ils accompagnent les collaborateurs dans leur démarche de changement. '
+        titreFormation.innerHTML = titreEquipe 
+        texte.innerHTML = texteEquipe 
         contenuVente.classList.remove('animationContenu')
 
 
@@ -181,8 +198,8 @@ sm3.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'L’insight allié à l’opérationnel '
-        texte.innerHTML = 'Notre philosophie privilégie une approche comportementale. Nos modules de formation déclenchent les insight nécessaires à la flexibilité comportementale Nos sessions sont pragmatiques - 80 % d’activité et de training pour 20 % de théorie -,  nous garantissons le développement des compétences des participants afin qu’ils soient opérationnels et confortables dès la fin de la formation'
+        titreFormation.innerHTML = titrePedagogie
+        texte.innerHTML = textePedagogie
         contenuVente.classList.remove('animationContenu')
 
 
@@ -218,8 +235,8 @@ sm4.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = ' Les clients qui<br>nous font confiance'
-        texte.innerHTML = ''
+        titreFormation.innerHTML = titreTestimonial
+        texte.innerHTML = texteTestimonial
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -311,7 +328,8 @@ Msm1.addEventListener('click', () => {
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = "La performance et l'humain"
-        texte.innerHTML = 'Audace Consulting prône une démarche tournée vers l’humain. Afin de faire de l’individu la pierre angulaire de l’entreprise, nous sommes résolument convaincu que la personne est la solution-clé pour que l entreprise atteigne ses objectifs et optimise ses résultats. Nous accompagnons les entreprises et leurs forces vives avec des valeurs suivantes : Performance, Développement et bienveillance'
+        titreFormation.innerHTML = titreValeurs
+        texte.innerHTML = texteValeurs
         contenuVente.classList.remove('animationContenu')
 
 
@@ -356,8 +374,8 @@ Msm2.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = "À l'écoute de vos besoins"
-        texte.innerHTML = 'Nos consultants sont tous formés au décryptage de comportement et à la Programmation Neuro-Linguistique (PNL). Ils suivent continuellement des formations afin de toujours maintenir leur niveau d’expertise avec pour leitmotiv compétence, rigueur et qualité.Ils accompagnent les collaborateurs dans leur démarche de changement. '
+        titreFormation.innerHTML = titreEquipe 
+        texte.innerHTML = texteEquipe 
         contenuVente.classList.remove('animationContenu')
 
 
@@ -401,8 +419,8 @@ Msm3.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'L’insight allié à l’opérationnel '
-        texte.innerHTML = 'Notre philosophie privilégie une approche comportementale où nos modules de formation déclenche les insight nécessaires à la flexibilité comportementale requise dans toute relation interpersonnelle. En synergie avec nos sessions sont pragmatiques - 80 % d’activité et de training pour 20 % de théorie -,  nous garantissions le développement des compétences des participants afin qu’ils soient opérationnels et confortables dès la fin de la formation'
+        titreFormation.innerHTML = titrePedagogie
+        texte.innerHTML = textePedagogi
         contenuVente.classList.remove('animationContenu')
 
 
@@ -453,8 +471,8 @@ Msm4.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Les clients qui<br>nous font confiance'
-        texte.innerHTML = ''
+        titreFormation.innerHTML = titreTestimonial
+        texte.innerHTML = texteTestimonial
         contenuVente.classList.remove('animationContenu')
     })
 })
