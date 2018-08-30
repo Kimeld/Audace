@@ -40,6 +40,37 @@ body {
     margin: 0px;
 }
 
+.formWhite{
+    background-color: white;
+    display: block;
+    border-radius: 20px;
+    border: solid;
+    border-color: gray;
+    border-width: 0.5px;
+}
+
+.formWhiteObject{
+    background-color: white;
+    display: block;
+    border-radius: 10px;
+    border: solid;
+    border-color: gray;
+    border-width: 0.5px;
+    height: 100px;
+}
+
+
+.formWhiteArea{
+    background-color: white;
+    display: block;
+    border-radius: 10px;
+    border: solid;
+    border-color: gray;
+    border-width: 0.5px;
+    height: 20px;
+}
+
+
 contenu2 {
     padding: 0px
 }

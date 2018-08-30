@@ -160,8 +160,10 @@ sm5.addEventListener('click', () => {
     sm2.classList.remove('red')
     sm4.classList.add('sm14')
     sm4.classList.remove('red')
-    sm3.classList.remove('sm13')
-    sm3.classList.add('red')
+    sm3.classList.add('sm13')
+      sm3.classList.remove('red')
+    sm5.classList.remove('sm15')
+    sm5.classList.add('red')
 
     
 
@@ -214,6 +216,17 @@ sm3.addEventListener('click', () => {
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
+    
+     sm1.classList.add('sm11')
+    sm1.classList.remove('red')
+    sm2.classList.add('sm12')
+    sm2.classList.remove('red')
+    sm4.classList.add('sm14')
+    sm4.classList.remove('red')
+     sm5.classList.add('sm15')
+    sm5.classList.remove('red')
+    sm3.classList.remove('sm13')
+    sm3.classList.add('red')
 
        fond.classList.remove('imgDigitale')
      fond.classList.remove('imgSolution')

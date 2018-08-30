@@ -109,46 +109,46 @@
                                 <div class="form-group champs">
                                     <label for="exampleInputEmail1">Entreprise</label>
 
-                                    <input type="text" class="form-control form-control-lg entreprise" id="exampleInputEmail1" height="100" name="Entreprise">
+                                    <input type="text" class="formWhite entreprise" id="exampleInputEmail1" height="100" name="Entreprise">
 
                                 </div>
 
                                 <div class="form-group champs">
                                     <label for="exampleInputEmail1">Nom</label>
-                                    <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" height="100" name="Nom">
+                                    <input type="text" class="formWhite" id="exampleInputEmail1" aria-describedby="emailHelp" height="100" name="Nom">
                                 </div>
 
                                 <div class="form-group champs">
                                     <label for="exampleInputEmail1">Prénom</label>
-                                    <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" name="Prenom">
+                                    <input type="text" class="formWhite" id="exampleInputEmail1" name="Prenom">
 
                                 </div>
                                 <div class="form-group champs">
                                     <label for="exampleInputEmail1">Fonction</label>
-                                    <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" name="Fonction">
+                                    <input type="text" class="formWhite" id="exampleInputEmail1" name="Fonction">
 
                                 </div>
                                 <div class="form-group champs">
                                     <label for="exampleInputEmail1">Tel.</label>
-                                    <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" name="Tel">
+                                    <input type="text" class="formWhite" id="exampleInputEmail1" name="Tel">
 
                                 </div>
 
                                 <div class="form-group champs">
                                     <label for="exampleInputEmail1">Email</label>
-                                    <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" name="Email">
+                                    <input type="email" class="formWhite" id="exampleInputEmail1" name="Email">
 
                                 </div>
 
                                 <div class="form-group champs">
                                     <label for="exampleInputEmail1">Ville</label>
-                                    <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" name="Ville">
+                                    <input type="text" class="formWhite" id="exampleInputEmail1" name="Ville">
 
-                                </div>-
+                                </div>
 
                                 <div class="form-group champs">
                                     <label for="exampleInputEmail1">Pays</label>
-                                    <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" name="Pays">
+                                    <input type="text" class="formWhite" id="exampleInputEmail1" name="Pays">
 
                                 </div>
 
@@ -158,7 +158,7 @@
 
                                 <div class="form-group">
                                     <label for="exampleFormControlTextarea1">Object (facultatif)</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" name="Object"></textarea>
+                                    <textarea class="formWhiteObject" id="exampleFormControlTextarea1" rows="6" name="Object"></textarea>
                                 </div>
 
                                 <div class="souscrire">
@@ -198,7 +198,7 @@
                         <a class="cercleFormTitres titreSolution">Solution  & coaching</a>
 
                         <div class="cercleForm cercle4"></div>
-                        <a class="cercleFormTitres titreProfile">Profile</a>
+                        <a class="cercleFormTitres titreProfile">Profils</a>
 
 
                     </div>

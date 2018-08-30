@@ -266,8 +266,8 @@ bouttonSui.addEventListener('click', () => {
 
     for (a = 0; a <= 28; a++) {
         if (tab[a]) {
-            list.innerHTML += '<div class="form-group ecart"><textarea class="form-control" id="exampleFormControlTextarea2" rows="1" name="Formaton' + a + '"> ' + tab[a] + '</textarea></div>'
-            listNbrs.innerHTML += ' <div class="form-group ecart"><textarea class="form-control" id="exampleFormControlTextarea1" rows="1" name="Nombre_de_personne' + a + '"></textarea> </div>'
+            list.innerHTML += '<div class="form-group ecart"><textarea class="formWhiteArea" id="exampleFormControlTextarea2" rows="1" name="Formaton' + a + '"> ' + tab[a] + '</textarea></div>'
+            listNbrs.innerHTML += ' <div class="form-group ecart"><textarea class="formWhiteArea" id="exampleFormControlTextarea1" rows="1" name="Nombre_de_personne' + a + '"></textarea> </div>'
 
         } else {
             list.innerHTML += ''
