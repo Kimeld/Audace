@@ -9,20 +9,20 @@ define('DB_PASS', 'audace98douk');
 
 define('DB_PASS', 'Oser&reussir2018');
 */
-
-define('DB_HOST', 'localhost');
-define('DB_PORT', '3306');
-define('DB_NAME', 'apart521_ac');
-define('DB_USER', 'apart521_ac');
-define('DB_PASS', 'Oser&reussir2018');
-
 /*
 define('DB_HOST', 'localhost');
 define('DB_PORT', '3306');
 define('DB_NAME', 'apart521_ac');
 define('DB_USER', 'apart521_ac');
-define('DB_PASS', 'ac0ser&reussir');
+define('DB_PASS', 'Oser&reussir2018');
 */
+
+define('DB_HOST', 'localhost');
+define('DB_PORT', '3306');
+define('DB_NAME', 'audace_consulting');
+define('DB_USER', 'root');
+define('DB_PASS', 'root');
+
 try
 {
     // Try to connect to database

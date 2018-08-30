@@ -78,9 +78,9 @@ window.setTimeout(() => {
 
 sm1.innerHTML = 'Selling School '
 sm2.innerHTML = 'Management School'
-sm3.innerHTML = 'Coaching'
+sm5.innerHTML = 'Coaching'
 sm4.innerHTML = 'Digital learning'
-sm5.innerHTML = 'Quizz'
+sm3.innerHTML = 'Profils'
 
 /*
 sm1.setAttribute('href', 'audit.html')
@@ -148,7 +148,7 @@ sm2.addEventListener('click', () => {
 
 })
 
-sm3.addEventListener('click', () => {
+sm5.addEventListener('click', () => {
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
@@ -210,7 +210,7 @@ sm4.addEventListener('click', () => {
 
 })
 
-sm5.addEventListener('click', () => {
+sm3.addEventListener('click', () => {
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
@@ -256,8 +256,8 @@ forum.addEventListener('click', () => {
 
     sm5.innerHTML = ''
     sm1.innerHTML = '<a class="deco" href="news.html">À la une</a>'
-    sm2.innerHTML = '<a class="deco" href="inscription.html">Contact</a>'
-    sm3.innerHTML = '<a class="deco" href="devis.html">Devis</a>'
+    sm2.innerHTML = '<a class="deco" href="inscription.php">Contact</a>'
+    sm3.innerHTML = '<a class="deco" href="devis.php">Devis</a>'
     sm4.innerHTML = ''
 
       sm1.setAttribute('href', 'news.html')
@@ -348,7 +348,7 @@ Msm2.addEventListener('click', () => {
 
 })
 
-Msm3.addEventListener('click', () => {
+Msm5.addEventListener('click', () => {
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
@@ -428,7 +428,7 @@ Msm4.addEventListener('click', () => {
 
 })
 
-Msm5.addEventListener('click', () => {
+Msm3.addEventListener('click', () => {
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')

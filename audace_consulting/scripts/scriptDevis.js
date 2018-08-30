@@ -303,7 +303,8 @@ bouttonSui.addEventListener('click', () => {
 
         } else if (i == 2) {
             rep3.classList.add('repActive')
-            bouttonPre.classList.remove('preInvi')
+            bouttonPre.classList.add('preInvi')
+            bouttonSui.classList.add('preInvi')
 
             contenu2.classList.remove('contenuActive')
             contenu2.classList.add('contenuNoActive')

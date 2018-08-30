@@ -161,9 +161,9 @@
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" name="Object"></textarea>
                                 </div>
 
-                                 <div class="souscrire">
-                                <img class="souscrireImg" src="../images/Bouton%20gris%20Valider.png" alt="">
-                            </div>
+                                <div class="souscrire">
+                                    <img class="souscrireImg" src="../images/Bouton%20gris%20Valider.png" alt="">
+                                </div>
                                 <input class="submit offset-1" type="submit">
                             </div>
 
@@ -340,9 +340,9 @@ un board<img class="checkBoard" src="../images/plus-circle.png" alt=""></span></
                     <p>Vos programmes choisi :</p>
                 </div>
                 <div class="form f col-12 offset-0 col-sm-8 offset-sm-2 ">
-                   <form class="" action="#" method="post">
-                    <div class="row align-items-start">
-                        
+                    <form class="" action="#" method="post">
+                        <div class="row align-items-start">
+
                             <div class="listGroupe col-5 offset-1 offset-sm-2">
                                 <img src="../images/shopping-cart-empty-side-view.png" alt="">
                                 <div class="list">
@@ -356,12 +356,16 @@ un board<img class="checkBoard" src="../images/plus-circle.png" alt=""></span></
                                 <div class="form-group ecart listNbrs">
 
                                 </div>
+
+                                <div class="souscrire2">
+                                    <img class="souscrireImg2" src="../images/Bouton%20gris%20Valider.png" alt="">
+                                </div>
                                 <input class="submit0" type="submit">
 
 
                             </div>
-                        
-                    </div>
+
+                        </div>
                     </form>
                 </div>
             </div>
@@ -398,45 +402,45 @@ un board<img class="checkBoard" src="../images/plus-circle.png" alt=""></span></
 
         <div class="none tabForm1"><?= json_encode($_GET); ?></div>
         <div class="none tabForm2"><?= json_encode($_POST); ?></div>
-   
-                <footer class="container-fluid footer">
 
-                    <div class="arbo col-6 col-sm-3 offset-0 col-md-3 offset-md-2 col-lg-3 offset-md-3">
-                        <div><a href="#">Home</a></div>
-                        <div><a href="#">Qui sommes nous ?</a></div>
-                        <div><a href="#">Conseil</a></div>
-                        <div><a href="#">Formations</a></div>
-                        <div><a href="#">Solutions et coaching</a></div>
-                        <div><a href="#">forum</a></div>
-                    </div>
-                    <div class="contact col-3 offset-0 offset-sm-4 offset-md-1 ">
-                        <div><a href="inscription.html">Contact</a></div>
-                        <div><a href="inscription.html">NewsLetter</a></div>
-                        <div><a href="devis.html">Devis</a></div>
+        <footer class="container-fluid footer">
 
-                        <div class="network">
-                            <a href="https://www.facebook.com/audaceconsulting/?hc_ref=ARSvORTghtA3nkvlstqvfWbaAsXkeQbCSBmkZmNTZ9nlYZQsUQ9roXzqPq75S8y1_oM&fref=nf" class="face"><img src="../images/facebook.svg" alt=""></a>
-                            <a href="https://www.linkedin.com/company/audace-consulting/" class="linke"><img src="../images/linkedin.svg" alt=""></a>
-                        </div>
-                    </div>
+            <div class="arbo col-6 col-sm-3 offset-0 col-md-3 offset-md-2 col-lg-3 offset-md-3">
+                <div><a href="#">Home</a></div>
+                <div><a href="#">Qui sommes nous ?</a></div>
+                <div><a href="#">Conseil</a></div>
+                <div><a href="#">Formations</a></div>
+                <div><a href="#">Solutions et coaching</a></div>
+                <div><a href="#">forum</a></div>
+            </div>
+            <div class="contact col-3 offset-0 offset-sm-4 offset-md-1 ">
+                <div><a href="inscription.html">Contact</a></div>
+                <div><a href="inscription.html">NewsLetter</a></div>
+                <div><a href="devis.html">Devis</a></div>
 
-
-
-                    </div>
-
-
-                </footer>
+                <div class="network">
+                    <a href="https://www.facebook.com/audaceconsulting/?hc_ref=ARSvORTghtA3nkvlstqvfWbaAsXkeQbCSBmkZmNTZ9nlYZQsUQ9roXzqPq75S8y1_oM&fref=nf" class="face"><img src="../images/facebook.svg" alt=""></a>
+                    <a href="https://www.linkedin.com/company/audace-consulting/" class="linke"><img src="../images/linkedin.svg" alt=""></a>
+                </div>
+            </div>
 
 
 
+            </div>
 
 
-                <script src="../scripts/scriptForum.js"></script>
-                <script src="../scripts/scriptDevis.js"></script>
-                <script src="../scripts/bootstrap.min.js"></script>
-                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        </footer>
+
+
+
+
+
+        <script src="../scripts/scriptForum.js"></script>
+        <script src="../scripts/scriptDevis.js"></script>
+        <script src="../scripts/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     </body>
 
     </html>

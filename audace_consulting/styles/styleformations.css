@@ -473,7 +473,7 @@
 
 
 .titreModuleNego {
-    transform: translateX(-26%);
+    transform: translateX(-2%);
 }
 
 /*
@@ -986,8 +986,14 @@
         background-image: url(../images/Communication.png);
 
     }
+    
+    .mobileFormation {
+        background-image: url(../images/Formations.png);
+
+    }
+    
     .mobileFormateur {
-        background-image: url(../images/Formation-formateurs.png);
+        background-image: url(../images/Formateur-formateur.png);
 
     }
 

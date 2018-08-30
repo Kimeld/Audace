@@ -131,7 +131,7 @@
     }
 }
 
-.imgEquipe {
+.imgQSN {
     width: 595px;
     height: 300px;
     top: 150px;
@@ -392,6 +392,17 @@
         background-image: url(../images/Selling-school.png);
 
     }
+    
+       .mobileFormation {
+        background-image: url(../images/Formations.png);
+
+    }
+    
+    .mobileFormateur {
+        background-image: url(../images/Formateur-formateur.png);
+
+    }
+
     
      
 

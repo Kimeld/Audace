@@ -105,6 +105,9 @@ let paraMpop41 = document.querySelector(".paraMpop41")
 let paraMpop42 = document.querySelector(".paraMpop42")
 let paraMpop43 = document.querySelector(".paraMpop43")
 
+let timeForma = document.querySelector(".sablier div")
+let timeForma0 = document.querySelectorAll(".sablier1 div")
+
 let i = 0
 let e = 5
 
@@ -133,7 +136,7 @@ let popupTitrePosition = "Position n+1"
 let popupBenef = "A l’issue de la formation chaque participant connaitra et pourra appliquer les bases du management."
 let popupObjectifPosition = "Savoir adopter une posture managériale avec son équipe <br> Savoir adopter une communication efficace et productive"
 let popupCompPosition = "Comprendre et s’approprier la posture managériale adéquate et les techniques de debrief <br> – S’approprier la communication assertive <br> – Savoir formuler un feedback objectif, productif et permetant la mise en énergie des participants"
-let popupTimePosition = ""
+let popupTimePosition = "3 jours"
 
 let popupTitreCouleurMan = "Couleurs du management"
 let popupBenefCouleurMan = "Les couleurs du management permet à tout manager de reconnaître le comportement de chaque membre de son équipe afin d’adapter sa communication et ainsi optimiser la performance collective."
@@ -141,94 +144,96 @@ let popupObjectifCouleurMan = "Savoir adopter une posture managériale avec son 
 let popupCompCouleurMan = "Comprendre et s’approprier la posture managériale adéquate et les techniques de debrief <br> S’approprier la communication assertive <br> Savoir formuler un feedback objectif, productif et permetant la mise en énergie des participants"
 let popupTimeCouleurMan = ""
 
-let popupTitreManagementSitu = ""
-let popupBenefManagementSitu = ""
-let popupObjectifManagementSitu = ""
-let popupCompManagementSitu = ""
+let popupTitreManagementSitu = "Management situationnel"
+let popupBenefManagementSitu = "Le management situationnel permet de manager chaque membre de l’équipe en fonction de sa motivation et de son niveau d’expertise. Un management sur mesure en fonction des différentes missions"
+let popupObjectifManagementSitu = "Savoir manager en fonction du niveau de développement de chaque membre de son équipe"
+let popupCompManagementSitu = "Savoir reconnaitre et s’adapter au DEMA de chaque <br> collaborateur <br> Savoir diagnostiquer le niveau de développement<br> Savoir manager en fonction du niveau de développement <br> et en fonction des situations"
 let popupTimeManagementSitu = ""
 
-let popupTitreManaMoti = ""
-let popupBenefManaMoti = ""
-let popupObjectifManaMoti = ""
-let popupCompManaMoti = ""
+let popupTitreManaMoti = "Management motivationnel"
+let popupBenefManaMoti = "Le management motivationnel permet au manager d’être proche de ses collaborateurs et de travailler dans un partenariat qui les motive dans leur quotidien"
+let popupObjectifManaMoti = "Savoir manager dans un esprit motivationnel <br> Savoir manager avec les compétences motivationnel <br> Savoir manager avec les processus motivationnel"
+let popupCompManaMoti = "Savoir manager dans le partenariat avec empathie <br> Savoir accompagner son collaborateurs dans l’évocation <br> Savoir être centré sur son collaborateur <br> Savoir utiliser les processus motivationnel pour accompagner son collaborateur dans ses plans d’action"
 let popupTimeManaMoti = ""
 
-let popupTitreManaPro = ""
-let popupBenefManaPro = ""
-let popupObjectifManaPro = ""
-let popupCompManaPro = ""
+let popupTitreManaPro = "Management de projet"
+let popupBenefManaPro = "Le chef de projet saura mener un projet avec plus d’aisance, afin d’atteindre des résultats et de fédérer un certain nombre de personnes autour de l’atteinte de résultats"
+let popupObjectifManaPro = "Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> Savoir mener un projet"
+let popupCompManaPro = "Comprendre le Business case <br> Savoir construire son Business case <br> S’approprier les comportements qui favorisent la décision <br> Apprendre à gérer les liens avec les différents acteurs <br> Savoir clôturer le projet"
 let popupTimeManaPro = ""
 
-let popupTitreTech = ""
-let popupBenefTech = ""
-let popupObjectifTech = ""
-let popupCompTech = ""
+let popupTitreTech = "Techniques de vente"
+let popupBenefTech = "Le chef de projet saura mener un projet avec plus d’aisance, afin d’ateindre des résultats et de fédérer un certain nombre de personnes autour de l’ateinte de résultats"
+let popupObjectifTech = "Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> Savoir mener un projet"
+let popupCompTech = "Comprendre ce qu’est un business case <br> Savoir construire son Business case <br> S’approprier les comportements qui favorisent la décision <br> Apprendre à gérer les liens avec les différents acteurs <br> Savoir Clôturer le projet"
 let popupTimeTech = ""
 
-let popupTitreCoulVente = ""
-let popupBenefCoulVente = ""
-let popupObjectifCoulVente = ""
-let popupCompCoulVente = ""
+let popupTitreCoulVente = "Couleurs de la vente"
+let popupBenefCoulVente = "Chaque participant sera capable d’adapter les 4 comportements lors de ses face-faces pour obtenir davantage d’adhésion"
+let popupObjectifCoulVente = "Être capable d’adapter sa communication face-face après avoir reconnu les préférences comportementales de ses interlocuteurs"
+let popupCompCoulVente = "– Savoir adopter les codes de communication des 4 comportements dominants <br> – Savoir appliquer les 4 comportements aux différentes étapes de la vente<br> – S’entraîner à gérer les typologies opposées"
 let popupTimeCoulVente = ""
 
-let popupTitreVenteAss = ""
-let popupBenefVenteAss = ""
-let popupObjectifVenteAss = ""
-let popupCompVenteAss = ""
+let popupTitreVenteAss = "Vente assertive"
+let popupBenefVenteAss = "À l’issue de la formation chaque participant pourra gérer une situation de vente face face avec authenticité pour créer un vrai partenariat avec son client"
+let popupObjectifVenteAss = "Être capable de défendre son point de vue au cours d’une vente avec assurance.<br>Savoir entendre un point de vue opposé avec sérénité et avec assertivité."
+let popupCompVenteAss = "Savoir utiliser le DESC, dire oui ou dire non <br> Savoir présenter l’objectif de sa visite afin de le faire accepter <br> Savoir questionner sans freins personnels pour obtenir les informations cruciales et les motivations <br> Savoir adopter une argumentation convaincante et ciblée sans crainte <br>  Gérer ses peurs pour oser conclure, s’engager et engager <br> Savoir dire oui et non. "
 let popupTimeVenteAss = ""
 
-let popupTitreNego = ""
-let popupBenefNego = ""
-let popupObjectifNego = ""
-let popupCompNego = ""
+let popupTitreNego = "Communiquer avec assertivité"
+let popupBenefNego = "A l’issue de la formation chaque participant sera capable d’oser dire en toute légitimité et oser entendre avec empathie quelque soit les situations rencontrées"
+let popupObjectifNego = "Être capable d’adopter une posture assertive pour communiquer avec authenticité et développer une coopération <br> Oser entendre et oser dire en toute légitimité et en toutes situations"
+let popupCompNego = "Savoir adopter une posture Assertive <br> S’approprier la méthodologie de la communication assertive <br> Savoir gérer les situations avec assertivité"
 let popupTimeNego = ""
 
-let popupTitreFlex = ""
-let popupBenefFlex = ""
-let popupObjectifFlex = ""
-let popupCompFlex = ""
+
+let popupTitreFlex = "La flexibilité relationnelle"
+let popupBenefFlex = "A l’issue de la formation chaque participant aura une meilleure connaissance de soi et des autres, sera capable d’adopter une communication plus flexible pour une mise en relation plus efficace"
+let popupObjectifFlex = "Etre capable de décrypter les comportements de ses interlocuteurs pour adapter sa communication"
+let popupCompFlex = "Savoir reconnaître les 4 comportements du modèle couleur <br> Savoir faire preuve de flexibilité comportementale face aux 4 comportements <br> Savoir adopter la communication des 4 comportements du modèle couleur"
 let popupTimeFlex = ""
 
-let popupTitreComAss = ""
-let popupBenefComAss = ""
-let popupObjectifComAss = ""
-let popupCompComAss = ""
+let popupTitreComAss = "Communiquer avec assertivité"
+let popupBenefComAss = "A l’issue de la formation chaque participant sera capable d’oser dire en toute légitimité et oser entendre avec empathie quelque soit les situations rencontrées"
+let popupObjectifComAss = "–Être capable d’adopter une posture assertive pour communiquer avec authenticité et développer une coopération <br> Oser entendre et oser dire en toute légitimité et en toutes situations"
+let popupCompComAss = "Savoir adopter une posture Assertive <br> S’approprier la méthodologie de la communication assertive <br> Savoir gérer les situations avec assertivité"
 let popupTimeComAss = ""
 
-let popupTitreSituDel = ""
-let popupBenefSituDel = ""
-let popupObjectifSituDel = ""
-let popupCompSituDel = ""
+let popupTitreSituDel = "Gestion des situations délicates"
+let popupBenefSituDel = "A l’issue de la formation chaque participant sera capable d’analyser sa situation et de l’aborder sous un autre angle"
+let popupObjectifSituDel = "– Être capable d’appréhender les situations délicates sous d’autres angles afin d’adopter l’approche relationnelle, la stratégie de négociation et/ou la décision adéquates."
+let popupCompSituDel = "Savoir reconnaître la nature de la situation <br> Savoir gérer des situations d’ordre Relationnel <br> Savoir gérer des situations qui relèvent de la Négociation <br> Savoir gérer des situations qui relèvent à la fois de la Relation et de la Négociation"
 let popupTimeSituDel = ""
 
-let popupTitreParolePub = ""
-let popupBenefParolePub = ""
-let popupObjectifParolePub = ""
-let popupCompParolePub = ""
+
+let popupTitreParolePub = "Prise de parole en public"
+let popupBenefParolePub = "A l’issue de la formation chaque participant sera capable de réaliser des présentations impactantes  et percutantes"
+let popupObjectifParolePub = "- Être capable de prendre la parole en public avec aisance et d’animer ses 	présentations avec efficacité et fluidité dans l’atteinte d’un objectif prédéfini"
+let popupCompParolePub = "Savoir préparer sa prise de parole en public <br>Savoir définir le fond et trouver la forme du message<br>Savoir introduire et conclure sa prise de parole en public"
 let popupTimeParolePub = ""
 
-let popupTitreBoard = ""
-let popupBenefBoard = ""
-let popupObjectifBoard = ""
-let popupCompBoard = ""
+let popupTitreBoard = "Gérer un board"
+let popupBenefBoard = "A l’issue de la formation chaque participant sera capable de gérer un board avec aisance et sérénité pour faciliter la production de livrables"
+let popupObjectifBoard = "Être capable d’animer un board avec professionnalisme et de gérer les différents comportements des participants"
+let popupCompBoard = "S’approprier les techniques d’animation de groupes<br> S’approprier les techniques de conduite de débats<br> Savoir adopter la posture d’animateur de débat communiquer avec un interlocuteur avec un comportement différent"
 let popupTimeBoard = ""
 
-let popupTitreFormaAnim = ""
-let popupBenefFormaAnim = ""
-let popupObjectifFormaAnim = ""
-let popupCompFormaAnim = ""
+let popupTitreFormaAnim = "Formateur animateur"
+let popupBenefFormaAnim = "A l’issue de la formation, chaque formateur saura animer des sessions de formations dans un climat permettant le développement des compétences de ses participants"
+let popupObjectifFormaAnim = "Apprendre à animer une session de formation <br> S’approprier les techniques de transmission des savoirs <br> S’approprier les techniques d’animation"
+let popupCompFormaAnim = "Comprendre et apprendre  à gérer le comportement de l’apprenant <br> S’approprier la posture du formateur <br> Apprendre à  gérer les moments clés de la formation"
 let popupTimeFormaAnim = ""
 
-let popupTitreFormaCoach = ""
-let popupBenefFormaCoach = ""
-let popupObjectifFormaCoach = ""
-let popupCompFormaCoach = ""
+let popupTitreFormaCoach = "Formateur coach"
+let popupBenefFormaCoach = "A l’issue de la formation chaque formateur pourra coacher ses apprenants dans le développement de leurs compétences"
+let popupObjectifFormaCoach = "Apprendre à accompagner  et à coacher sur le terrain les stagiaires en formation dans l’objectif de les développer et de pérenniser les acquis de la formation"
+let popupCompFormaCoach = "Savoir faire preuve de flexibilité comportementale <br> Savoir repérer la motivation des apprenants <br> Savoir faire un feedback aux apprenants<br> Savoir coacher les apprenants par la définition d’objectifs adéquats"
 let popupTimeFormaCoach = ""
 
-let popupTitreFormaAss = ""
-let popupBenefFormaAss = ""
-let popupObjectifFormaAss = ""
-let popupCompFormaAss = ""
+let popupTitreFormaAss = "Formateur assertif"
+let popupBenefFormaAss = "A la fin de la formation chaque participant sera capable de se positionner en tant que formateur en toute légitimité face à ses apprenants.n"
+let popupObjectifFormaAss = "A la fin de la formation chaque participant sera capable de former les apprenants avec une posture assertive, de coopération et de gérer les différentes situations rencontrées lors des sessions de formation"
+let popupCompFormaAss = "– Savoir utiliser la méthode DESC en toute situation <br> - Savoir dire non, savoir dire oui à un apprenant <br> - Savoir faire une critique et faire face à une critique <br> - Savoir formuler une demande"
 let popupTimeFormaAss = ""
 
 
@@ -364,65 +369,94 @@ if (key.innerHTML == 'comunication') {
 
     popOne.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'La flexibilité relationnelle'
+        titrePopUp.innerHTML = popupTitrePosition
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'A l’issue de la formation chaque participant aura une meilleure connaissance de soi et des autres, sera capable d’adopter une communication plus flexible pour une mise en relation plus efficace'
+        firstTexteP.innerHTML = popupBenef
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Etre capable de décrypter les comportements de ses interlocuteurs pour adapter sa communication'
-        thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '- Savoir reconnaître les 4 comportements du modèle couleur <br> - Savoir faire preuve de flexibilité comportementale face aux 4 comportements <br> - Savoir adopter la communication des 4 comportements du modèle couleur'
-        imgPop.classList.add('flexiRelaImg')
-
+        secondTexteP.innerHTML = popupObjectifPosition
+        thirdTexteH2.innerHTML = 'Compétences à développer'
+        thirdTexteP.innerHTML = popupCompPosition
+        imgPop.classList.add('positionImg')
+        timeForma.innerHTML = popupTimePosition 
 
     })
     popTwo.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Communiquer avec assertivité'
+        titrePopUp.innerHTML = popupTitreCouleurMan
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'A l’issue de la formation chaque participant sera capable d’oser dire en toute légitimité et oser entendre avec empathie quelque soit les situations rencontrées'
+        firstTexteP.innerHTML = popupBenefCouleurMan
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Être capable d’adopter une posture assertive pour communiquer avec authenticité et développer une coopération <br> Oser entendre et oser dire en toute légitimité et en toutes situations'
+        secondTexteP.innerHTML = popupObjectifCouleurMan
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Savoir adopter une posture Assertive <br> - S’approprier la méthodologie de la communication assertive <br> -Savoir gérer les situations avec assertivité'
-        imgPop.classList.add('comAssertivImg')
+        thirdTexteP.innerHTML = popupCompCouleurMan
+        imgPop.classList.add('FlxibilitImg')
+        timeForma.innerHTML = popupTimeCompCouleurMan
 
     })
     popThree.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Gestion des situations délicates'
+        titrePopUp.innerHTML = popupTitreManagementSitu
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'A l’issue de la formation chaque participant sera capable d’analyser sa situation et de l’aborder sous un autre angle'
+        firstTexteP.innerHTML = popupBenefManagementSitu
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Être capable d’appréhender les situations délicates sous d’autres angles afin d’adopter l’approche relationnelle, la stratégie de négociation et/ou la décision adéquates.'
+        secondTexteP.innerHTML = popupObjectifManagementSitu
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '–  Savoir reconnaître la nature de la situation <br> - Savoir gérer des situations d’ordre Relationnel <br> - Savoir gérer des situations qui relèvent de la Négociation <br> - Savoir gérer des situations qui relèvent à la fois de la Relation et de la Négociation'
-        imgPop.classList.add('gestionImg')
+        thirdTexteP.innerHTML = popupCompManagementSitu
+        imgPop.classList.add('managementSituImg')
+        timeForma.innerHTML = popupTimeManagementSitu
 
     })
     popFour.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Prise de parole en public'
+        titrePopUp.innerHTML = popupTitreManaMoti
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'A l’issue de la formation chaque participant sera capable de réaliser des présentations impactantes  et percutantes'
+        firstTexteP.innerHTML = popupBenefManaMoti
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '- Être capable de prendre la parole en public avec aisance et d’animer ses 	présentations avec efficacité et fluidité dans l’atteinte d’un objectif prédéfini'
+        secondTexteP.innerHTML = popupObjectifManaMoti
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Savoir préparer sa prise de parole en public <br> -Savoir définir le fond et trouver la forme du message<br> -Savoir introduire et conclure sa prise de parole en public'
-        imgPop.classList.add('parlerImg')
+        thirdTexteP.innerHTML = popupCompManaMoti
+        imgPop.classList.add('managementMotivImg')
+        timeForma.innerHTML = popupTimeManagementMoti
 
     })
     popFive.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Gérer un board'
+        titrePopUp.innerHTML = popupTitreManaPro
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'A l’issue de la formation chaque participant sera capable de gérer un board avec aisance et sérénité pour faciliter la production de livrables'
+        firstTexteP.innerHTML = popupBenefManaPro
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '- Être capable d’animer un board avec professionnalisme et de gérer les différents comportements des participants'
-        thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– S’approprier les techniques d’animation de groupes<br> - S’approprier les techniques de conduite de débats<br> - Savoir adopter la posture d’animateur de débat communiquer avec un interlocuteur avec un comportement différent'
-        imgPop.classList.add('boardImg')
+        secondTexteP.innerHTML = popupObjectifManaPro
+        thirdTexteH2.innerHTML = 'Compétences à développer'
+        thirdTexteP.innerHTML = popupCompManaPro
+        imgPop.classList.add('managementProjetImg')
+        timeForma.innerHTML = popupTimeManaPro
 
     })
+
+     titreMpop0.innerHTML = popupTitreFlex
+    paraMpop01.innerHTML = popupBenefFlex
+    paraMpop02.innerHTML = popupObjectifFlex
+    paraMpop03.innerHTML = popupCompFlex
+
+    titreMpop1.innerHTML = popupTitreComAss
+    paraMpop11.innerHTML = popupBenefComAss
+    paraMpop12.innerHTML = popupObjectifComAss
+    paraMpop13.innerHTML = popupCompComAss
+
+    titreMpop2.innerHTML = popupTitreSituDel
+    paraMpop21.innerHTML = popupBenefSituDel
+    paraMpop22.innerHTML = popupObjectifSituDel
+    paraMpop23.innerHTML = popupCompComAss
+
+    titreMpop3.innerHTML = popupTitreParolePub
+    paraMpop31.innerHTML = popupBenefParolePub
+    paraMpop32.innerHTML = popupObjectifParolePub
+    paraMpop33.innerHTML = popupCompParolePub
+
+    titreMpop4.innerHTML = popupTitreBoard
+    paraMpop41.innerHTML = popupBenefBoard
+    paraMpop42.innerHTML = popupObjectifBoard
+    paraMpop43.innerHTML = popupCompBoard
 
 
 } 
@@ -528,7 +562,7 @@ else if (key.innerHTML == 'mana') {
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = 'Comprendre et s’approprier la posture managériale adéquate et les techniques de debrief <br> – S’approprier la communication assertive <br> – Savoir formuler un feedback objectif, productif et permetant la mise en énergie des participants'
         imgPop.classList.add('positionImg')
-
+        timeForma.innerHTML = popupTimePosition 
     })
     popTwo.addEventListener('click', () => {
 
@@ -578,6 +612,38 @@ else if (key.innerHTML == 'mana') {
         imgPop.classList.add('managementProjetImg')
 
     })
+    
+     titreMpop0.innerHTML = popupTitrePosition
+    paraMpop01.innerHTML = popupTitrePosition
+    paraMpop02.innerHTML = popupObjectifPosition
+    paraMpop03.innerHTML = popupCompPosition
+    timeForma0[0].innerHTML = popupTimePosition 
+
+    titreMpop1.innerHTML = popupTitreCouleurMan
+    paraMpop11.innerHTML = popupBenefCouleurMan
+    paraMpop12.innerHTML = popupObjectifCouleurMan
+    paraMpop13.innerHTML = popupCompCouleurMan
+    timeForma0[1].innerHTML = popupTimePosition
+
+    titreMpop2.innerHTML = popupTitreManagementSitu
+    paraMpop21.innerHTML = popupBenefManagementSitu
+    paraMpop22.innerHTML = popupObjectifManagementSitu
+    paraMpop23.innerHTML = popupCompManagementSitu
+     timeForma0[2].innerHTML = popupTimePosition
+
+    titreMpop3.innerHTML = popupTitreManaMoti
+    paraMpop31.innerHTML = popupBenefManaMoti
+    paraMpop32.innerHTML = popupObjectifManaMoti
+    paraMpop33.innerHTML = popupCompManaMoti
+     timeForma0[3].innerHTML = popupTimePosition
+
+    titreMpop4.innerHTML = popupTitreManaPro
+    paraMpop41.innerHTML = popupBenefManaPro
+    paraMpop42.innerHTML = popupObjectifManaPro
+    paraMpop43.innerHTML = popupCompManaPro
+     timeForma0[4].innerHTML = popupTimePosition
+
+
 
 
 } 
@@ -666,55 +732,82 @@ else if (key.innerHTML == 'vente') {
     imgPop.classList.remove('managementMotivImg')
     imgPop.classList.remove('managementProjetImg')
 
-    popOne.addEventListener('click', () => {
+     popOne.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Techniques de vente'
+        titrePopUp.innerHTML = popupTitreTech
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'Le chef de projet saura mener un projet avec plus d’aisance, afin d’ateindre des résultats et de fédérer un certain nombre de personnes autour de l’ateinte de résultats'
+        firstTexteP.innerHTML = popupBenefTech
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> – Savoir mener un projet'
+        secondTexteP.innerHTML = popupObjectifTech
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Comprendre ce qu’est un business case <br> – Savoir construire son Business case <br> – S’approprier les comportements qui favorisent la décision <br> – Apprendre à gérer les liens avec les différents acteurs <br> – Savoir Clôturer le projet'
+        thirdTexteP.innerHTML = popupCompTech
         imgPop.classList.add('techniqueImg')
+        timeForma.innerHTML = popupTimeTech
 
     })
     popTwo.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Couleurs de la vente'
+        titrePopUp.innerHTML = popupTitreCoulVente
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'Chaque participant sera capable d’adapter les 4 comportements lors de ses face-faces pour obtenir davantage d’adhésion'
+        firstTexteP.innerHTML = popupBenefCoulVente
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Être capable d’adapter sa communication face-face après avoir reconnu les préférences comportementales de ses interlocuteurs'
+        secondTexteP.innerHTML = popupObjectifCoulVente
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Savoir adopter les codes de communication des 4 comportements dominants <br> – Savoir appliquer les 4 comportements aux différentes étapes de la vente <br> – S’entraîner à gérer les typologies opposées'
+        thirdTexteP.innerHTML = popupCompCoulVente
         imgPop.classList.add('couleurImg')
+        timeForma.innerHTML = popupTimeCoulVente
 
     })
     popThree.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Vente assertive'
+        titrePopUp.innerHTML = popupTitreVenteAss
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'À l’issue de la formation chaque participant pourra gérer une situation de vente face face avec authenticité pour créer un vrai partenariat avec son client'
+        firstTexteP.innerHTML = popupBenefVenteAss
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '- Être capable de défendre son point de vue au cours d’une vente avec assurance.<br> - Savoir entendre un point de vue opposé avec sérénité et avec assertivité.'
+        secondTexteP.innerHTML = popupObjectifVenteAss
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Savoir utiliser le DESC, dire oui ou dire non <br> – Savoir présenter l’objectif de sa visite afin de le faire accepter <br> – Savoir questionner sans freins personnels pour obtenir les informations cruciales et les motivations <br> – Savoir adopter une argumentation convaincante et ciblée sans crainte <br>  – Gérer ses peurs pour oser conclure, s’engager et engager <br> - Savoir dire oui et non. '
+        thirdTexteP.innerHTML = popupCompVenteAss
         imgPop.classList.add('assertiveImg')
-
+        timeForma.innerHTML = popupTimeVenteAss
     })
     popFour.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'La négociation'
+        titrePopUp.innerHTML = popupTitreNego
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'À l’issue de la formation chaqueparticipant pourra négocier sans ambiguité afin d’aboutir à une coopération Gagnant/gagnant en toute sérénité'
+        firstTexteP.innerHTML = popupBenefNego
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Être capable d’adopter une posture de négociateur aguerri <br> – Être capable de négocier avec efficience dans une relation de coopération gagnant/gagnant'
-        thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Comprendre la différence entre vente et négociation <br>– Savoir préparer sa négociation : méthode et outils <br> – Savoir négocier de manière raisonnée en 3 temps <br> – Savoir gérer les situations difficiles'
+        secondTexteP.innerHTML = popupObjectifNego
+         thirdTexteH2.innerHTML = 'Compétences à développer '
+        thirdTexteP.innerHTML = popupCompNego
         imgPop.classList.add('negoImg')
+        timeForma.innerHTML = popupTimeNego
 
     })
 
+       titreMpop0.innerHTML = popupTitreTech
+    paraMpop01.innerHTML = popupBenefTech
+    paraMpop02.innerHTML = popupObjectifTech
+    paraMpop03.innerHTML = popupCompTech
+
+    titreMpop1.innerHTML = popupTitreCoulVente
+    paraMpop11.innerHTML = popupBenefCoulVente
+    paraMpop12.innerHTML = popupObjectifCoulVente
+    paraMpop13.innerHTML = popupCompCoulVente
+
+    titreMpop2.innerHTML = popupTitreVenteAss
+    paraMpop21.innerHTML = popupBenefVenteAss
+    paraMpop22.innerHTML = popupObjectifVenteAss
+    paraMpop23.innerHTML = popupCompVenteAss
+
+    titreMpop3.innerHTML = popupTitreNego
+    paraMpop31.innerHTML = popupBenefNego
+    paraMpop32.innerHTML = popupObjectifNego
+    paraMpop33.innerHTML = popupCompNego
+
+    titreMpop4.innerHTML = popupTitreFlex
+    paraMpop41.innerHTML = popupBenefFlex
+    paraMpop42.innerHTML = popupObjectifFlex
+    paraMpop43.innerHTML = popupCompFlex
 
 } 
 
@@ -812,40 +905,68 @@ else if (key.innerHTML == 'formateur') {
 
     popTwo.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Formateur animateur'
+        titrePopUp.innerHTML = popupTitreFormaAnim
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'A l’issue de la formation, chaque formateur saura animer des sessions de formations dans un climat permettant le développement des compétences de ses participants'
+        firstTexteP.innerHTML = popupBenefFormaAnim
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = 'Apprendre à animer une session de formation <br>S’approprier les techniques de transmission des savoirs <br>S’approprier les techniques d’animation'
+        secondTexteP.innerHTML = popupObjectifFormaAnim
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = 'Comprendre et apprendre  à gérer le comportement de l’apprenant <br>S’approprier la posture du formateur <br>Apprendre à  gérer les moments clés de la formation'
+        thirdTexteP.innerHTML = popupCompFormaAnim
         imgPop.classList.add('formateurImg')
+         timeForma.innerHTML = popupTimeFormaAnim
 
     })
     popThree.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Formateur coach '
+        titrePopUp.innerHTML = popupTitreFormaCoach
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'A l’issue de la formation chaque formateur pourra coacher ses apprenants dans le développement de leurs compétences '
+        firstTexteP.innerHTML = popupBenefFormaCoach
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = 'Apprendre à accompagner  et à coacher sur le terrain les stagiaires en formation dans l’objectif de les développer et de pérenniser les acquis de la formation'
+        secondTexteP.innerHTML = popupObjectifFormaCoach
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = 'Savoir faire preuve de flexibilité comportementale <br> Savoir repérer la motivation des apprenants <br>Savoir faire un feedback aux apprenants<br>Savoir coacher les apprenants par la définition d’objectifs adéquats'
+        thirdTexteP.innerHTML = popupCompFormaCoach
         imgPop.classList.add('coachImg')
+         timeForma.innerHTML = popupTimeFormaCoach
 
     })
     popFour.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Formateur assertif'
+        titrePopUp.innerHTML = popupTitreFormaAss
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'A la fin de la formation chaque participant sera capable de se positionner en tant que formateur en toute légitimité face à ses apprenants.'
+        firstTexteP.innerHTML = popupBenefFormaAss
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = 'A la fin de la formation chaque participant sera capable de former les apprenants avec une posture assertive, de coopération et de gérer les différentes situations rencontrées lors des sessions de formation'
+        secondTexteP.innerHTML = popupObjectifFormaAss
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = 'Savoir utiliser la méthode DESC en toute situation <br>Savoir dire non, savoir dire oui à un apprenant <br>Savoir faire une critique et faire face à une critique <br>Savoir formuler une demande'
+        thirdTexteP.innerHTML = popupCompFormaAss
         imgPop.classList.add('formatAssertifImg')
+         timeForma.innerHTML = popupTimeFormaAss
 
     })
+    
+     titreMpop0.innerHTML = popupTitreFormaAnim
+    paraMpop01.innerHTML = popupBenefFormaAnim
+    paraMpop02.innerHTML = popupObjectifFormaAnim
+    paraMpop03.innerHTML = popupCompFormaAnim
+
+    titreMpop1.innerHTML = popupTitreFormaCoach
+    paraMpop11.innerHTML = popupBenefFormaCoach
+    paraMpop12.innerHTML = popupObjectifFormaCoach
+    paraMpop13.innerHTML = popupCompFormaCoach
+
+    titreMpop2.innerHTML = popupTitreFormaAss
+    paraMpop21.innerHTML = popupBenefFormaAss
+    paraMpop22.innerHTML = popupObjectifFormaAss
+    paraMpop23.innerHTML = popupCompFormaAss
+
+    titreMpop3.innerHTML = ''
+    paraMpop31.innerHTML = ''
+    paraMpop32.innerHTML = ''
+    paraMpop33.innerHTML = ''
+
+    titreMpop4.innerHTML = ''
+    paraMpop41.innerHTML = ''
+    paraMpop42.innerHTML = ''
+    paraMpop43.innerHTML = ''
 
 }
 
@@ -960,9 +1081,10 @@ sm1.addEventListener('click', () => {
         firstTexteP.innerHTML = popupBenef
         secondTexteH2.innerHTML = 'Objectifs'
         secondTexteP.innerHTML = popupObjectifPosition
-        thirdTexteH2.innerHTML = 'Compétences à développer '
+        thirdTexteH2.innerHTML = 'Compétences à développer'
         thirdTexteP.innerHTML = popupCompPosition
         imgPop.classList.add('positionImg')
+        timeForma.innerHTML = popupTimePosition 
 
     })
     popTwo.addEventListener('click', () => {
@@ -975,42 +1097,46 @@ sm1.addEventListener('click', () => {
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = popupCompCouleurMan
         imgPop.classList.add('FlxibilitImg')
+        timeForma.innerHTML = popupTimeCompCouleurMan
 
     })
     popThree.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Management situationnel'
+        titrePopUp.innerHTML = popupTitreManagementSitu
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = ' Le management situationnel permet de manager chaque membre de l’équipe en fonction de sa motivation et de son niveau d’expertise. Un management sur mesure en fonction des différentes missions'
+        firstTexteP.innerHTML = popupBenefManagementSitu
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Savoir manager en fonction du niveau de développement de chaque membre de son équipe'
+        secondTexteP.innerHTML = popupObjectifManagementSitu
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Savoir reconnaitre et s’adapter au DEMA de chaque <br> collaborateur <br> – Savoir diagnostiquer le niveau de développement<br> – Savoir manager en fonction du niveau de développement <br> et en fonction des situations'
+        thirdTexteP.innerHTML = popupCompManagementSitu
         imgPop.classList.add('managementSituImg')
+        timeForma.innerHTML = popupTimeManagementSitu
 
     })
     popFour.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Management motivationnel'
+        titrePopUp.innerHTML = popupTitreManaMoti
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'Le management motivationnel permet au manager d’être proche de ses collaborateurs et de travailler dans un partenariat qui les motive dans leur quotidien'
+        firstTexteP.innerHTML = popupBenefManaMoti
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Savoir manager dans un esprit motivationnel <br> – Savoir manager avec les compétences motivationnel <br> – Savoir manager avec les processus motivationnel'
+        secondTexteP.innerHTML = popupObjectifManaMoti
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Savoir manager dans le partenariat avec empathie <br> – Savoir accompagner son collaborateurs dans l’évocation <br> – Savoir être centré sur son collaborateur <br> – Savoir utiliser les processus motivationnel pour accompagner son collaborateur dans ses plans d’action'
+        thirdTexteP.innerHTML = popupCompManaMoti
         imgPop.classList.add('managementMotivImg')
+        timeForma.innerHTML = popupTimeManagementMoti
 
     })
     popFive.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Management de projet'
+        titrePopUp.innerHTML = popupTitreManaPro
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'Le chef de projet saura mener un projet avec plus d’aisance, afin d’atteindre des résultats et de fédérer un certain nombre de personnes autour de l’atteinte de résultats'
+        firstTexteP.innerHTML = popupBenefManaPro
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> – Savoir mener un projet'
-        thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Comprendre le Business case <br>  – Savoir construire son Business case <br> – S’approprier les comportements qui favorisent la décision <br> – Apprendre à gérer les liens avec les différents acteurs <br> – Savoir clôturer le projet'
+        secondTexteP.innerHTML = popupObjectifManaPro
+        thirdTexteH2.innerHTML = 'Compétences à développer'
+        thirdTexteP.innerHTML = popupCompManaPro
         imgPop.classList.add('managementProjetImg')
+        timeForma.innerHTML = popupTimeManaPro
 
     })
 
@@ -1112,50 +1238,53 @@ sm2.addEventListener('click', () => {
 
     popOne.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Techniques de vente'
+        titrePopUp.innerHTML = popupTitreTech
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'Le chef de projet saura mener un projet avec plus d’aisance, afin d’ateindre des résultats et de fédérer un certain nombre de personnes autour de l’ateinte de résultats'
+        firstTexteP.innerHTML = popupBenefTech
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> – Savoir mener un projet'
+        secondTexteP.innerHTML = popupObjectifTech
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Comprendre ce qu’est un business case <br> – Savoir construire son Business case <br> – S’approprier les comportements qui favorisent la décision <br> – Apprendre à gérer les liens avec les différents acteurs <br> – Savoir Clôturer le projet'
+        thirdTexteP.innerHTML = popupCompTech
         imgPop.classList.add('techniqueImg')
+        timeForma.innerHTML = popupTimeTech
 
     })
     popTwo.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Couleurs de la vente'
+        titrePopUp.innerHTML = popupTitreCoulVente
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'Chaque participant sera capable d’adapter les 4 comportements lors de ses face-faces pour obtenir davantage d’adhésion'
+        firstTexteP.innerHTML = popupBenefCoulVente
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Être capable d’adapter sa communication face-face après avoir reconnu les préférences comportementales de ses interlocuteurs'
+        secondTexteP.innerHTML = popupObjectifCoulVente
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Savoir adopter les codes de communication des 4 comportements dominants <br> – Savoir appliquer les 4 comportements aux différentes étapes de la vente<br> – S’entraîner à gérer les typologies opposées'
+        thirdTexteP.innerHTML = popupCompCoulVente
         imgPop.classList.add('couleurImg')
+        timeForma.innerHTML = popupTimeCoulVente
 
     })
     popThree.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Vente assertive'
+        titrePopUp.innerHTML = popupTitreVenteAss
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'À l’issue de la formation chaque participant pourra gérer une situation de vente face face avec authenticité pour créer un vrai partenariat avec son client'
+        firstTexteP.innerHTML = popupBenefVenteAss
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '- Être capable de défendre son point de vue au cours d’une vente avec assurance.<br> - Savoir entendre un point de vue opposé avec sérénité et avec assertivité.'
+        secondTexteP.innerHTML = popupObjectifVenteAss
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Savoir utiliser le DESC, dire oui ou dire non <br> – Savoir présenter l’objectif de sa visite afin de le faire accepter <br> – Savoir questionner sans freins personnels pour obtenir les informations cruciales et les motivations <br> – Savoir adopter une argumentation convaincante et ciblée sans crainte <br>  – Gérer ses peurs pour oser conclure, s’engager et engager <br> - Savoir dire oui et non. '
+        thirdTexteP.innerHTML = popupCompVenteAss
         imgPop.classList.add('assertiveImg')
-
+        timeForma.innerHTML = popupTimeVenteAss
     })
     popFour.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'La négociation'
+        titrePopUp.innerHTML = popupTitreNego
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'À l’issue de la formation chaqueparticipant pourra négocier sans ambiguité afin d’aboutir à une coopération Gagnant/gagnant en toute sérénité'
+        firstTexteP.innerHTML = popupBenefNego
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Être capable d’adopter une posture de négociateur aguerri <br> – Être capable de négocier avec efficience dans une relation de coopération gagnant/gagnant'
-        thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Comprendre la différence entre vente et négociation <br>– Savoir préparer sa négociation : méthode et outils <br> – Savoir négocier de manière raisonnée en 3 temps <br> – Savoir gérer les situations difficiles'
+        secondTexteP.innerHTML = popupObjectifNego
+         thirdTexteH2.innerHTML = 'Compétences à développer '
+        thirdTexteP.innerHTML = popupCompNego
         imgPop.classList.add('negoImg')
+        timeForma.innerHTML = popupTimeNego
 
     })
 
@@ -1270,63 +1399,68 @@ sm3.addEventListener('click', () => {
 
     popOne.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'La flexibilité relationnelle'
+        titrePopUp.innerHTML = popupTitreFlex
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'A l’issue de la formation chaque participant aura une meilleure connaissance de soi et des autres, sera capable d’adopter une communication plus flexible pour une mise en relation plus efficace'
+        firstTexteP.innerHTML = popupBenefFlex
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Etre capable de décrypter les comportements de ses interlocuteurs pour adapter sa communication'
+        secondTexteP.innerHTML = popupObjectifFlex
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '- Savoir reconnaître les 4 comportements du modèle couleur <br> - Savoir faire preuve de flexibilité comportementale face aux 4 comportements <br> - Savoir adopter la communication des 4 comportements du modèle couleur'
+        thirdTexteP.innerHTML = popupCompFlex
         imgPop.classList.add('flexiRelaImg')
+        timeForma.innerHTML = popupTimeFlex
 
 
     })
     popTwo.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Communiquer avec assertivité'
+        titrePopUp.innerHTML = popupTitreComAss
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'A l’issue de la formation chaque participant sera capable d’oser dire en toute légitimité et oser entendre avec empathie quelque soit les situations rencontrées'
+        firstTexteP.innerHTML = popupBenefComAss
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Être capable d’adopter une posture assertive pour communiquer avec authenticité et développer une coopération <br> Oser entendre et oser dire en toute légitimité et en toutes situations'
+        secondTexteP.innerHTML = popupObjectifComAss
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Savoir adopter une posture Assertive <br> - S’approprier la méthodologie de la communication assertive <br> -Savoir gérer les situations avec assertivité'
+        thirdTexteP.innerHTML = popupCompComAss
         imgPop.classList.add('comAssertivImg')
+        timeForma.innerHTML = popupTimeComAss
 
     })
     popThree.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Gestion des situations délicates'
+        titrePopUp.innerHTML = popupTitreSituDel
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'A l’issue de la formation chaque participant sera capable d’analyser sa situation et de l’aborder sous un autre angle'
+        firstTexteP.innerHTML = popupBenefSituDel
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Être capable d’appréhender les situations délicates sous d’autres angles afin d’adopter l’approche relationnelle, la stratégie de négociation et/ou la décision adéquates.'
+        secondTexteP.innerHTML = popupObjectifSituDel
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '–  Savoir reconnaître la nature de la situation <br> - Savoir gérer des situations d’ordre Relationnel <br> - Savoir gérer des situations qui relèvent de la Négociation <br> - Savoir gérer des situations qui relèvent à la fois de la Relation et de la Négociation'
+        thirdTexteP.innerHTML = popupCompSituDel
         imgPop.classList.add('gestionImg')
+        timeForma.innerHTML = popupTimeSituDel
 
     })
     popFour.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Prise de parole en public'
+        titrePopUp.innerHTML = popupTitreParolePub
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'A l’issue de la formation chaque participant sera capable de réaliser des présentations impactantes  et percutantes'
+        firstTexteP.innerHTML = popupBenefParolePub
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '- Être capable de prendre la parole en public avec aisance et d’animer ses 	présentations avec efficacité et fluidité dans l’atteinte d’un objectif prédéfini'
+        secondTexteP.innerHTML = popupObjectifParolePub
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Savoir préparer sa prise de parole en public <br> -Savoir définir le fond et trouver la forme du message<br> -Savoir introduire et conclure sa prise de parole en public'
+        thirdTexteP.innerHTML = popupCompParolePub
         imgPop.classList.add('parlerImg')
+        timeForma.innerHTML = popupTimeParolePub
 
     })
     popFive.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Gérer un board'
+        titrePopUp.innerHTML = popupTitreBoard
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'A l’issue de la formation chaque participant sera capable de gérer un board avec aisance et sérénité pour faciliter la production de livrables'
+        firstTexteP.innerHTML = popupBenefBoard
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '- Être capable d’animer un board avec professionnalisme et de gérer les différents comportements des participants'
+        secondTexteP.innerHTML = popupObjectifBoard
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– S’approprier les techniques d’animation de groupes<br> - S’approprier les techniques de conduite de débats<br> - Savoir adopter la posture d’animateur de débat communiquer avec un interlocuteur avec un comportement différent'
+        thirdTexteP.innerHTML = popupCompBoard
         imgPop.classList.add('boardImg')
+        timeForma.innerHTML = popupTimeBoard
 
     })
 
@@ -1435,38 +1569,41 @@ sm4.addEventListener('click', () => {
 
     popTwo.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Formateur animateur'
+        titrePopUp.innerHTML = popupTitreFormaAnim
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'A l’issue de la formation, chaque formateur saura animer des sessions de formations dans un climat permettant le développement des compétences de ses participants'
+        firstTexteP.innerHTML = popupBenefFormaAnim
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Apprendre à animer une session de formation <br> -S’approprier les techniques de transmission des savoirs <br> -S’approprier les techniques d’animation'
+        secondTexteP.innerHTML = popupObjectifFormaAnim
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Comprendre et apprendre  à gérer le comportement de l’apprenant <br> - S’approprier la posture du formateur <br> - Apprendre à  gérer les moments clés de la formation'
+        thirdTexteP.innerHTML = popupCompFormaAnim
         imgPop.classList.add('formateurImg')
+         timeForma.innerHTML = popupTimeFormaAnim
 
     })
     popThree.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Formateur coach '
+        titrePopUp.innerHTML = popupTitreFormaCoach
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'A l’issue de la formation chaque formateur pourra coacher ses apprenants dans le développement de leurs compétences '
+        firstTexteP.innerHTML = popupBenefFormaCoach
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Apprendre à accompagner  et à coacher sur le terrain les stagiaires en formation dans l’objectif de les développer et de pérenniser les acquis de la formation'
+        secondTexteP.innerHTML = popupObjectifFormaCoach
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Savoir faire preuve de flexibilité comportementale <br> Savoir repérer la motivation des apprenants <br> -Savoir faire un feedback aux apprenants<br> - Savoir coacher les apprenants par la définition d’objectifs adéquats'
+        thirdTexteP.innerHTML = popupCompFormaCoach
         imgPop.classList.add('coachImg')
+         timeForma.innerHTML = popupTimeFormaCoach
 
     })
     popFour.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Formateur assertif'
+        titrePopUp.innerHTML = popupTitreFormaAss
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'A la fin de la formation chaque participant sera capable de se positionner en tant que formateur en toute légitimité face à ses apprenants.'
+        firstTexteP.innerHTML = popupBenefFormaAss
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– A la fin de la formation chaque participant sera capable de former les apprenants avec une posture assertive, de coopération et de gérer les différentes situations rencontrées lors des sessions de formation'
+        secondTexteP.innerHTML = popupObjectifFormaAss
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Savoir utiliser la méthode DESC en toute situation <br> - Savoir dire non, savoir dire oui à un apprenant <br> - Savoir faire une critique et faire face à une critique <br> - Savoir formuler une demande'
+        thirdTexteP.innerHTML = popupCompFormaAss
         imgPop.classList.add('formatAssertifImg')
+         timeForma.innerHTML = popupTimeFormaAss
 
     })
 
@@ -1508,8 +1645,8 @@ forum.addEventListener('click', () => {
 
 
     sm1.innerHTML = '<a class="deco" href="news.html">À la une</a>'
-    sm2.innerHTML = '<a class="deco" href="inscription.html">contact</a>'
-    sm3.innerHTML = '<a class="deco" href="devis.html">Devis</a>'
+    sm2.innerHTML = '<a class="deco" href="inscription.php">contact</a>'
+    sm3.innerHTML = '<a class="deco" href="devis.php">Devis</a>'
     sm4.innerHTML = ''
 
 
@@ -1608,30 +1745,35 @@ Msm1.addEventListener('click', () => {
 
     }, 200)
 
-    titreMpop0.innerHTML = 'Position n+1'
-    paraMpop01.innerHTML = 'Position n+1'
-    paraMpop02.innerHTML = '– Savoir adopter une posture managériale avec son équipe<br>– Savoir adopter une communication efficace et productive'
-    paraMpop03.innerHTML = '– Comprendre et s’approprier la posture managériale adéquate et les techniques de debrief <br> – S’approprier la communication assertive <br> – Savoir formuler un feedback objectif, productif et permetant la mise en énergie des participants'
+    titreMpop0.innerHTML = popupTitrePosition
+    paraMpop01.innerHTML = popupTitrePosition
+    paraMpop02.innerHTML = popupObjectifPosition
+    paraMpop03.innerHTML = popupCompPosition
+    timeForma0[0].innerHTML = popupTimePosition 
 
-    titreMpop1.innerHTML = 'Couleurs du management'
-    paraMpop11.innerHTML = 'La flexibilité managériale permet à tout manager de reconnaître le comportement de chaque membre de son équipe afind’adapter sa communication et ainsi optimiser la performance collective'
-    paraMpop12.innerHTML = '– Savoir adopter une posture managériale avec son équipe <br> – Savoir adopter une communication efficace et productive'
-    paraMpop13.innerHTML = ' Comprendre et s’approprier la posture managériale adéquate et les techniques de debrief <br> – S’approprier la communication assertive <br> – Savoir formuler un feedback objectif, productif et permetant la mise en énergie des participants'
+    titreMpop1.innerHTML = popupTitreCouleurMan
+    paraMpop11.innerHTML = popupBenefCouleurMan
+    paraMpop12.innerHTML = popupObjectifCouleurMan
+    paraMpop13.innerHTML = popupCompCouleurMan
+    timeForma0[1].innerHTML = popupTimeCouleurMan
 
-    titreMpop2.innerHTML = 'Management situationnel'
-    paraMpop21.innerHTML = 'Le management situationnel permet de manager chaque membre de l’équipe en fonction de sa motivation et de son niveau d’expertise. Un management sur mesure en fonction des différentes missions'
-    paraMpop22.innerHTML = '– Savoir manager en fonction du niveau de développement de chaque membre de son équipe'
-    paraMpop23.innerHTML = '– Savoir reconnaitre et s’adapter au DEMA de chaque <br> collaborateur <br> – Savoir diagnostiquer le niveau de développement<br> – Savoir manager en fonction du niveau de développement <br> et en fonction des situations'
+    titreMpop2.innerHTML = popupTitreManagementSitu
+    paraMpop21.innerHTML = popupBenefManagementSitu
+    paraMpop22.innerHTML = popupObjectifManagementSitu
+    paraMpop23.innerHTML = popupCompManagementSitu
+     timeForma0[2].innerHTML = popupTimeManagementSitu
 
-    titreMpop3.innerHTML = 'Management motivationnel'
-    paraMpop31.innerHTML = 'Le management motivationnel permet au manager d’être proche de ses collaborateurs et de travailler dans un partenariat qui les motive dans leur quotidien'
-    paraMpop32.innerHTML = '– Savoir manager dans un esprit motivationnel <br> – Savoir manager avec les compétences motivationnelles <br> – Savoir manager avec les processus motivationnels'
-    paraMpop33.innerHTML = '– Savoir manager dans le partenariat avec empathie <br> – Savoir accompagner son collaborateur dans l’évocation <br> – Savoir être centré sur son collaborateur <br> – Savoir utiliser les processus motivationnels pour accompagner son collaborateur dans ses plans d’action'
+    titreMpop3.innerHTML = popupTitreManaMoti
+    paraMpop31.innerHTML = popupBenefManaMoti
+    paraMpop32.innerHTML = popupObjectifManaMoti
+    paraMpop33.innerHTML = popupCompManaMoti
+     timeForma0[3].innerHTML = popupTimeManaMoti
 
-    titreMpop4.innerHTML = 'Management de projet'
-    paraMpop41.innerHTML = 'Le chef de projet saura mener un projet avec plus d’aisance, afin d’atteindre des résultats et de fédérer un certain nombre de personnes autour de l’atteinte de résultats'
-    paraMpop42.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br>– Savoir mener un projet'
-    paraMpop43.innerHTML = '– Comprendre le Business case <br>  – Savoir construire son Business case <br> – S’approprier les comportements qui favorisent la décision <br> – Apprendre à gérer les liens avec les différents acteurs <br> – Savoir clôturer le projet'
+    titreMpop4.innerHTML = popupTitreManaPro
+    paraMpop41.innerHTML = popupBenefManaPro
+    paraMpop42.innerHTML = popupObjectifManaPro
+    paraMpop43.innerHTML = popupCompManaPro
+     timeForma0[4].innerHTML = popupTimeManaPro
 
 
 
@@ -1726,31 +1868,36 @@ Msm2.addEventListener('click', () => {
 
     }, 200)
 
-    titreMpop0.innerHTML = 'Technique de vente'
-    paraMpop01.innerHTML = 'Le chef de projet saura mener un projet avec plus d’aisance, afin d’ateindre des résultats et de fédérer un certain nombre de personnes autour de l’ateinte de résultats'
-    paraMpop02.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> – Savoir mener un projet'
-    paraMpop03.innerHTML = '– Comprendre ce qu’est un business case <br> – Savoir construire son Business case <br> – S’approprier les comportements qui favorisent la décision <br> – Apprendre à gérer les liens avec les différents acteurs <br> – Savoir Clôturer le projet'
+    titreMpop0.innerHTML = popupTitreTech
+    paraMpop01.innerHTML = popupBenefTech
+    paraMpop02.innerHTML = popupObjectifTech
+    paraMpop03.innerHTML = popupCompTech
+    timeForma0[0].innerHTML = popupTimeTech
 
-    titreMpop1.innerHTML = 'Couleur de la vente'
-    paraMpop11.innerHTML = 'Chaque participant sera capable d’adapter les 4 comportements lors de ses face-face pour obtenir davantage d’adhésion'
-    paraMpop12.innerHTML = '– Être capable d’adapter sa communication face-face après avoir reconnu les préférences comportementales de ses interlocuteurs'
-    paraMpop13.innerHTML = '– Savoir adopter les codes de communication des 4 comportements dominants <br> – Savoir appliquer les 4 comportements aux différents étapes de la vente <br> – S’entraîner à gérer les typologies opposées'
+    titreMpop1.innerHTML = popupTitreCoulVente
+    paraMpop11.innerHTML = popupBenefCoulVente
+    paraMpop12.innerHTML = popupObjectifCoulVente
+    paraMpop13.innerHTML = popupCompCoulVente
+    timeForma0[1].innerHTML = popupTimeCoulVente 
 
-    titreMpop2.innerHTML = 'Vente assertive'
-    paraMpop21.innerHTML = 'À l’issue de la formation chaque participant pourra gérer une situation de vente face face avec authenticité pour créer un vrai partenariat avec son client'
-    paraMpop22.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> – Savoir mener un projet'
-    paraMpop23.innerHTML = '– Savoir utiliser le DESC, dire oui ou dire non <br> – Savoir présenter l’objectif de sa visite afin de le faireaccepter <br> – Savoir questionner sans freins personnels pour obtenir les informations cruciales et les motivations <br> – Savoir adopter une argumentation convaincante et ciblée sans crainte face aux pharmaciens <br> – Savoir répondre aux objections et utiliser les modes de communication pour comprendre les motivations <br> – Gérer ses peurs pour oser conclure, s’engager et engager'
-
-    titreMpop3.innerHTML = 'La négociation'
-    paraMpop31.innerHTML = 'À l’issue de la formation chaqueparticipant pourra négocier sans ambiguité afin d’aboutir à une ? Gagnant/gagnant en toute sérénité'
-    paraMpop32.innerHTML = '– Être capable d’adopter une posture de négociateur aguerrit <br> – Être capable de négocier avec efficience dans une relattion de coopération gagnant/gagnant'
-    paraMpop33.innerHTML = '– Comprendre la différence entre vente et négociation <br>– Savoir préparer sa négociation : méthode et outils <br> – Savoir à Négocier de manière raisonnée en 3 temps <br> – Savoir Gérer les situations difficiles'
-
-    titreMpop4.innerHTML = 'Management de projet'
-    paraMpop41.innerHTML = 'Le chef de projet saura mener un projet avec plus d’aisance, afin d’a`eindre des résultats et de fédérer un certain nombre de personnes autour de l’ateinte de résultats'
-    paraMpop42.innerHTML = '– Savoir transformer une idée, problème, objectif ou demande en mode de travail <br>– Savoir mener un projet'
-    paraMpop43.innerHTML = '– Comprendre ce qu’est un business case<br>– Savoir construire son Business case<br>– S’approprier les comportements qui favorisent ladécision<br>– Apprendre à gérer les liens avec les différents acteurs<br>– Savoir Clôturer le projet'
-
+    titreMpop2.innerHTML = popupTitreVenteAss
+    paraMpop21.innerHTML = popupBenefVenteAss
+    paraMpop22.innerHTML = popupObjectifVenteAss
+    paraMpop23.innerHTML = popupCompVenteAss
+    timeForma0[2].innerHTML = popupTimeVenteAss
+    
+    titreMpop3.innerHTML = popupTitreNego
+    paraMpop31.innerHTML = popupBenefNego
+    paraMpop32.innerHTML = popupObjectifNego
+    paraMpop33.innerHTML = popupCompNego
+    timeForma0[3].innerHTML = popupTimeNego 
+    
+    titreMpop4.innerHTML = popupTitreFlex
+    paraMpop41.innerHTML = popupBenefFlex
+    paraMpop42.innerHTML = popupObjectifFlex
+    paraMpop43.innerHTML = popupCompFlex
+    timeForma0[4].innerHTML = popupTimeFlex 
+    
 })
 
 Msm3.addEventListener('click', () => {
@@ -1840,30 +1987,35 @@ Msm3.addEventListener('click', () => {
 
     }, 200)
 
-    titreMpop0.innerHTML = 'La flexibilité relationnelle'
-    paraMpop01.innerHTML = 'A l’issue de la formation chaque participant aura une meilleure connaissance de soi et des autres, sera capable d’adopter une communication plus flexible pour une mise en relation plus efficace'
-    paraMpop02.innerHTML = '– Etre capable de décrypter les comportements de ses interlocuteurs pour adapter sa communication'
-    paraMpop03.innerHTML = '- Savoir reconnaître les 4 comportements du modèle couleur <br> - Savoir faire preuve de flexibilité comportementale face aux 4 comportements <br> - Savoir adopter la communication des 4 comportements du modèle couleur'
+    titreMpop0.innerHTML = popupTitreFlex
+    paraMpop01.innerHTML = popupBenefFlex
+    paraMpop02.innerHTML = popupObjectifFlex
+    paraMpop03.innerHTML = popupCompFlex
+    timeForma0[0].innerHTML = popupTimeFlex
 
-    titreMpop1.innerHTML = 'Communiquer avec assertivité'
-    paraMpop11.innerHTML = 'A l’issue de la formation chaque participant sera capable d’oser dire en toute légitimité et oser entendre avec empathie quelque soit les situations rencontrées'
-    paraMpop12.innerHTML = '– Être capable d’adopter une posture Assertive pour communiquer avec authenticité et développer une coopération <br> Oser entendre et oser dire en toute légitimité et en toutes situationse'
-    paraMpop13.innerHTML = '– Savoir adopter une posture Assertive <br> - S’approprier la méthodologie de la communication assertive <br> -Savoir gérer les situations avec assertivité'
-
-    titreMpop2.innerHTML = 'Gestion des situations délicates'
-    paraMpop21.innerHTML = 'A l’issue de la formation chaque participant sera capable d’analyser sa situation et de l’aborder sous un autre angle'
-    paraMpop22.innerHTML = '– Être capable d’appréhender les situations délicates sous d’autres angles afin d’adopter l’approche relationnelle, la stratégie de négociation et/ou la décision adéquates.'
-    paraMpop23.innerHTML = '– Savoir reconnaître la nature de la situation <br> - Savoir gérer des situations d’ordre Relationnel <br> - Savoir gérer des situations qui relèvent de la Négociation <br> - Savoir gérer des situations qui relèvent à la fois de la Relation et de la Négociation'
-
-    titreMpop3.innerHTML = 'Prise de parole en public'
-    paraMpop31.innerHTML = 'A l’issue de la formation chaque participant sera capable de réaliser des présentations impactantes  et percutantes'
-    paraMpop32.innerHTML = '- Être capable de prendre la parole en public avec aisance et d’animer ses 	présentations avec efficacité et fluidité dans l’atteinte d’un objectif prédéfini'
-    paraMpop33.innerHTML = '– Savoir préparer sa prise de parole en public <br> -Savoir définir le fond et trouver la forme du message<br> -Savoir introduire et conclure sa prise de parole en public'
-
-    titreMpop4.innerHTML = 'Gérer un board avec professionnalisme'
-    paraMpop41.innerHTML = 'A l’issue de la formation chaque participant sera capable de gérer un board avec aisance et sérénité pour faciliter la production de livrables'
-    paraMpop42.innerHTML = '- Être capable d’animer un board avec professionnalisme et de gérer les différents comportements des participants'
-    paraMpop43.innerHTML = '– S’approprier les techniques d’animation de groupes<br> - S’approprier les techniques de conduite de débats<br> - Savoir adopter la posture d’animateur de débat communiquer avec un interlocuteur avec un comportement différent'
+    titreMpop1.innerHTML = popupTitreComAss
+    paraMpop11.innerHTML = popupBenefComAss
+    paraMpop12.innerHTML = popupObjectifComAss
+    paraMpop13.innerHTML = popupCompComAss
+    timeForma0[1].innerHTML = popupTimeFlex 
+    
+    titreMpop2.innerHTML = popupTitreSituDel
+    paraMpop21.innerHTML = popupBenefSituDel
+    paraMpop22.innerHTML = popupObjectifSituDel
+    paraMpop23.innerHTML = popupCompComAss
+    timeForma0[2].innerHTML = popupTimeFlex 
+    
+    titreMpop3.innerHTML = popupTitreParolePub
+    paraMpop31.innerHTML = popupBenefParolePub
+    paraMpop32.innerHTML = popupObjectifParolePub
+    paraMpop33.innerHTML = popupCompParolePub
+    timeForma0[3].innerHTML = popupTimeFlex 
+    
+    titreMpop4.innerHTML = popupTitreBoard
+    paraMpop41.innerHTML = popupBenefBoard
+    paraMpop42.innerHTML = popupObjectifBoard
+    paraMpop43.innerHTML = popupCompBoard
+    timeForma0[4].innerHTML = popupTimeFlex 
 
 })
 
@@ -1958,21 +2110,24 @@ Msm4.addEventListener('click', () => {
 
     }, 200)
 
-    titreMpop0.innerHTML = 'Formateur animateur'
-    paraMpop01.innerHTML = 'A l’issue de la formation, chaque formateur saura animer des sessions de formations dans un climat permettant le développement des compétences de ses participants'
-    paraMpop02.innerHTML = 'Apprendre à animer une session de formation <br>S’approprier les techniques de transmission des savoirs <br>S’approprier les techniques d’animation'
-    paraMpop03.innerHTML = 'Comprendre et apprendre à gérer le comportement de l’apprenant <br>S’approprier la posture du formateur <br>Apprendre à gérer les moments clés de la formation'
+    titreMpop0.innerHTML = popupTitreFormaAnim
+    paraMpop01.innerHTML = popupBenefFormaAnim
+    paraMpop02.innerHTML = popupObjectifFormaAnim
+    paraMpop03.innerHTML = popupCompFormaAnim
+    timeForma0[0].innerHTML = popupTimeFormaAnim
 
-    titreMpop1.innerHTML = 'Formateur coach'
-    paraMpop11.innerHTML = 'A l’issue de la formation chaque formateur pourra coacher ses apprenants dans le développement de leurs compétences'
-    paraMpop12.innerHTML = 'Apprendre à accompagner et à coacher sur le terrain les stagiaires en formation dans l’objectif de les développer et de pérenniser les acquis de la formation'
-    paraMpop13.innerHTML = 'Savoir faire preuve de flexibilité comportementale <br> Savoir repérer la motivation des apprenants <br>Savoir faire un feedback aux apprenants<br>Savoir coacher les apprenants par la définition d’objectifs adéquats'
-
-    titreMpop2.innerHTML = 'Formateur assertif'
-    paraMpop21.innerHTML = 'A la fin de la formation chaque participant sera capable de se positionner en tant que formateur en toute légitimité face à ses apprenants'
-    paraMpop22.innerHTML = 'A la fin de la formation chaque participant sera capable de former les apprenants avec une posture assertive, de coopération et de gérer les différentes situations rencontrées lors des sessions de formation'
-    paraMpop23.innerHTML = 'Savoir utiliser la méthode DESC en toute situation <br>Savoir dire non, savoir dire oui à un apprenant <br>Savoir faire une critique et faire face à une critique <br>Savoir formuler une demande'
-
+    titreMpop1.innerHTML = popupTitreFormaCoach
+    paraMpop11.innerHTML = popupBenefFormaCoach
+    paraMpop12.innerHTML = popupObjectifFormaCoach
+    paraMpop13.innerHTML = popupCompFormaCoach
+    timeForma0[1].innerHTML = popupTimeFormaCoach
+    
+    titreMpop2.innerHTML = popupTitreFormaAss
+    paraMpop21.innerHTML = popupBenefFormaAss
+    paraMpop22.innerHTML = popupObjectifFormaAss
+    paraMpop23.innerHTML = popupCompFormaAss
+    timeForma0[2].innerHTML = popupTimeFormaAss
+    
     titreMpop3.innerHTML = ''
     paraMpop31.innerHTML = ''
     paraMpop32.innerHTML = ''

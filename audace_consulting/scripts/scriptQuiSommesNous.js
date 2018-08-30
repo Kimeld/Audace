@@ -119,7 +119,7 @@ sm1.addEventListener('click', () => {
 
     titreTexte.classList.remove('opacityM')
 
-    fond.classList.remove('imgEquipe')
+    fond.classList.remove('imgQSN')
     fond.classList.remove('imgEquipe2')
     fond.classList.remove('imgPedagogie')
     fond.classList.remove('imgTestimonial')
@@ -154,6 +154,7 @@ sm2.addEventListener('click', () => {
     sm2.classList.remove('sm12')
     sm2.classList.add('red')
 
+    fond.classList.remove('imgQSN')
     fond.classList.remove('imgQualite')
     fond.classList.remove('imgTestimonial')
     fond.classList.remove('imgPedagogie')
@@ -188,7 +189,7 @@ sm3.addEventListener('click', () => {
     fond.classList.remove('imgQualite')
     fond.classList.remove('imgTestimonial')
 
-    fond.classList.remove('imgEquipe')
+    fond.classList.remove('imgQSN')
     fond.classList.remove('imgTestimonial')
     fond.classList.remove('imgEquipe2')
 
@@ -227,7 +228,7 @@ sm4.addEventListener('click', () => {
     fond.classList.remove('imgPedagogie')
 
     fond.classList.remove('imgQualite')
-    fond.classList.remove('imgEquipe')
+    fond.classList.remove('imgQSN')
     fond.classList.remove('imgEquipe2')
     fond.classList.add('imgTestimonial')
 
@@ -275,8 +276,8 @@ forum.addEventListener('click', () => {
 
     sm2.innerHTML = ''
     sm1.innerHTML = '<a class="deco" href="news.html">À la une</a>'
-    sm2.innerHTML = '<a class="deco" href="inscription.html">contact</a>'
-    sm3.innerHTML = '<a class="deco" href="devis.html">Devis</a>'
+    sm2.innerHTML = '<a class="deco" href="inscription.php">contact</a>'
+    sm3.innerHTML = '<a class="deco" href="devis.php">Devis</a>'
     sm4.innerHTML = ''
 
 

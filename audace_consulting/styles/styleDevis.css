@@ -5,7 +5,20 @@ body {
 .souscrire {
     position: absolute;
     bottom: -5px;
-    left: -5px;
+    left: 15px;
+    /*background-color: #E00034;*/
+    padding: 0px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    
+
+}
+
+.souscrire2 {
+    position: absolute;
+    bottom: -5px;
+    right: 0px;
     /*background-color: #E00034;*/
     padding: 0px;
     width: 100px;
@@ -16,6 +29,12 @@ body {
 }
 
 .souscrire img {
+    display: block;
+    width: 100px;
+    margin: 0px;
+}
+
+.souscrireImg2 {
     display: block;
     width: 100px;
     margin: 0px;
@@ -545,11 +564,15 @@ contenu2 {
     border-color: #707070;
 }
 .submit{
-  opacity: 0;  
+    margin-left: 35px;
+  opacity: 0; 
+    transform: scale(1.9)
 }
 
 .submit0{
-  opacity: 1;  
+    margin-right: 20px;
+  opacity: 0;  
+  transform: scale(1.9)
 }
 
 
@@ -609,6 +632,7 @@ contenu2 {
 
 .nbrs {
     text-align: right;
+    
 }
 
 .f > div {

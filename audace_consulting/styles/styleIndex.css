@@ -1,7 +1,7 @@
 /* carousel*/
 
 .sliderHome {
-    width: 650px;
+    width: 550px;
     height: 321px;
     margin: auto;
     transition-duration: 1s;
@@ -13,14 +13,14 @@
 }
 
 .sliderHome img {
-    width: 650px;
-    height: 321px;
+    width: 450px;
+    
 }
 
 @media only screen and (max-width: 665px) {
     .sliderHome {
         width: 100%;
-        height: 51%;
+    
 
     }
 
@@ -30,6 +30,8 @@
     }
 
 }
+
+
 
 /*introduction*/
 

@@ -30,7 +30,10 @@ let modules = document.querySelector(".modules")
 
 let submit = document.querySelector(".submit")
 
+let submit0 = document.querySelector(".submit0")
+
 let souscrireImg = document.querySelector(".souscrireImg")
+let souscrireImg2 = document.querySelector(".souscrireImg2")
 
 scrollbars.visible = false
 
@@ -98,14 +101,14 @@ forum.addEventListener('click', () => {
 
     sm2.innerHTML = ''
     sm1.innerHTML = '<a class="deco" href="news.html">À la une</a>'
-    sm2.innerHTML = '<a class="deco" href="inscription.html">Contact</a>'
-    sm3.innerHTML = '<a class="deco" href="devis.html">Devis</a>'
+    sm2.innerHTML = '<a class="deco" href="inscription.php">Contact</a>'
+    sm3.innerHTML = '<a class="deco" href="devis.php">Devis</a>'
     sm4.innerHTML = ''
 
 
     sm1.setAttribute('href', 'news.html')
-    sm2.setAttribute('href', 'inscritption.html')
-    sm3.setAttribute('href', 'devis.html')
+    sm2.setAttribute('href', 'inscritption.php')
+    sm3.setAttribute('href', 'devis.php')
     sm4.setAttribute('href', 'formateur.html')
 
 
@@ -127,6 +130,22 @@ submit.addEventListener('mouseout', () => {
 
 
     souscrireImg.setAttribute('src', "../images/Bouton%20gris%20Valider.png")
+
+
+})
+
+submit0.addEventListener('mouseover', () => {
+
+
+    souscrireImg2.setAttribute('src', "../images/Bouton%20valider.png")
+
+
+})
+
+submit0.addEventListener('mouseout', () => {
+
+
+    souscrireImg2.setAttribute('src', "../images/Bouton%20gris%20Valider.png")
 
 
 })
