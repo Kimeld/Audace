@@ -25,7 +25,7 @@
 
 - À l'aide du script
 
-> Seul les textes suivant sont modifiables avec le HTML :
+> Seul les textes d'ouverture suivant sont modifiables avec le HTML :
 
 Qui sommes-nous, Conseil, Formations, Solutions et coaching
 

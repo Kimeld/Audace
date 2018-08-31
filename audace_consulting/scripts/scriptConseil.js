@@ -234,7 +234,8 @@ Msm1.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Un diagnostic précis de la situation '
+        titreFormation.innerHTML = titreAudit
+        texte.innerHTML = texteAudit
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -276,8 +277,8 @@ Msm2.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Des solutions pertinentes'
-        texte.innerHTML = 'Nous vous guidons et nous répondons à vos besoins par des solutions adaptées et innovantes. AUDACE Consulting accompagne les entreprises dans l’optimisation des ressources humaines et financières, dans le choix des partenaires pour une évolution du chiffre d’affaires et pour une meilleure rentabilité. <br> Notre cœur de métier est : <br> - l’audit <br> - le benchmark <br> - la transformation <br> - la performance opérationnelle'
+        titreFormation.innerHTML = titreConseil
+        texte.innerHTML = texteConseil
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
@@ -314,8 +315,8 @@ Msm3.addEventListener('click', () => {
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
-        titreFormation.innerHTML = 'Des stratégies rentables '
-        texte.innerHTML = 'Notre division stratégie commerciale accompagne les entreprises dans le développement de leur chiffre d’affaires. <br> <br> Nos consultants commerciaux bénéficient d’une solide expérience dans de grandes entreprises où la part commerciale est prépondérante. <br> <br> Ils sont tous formés et maîtrisent l’utilisation de nos outils. <br> Nous nous engageons à trouver des solutions adaptées pour les entreprises afin d’obtenir le meilleur retour sur investissement.'
+        titreFormation.innerHTML = titreBusiness
+        texte.innerHTML = texteBusiness
         contenuVente.classList.remove('animationContenu')
 
     }, 200)
