@@ -473,8 +473,13 @@ body {
     margin-top: 10px;
 }
 
-.contact div {
-    margin-top: 0px;
+.contact > div + div {
+    margin-top: 10px;
+}
+
+
+.contact > div + div + div {
+    margin-top: 10px;
 }
 
 .contact div a {
@@ -848,31 +853,31 @@ Nnone {
 
 @media(min-width: 575px) and (max-width: 758px) {
     .contact {
-        transform: translateY(-130px);
+        transform: translateY(-100px);
     }
 }
 
 @media(min-width:499px) and (max-width: 575px) {
     .contact {
-        transform: translateY(-84px);
+        transform: translateY(-54px);
     }
 }
 
 @media(min-width:480px) and (max-width: 499px) {
     .contact {
-        transform: translateY(-34px);
+        transform: translateY(-4px);
     }
 }
 
 @media(min-width:417px) and (max-width: 480px) {
     .contact {
-        transform: translateY(-40px);
+        transform: translateY(-10px);
     }
 }
 
 @media(min-width:388px) and (max-width: 415px) {
     .contact {
-        transform: translateY(-60px);
+        transform: translateY(-30px);
         padding-top: -110px;
 
     }
@@ -883,7 +888,7 @@ Nnone {
         }
 
         .contact {
-            transform: translateY(60px);
+            transform: translateY(20px);
             position: absolute;
             top: 1110px;
         }

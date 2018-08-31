@@ -15,4 +15,6 @@ $date = date_format($datetime, 'd M Y, H\hi');
 }
 echo '</ul>';
 
-echo $item[2]->title;
+echo $item->title;
+
+echo $item->title;

@@ -57,8 +57,8 @@ let texteCoaching = "AUDACE Consulting considère le coaching comme le chemineme
 let titreDigi = "Une solution confortable"
 let texteDigi = "Audace Consulting développe aussi pour vous une solution de formation distancielle qui présente un double avantage : Le premier avantage, les collaborateurs de votre entreprise bénéficieront de leur temps de formation dans le confort de leur environnement de travail habituel ; ils pourront adapter leur temps de formation, à leur guise, en fonction de leur planning et sans répercussions."
 
-let titreQuizz = "Votre outil post-formation"
-let texteQuizz = "Le profil comportemental couleur est un outil fiable qui donne accès aux forces vives des entreprises, une meilleure connaissance de soi (forces et points de développement) dans sa fonction professionnelle, une perception adéquate des autres (collaborateurs, collègues, manager) pour une communication efficiente afin de favoriser une prise en compte plus concrète de la situation.Le profil comportemental couleur s’applique à tous les domaines de formation et de conseil et dans tous les domaines d’activité."
+let titreQuizz = "Votre outil pragmatique"
+let texteQuizz = "Le profil comportemental couleur est un outil fiable qui donne accès aux forces vives des entreprises, une meilleure connaissance de soi (forces et points de développement) dans sa fonction professionnelle, une perception adéquate des autres (collaborateurs, collègues, manager) pour une communication efficiente afin de favoriser une prise en compte plus concrète de la situation. Le profil comportemental couleur s’applique à tous les domaines de formation et de conseil et dans tous les domaines d’activité."
 
 //////////////////////////
 
@@ -99,13 +99,16 @@ sm1.addEventListener('click', () => {
     sm4.classList.remove('red')
     sm2.classList.add('sm12')
     sm2.classList.remove('red')
+     sm5.classList.add('sm15')
+    sm5.classList.remove('red')
     sm1.classList.remove('sm11')
     sm1.classList.add('red')
     
      fond.classList.remove('imgDigitale')
      fond.classList.remove('imgSolution')
     fond.classList.remove('imgManSch')
-    fond.classList.remove('imgProfile')
+     fond.classList.remove('imgProfile')
+    fond.classList.remove('imgCoach')
     fond.classList.add('imgSellSch')
 
     window.setTimeout(() => {
@@ -129,13 +132,16 @@ sm2.addEventListener('click', () => {
     sm3.classList.remove('red')
     sm4.classList.add('sm14')
     sm4.classList.remove('red')
+     sm5.classList.add('sm15')
+    sm5.classList.remove('red')
     sm2.classList.remove('sm12')
     sm2.classList.add('red')
     
      fond.classList.remove('imgDigitale')
      fond.classList.remove('imgSolution')
     fond.classList.remove('imgSellSch')
-    fond.classList.remove('imgProfile')
+     fond.classList.remove('imgProfile')
+    fond.classList.remove('imgCoach')
     fond.classList.add('imgManSch')
 
     window.setTimeout(() => {
@@ -165,7 +171,12 @@ sm5.addEventListener('click', () => {
     sm5.classList.remove('sm15')
     sm5.classList.add('red')
 
-    
+     fond.classList.remove('imgDigitale')
+     fond.classList.remove('imgSolution')
+    fond.classList.remove('imgSellSch')
+    fond.classList.remove('imgManSch')
+    fond.classList.remove('imgProfile')
+    fond.classList.add('imgCoach')
 
     
     window.setTimeout(() => {
@@ -190,6 +201,10 @@ sm4.addEventListener('click', () => {
     sm3.classList.remove('red')
     sm2.classList.add('sm14')
     sm2.classList.remove('red')
+    sm3.classList.add('sm13')
+    sm3.classList.remove('red')
+     sm5.classList.add('sm15')
+    sm5.classList.remove('red')
     sm4.classList.remove('sm14')
     sm4.classList.add('red')
 
@@ -198,6 +213,8 @@ sm4.addEventListener('click', () => {
     fond.classList.remove('imgSellSch')
     fond.classList.remove('imgManSch')
     fond.classList.remove('imgProfile')
+    fond.classList.remove('imgProfile')
+    fond.classList.remove('imgCoach')
     fond.classList.add('imgDigitale')
 
 
@@ -233,7 +250,8 @@ sm3.addEventListener('click', () => {
     fond.classList.remove('imgSellSch')
     fond.classList.remove('imgManSch')
     fond.classList.add('imgProfile')
-
+    fond.classList.remove('imgCoach')
+    
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = titreQuizz
@@ -309,9 +327,12 @@ Msm1.addEventListener('click', () => {
     bouttonMsousMenu[3].classList.remove('red2')
     bouttonMsousMenu[4].classList.remove('red2')
     
+    mobileTestiImg.classList.remove('mobileManSch')
     mobileTestiImg.classList.add('mobileSellSch')
     mobileTestiImg.classList.remove('mobileDigital')
     mobileTestiImg.classList.remove('mobileQSNSolution')
+    mobileTestiImg.classList.remove('mobileCoach')
+    mobileTestiImg.classList.remove('mobileProfils')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -347,9 +368,12 @@ Msm2.addEventListener('click', () => {
     bouttonMsousMenu[3].classList.remove('red2')
     bouttonMsousMenu[4].classList.remove('red2')
     
+    mobileTestiImg.classList.remove('mobileSellSch')
     mobileTestiImg.classList.add('mobileManSch')
     mobileTestiImg.classList.remove('mobileDigital')
     mobileTestiImg.classList.remove('mobileQSNSolution')
+      mobileTestiImg.classList.remove('mobileCoach')
+      mobileTestiImg.classList.remove('mobileProfils')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -386,8 +410,12 @@ Msm5.addEventListener('click', () => {
     bouttonMsousMenu[3].classList.remove('red2')
     bouttonMsousMenu[4].classList.remove('red2')
     
-    mobileTestiImg.classList.add('mobileQSNSolution')
+    mobileTestiImg.classList.remove('mobileQSNSolution')
     mobileTestiImg.classList.remove('mobileDigital')
+    mobileTestiImg.classList.remove('mobileSellSch')
+    mobileTestiImg.classList.remove('mobileManSch')
+     mobileTestiImg.classList.remove('mobileProfils')
+     mobileTestiImg.classList.add('mobileCoach')
 
 
     window.setTimeout(() => {
@@ -430,6 +458,10 @@ Msm4.addEventListener('click', () => {
     
     mobileTestiImg.classList.remove('mobileQSNSolution')
     mobileTestiImg.classList.add('mobileDigital')
+     mobileTestiImg.classList.remove('mobileSellSch')
+    mobileTestiImg.classList.remove('mobileManSch')
+     mobileTestiImg.classList.remove('mobileProfils')
+       mobileTestiImg.classList.remove('mobileCoach')
 
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
@@ -466,8 +498,12 @@ Msm3.addEventListener('click', () => {
     bouttonMsousMenu[3].classList.remove('red2')
     bouttonMsousMenu[4].classList.add('red2')
     
-    mobileTestiImg.classList.add('mobileQSNSolution')
+    mobileTestiImg.classList.remove('mobileQSNSolution')
     mobileTestiImg.classList.remove('mobileDigital')
+     mobileTestiImg.classList.remove('mobileSellSch')
+    mobileTestiImg.classList.remove('mobileManSch')
+    mobileTestiImg.classList.remove('mobileCoach')
+     mobileTestiImg.classList.add('mobileProfils')
 
 
     window.setTimeout(() => {

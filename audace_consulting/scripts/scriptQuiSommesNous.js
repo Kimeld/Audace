@@ -82,7 +82,7 @@ let texteEquipe = "Nos consultants sont tous formés au décryptage de comportem
 let titrePedagogie = "L’insight allié à l’opérationnel"
 let textePedagogie = "Notre philosophie privilégie une approche comportementale. Nos modules de formation déclenchent les insight nécessaires à la flexibilité comportementale Nos sessions sont pragmatiques - 80 % d’activité et de training pour 20 % de théorie -,  nous garantissons le développement des compétences des participants afin qu’ils soient opérationnels et confortables dès la fin de la formation"
 
-let titreTestimonial = "Les clients qui<br>nous font confiance"
+let titreTestimonial = "Nos clients nous font confiance"
 let texteTestimonial = ""
 
 //////////////////////////
@@ -174,6 +174,7 @@ sm3.addEventListener('click', () => {
 
     contenuVente.classList.add('contenuMove')
     contenuVente.classList.add('animationContenu')
+    
 
     titreTexte.classList.remove('titreEtTexteTESTI')
 
@@ -421,7 +422,7 @@ Msm3.addEventListener('click', () => {
     window.setTimeout(() => {
         contenuVente.classList.remove('contenuMove')
         titreFormation.innerHTML = titrePedagogie
-        texte.innerHTML = textePedagogi
+        texte.innerHTML = textePedagogie
         contenuVente.classList.remove('animationContenu')
 
 

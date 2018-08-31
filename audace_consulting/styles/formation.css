@@ -35,6 +35,7 @@
     transition-timing-function: ease-in-out;
     transition-duration: 0.2s;
     margin-top: 18px;
+    height: 300px;
 
 
 
@@ -322,6 +323,24 @@
     transition-duration: 0.5s;
 }
 
+.imgCoach {
+    width: 595px;
+    height: 300px;
+    top: 150px;
+    right: 50px;
+    background-image: url(../images/Profils.png);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+
 .opacityM {
     opacity: 0;
 }
@@ -402,6 +421,14 @@
         background-image: url(../images/Formateur-formateur.png);
 
     }
+    .mobileProfils {
+        background-image: url(../images/Profils.png);
+
+    }
+    .mobileCoach {
+        background-image: url(../images/Profils.png);
+
+    }
 
     
      
@@ -422,6 +449,7 @@
         transition-timing-function: ease-in-out;
         transition-duration: 0.2s;
         margin-top: 18px;
+        height: 600px;
     }
     .contenu .titre h1 {
 

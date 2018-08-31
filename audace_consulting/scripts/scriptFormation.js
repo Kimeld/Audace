@@ -122,7 +122,7 @@ let titreManag = "Optimiser votre management"
 let texteManag = "L’impact du manager est primordial pour la performance et pour renforcer la cohésion d’équipe. A l’issue des formations, les managers sauront adapter leur communication aux profils comportementaux des collaborateurs, motiver leurs équipes, développer les performances de chacun. Notre objectif est de développer le leadership managérial."
 
 let titreVente = "Stimuler vos forces de vente"
-let texteVente = "La capacité d’une entreprise à réaliser un chiffre d’affaires à la hauteur de ses exigences dépend des bénéfices apportés par les produit(s) promu(s) et en grande partie à la qualité des forces de vente. Les participants seront capables d’adapter la vente et la négociation au profil du client, de gagner en efficience et en pertinence, pour accroître la satisfaction et la fidélisation du client."
+let texteVente = "La capacité d’une entreprise à réaliser un chiffre d’affaires à la hauteur de ses exigences dépend des bénéfices apportés par les produit promu et en grande partie à la qualité des forces de vente. Les participants seront capables d’adapter la vente et la négociation au profil du client, de gagner en efficience et en pertinence, pour accroître la satisfaction et la fidélisation du client."
 
 let titreCom = "Optimiser<br>votre communication"
 let texteCom = "Nos modules permettent aux participants d’optimiser leur communication interpersonnelle et leur flexibilité relationnelle de par une meilleure connaissance de soi, la perception des autres et l’évaluation des situations. Les participants sauront communiquer avec assertivité. Les participants disposeront également de toutes les clés essentielles de communication dans diverses situations telles que les situations délicates, la prise de parole et l’animation de débat…"
@@ -136,105 +136,105 @@ let popupTitrePosition = "Position n+1"
 let popupBenef = "A l’issue de la formation chaque participant connaitra et pourra appliquer les bases du management."
 let popupObjectifPosition = "Savoir adopter une posture managériale avec son équipe <br> Savoir adopter une communication efficace et productive"
 let popupCompPosition = "Comprendre et s’approprier la posture managériale adéquate et les techniques de debrief <br> – S’approprier la communication assertive <br> – Savoir formuler un feedback objectif, productif et permetant la mise en énergie des participants"
-let popupTimePosition = "3 jours"
+let popupTimePosition = "2 jours"
 
 let popupTitreCouleurMan = "Couleurs du management"
 let popupBenefCouleurMan = "Les couleurs du management permet à tout manager de reconnaître le comportement de chaque membre de son équipe afin d’adapter sa communication et ainsi optimiser la performance collective."
 let popupObjectifCouleurMan = "Savoir adopter une posture managériale avec son équipe <br> Savoir adopter une communication efficace et productive"
 let popupCompCouleurMan = "Comprendre et s’approprier la posture managériale adéquate et les techniques de debrief <br> S’approprier la communication assertive <br> Savoir formuler un feedback objectif, productif et permetant la mise en énergie des participants"
-let popupTimeCouleurMan = ""
+let popupTimeCouleurMan = "2 jours"
 
 let popupTitreManagementSitu = "Management situationnel"
 let popupBenefManagementSitu = "Le management situationnel permet de manager chaque membre de l’équipe en fonction de sa motivation et de son niveau d’expertise. Un management sur mesure en fonction des différentes missions"
 let popupObjectifManagementSitu = "Savoir manager en fonction du niveau de développement de chaque membre de son équipe"
 let popupCompManagementSitu = "Savoir reconnaitre et s’adapter au DEMA de chaque <br> collaborateur <br> Savoir diagnostiquer le niveau de développement<br> Savoir manager en fonction du niveau de développement <br> et en fonction des situations"
-let popupTimeManagementSitu = ""
+let popupTimeManagementSitu = "2 jours"
 
 let popupTitreManaMoti = "Management motivationnel"
 let popupBenefManaMoti = "Le management motivationnel permet au manager d’être proche de ses collaborateurs et de travailler dans un partenariat qui les motive dans leur quotidien"
 let popupObjectifManaMoti = "Savoir manager dans un esprit motivationnel <br> Savoir manager avec les compétences motivationnel <br> Savoir manager avec les processus motivationnel"
 let popupCompManaMoti = "Savoir manager dans le partenariat avec empathie <br> Savoir accompagner son collaborateurs dans l’évocation <br> Savoir être centré sur son collaborateur <br> Savoir utiliser les processus motivationnel pour accompagner son collaborateur dans ses plans d’action"
-let popupTimeManaMoti = ""
+let popupTimeManaMoti = "2 jours"
 
 let popupTitreManaPro = "Management de projet"
 let popupBenefManaPro = "Le chef de projet saura mener un projet avec plus d’aisance, afin d’atteindre des résultats et de fédérer un certain nombre de personnes autour de l’atteinte de résultats"
 let popupObjectifManaPro = "Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> Savoir mener un projet"
 let popupCompManaPro = "Comprendre le Business case <br> Savoir construire son Business case <br> S’approprier les comportements qui favorisent la décision <br> Apprendre à gérer les liens avec les différents acteurs <br> Savoir clôturer le projet"
-let popupTimeManaPro = ""
+let popupTimeManaPro = "3 jours"
 
 let popupTitreTech = "Techniques de vente"
 let popupBenefTech = "Le chef de projet saura mener un projet avec plus d’aisance, afin d’ateindre des résultats et de fédérer un certain nombre de personnes autour de l’ateinte de résultats"
 let popupObjectifTech = "Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> Savoir mener un projet"
 let popupCompTech = "Comprendre ce qu’est un business case <br> Savoir construire son Business case <br> S’approprier les comportements qui favorisent la décision <br> Apprendre à gérer les liens avec les différents acteurs <br> Savoir Clôturer le projet"
-let popupTimeTech = ""
+let popupTimeTech = "2 jours"
 
 let popupTitreCoulVente = "Couleurs de la vente"
 let popupBenefCoulVente = "Chaque participant sera capable d’adapter les 4 comportements lors de ses face-faces pour obtenir davantage d’adhésion"
 let popupObjectifCoulVente = "Être capable d’adapter sa communication face-face après avoir reconnu les préférences comportementales de ses interlocuteurs"
 let popupCompCoulVente = "– Savoir adopter les codes de communication des 4 comportements dominants <br> – Savoir appliquer les 4 comportements aux différentes étapes de la vente<br> – S’entraîner à gérer les typologies opposées"
-let popupTimeCoulVente = ""
+let popupTimeCoulVente = "2 jours"
 
 let popupTitreVenteAss = "Vente assertive"
 let popupBenefVenteAss = "À l’issue de la formation chaque participant pourra gérer une situation de vente face face avec authenticité pour créer un vrai partenariat avec son client"
 let popupObjectifVenteAss = "Être capable de défendre son point de vue au cours d’une vente avec assurance.<br>Savoir entendre un point de vue opposé avec sérénité et avec assertivité."
 let popupCompVenteAss = "Savoir utiliser le DESC, dire oui ou dire non <br> Savoir présenter l’objectif de sa visite afin de le faire accepter <br> Savoir questionner sans freins personnels pour obtenir les informations cruciales et les motivations <br> Savoir adopter une argumentation convaincante et ciblée sans crainte <br>  Gérer ses peurs pour oser conclure, s’engager et engager <br> Savoir dire oui et non. "
-let popupTimeVenteAss = ""
+let popupTimeVenteAss = "2,5 jours"
 
-let popupTitreNego = "Communiquer avec assertivité"
+let popupTitreNego = "Négocitation"
 let popupBenefNego = "A l’issue de la formation chaque participant sera capable d’oser dire en toute légitimité et oser entendre avec empathie quelque soit les situations rencontrées"
 let popupObjectifNego = "Être capable d’adopter une posture assertive pour communiquer avec authenticité et développer une coopération <br> Oser entendre et oser dire en toute légitimité et en toutes situations"
 let popupCompNego = "Savoir adopter une posture Assertive <br> S’approprier la méthodologie de la communication assertive <br> Savoir gérer les situations avec assertivité"
-let popupTimeNego = ""
+let popupTimeNego = "2 jours"
 
 
 let popupTitreFlex = "La flexibilité relationnelle"
 let popupBenefFlex = "A l’issue de la formation chaque participant aura une meilleure connaissance de soi et des autres, sera capable d’adopter une communication plus flexible pour une mise en relation plus efficace"
 let popupObjectifFlex = "Etre capable de décrypter les comportements de ses interlocuteurs pour adapter sa communication"
 let popupCompFlex = "Savoir reconnaître les 4 comportements du modèle couleur <br> Savoir faire preuve de flexibilité comportementale face aux 4 comportements <br> Savoir adopter la communication des 4 comportements du modèle couleur"
-let popupTimeFlex = ""
+let popupTimeFlex = "2 jours"
 
 let popupTitreComAss = "Communiquer avec assertivité"
 let popupBenefComAss = "A l’issue de la formation chaque participant sera capable d’oser dire en toute légitimité et oser entendre avec empathie quelque soit les situations rencontrées"
 let popupObjectifComAss = "–Être capable d’adopter une posture assertive pour communiquer avec authenticité et développer une coopération <br> Oser entendre et oser dire en toute légitimité et en toutes situations"
 let popupCompComAss = "Savoir adopter une posture Assertive <br> S’approprier la méthodologie de la communication assertive <br> Savoir gérer les situations avec assertivité"
-let popupTimeComAss = ""
+let popupTimeComAss = "2 jours"
 
 let popupTitreSituDel = "Gestion des situations délicates"
 let popupBenefSituDel = "A l’issue de la formation chaque participant sera capable d’analyser sa situation et de l’aborder sous un autre angle"
 let popupObjectifSituDel = "– Être capable d’appréhender les situations délicates sous d’autres angles afin d’adopter l’approche relationnelle, la stratégie de négociation et/ou la décision adéquates."
 let popupCompSituDel = "Savoir reconnaître la nature de la situation <br> Savoir gérer des situations d’ordre Relationnel <br> Savoir gérer des situations qui relèvent de la Négociation <br> Savoir gérer des situations qui relèvent à la fois de la Relation et de la Négociation"
-let popupTimeSituDel = ""
+let popupTimeSituDel = "1 jour"
 
 
 let popupTitreParolePub = "Prise de parole en public"
 let popupBenefParolePub = "A l’issue de la formation chaque participant sera capable de réaliser des présentations impactantes  et percutantes"
 let popupObjectifParolePub = "- Être capable de prendre la parole en public avec aisance et d’animer ses 	présentations avec efficacité et fluidité dans l’atteinte d’un objectif prédéfini"
 let popupCompParolePub = "Savoir préparer sa prise de parole en public <br>Savoir définir le fond et trouver la forme du message<br>Savoir introduire et conclure sa prise de parole en public"
-let popupTimeParolePub = ""
+let popupTimeParolePub = "2 jours"
 
 let popupTitreBoard = "Gérer un board"
 let popupBenefBoard = "A l’issue de la formation chaque participant sera capable de gérer un board avec aisance et sérénité pour faciliter la production de livrables"
 let popupObjectifBoard = "Être capable d’animer un board avec professionnalisme et de gérer les différents comportements des participants"
 let popupCompBoard = "S’approprier les techniques d’animation de groupes<br> S’approprier les techniques de conduite de débats<br> Savoir adopter la posture d’animateur de débat communiquer avec un interlocuteur avec un comportement différent"
-let popupTimeBoard = ""
+let popupTimeBoard = "2 jours"
 
 let popupTitreFormaAnim = "Formateur animateur"
 let popupBenefFormaAnim = "A l’issue de la formation, chaque formateur saura animer des sessions de formations dans un climat permettant le développement des compétences de ses participants"
 let popupObjectifFormaAnim = "Apprendre à animer une session de formation <br> S’approprier les techniques de transmission des savoirs <br> S’approprier les techniques d’animation"
 let popupCompFormaAnim = "Comprendre et apprendre  à gérer le comportement de l’apprenant <br> S’approprier la posture du formateur <br> Apprendre à  gérer les moments clés de la formation"
-let popupTimeFormaAnim = ""
+let popupTimeFormaAnim = "2 jours"
 
 let popupTitreFormaCoach = "Formateur coach"
 let popupBenefFormaCoach = "A l’issue de la formation chaque formateur pourra coacher ses apprenants dans le développement de leurs compétences"
 let popupObjectifFormaCoach = "Apprendre à accompagner  et à coacher sur le terrain les stagiaires en formation dans l’objectif de les développer et de pérenniser les acquis de la formation"
 let popupCompFormaCoach = "Savoir faire preuve de flexibilité comportementale <br> Savoir repérer la motivation des apprenants <br> Savoir faire un feedback aux apprenants<br> Savoir coacher les apprenants par la définition d’objectifs adéquats"
-let popupTimeFormaCoach = ""
+let popupTimeFormaCoach = "2 jours"
 
 let popupTitreFormaAss = "Formateur assertif"
 let popupBenefFormaAss = "A la fin de la formation chaque participant sera capable de se positionner en tant que formateur en toute légitimité face à ses apprenants.n"
 let popupObjectifFormaAss = "A la fin de la formation chaque participant sera capable de former les apprenants avec une posture assertive, de coopération et de gérer les différentes situations rencontrées lors des sessions de formation"
 let popupCompFormaAss = "– Savoir utiliser la méthode DESC en toute situation <br> - Savoir dire non, savoir dire oui à un apprenant <br> - Savoir faire une critique et faire face à une critique <br> - Savoir formuler une demande"
-let popupTimeFormaAss = ""
+let popupTimeFormaAss = "2 jours"
 
 
 //////////////////////////
@@ -330,19 +330,19 @@ if (key.innerHTML == 'comunication') {
 
 
 
-    titreModule1.innerHTML = 'La flexibilité relationnelle '
-    titreModule2.innerHTML = 'Communiquer<br>avec assertivité'
-    titreModule3.innerHTML = 'Gestion des situations délicates'
-    titreModule4.innerHTML = 'Parler<br>en public'
-    titreModule5.innerHTML = 'Gérer <br> un board'
+    titreModule1.innerHTML = popupTitreFlex
+    titreModule2.innerHTML = popupTitreComAss
+    titreModule3.innerHTML = popupTitreSituDel
+    titreModule4.innerHTML = popupTitreParolePub
+    titreModule5.innerHTML = popupTitreBoard
 
 
 
-    popOne.setAttribute('title', 'La flexibilité relationnelle')
-    popTwo.setAttribute('title', 'Communiquer avec assertivité')
-    popThree.setAttribute('title', 'Gestion situations délicates')
-    popFour.setAttribute('title', 'Parler en publique')
-    popFive.setAttribute('title', 'Gérer <br> un board')
+    popOne.setAttribute('title', popupTitreFlex)
+    popTwo.setAttribute('title', popupTitreComAss)
+    popThree.setAttribute('title', popupTitreSituDel)
+    popFour.setAttribute('title', popupTitreParolePub)
+    popFive.setAttribute('title', popupTitreBoard)
 
     titreModule1.classList.add('titreModuleFlex')
 
@@ -367,69 +367,70 @@ if (key.innerHTML == 'comunication') {
     imgPop.classList.remove('managementMotivImg')
     imgPop.classList.remove('managementProjetImg')
 
-    popOne.addEventListener('click', () => {
+  popOne.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = popupTitrePosition
+        titrePopUp.innerHTML = popupTitreFlex
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = popupBenef
+        firstTexteP.innerHTML = popupBenefFlex
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = popupObjectifPosition
-        thirdTexteH2.innerHTML = 'Compétences à développer'
-        thirdTexteP.innerHTML = popupCompPosition
-        imgPop.classList.add('positionImg')
-        timeForma.innerHTML = popupTimePosition 
+        secondTexteP.innerHTML = popupObjectifFlex
+        thirdTexteH2.innerHTML = 'Compétences à développer '
+        thirdTexteP.innerHTML = popupCompFlex
+        imgPop.classList.add('flexiRelaImg')
+        timeForma.innerHTML = popupTimeFlex
+
 
     })
     popTwo.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = popupTitreCouleurMan
+        titrePopUp.innerHTML = popupTitreComAss
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = popupBenefCouleurMan
+        firstTexteP.innerHTML = popupBenefComAss
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = popupObjectifCouleurMan
+        secondTexteP.innerHTML = popupObjectifComAss
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = popupCompCouleurMan
-        imgPop.classList.add('FlxibilitImg')
-        timeForma.innerHTML = popupTimeCompCouleurMan
+        thirdTexteP.innerHTML = popupCompComAss
+        imgPop.classList.add('comAssertivImg')
+        timeForma.innerHTML = popupTimeComAss
 
     })
     popThree.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = popupTitreManagementSitu
+        titrePopUp.innerHTML = popupTitreSituDel
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = popupBenefManagementSitu
+        firstTexteP.innerHTML = popupBenefSituDel
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = popupObjectifManagementSitu
+        secondTexteP.innerHTML = popupObjectifSituDel
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = popupCompManagementSitu
-        imgPop.classList.add('managementSituImg')
-        timeForma.innerHTML = popupTimeManagementSitu
+        thirdTexteP.innerHTML = popupCompSituDel
+        imgPop.classList.add('gestionImg')
+        timeForma.innerHTML = popupTimeSituDel
 
     })
     popFour.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = popupTitreManaMoti
+        titrePopUp.innerHTML = popupTitreParolePub
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = popupBenefManaMoti
+        firstTexteP.innerHTML = popupBenefParolePub
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = popupObjectifManaMoti
+        secondTexteP.innerHTML = popupObjectifParolePub
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = popupCompManaMoti
-        imgPop.classList.add('managementMotivImg')
-        timeForma.innerHTML = popupTimeManagementMoti
+        thirdTexteP.innerHTML = popupCompParolePub
+        imgPop.classList.add('parlerImg')
+        timeForma.innerHTML = popupTimeParolePub
 
     })
     popFive.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = popupTitreManaPro
+        titrePopUp.innerHTML = popupTitreBoard
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = popupBenefManaPro
+        firstTexteP.innerHTML = popupBenefBoard
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = popupObjectifManaPro
-        thirdTexteH2.innerHTML = 'Compétences à développer'
-        thirdTexteP.innerHTML = popupCompManaPro
-        imgPop.classList.add('managementProjetImg')
-        timeForma.innerHTML = popupTimeManaPro
+        secondTexteP.innerHTML = popupObjectifBoard
+        thirdTexteH2.innerHTML = 'Compétences à développer '
+        thirdTexteP.innerHTML = popupCompBoard
+        imgPop.classList.add('boardImg')
+        timeForma.innerHTML = popupTimeBoard
 
     })
 
@@ -437,26 +438,31 @@ if (key.innerHTML == 'comunication') {
     paraMpop01.innerHTML = popupBenefFlex
     paraMpop02.innerHTML = popupObjectifFlex
     paraMpop03.innerHTML = popupCompFlex
+    timeForma0[0].innerHTML = popupTimeFlex
 
     titreMpop1.innerHTML = popupTitreComAss
     paraMpop11.innerHTML = popupBenefComAss
     paraMpop12.innerHTML = popupObjectifComAss
     paraMpop13.innerHTML = popupCompComAss
-
+    timeForma0[1].innerHTML = popupTimeFlex 
+    
     titreMpop2.innerHTML = popupTitreSituDel
     paraMpop21.innerHTML = popupBenefSituDel
     paraMpop22.innerHTML = popupObjectifSituDel
     paraMpop23.innerHTML = popupCompComAss
-
+    timeForma0[2].innerHTML = popupTimeFlex 
+    
     titreMpop3.innerHTML = popupTitreParolePub
     paraMpop31.innerHTML = popupBenefParolePub
     paraMpop32.innerHTML = popupObjectifParolePub
     paraMpop33.innerHTML = popupCompParolePub
-
+    timeForma0[3].innerHTML = popupTimeFlex 
+    
     titreMpop4.innerHTML = popupTitreBoard
     paraMpop41.innerHTML = popupBenefBoard
     paraMpop42.innerHTML = popupObjectifBoard
     paraMpop43.innerHTML = popupCompBoard
+    timeForma0[4].innerHTML = popupTimeFlex 
 
 
 } 
@@ -516,11 +522,11 @@ else if (key.innerHTML == 'mana') {
 
     }, 200)
 
-    titreModule1.innerHTML = 'Position n+1'
-    titreModule2.innerHTML = 'Fléxibilité managériale'
-    titreModule3.innerHTML = 'Management situationnel'
-    titreModule4.innerHTML = 'Management motivationnel'
-    titreModule5.innerHTML = 'Management de projet'
+    titreModule1.innerHTML = popupTitrePosition
+    titreModule2.innerHTML = popupTitreCouleurMan
+    titreModule3.innerHTML = popupTitreManagementSitu
+    titreModule4.innerHTML = popupTitreManaMoti
+    titreModule5.innerHTML = popupTitreManaPro
 
     titreModule4.classList.remove('titreModuleVenteAssertive')
 
@@ -530,17 +536,18 @@ else if (key.innerHTML == 'mana') {
     titreModule5.classList.remove('titreModuleVentePublique')
 
 
-    popOne.setAttribute('title', 'Position n+1')
-    popTwo.setAttribute('title', 'Fléxibilité manegériale')
-    popFour.setAttribute('title', 'Management de projet')
-    popFive.setAttribute('title', 'Management situationnel')
+    popOne.setAttribute('title', popupTitrePosition)
+    popTwo.setAttribute('title', popupTitreCouleurMan)
+    popThree.setAttribute('title', popupTitreManagementSitu)
+    popFour.setAttribute('title', popupTitreManaMoti)
+    popFive.setAttribute('title', popupTitreManaPro)
 
     close.setAttribute('href', 'mana.html')
 
     imgPop.classList.remove('formateurImg')
     imgPop.classList.remove('coachImg')
     imgPop.classList.remove('formatAssertifImg')
-
+    
     imgPop.classList.remove('flexiRelaImg')
     imgPop.classList.remove('comAssertivImg')
     imgPop.classList.remove('gestionImg')
@@ -552,67 +559,72 @@ else if (key.innerHTML == 'mana') {
     imgPop.classList.remove('assertiveImg')
     imgPop.classList.remove('negoImg')
 
-    popOne.addEventListener('click', () => {
+       popOne.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Position n+1'
-        firstTexteH2.innerHTML = 'Position n+1'
-        firstTexteP.innerHTML = 'A l’issue de la formation chaque participant connaitra et pourra appliquer les bases du management. '
+        titrePopUp.innerHTML = popupTitrePosition
+        firstTexteH2.innerHTML = 'Le bénéfice'
+        firstTexteP.innerHTML = popupBenef
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Savoir adopter une posture managériale avec son équipe <br> – Savoir adopter une communication efficace et productive'
-        thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = 'Comprendre et s’approprier la posture managériale adéquate et les techniques de debrief <br> – S’approprier la communication assertive <br> – Savoir formuler un feedback objectif, productif et permetant la mise en énergie des participants'
+        secondTexteP.innerHTML = popupObjectifPosition
+        thirdTexteH2.innerHTML = 'Compétences à développer'
+        thirdTexteP.innerHTML = popupCompPosition
         imgPop.classList.add('positionImg')
         timeForma.innerHTML = popupTimePosition 
+
     })
     popTwo.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Couleurs du management'
+        titrePopUp.innerHTML = popupTitreCouleurMan
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'Les couleurs du management permet à tout manager de reconnaître le comportement de chaque membre de son équipe afind’adapter sa communication et ainsi optimiser la performance collective.'
+        firstTexteP.innerHTML = popupBenefCouleurMan
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Savoir adopter une posture managériale avec son équipe <br> – Savoir adopter une communication efficace et productive'
+        secondTexteP.innerHTML = popupObjectifCouleurMan
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Comprendre et s’approprier la posture managériale adéquate et les techniques de debrief <br> – S’approprier la communication assertive <br> – Savoir formuler un feedback objectif, productif et permetant la mise en énergie des participants'
+        thirdTexteP.innerHTML = popupCompCouleurMan
         imgPop.classList.add('FlxibilitImg')
+        timeForma.innerHTML = popupTimeCouleurMan
 
     })
     popThree.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Management situationnel'
+        titrePopUp.innerHTML = popupTitreManagementSitu
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = ' Le management situationnel permet de manager chaque membre de l’équipe en fonction de sa motivation et de son niveau d’expertise. Un management sur mesure en fonction des différentes missions'
+        firstTexteP.innerHTML = popupBenefManagementSitu
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Savoir manager en fonction du niveau de développement de chaque membre de son équipe'
+        secondTexteP.innerHTML = popupObjectifManagementSitu
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Savoir reconnaitre et s’adapter au DEMA de chaque <br> collaborateur <br> – Savoir diagnostiquer le niveau de développement<br> – Savoir manager en fonction du niveau de développement <br> et en fonction des situations'
+        thirdTexteP.innerHTML = popupCompManagementSitu
         imgPop.classList.add('managementSituImg')
+        timeForma.innerHTML = popupTimeManagementSitu
 
     })
     popFour.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Management motivationnel'
+        titrePopUp.innerHTML = popupTitreManaMoti
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'Le management motivationnel permet au manager d’être proche de ses collaborateurs et de travailler dans un partenariat qui les motive dans leur quotidien'
+        firstTexteP.innerHTML = popupBenefManaMoti
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = '– Savoir manager dans un esprit motivationnel <br> – Savoir manager avec les compétences motivationnelles <br> – Savoir manager avec les processus motivationnels'
+        secondTexteP.innerHTML = popupObjectifManaMoti
         thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Savoir manager dans le partenariat avec empathie <br> – Savoir accompagner son collaborateur dans l’évocation <br> – Savoir être centré sur son collaborateur <br> – Savoir utiliser les processus motivationnels pour accompagner son collaborateur dans ses plans d’action'
+        thirdTexteP.innerHTML = popupCompManaMoti
         imgPop.classList.add('managementMotivImg')
+        timeForma.innerHTML = popupTimeManaMoti
 
     })
     popFive.addEventListener('click', () => {
 
-        titrePopUp.innerHTML = 'Management de projet'
+        titrePopUp.innerHTML = popupTitreManaPro
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = 'Le chef de projet saura mener un projet avec plus d’aisance, afin d’atteindre des résultats et de fédérer un certain nombre de personnes autour de l’atteinte de résultats'
+        firstTexteP.innerHTML = popupBenefManaPro
         secondTexteH2.innerHTML = 'Objectifs'
-        secondTexteP.innerHTML = 'Savoir transformer une idée, problème, objectif ou demande en mode de travail <br> – Savoir mener un projet'
-        thirdTexteH2.innerHTML = 'Compétences à développer '
-        thirdTexteP.innerHTML = '– Comprendre le Business case <br>  – Savoir construire son Business case <br> – S’approprier les comportements qui favorisent la décision <br> – Apprendre à gérer les liens avec les différents acteurs <br> – Savoir clôturer le projet'
+        secondTexteP.innerHTML = popupObjectifManaPro
+        thirdTexteH2.innerHTML = 'Compétences à développer'
+        thirdTexteP.innerHTML = popupCompManaPro
         imgPop.classList.add('managementProjetImg')
+        timeForma.innerHTML = popupTimeManaPro
 
     })
-    
+
      titreMpop0.innerHTML = popupTitrePosition
     paraMpop01.innerHTML = popupTitrePosition
     paraMpop02.innerHTML = popupObjectifPosition
@@ -623,25 +635,25 @@ else if (key.innerHTML == 'mana') {
     paraMpop11.innerHTML = popupBenefCouleurMan
     paraMpop12.innerHTML = popupObjectifCouleurMan
     paraMpop13.innerHTML = popupCompCouleurMan
-    timeForma0[1].innerHTML = popupTimePosition
+    timeForma0[1].innerHTML = popupTimeCouleurMan
 
     titreMpop2.innerHTML = popupTitreManagementSitu
     paraMpop21.innerHTML = popupBenefManagementSitu
     paraMpop22.innerHTML = popupObjectifManagementSitu
     paraMpop23.innerHTML = popupCompManagementSitu
-     timeForma0[2].innerHTML = popupTimePosition
+     timeForma0[2].innerHTML = popupTimeManagementSitu
 
     titreMpop3.innerHTML = popupTitreManaMoti
     paraMpop31.innerHTML = popupBenefManaMoti
     paraMpop32.innerHTML = popupObjectifManaMoti
     paraMpop33.innerHTML = popupCompManaMoti
-     timeForma0[3].innerHTML = popupTimePosition
+     timeForma0[3].innerHTML = popupTimeManaMoti
 
     titreMpop4.innerHTML = popupTitreManaPro
     paraMpop41.innerHTML = popupBenefManaPro
     paraMpop42.innerHTML = popupObjectifManaPro
     paraMpop43.innerHTML = popupCompManaPro
-     timeForma0[4].innerHTML = popupTimePosition
+    timeForma0[4].innerHTML = popupTimeManaPro
 
 
 
@@ -695,20 +707,20 @@ else if (key.innerHTML == 'vente') {
 
     }, 200)
 
-    titreModule1.innerHTML = 'Techniques de vente'
-    titreModule2.innerHTML = 'Couleur<br>de la ventes'
-    titreModule3.innerHTML = 'Vente assertive'
+    titreModule1.innerHTML = popupTitreTech
+    titreModule2.innerHTML = popupTitreCoulVente
+    titreModule3.innerHTML = popupTitreVenteAss
     titreModule4.classList.remove('titreModuleVentePublique')
     titreModule4.classList.remove('titreModuleVenteAssertive')
-    titreModule4.innerHTML = 'Négociation'
+    titreModule4.innerHTML = popupTitreNego
     titreModule5.classList.add('titreModuleNego')
     titreModule5.innerHTML = 'La négociation'
 
 
-    popOne.setAttribute('title', 'Technique de vente')
-    popTwo.setAttribute('title', 'Couleurs de <br> la ventes')
-    popFour.setAttribute('title', 'Ventes assertive')
-    popFive.setAttribute('title', 'La négociation')
+   popOne.setAttribute('title', popupTitreTech)
+    popTwo.setAttribute('title', popupTitreCoulVente)
+    popFour.setAttribute('title', popupTitreVenteAss)
+    popFive.setAttribute('title', popupTitreNego)
 
     popOne.classList.add('moduleVenteOne')
     popTwo.classList.add('moduleVenteTwo')
@@ -784,30 +796,35 @@ else if (key.innerHTML == 'vente') {
 
     })
 
-       titreMpop0.innerHTML = popupTitreTech
+   titreMpop0.innerHTML = popupTitreTech
     paraMpop01.innerHTML = popupBenefTech
     paraMpop02.innerHTML = popupObjectifTech
     paraMpop03.innerHTML = popupCompTech
+    timeForma0[0].innerHTML = popupTimeTech
 
     titreMpop1.innerHTML = popupTitreCoulVente
     paraMpop11.innerHTML = popupBenefCoulVente
     paraMpop12.innerHTML = popupObjectifCoulVente
     paraMpop13.innerHTML = popupCompCoulVente
+    timeForma0[1].innerHTML = popupTimeCoulVente 
 
     titreMpop2.innerHTML = popupTitreVenteAss
     paraMpop21.innerHTML = popupBenefVenteAss
     paraMpop22.innerHTML = popupObjectifVenteAss
     paraMpop23.innerHTML = popupCompVenteAss
-
+    timeForma0[2].innerHTML = popupTimeVenteAss
+    
     titreMpop3.innerHTML = popupTitreNego
     paraMpop31.innerHTML = popupBenefNego
     paraMpop32.innerHTML = popupObjectifNego
     paraMpop33.innerHTML = popupCompNego
-
+    timeForma0[3].innerHTML = popupTimeNego 
+    
     titreMpop4.innerHTML = popupTitreFlex
     paraMpop41.innerHTML = popupBenefFlex
     paraMpop42.innerHTML = popupObjectifFlex
     paraMpop43.innerHTML = popupCompFlex
+    timeForma0[4].innerHTML = popupTimeFlex 
 
 } 
 
@@ -869,16 +886,15 @@ else if (key.innerHTML == 'formateur') {
 
 
 
-    titreModule2.innerHTML = 'Formateur animateur'
-    titreModule3.innerHTML = 'Formateur coach '
-    titreModule4.innerHTML = 'Formateur assertif'
+    titreModule2.innerHTML = popupTitreFormaAnim
+    titreModule3.innerHTML = popupTitreFormaCoach
+    titreModule4.innerHTML = popupTitreFormaAss
 
 
 
-    popOne.setAttribute('title', 'Technique de vente')
-    popTwo.setAttribute('title', 'La couleur de la ventes')
-    popFour.setAttribute('title', 'Ventes assertive')
-    popFive.setAttribute('title', 'La négociation')
+    popThree.setAttribute('title', popupTitreFormaCoach)
+    popTwo.setAttribute('title', popupTitreFormaAnim)
+    popFour.setAttribute('title', popupTitreFormaAss)
 
     close.setAttribute('href', 'formateur.html')
 
@@ -942,22 +958,25 @@ else if (key.innerHTML == 'formateur') {
          timeForma.innerHTML = popupTimeFormaAss
 
     })
-    
-     titreMpop0.innerHTML = popupTitreFormaAnim
+
+      titreMpop0.innerHTML = popupTitreFormaAnim
     paraMpop01.innerHTML = popupBenefFormaAnim
     paraMpop02.innerHTML = popupObjectifFormaAnim
     paraMpop03.innerHTML = popupCompFormaAnim
+    timeForma0[0].innerHTML = popupTimeFormaAnim
 
     titreMpop1.innerHTML = popupTitreFormaCoach
     paraMpop11.innerHTML = popupBenefFormaCoach
     paraMpop12.innerHTML = popupObjectifFormaCoach
     paraMpop13.innerHTML = popupCompFormaCoach
-
+    timeForma0[1].innerHTML = popupTimeFormaCoach
+    
     titreMpop2.innerHTML = popupTitreFormaAss
     paraMpop21.innerHTML = popupBenefFormaAss
     paraMpop22.innerHTML = popupObjectifFormaAss
     paraMpop23.innerHTML = popupCompFormaAss
-
+    timeForma0[2].innerHTML = popupTimeFormaAss
+    
     titreMpop3.innerHTML = ''
     paraMpop31.innerHTML = ''
     paraMpop32.innerHTML = ''
@@ -967,6 +986,7 @@ else if (key.innerHTML == 'formateur') {
     paraMpop41.innerHTML = ''
     paraMpop42.innerHTML = ''
     paraMpop43.innerHTML = ''
+
 
 }
 
@@ -1030,11 +1050,11 @@ sm1.addEventListener('click', () => {
     popFive.classList.remove('none')
 
 
-    titreModule1.innerHTML = 'Position n+1'
-    titreModule2.innerHTML = 'Fléxibilité managériale'
-    titreModule3.innerHTML = 'Management situationnel'
-    titreModule4.innerHTML = 'Management motivationnel'
-    titreModule5.innerHTML = 'Management de projet'
+     titreModule1.innerHTML = popupTitrePosition
+    titreModule2.innerHTML = popupTitreCouleurMan
+    titreModule3.innerHTML = popupTitreManagementSitu
+    titreModule4.innerHTML = popupTitreManaMoti
+    titreModule5.innerHTML = popupTitreManaPro
 
     titreModule4.classList.remove('titreModuleVenteAssertive')
 
@@ -1049,10 +1069,11 @@ sm1.addEventListener('click', () => {
 
     titreModule1.classList.remove('titreModuleFlex')
 
-    popOne.setAttribute('title', 'Position n+1')
-    popTwo.setAttribute('title', 'Couleurs du management')
-    popFour.setAttribute('title', 'Management de projet')
-    popFive.setAttribute('title', 'Management situationnel')
+    popOne.setAttribute('title', popupTitrePosition)
+    popTwo.setAttribute('title', popupTitreCouleurMan)
+    popThree.setAttribute('title', popupTitreManagementSitu)
+    popFour.setAttribute('title', popupTitreManaMoti)
+    popFive.setAttribute('title', popupTitreManaPro)
 
     popOne.classList.remove('moduleVenteOne')
     popTwo.classList.remove('moduleVenteTwo')
@@ -1078,7 +1099,7 @@ sm1.addEventListener('click', () => {
 
         titrePopUp.innerHTML = popupTitrePosition
         firstTexteH2.innerHTML = 'Le bénéfice'
-        firstTexteP.innerHTML = popupBenef
+        firstTexteP.innerHTML = popupBenefPosition
         secondTexteH2.innerHTML = 'Objectifs'
         secondTexteP.innerHTML = popupObjectifPosition
         thirdTexteH2.innerHTML = 'Compétences à développer'
@@ -1094,7 +1115,7 @@ sm1.addEventListener('click', () => {
         firstTexteP.innerHTML = popupBenefCouleurMan
         secondTexteH2.innerHTML = 'Objectifs'
         secondTexteP.innerHTML = popupObjectifCouleurMan
-        thirdTexteH2.innerHTML = 'Compétences à développer '
+        thirdTexteH2.innerHTML = 'Compétences à développer'
         thirdTexteP.innerHTML = popupCompCouleurMan
         imgPop.classList.add('FlxibilitImg')
         timeForma.innerHTML = popupTimeCompCouleurMan
@@ -1123,7 +1144,7 @@ sm1.addEventListener('click', () => {
         thirdTexteH2.innerHTML = 'Compétences à développer '
         thirdTexteP.innerHTML = popupCompManaMoti
         imgPop.classList.add('managementMotivImg')
-        timeForma.innerHTML = popupTimeManagementMoti
+        timeForma.innerHTML = popupTimeManaMoti
 
     })
     popFive.addEventListener('click', () => {
@@ -1200,20 +1221,21 @@ sm2.addEventListener('click', () => {
 
 
 
-    titreModule1.innerHTML = 'Techniques de vente'
-    titreModule2.innerHTML = 'Couleurs de <br> la ventes'
-    titreModule3.innerHTML = 'Vente assertive'
-    titreModule4.classList.add('titreModuleVenteAssertive')
-    titreModule4.innerHTML = 'Négociation'
+     titreModule1.innerHTML = popupTitreTech
+    titreModule2.innerHTML = popupTitreCoulVente
+    titreModule3.innerHTML = popupTitreVenteAss
+    titreModule4.classList.remove('titreModuleVentePublique')
+    titreModule4.classList.remove('titreModuleVenteAssertive')
+    titreModule4.innerHTML = popupTitreNego
     titreModule5.classList.add('titreModuleNego')
     titreModule5.innerHTML = 'La négociation'
 
     titreModule3.classList.remove('titreModuleCoach')
 
-    popOne.setAttribute('title', 'Technique de vente')
-    popTwo.setAttribute('title', 'La couleur de <br> la ventes')
-    popFour.setAttribute('title', 'Ventes assertive')
-    popFive.setAttribute('title', 'La négociation')
+    popOne.setAttribute('title', popupTitreTech)
+    popTwo.setAttribute('title', popupTitreCoulVente)
+    popFour.setAttribute('title', popupTitreVenteAss)
+    popFive.setAttribute('title', popupTitreNego)
 
     popOne.classList.add('moduleVenteOne')
     popTwo.classList.add('moduleVenteTwo')
@@ -1353,11 +1375,11 @@ sm3.addEventListener('click', () => {
     popOne.classList.remove('none')
 
 
-    titreModule1.innerHTML = 'La flexibilité relationnelle '
-    titreModule2.innerHTML = 'Communiquer avec assertivité'
-    titreModule3.innerHTML = 'Gestion situations délicates'
-    titreModule4.innerHTML = 'Parler en public'
-    titreModule5.innerHTML = 'Gérer <br> un board'
+    titreModule1.innerHTML = popupTitreFlex
+    titreModule2.innerHTML = popupTitreComAss
+    titreModule3.innerHTML = popupTitreSituDel
+    titreModule4.innerHTML = popupTitreParolePub
+    titreModule5.innerHTML = popupTitreBoard
 
     titreModule4.classList.remove('titreModuleVentePublique')
     titreModule4.classList.remove('titreModuleVenteAssertive')
@@ -1369,10 +1391,10 @@ sm3.addEventListener('click', () => {
     titreModule3.classList.remove('titreModuleCoach')
 
 
-    popOne.setAttribute('title', 'La flexibilité relationnelle')
-    popTwo.setAttribute('title', 'Communiquer avec assertivité')
-    popFour.setAttribute('title', 'Gestion des situations délicates')
-    popFive.setAttribute('title', 'Gérer <br> un board')
+    popOne.setAttribute('title', popupTitreFlex)
+    popTwo.setAttribute('title', popupTitreComAss)
+    popFour.setAttribute('title', popupTitreSituDel)
+    popFive.setAttribute('title', popupTitreBoard)
 
     popOne.classList.remove('moduleVenteOne')
     popTwo.classList.remove('moduleVenteTwo')
@@ -1529,9 +1551,9 @@ sm4.addEventListener('click', () => {
 
 
 
-    titreModule2.innerHTML = 'Formateur animateur'
-    titreModule3.innerHTML = 'Formateur coach '
-    titreModule4.innerHTML = 'Formateur assertif'
+    titreModule2.innerHTML = popupTitreFormaAnim
+    titreModule3.innerHTML = popupTitreFormaCoach
+    titreModule4.innerHTML = popupTitreFormaAss
 
     titreModule3.classList.remove('titreModuleCoach')
     titreModule4.classList.remove('titreModuleVentePublique');
@@ -1540,9 +1562,9 @@ sm4.addEventListener('click', () => {
     titreModule5.classList.remove('titreModuleNego')
     titreModule4.classList.remove('titreModuleVenteAssertive')
 
-    popThree.setAttribute('title', 'Formateur coach')
-    popTwo.setAttribute('title', 'Formateur animateur')
-    popFour.setAttribute('title', 'Formateur assertif')
+    popThree.setAttribute('title', popupTitreFormaCoach)
+    popTwo.setAttribute('title', popupTitreFormaAnim)
+    popFour.setAttribute('title', popupTitreFormaAss)
 
     popOne.classList.remove('moduleVenteOne')
     popTwo.classList.remove('moduleVenteTwo')
@@ -1773,7 +1795,7 @@ Msm1.addEventListener('click', () => {
     paraMpop41.innerHTML = popupBenefManaPro
     paraMpop42.innerHTML = popupObjectifManaPro
     paraMpop43.innerHTML = popupCompManaPro
-     timeForma0[4].innerHTML = popupTimeManaPro
+    timeForma0[4].innerHTML = popupTimeManaPro
 
 
 
@@ -1997,25 +2019,25 @@ Msm3.addEventListener('click', () => {
     paraMpop11.innerHTML = popupBenefComAss
     paraMpop12.innerHTML = popupObjectifComAss
     paraMpop13.innerHTML = popupCompComAss
-    timeForma0[1].innerHTML = popupTimeFlex 
+    timeForma0[1].innerHTML = popupTimeComAss
     
     titreMpop2.innerHTML = popupTitreSituDel
     paraMpop21.innerHTML = popupBenefSituDel
     paraMpop22.innerHTML = popupObjectifSituDel
-    paraMpop23.innerHTML = popupCompComAss
-    timeForma0[2].innerHTML = popupTimeFlex 
+    paraMpop23.innerHTML = popupCompSituDel
+    timeForma0[2].innerHTML = popupTimeSituDel
     
     titreMpop3.innerHTML = popupTitreParolePub
     paraMpop31.innerHTML = popupBenefParolePub
     paraMpop32.innerHTML = popupObjectifParolePub
     paraMpop33.innerHTML = popupCompParolePub
-    timeForma0[3].innerHTML = popupTimeFlex 
+    timeForma0[3].innerHTML = popupTimeParolePub
     
     titreMpop4.innerHTML = popupTitreBoard
     paraMpop41.innerHTML = popupBenefBoard
     paraMpop42.innerHTML = popupObjectifBoard
     paraMpop43.innerHTML = popupCompBoard
-    timeForma0[4].innerHTML = popupTimeFlex 
+    timeForma0[4].innerHTML = popupTimeBoard 
 
 })
 
