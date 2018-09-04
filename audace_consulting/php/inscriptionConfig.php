@@ -10,7 +10,7 @@
 //echo  $param2;
 
 
-echo json_encode($_GET['Nom']);
+
 
 
 if(!empty($_GET))

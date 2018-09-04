@@ -106,47 +106,47 @@
                         <div class="col-sm-6 offset-sm-0 col-10 offset-1 ">
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Entreprise</label>
-                                <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" name="Entreprise">
+                                <input type="text" class="formWhite" id="exampleInputEmail1" name="Entreprise">
 
                             </div>
 
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Nom</label>
-                                <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" name="Nom" height="100">
+                                <input type="text" class="formWhite" id="exampleInputEmail1" name="Nom" height="100">
 
                             </div>
 
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Prénom</label>
-                                <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" name="Prenom">
+                                <input type="text" class="formWhite" id="exampleInputEmail1" name="Prenom">
 
                             </div>
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Fonction</label>
-                                <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" name="Fonction">
+                                <input type="text" class="formWhite" id="exampleInputEmail1" name="Fonction">
 
                             </div>
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Tel.</label>
-                                <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" name="Tel">
+                                <input type="text" class="formWhite" id="exampleInputEmail1" name="Tel">
 
                             </div>
 
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Email</label>
-                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" name="Email">
+                                <input type="email" class="formWhite" id="exampleInputEmail1" aria-describedby="emailHelp" name="Email">
 
                             </div>
 
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Ville</label>
-                                <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" name="Ville">
+                                <input type="text" class="formWhite" id="exampleInputEmail1" name="Ville">
 
-                            </div>-
+                            </div>
 
                             <div class="form-group champs">
                                 <label for="exampleInputEmail1">Pays</label>
-                                <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" name="Pays">
+                                <input type="text" class="formWhite" id="exampleInputEmail1" name="Pays">
 
                             </div>
 
@@ -156,7 +156,7 @@
 
                             <div class="form-group">
                                 <label for="exampleFormControlTextarea1">Object (facultatif)</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" name="Object"></textarea>
+                                <textarea class="formWhiteObject" id="exampleFormControlTextarea1" rows="10" name="Object"></textarea>
                             </div>
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1" name="Letter">
@@ -166,6 +166,7 @@
                                 <img class="souscrireImg" src="../images/Bouton%20gris%20Valider.png" alt="">
                             </div>
                             <button type="submit" class="btn btn-light submit"> souscrire</button>
+                            <button type="submit" class="btn btn-light submit0 none"> souscrire</button>
                             <div class="network">
                                 <a href="https://www.facebook.com/audaceconsulting/?hc_ref=ARSvORTghtA3nkvlstqvfWbaAsXkeQbCSBmkZmNTZ9nlYZQsUQ9roXzqPq75S8y1_oM&fref=nf" class="face"><img src="../images/facebook.svg" alt=""></a>
                                 <a href="https://www.linkedin.com/company/audace-consulting/" class="linke"><img src="../images/linkedin.svg" alt=""></a>
@@ -178,7 +179,7 @@
         </div>
     </div>
 
-<?= json_encode($_GET['Ville']); ?>
+
     <footer class="container-fluid footer">
 
         <div class="arbo col-6 col-sm-3 offset-0 col-md-3 offset-md-2 col-lg-3 offset-md-3">
@@ -210,7 +211,7 @@
 
 
 
-    <script src="../scripts/scriptForumS.js"></script>
+    <script src="../scripts/scriptForum.js"></script>
     <script src="../scripts/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
